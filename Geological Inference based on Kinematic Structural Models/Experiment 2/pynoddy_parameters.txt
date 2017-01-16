@@ -1,0 +1,5 @@
+layer2_height
+layer3_height
+fold_amplitude
+fold_wavelength
+pynoddy_model

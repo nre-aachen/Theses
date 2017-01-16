@@ -1,0 +1,1 @@
+{"layer3_height": {"stdev": 30.0, "mean": 300.0}, "unconformity_rotation": {"stdev": 5.0, "mean": -10.0}, "layer2_height": {"stdev": 50.0, "mean": 500.0}, "fold_amplitude": {"stdev": 25.0, "mean": 350.0}, "stratigraphy_rotation": {"stdev": 5.0, "mean": 0.0}, "unconformity_height": {"stdev": 65.0, "mean": 650.0}, "fold_wavelength": {"stdev": 140.0, "mean": 2500.0}}

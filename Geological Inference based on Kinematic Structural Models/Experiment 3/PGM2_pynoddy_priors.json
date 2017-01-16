@@ -1,0 +1,37 @@
+{
+  "Fold_Amplitude": {
+    "mean": 350.0,
+    "stdev": 25.0,
+    "pymc_type": "Normal"
+  },
+  "Fold_Wavelength": {
+    "mean": 2500.0,
+    "stdev": 140.0,
+    "pymc_type": "Normal"
+  },
+  "Layer2_Height": {
+    "mean": 500.0,
+    "stdev": 50.0,
+    "pymc_type": "Normal"
+  },
+  "Layer3_Height": {
+    "mean": 300.0,
+    "stdev": 30.0,
+    "pymc_type": "Normal"
+  },
+  "Stratigraphy_Rotation": {
+    "mean": 0.0,
+    "stdev": 5.0,
+    "pymc_type": "Normal"
+  },
+  "Unconformity_Z": {
+    "mean": 530.0,
+    "stdev": 60.0,
+    "pymc_type": "Normal"
+  },
+  "Unconformity_Rotation": {
+    "mean": -10.0,
+    "stdev": 5.0,
+    "pymc_type": "Normal"
+  }
+}
