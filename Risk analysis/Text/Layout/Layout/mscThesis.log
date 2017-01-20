@@ -1,0 +1,45 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.22)  4 MAR 2015 19:43
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**MScThesis.cls
+(./MScThesis.cls
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+
+LaTeX Warning: You have requested package `',
+               but the package provides `mscThesis'.
+
+Package: mscThesis 2013/11/20 v1.0f Standard IDEA League Applied Geophysics MSc
+ thesis class
+
+./MScThesis.cls:71: LaTeX Error: Command \@ already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \newcommand\@p
+                   tsize{}
+? 
+./MScThesis.cls:71: Emergency stop.
+ ...                                              
+                                                  
+l.71 \newcommand\@p
+                   tsize{}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+ 
+Here is how much of TeX's memory you used:
+ 28 strings out of 493315
+ 561 string characters out of 6137904
+ 52158 words of memory out of 5000000
+ 3578 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 7i,0n,8p,119b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+./MScThesis.cls:71:  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,116 @@
+%% THIS IS THE MAIN FILE %%
+% Here the main arrangement of your thesis is determined. 
+% In this file you read in all chapters (as separate .tex files)
+% This is also the file you 'Build' with a LaTeX editor, like TeXmaker.
+% The .cls file (mscThesis.cls) contains all details regarding copyrights and so on. Take a look and adjust where applicable.
+% This MSc thesis standard layout is optimized for double sided printing on A4 format paper.
+% Good luck and have fun with your Master Research in Applied Geophysics! Kind regards, Niels Grobbe
+\documentclass[a4paper,11pt]{mscThesis}
+%
+%\usepackage{pifont}
+\mscName{YourName}
+\mscDate{\today}
+\mscTitle{Test}
+\mscSubTitle{Subtitle}
+\mscKeyWords{thesis, msc, subject}
+%
+%\mscBackPicture{2660PF3}    % eps of 21 * 29.7 cm
+\mscReaderOne{Name of first supervisor}
+\mscReaderTwo{Name of second supervisor}
+\mscReaderThree{Name of third supervisor or committee member}
+%\mscReaderFour{}
+%
+\setThesisInfo
+%
+\begin{document}
+%
+%============================= Front matter ========================================
+\frontmatter %
+%
+% Make a hell of a lot of title pages
+    \maketitle
+%
+% Abstract
+    \nonumchap{Abstract}
+
+    This is the shortest abstract you have ever seen.
+    \cleardoublepage
+%
+% Acknowledgements
+    \nonumchap{Acknowledgements}%
+    First of all I want to thank all the people who have participated in this project ..
+    Remember, often more people have contributed to your final thesis than you initially would think of.
+    \vspace*{15mm}
+
+    \noindent
+    Delft, University of Technology \hfill \mscname\\ % change to the university where you carried out your final MSc thesis research
+    \mscdate
+
+%
+% table of contents, (\toc of \toclof of \tocloflot )
+    \tocloflot
+%
+% Nomenclature
+    \printnomencl %
+%
+% Acronyms
+    \nonumchap{Acronyms} %
+    %
+    \begin{acronym}%
+        \acro{DUT}{Delft University of Technology}%
+    \end{acronym}%
+    %
+    \cleardoublepage%
+%
+%
+%============================= Main matter =========================================
+%
+\mainmatter
+%
+% Introduction
+\include{chapter1} % notice how the reference to the introduction takes place.. It refers to the name.tex
+\cleardoublepage
+
+%
+% First Part
+    \part{First Part} % you can divide your thesis into different parts, for example Theory&Modeling in part 1 and real data examples in part 2.
+		\include{chapter2}
+
+
+
+
+%
+% Biblio
+    \bibliographystyle{apalike}
+    \printbib{MyBib} % in MyBib.bib you add all your reference information, following the correct format. Sometimes, the bib file needs to be built several times, as well as the main file, before all references occur correctly in your PDF. 
+
+
+%============================= Back matter =========================================
+\appendix
+
+    \chapter{The back of the thesis}
+
+    \section{An appendix section}
+
+    \subsection{An appendix subsection with C++ Lisitng}
+
+    \lstset{language=C++}
+    \lstinputlisting{test.c}
+
+    \subsection{A \matlab $ $ Listing}
+
+    \lstset{language=matlab}
+    \lstinputlisting{test.m}
+
+    \chapter{Yet another appendix}
+
+    \section{Another test section}
+
+    Ok, all is well.
+
+% Index
+    \printindex%
+    \cleardoublepage%
+
+\end{document}
+

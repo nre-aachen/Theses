@@ -1,0 +1,50 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.12.26)  4 JAN 2017 14:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**MSc_layout.tex
+(./MSc_layout.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+(./MScThesis.cls
+
+LaTeX Warning: You have requested document class `MScThesis',
+               but the document class provides `mscThesis'.
+
+Document Class: mscThesis 2013/11/20 v1.0f Standard IDEA League Applied Geophys
+ics MSc thesis class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+
+
+! LaTeX Error: File `ntheorem.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.515 \newcounter
+                 {Anecdote}^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 162 strings out of 495028
+ 1864 string characters out of 6181496
+ 47460 words of memory out of 5000000
+ 3462 multiletter control sequences out of 15000+600000
+ 3940 words of font info for 15 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 21i,0n,19p,225b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

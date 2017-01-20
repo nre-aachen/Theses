@@ -1,0 +1,83 @@
+    \chapter{First Real Chapter}
+
+    This is a demonstration chapter. I will explain some of the possibilities of \LaTeX. Here something will be shown of control theory, 'the transfer function' \lsymb{$H(s)$}{Transfer function}. Subscripts and superscripts can be put in the nomenclature \index{nomenclature} list. \supers{max}{Maximum} \subs{min}{Minimum} Other things can also be added to the nomenclature list, like explanations of symbols being used throughout the thesis. \others{[kts]}{Knots} \others{$^{\circ}$, [deg]}{Degrees}
+
+        \section{First section}
+
+        This is the section. Referring to equations, figures and tables can easily be done by the commands \verb"\eqnref{}",
+        \verb"\figref{}" and \verb"\tabref{}".
+        \begin{equation}\label{eq:First}
+        H(s) = \frac{1}{s+2}
+        \end{equation}
+
+        You see? Refer to equations like this \eqnref{eq:First}, i.e. the name of the label you have given the specific equation, figure or table.
+        
+        \subsection{The first subsection}
+  
+        Now I demonstrate, numbering equations, using subequations:
+	  \begin{subequations}
+		\begin{eqnarray}
+    \label{2eq1d1}
+	  \nabla\times\mathbf{L}  &=& \frac{\partial\mathbf{G}}{\partial t} \\
+    \label{2eq1d2}
+  	\nabla\times\mathbf{G}  &=& \frac{\partial\mathbf{L}}{\partial t} + \mathbf{J} \\
+    \label{2eq1d3}
+    \mathbf{G}              &=& \sigma\mathbf{J}
+		\end{eqnarray}
+			  \end{subequations}
+	
+				Or we can make matrices:
+				\begin{equation}
+				\mathbf{Q}_{12}=\left[\begin{array}{ccc}
+		          0  &     1          &  0 \\
+	            1  &     0          &  1 \\
+	            0  &     1          &  0 \\
+       	\end{array}\right]\quad
+        \nonumber
+		    \label{2eq1cf}
+		    \end{equation}
+		    This can also be done using the \verb"\align{}" command. Equation arrays are also possible:
+     		\begin{eqnarray}
+    		\label{2eq1e1}
+	  \nabla\times\mathbf{L}  &=& \frac{\partial\mathbf{G}}{\partial t} \\
+	    	\label{2eq1e2}
+  	\nabla\times\mathbf{G}  &=& \frac{\partial\mathbf{L}}{\partial t} + \mathbf{J} \\
+		    \label{2eq1e3}
+    \mathbf{G}              &=& \sigma\mathbf{J}
+		  \end{eqnarray}
+
+       
+        \subsubsection[Subsection Short Title]{The first sub-subsection with a very very very long title, but in the table of contents one can only see the short title in square brackets}
+
+                Impressed by the capabilities? \index{Nicecapabilities}
+                If you want to know more about the capabilities of \LaTeX, take a look at the "\textbf{The Not So Short Introduction to \LaTeXe}", which can be found on the internet.
+
+    \paragraph{Next paragraph.}
+    \begin{figure}[htbp]  % fig 6.3 page 186 Turbulence and Remous
+    \centering
+    \includegraphics[width=11cm]{vertstab.eps}
+    \caption{Stability conditions for the vertical stability of saturated and unsaturated air.} %this is how it shows up in the List of Figures
+    \label{f:verticalstab}
+    \end{figure}
+.\\    
+And finally I end this example file with a table which will be centered in the middle of the following page
+\begin{table}[hp]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|ll|}
+\hline
+\multicolumn{2}{|c|}{\bf\sffamily {\it Data} files listed in a table }\\
+\hline\hline
+\multicolumn{2}{|l|}{\bf\sffamily First part} \\
+Fabracadabra.m	& - Saturation computation\\
+Fobracadabra.m	& - Pressure computation\\
+Fibricadibri.m	& - Permeability computation\\
+&\\
+\multicolumn{2}{|l|}{\bf\sffamily Structural rock model} \\
+struct.m	& - Rock structural data using symmetric boundary condition \\
+bstruct.m	& - Rock structural data using anti-symmetric boundary condition \\
+\hline
+\end{tabular}
+\caption{Good-looking program data deck files.} %this is how it shows up in the List of Tables
+\label{tbl:tbl}
+\end{table}
