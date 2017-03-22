@@ -4,15 +4,20 @@
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Acronyms}{xv}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {part}{I\hspace {1em}First Part}{3}{part.1}
-\contentsline {chapter}{\numberline {2}First Real Chapter}{5}{chapter.2}
-\contentsline {section}{\numberline {2-1}First section}{5}{section.2.1}
-\contentsline {subsection}{\numberline {2-1-1}The first subsection}{5}{subsection.2.1.1}
-\contentsline {subsubsection}{Subsection Short Title}{6}{section*.9}
-\contentsline {paragraph}{Next paragraph.}{6}{figure.caption.11}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{9}{table.caption.12}
-\contentsline {chapter}{\numberline {A}The back of the thesis}{11}{appendix.A}
-\contentsline {section}{\numberline {A-1}An appendix section}{11}{section.A.1}
-\contentsline {subsection}{\numberline {A-1-1}An appendix subsection with C++ Lisitng}{11}{subsection.A.1.1}
-\contentsline {subsection}{\numberline {A-1-2}A \textsc {Matlab}$ $ Listing}{11}{subsection.A.1.2}
-\contentsline {chapter}{\numberline {B}Yet another appendix}{13}{appendix.B}
-\contentsline {section}{\numberline {B-1}Another test section}{13}{section.B.1}
+\contentsline {chapter}{\numberline {2}Methods}{5}{chapter.2}
+\contentsline {section}{\numberline {2-1}Bayesian analysis and decision theory}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2-1-1}Bayesian inference}{5}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2-1-2}Estimation}{6}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2-1-3}Expected loss and loss functions}{6}{subsection.2.1.3}
+\contentsline {section}{\numberline {2-2}Application in structural geological modeling}{7}{section.2.2}
+\contentsline {section}{\numberline {2-3}Example section}{7}{section.2.3}
+\contentsline {subsection}{\numberline {2-3-1}The first subsection}{8}{subsection.2.3.1}
+\contentsline {subsubsection}{Subsection Short Title}{8}{section*.9}
+\contentsline {paragraph}{Next paragraph.}{8}{figure.caption.11}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{11}{table.caption.12}
+\contentsline {chapter}{\numberline {A}The back of the thesis}{13}{appendix.A}
+\contentsline {section}{\numberline {A-1}An appendix section}{13}{section.A.1}
+\contentsline {subsection}{\numberline {A-1-1}An appendix subsection with C++ Lisitng}{13}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A-1-2}A \textsc {Matlab}$ $ Listing}{13}{subsection.A.1.2}
+\contentsline {chapter}{\numberline {B}Yet another appendix}{15}{appendix.B}
+\contentsline {section}{\numberline {B-1}Another test section}{15}{section.B.1}

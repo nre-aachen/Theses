@@ -11,10 +11,3 @@
   publisher={Springer Science \& Business Media}
 }
 
-@article{davidson2015bay,
-  title={Bayesian Methods for Hackers: Probabilistic Programming and Bayesian Inference},
-  author={Davidson-Pilon, Cameron},
-  year={2015},
-  publisher={Addison-Wesley Professional}
-}
-

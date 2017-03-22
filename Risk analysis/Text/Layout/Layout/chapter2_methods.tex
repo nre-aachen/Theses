@@ -1,0 +1,152 @@
+    \chapter{Methods}
+
+    The methods utilized in this work are presented in the following chapter. This includes introductions into Bayesian analysis and decision theory. In particular Bayesian inference, estimation of uncertain values and how loss function can be used in this context. These methods are incorporated in the context of numerical modeling of structural geological settings. This is done by programming in a python environment. Central tools for model construction and conduction of the statistical evaluation are Geomodeler3D, GemPy and PyMC in particular and are also presented in this chapter.
+    
+        \section{Bayesian analysis and decision theory}
+        Introduction into section: What is decision theory, what is Bayesian analysis? Why use it here?
+        What is a decision here and in relation to geoscientific cases and models?
+        
+        \subsection{Bayesian inference}
+        Bayesian inference is most importantly characterized by its preservation of uncertainty, in contrast to standard statistical inference \cite{davidson2015}. Probability is seen as a measure of belief for an event to occur. It has been argued by \cite{davidson2015}  that this Bayesian approach is intuitive and inherent in the natural human perspective. These beliefs can furthermore be assigned to individuals \cite{davidson2015}. Thus, different and even contradicting beliefs about the probability of an event might be held by different individuals, based on variations and disparities in the information available to each one individual \cite{davidson2015}.
+        The initial belief or guess about an event A can be denoted as P(A). This is used as the so-called prior probability on which Bayesian updating is based. The beliefs about the occurrence of an event are revalued in the presence of additional information, i.e. the observation of new evidence which can be denominated as X. These observations are included as likelihoods P(X$|$A). This process of updating results in a posterior probability P(A$|$X) \cite{davidson2015}. It is important to note that the prior is not simply discarded but re-weighted by Bayesian updating. It was also pointed out by \cite{davidson2015} that by utilizing an uncertain prior, the potential for wrongfulness of the initial guess is already included. This means that Bayesian updating is about reducing uncertainty in a belief and reaching a guess that is less wrong \cite{davidson2015}.
+        Bayesian updating is defined by and conducted via the following equation, called the Bayes' Theorem:
+        
+        \begin{equation}\label{eq:BayesTheorem}
+        P(A|X) = \frac{P(X|A)P(A)}{P(X)}
+        \propto P(X|A)P(A)
+        \end{equation}
+        
+        -Law of Large Numbers!
+               
+        \subsection{Estimation}
+        The resulting posterior distribution can be used to acquire point estimates for the true state of nature $\theta$. Common and simple examples for such estimators are the mode (i.e. the generalized maximum likelihood estimate), the mean and the median of a distribution \cite{berger2013stat}. The presentation of a point estimate should usually come with a measure for its estimation error. According to \cite{berger2013stat}, the posterior variance is most commonly used as an indication for estimate accuracy. However, it is argued by \cite{davidson2015} that by using pure accuracy metrics, while this technique is objective, it ignores the original intention of conducting the statistical inference in cases, in which payoffs of decisions are valued more than their accuracies. A more appropriate approach can be seen in the introduction of loss and the use of loss functions \cite{davidson2015}.
+        
+        \subsection{Expected loss and loss functions} 
+        Loss is a statistical measure of how bad an estimate is, i.e. how much is lost by making a certain decision. Gains are considered by statisticians as negative losses \cite{davidson2015}.
+        The magnitude of an estimate's loss is defined by a loss function, which is a function of the estimate of the parameter and the true value of the parameter \cite{davidson2015}:
+        
+        \begin{equation}\label{eq:LossFunction}
+        L(\theta,\hat{\theta}) = f(\theta,\hat{\theta})
+        \end{equation}
+        
+        So, "how bad" a current estimate is, depends on the way a loss function weights accuracy errors and returns respective losses. Two standard loss functions are the absolute-error and the squared-error loss function. Both are simple to understand and commonly used \cite{davidson2015}.
+        
+        As implied by its name, the absolute-error loss function returns loss as the absolute error, i.e. difference between the estimate and the true parameter \cite{davidson2015}:
+        
+        \begin{equation}\label{eq:LossFunction}
+        L(\theta,\hat{\theta}) = |\theta - \hat{\theta}|
+        \end{equation}        
+        
+        Accordingly, losses increasing linearly with the distance to the true value are returned for respective estimates.
+        
+        Using the squared-error loss function returns losses that increase quadratically with distance of the estimator to the true parameter value \cite{davidson2015}:
+        
+        \begin{equation}\label{eq:LossFunction}
+        L(\theta,\hat{\theta}) = |\theta - \hat{\theta}|^2
+        \end{equation}        
+        
+        This exponential growth of loss also means that large errors are weighted much stronger than small errors. This might come with overvaluation of distant outliers and misrepresentation of magnitudes in distance. Regarding this, the absolute-error loss function can be seen as more robust \cite{davidson2015}.
+        
+        - each give mean or median --> estimator with accuracy metric? objective and symmetric! aim at high precision. 
+        
+        -shift in prespective. look at outcome instead of estimation precision!     
+           
+        \cite{davidson2015} and (LF DESIGN PAPER?) propose that it might be useful to move away from these type of objective loss functions to the design of new loss functions that are specifically customized to an reflect an individual's, i.e. the decision maker's objectives, preferences and outcomes. 
+        
+        The standard loss function defined above are symmetric, but can easily be adapted to be asymmetric, for example by weighting on the negative side stronger than those on the positive side. Preference over estimates larger than the true value is thus incorporated in an uncomplicated way \cite{davidson2015}. Much more complicated designs of loss functions are possible, depending on purpose, objective and application \cite{davidson2015}. Some case-specific loss functions are designed in the following chapters of this work.
+        
+        - Cite from paper about the design of loss functions! Subjectivity of customized loss functions!
+        
+        The presence of uncertainty during decision making implies that the truly incurred loss $L(\theta,a)$ cannot be known at the time of making the decision \cite{berger2013stat}. A suitable alternative is to consider a decision's expected loss and to decide on a decision that is optimal in relation to this expected loss \cite{berger2013stat}. 
+        
+        - Averaging of EL over prob. distribution
+        
+        - Bayesian point estimate
+        
+        - Law of Large Numbers
+        
+        - MAP?
+        
+        - Implementation of risk as done by \cite{davidson2015}
+        
+        \section{Application in structural geological modeling}          
+
+        \section{Example section}
+
+        This is the section. Referring to equations, figures and tables can easily be done by the commands \verb"\eqnref{}",
+        \verb"\figref{}" and \verb"\tabref{}".
+        \begin{equation}\label{eq:First}
+        H(s) = \frac{1}{s+2}
+        \end{equation}
+
+        You see? Refer to equations like this \eqnref{eq:First}, i.e. the name of the label you have given the specific equation, figure or table.
+        
+        \subsection{The first subsection}
+  
+        Now I demonstrate, numbering equations, using subequations:
+	  \begin{subequations}
+		\begin{eqnarray}
+    \label{2eq1d1}
+	  \nabla\times\mathbf{L}  &=& \frac{\partial\mathbf{G}}{\partial t} \\
+    \label{2eq1d2}
+  	\nabla\times\mathbf{G}  &=& \frac{\partial\mathbf{L}}{\partial t} + \mathbf{J} \\
+    \label{2eq1d3}
+    \mathbf{G}              &=& \sigma\mathbf{J}
+		\end{eqnarray}
+			  \end{subequations}
+	
+				Or we can make matrices:
+				\begin{equation}
+				\mathbf{Q}_{12}=\left[\begin{array}{ccc}
+		          0  &     1          &  0 \\
+	            1  &     0          &  1 \\
+	            0  &     1          &  0 \\
+       	\end{array}\right]\quad
+        \nonumber
+		    \label{2eq1cf}
+		    \end{equation}
+		    This can also be done using the \verb"\align{}" command. Equation arrays are also possible:
+     		\begin{eqnarray}
+    		\label{2eq1e1}
+	  \nabla\times\mathbf{L}  &=& \frac{\partial\mathbf{G}}{\partial t} \\
+	    	\label{2eq1e2}
+  	\nabla\times\mathbf{G}  &=& \frac{\partial\mathbf{L}}{\partial t} + \mathbf{J} \\
+		    \label{2eq1e3}
+    \mathbf{G}              &=& \sigma\mathbf{J}
+		  \end{eqnarray}
+
+       
+        \subsubsection[Subsection Short Title]{The first sub-subsection with a very very very long title, but in the table of contents one can only see the short title in square brackets}
+
+                Impressed by the capabilities? \index{Nicecapabilities}
+                If you want to know more about the capabilities of \LaTeX, take a look at the "\textbf{The Not So Short Introduction to \LaTeXe}", which can be found on the internet.
+
+    \paragraph{Next paragraph.}
+    \begin{figure}[htbp]  % fig 6.3 page 186 Turbulence and Remous
+    \centering
+    \includegraphics[width=11cm]{vertstab.eps}
+    \caption{Stability conditions for the vertical stability of saturated and unsaturated air.} %this is how it shows up in the List of Figures
+    \label{f:verticalstab}
+    \end{figure}
+.\\    
+And finally I end this example file with a table which will be centered in the middle of the following page
+\begin{table}[hp]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|ll|}
+\hline
+\multicolumn{2}{|c|}{\bf\sffamily {\it Data} files listed in a table }\\
+\hline\hline
+\multicolumn{2}{|l|}{\bf\sffamily First part} \\
+Fabracadabra.m	& - Saturation computation\\
+Fobracadabra.m	& - Pressure computation\\
+Fibricadibri.m	& - Permeability computation\\
+&\\
+\multicolumn{2}{|l|}{\bf\sffamily Structural rock model} \\
+struct.m	& - Rock structural data using symmetric boundary condition \\
+bstruct.m	& - Rock structural data using anti-symmetric boundary condition \\
+\hline
+\end{tabular}
+\caption{Good-looking program data deck files.} %this is how it shows up in the List of Tables
+\label{tbl:tbl}
+\end{table}
