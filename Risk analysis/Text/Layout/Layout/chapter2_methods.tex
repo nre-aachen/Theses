@@ -3,8 +3,13 @@
     The methods utilized in this work are presented in the following chapter. This includes introductions into Bayesian analysis and decision theory. In particular Bayesian inference, estimation of uncertain values and how loss function can be used in this context. These methods are incorporated in the context of numerical modeling of structural geological settings. This is done by programming in a python environment. Central tools for model construction and conduction of the statistical evaluation are Geomodeler3D, GemPy and PyMC in particular and are also presented in this chapter.
     
         \section{Bayesian analysis and decision theory}
-        Introduction into section: What is decision theory, what is Bayesian analysis? Why use it here?
-        What is a decision here and in relation to geoscientific cases and models?
+	    Problems and reasoning behind decision making are examined in the field of decision theory, as implied by the name \cite{berger2013stat}. Such decision problems are commonly influenced by parameters that are uncertain. In statistical decision theory, the presence of statistical knowledge is used to gain information on the nature of these uncertainties. (Such uncertain parameters can be considered as numerical quantities.) In order to find the best decision to a problem, it is possible to combine sample information with other aspects such as the possible consequences of decision making and the availability of prior information on our uncertainties. Decision consequences are expressed as gains in economic decision theory and as losses, which equal negative gains, in statistics. Prior information might be given for example due to experience from previous similar problems or from expert knowledge (see Batvold and Begg). The approach of utilizing such as priors is known as Bayesian analysis and is explained in the following \cite{berger2013stat}. (It goes well with decision theory.)
+	    
+	    \section{Basic elements}
+	    Some basic elements are to be defined. The unknown (uncertain?) quantity influencing decision making is usually named denominated as $\theta$, the state of nature. Given statistical information on $\theta$ in the form of probability distributions, $\theta$ is called the parameter. 
+	    Decisions are also referred to as actions $a$.
+	    The outcome of statistical tests in form of information or statistical evidence is denoted as $X$.	    
+	    Loss is defined as $L(\theta,a)$, so $L(\theta_1,a-1)$ is the actual loss incurred when action $a_1$ is taken while the true state of nature is $\theta_1$ \cite{berger2013stat}. Loss, expected loss and loss functions are further explained below.  
         
         \subsection{Bayesian inference}
         Bayesian inference is most importantly characterized by its preservation of uncertainty, in contrast to standard statistical inference \cite{davidson2015}. Probability is seen as a measure of belief for an event to occur. It has been argued by \cite{davidson2015}  that this Bayesian approach is intuitive and inherent in the natural human perspective. These beliefs can furthermore be assigned to individuals \cite{davidson2015}. Thus, different and even contradicting beliefs about the probability of an event might be held by different individuals, based on variations and disparities in the information available to each one individual \cite{davidson2015}.
@@ -57,19 +62,51 @@
         
         - Cite from paper about the design of loss functions! Subjectivity of customized loss functions!
         
-        The presence of uncertainty during decision making implies that the truly incurred loss $L(\theta,a)$ cannot be known at the time of making the decision \cite{berger2013stat}. A suitable alternative is to consider a decision's expected loss and to decide on a decision that is optimal in relation to this expected loss \cite{berger2013stat}. 
+        The presence of uncertainty during decision making implies that the true parameter is unknown and thus the truly incurred loss $L(\theta,a)$ cannot be known at the time of making the decision \cite{berger2013stat, davidson2015}. The Bayesian perspective considers unknown parameters as random variables and samples that are drawn from the posterior distribution as possible realizations of the unknown parameter, i.e. all possible true values are represented by this distribution \cite{davidson2015}. A suitable alternative to the actual loss is to consider a decision's expected loss and to make a decision that is optimal in relation to this expected loss \cite{berger2013stat}. 
         
-        - Averaging of EL over prob. distribution
+        Given a posterior distribution $P(\theta|X)$, the expected loss of choosing an estimate $\hat{\theta}$ over the true parameter $\theta$ (after evidence X has been observed) is defined by the function below \cite{davidson2015}:
         
-        - Bayesian point estimate
+        \begin{equation}\label{eq:ExpectedLoss}
+        l(\hat{\theta}) = E_{\theta}[L(\theta,\hat{\theta})]
+        \end{equation}  
         
-        - Law of Large Numbers
+        The expectation symbol $E$ is subscripted with $\theta$, by which it is indicated that $\theta$ is the respective unknown variable. This expected loss as defined above, is also referred to the risk of estimate $\hat{\theta}$ \cite{davidson2015}.
+        
+        By the Law of Large Numbers, the expected loss of $\hat{\theta}$ can be approximated drawing $N$ samples from the posterior distribution, respectively applying a loss function $L$ and averaging of the number of samples \cite{davidson2015}:
+        
+        \begin{equation}\label{eq:ExpectedLoss2}
+        \frac{1}{N}\sum_{i=1}^{N} L(\theta_i,\hat{\theta}) \approx E_{\theta}[L(\theta,\hat{\theta})] = l(\hat{\theta})
+        \end{equation}
+        
+        Minimization of \ref{eq:ExpectedLoss} or \ref{eq:ExpectedLoss2} returns a Bayesian point estimate known as Bayes action $\delta^P(X)$ (???), which is the estimate, action or decision with the least expected loss according to the loss function \cite{berger2013stat}. For a unimodal and symmetric absolute-error loss function, the Bayes action is simply the median of the posterior distribution, while squared-error loss it is the mean \cite{davidson2015, berger2013stat}. The MAP estimate is returned when using zero-one loss \cite{davidson2015}  (WRITE THIS?). The possibility of more than on minimum also implies that several Bayes actions can exist for one problem \cite{berger2013stat}.
         
         - MAP?
         
-        - Implementation of risk as done by \cite{davidson2015}
+        \cite{davidson2015} implemented different risk affinities by simply  introducing a risk parameter into the loss function. By using different values for this parameter, it can be represented how comfortable an individual is with being wrong and furthermore which "side of wrong" is preferred by this decision maker \cite{davidson2015}. In the chapter below, different risk parameters are introduced to alter the weighting in the loss functions (???).
         
-        \section{Application in structural geological modeling}          
+        \subsection{Value of information}
+        - considering the change in gain (or loss) after regarding new information or evidence, the value of this information can be calculated
+        - in the presence of uncertainty we look at expected value of information
+        - this can be used as a measure, to assess if the effort to attain new evidence or information is worth it
+        - also as a measure to see how much additional information is worth to different actors with different risk affinities
+        - here we use the comparison between Bayes actions before and after Bayesian updating
+        
+        \section{Application in structural geological modeling}
+        
+        - applying these statistical theories in the context of geological modeling 
+        - as done by De la Varga (2015)
+        
+        - equivalence of basic elements in geologic models, some examples
+        
+        - sampling methods
+        
+        - numerical implementation in python using pyMC
+        
+        - construction of 1D model in python and pyMC
+        
+        - construction of 3D model using GeoModeller3D and GeMPy additionally
+        
+        - what about theory of petroleum reservoir and volumetric calculation? explain this in later chapter of 3D model???          
 
         \section{Example section}
 
