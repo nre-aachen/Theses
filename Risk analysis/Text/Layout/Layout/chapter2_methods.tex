@@ -1,19 +1,20 @@
     \chapter{Methods}
 
-    The methods utilized in this work are presented in the following chapter. This includes introductions into Bayesian analysis and decision theory. In particular Bayesian inference, estimation of uncertain values and how loss function can be used in this context. These methods are incorporated in the context of numerical modeling of structural geological settings. This is done by programming in a python environment. Central tools for model construction and conduction of the statistical evaluation are Geomodeler3D, GemPy and PyMC in particular and are also presented in this chapter.
+    The methods utilized in this work are presented in the following chapter. This includes introductions into Bayesian analysis and decision theory. In particular Bayesian inference, estimation of uncertain values and how loss function can be used in this context. These methods are incorporated in the context of numerical modeling of structural geological settings. This is done by programming in a python environment. Central tools for model construction and conduction of the statistical evaluation are Geomodeler3D, GemPy and PyMC3 in particular and are also presented in this chapter.
     
         \section{Bayesian analysis and decision theory}
-	    Problems and reasoning behind decision making are examined in the field of decision theory, as implied by the name \cite{berger2013stat}. Such decision problems are commonly influenced by parameters that are uncertain. In statistical decision theory, the presence of statistical knowledge is used to gain information on the nature of these uncertainties. (Such uncertain parameters can be considered as numerical quantities.) In order to find the best decision to a problem, it is possible to combine sample information with other aspects such as the possible consequences of decision making and the availability of prior information on our uncertainties. Decision consequences are expressed as gains in economic decision theory and as losses, which equal negative gains, in statistics. Prior information might be given for example due to experience from previous similar problems or from expert knowledge (see Batvold and Begg). The approach of utilizing such as priors is known as Bayesian analysis and is explained in the following \cite{berger2013stat}. (It goes well with decision theory.)
+	    Problems and reasoning behind decision making are examined in the field of decision theory, as implied by the name \cite{berger2013stat}. Such decision problems are commonly influenced by parameters that are uncertain. In statistical decision theory, available statistical knowledge is used to gain information on the nature of these uncertainties. (Such uncertain parameters can be considered as numerical quantities.) In order to find the best decision to a problem, it is possible to combine sample information with other aspects such as the possible consequences of decision making and the availability of prior information on our uncertainties. Decision consequences are expressed as gains in economic decision theory and as losses, which equal negative gains, in statistics. Prior information might be given for example due to experience from previous similar problems or from expert knowledge (see Batvold and Begg). The approach of utilizing priors is known as Bayesian analysis and is explained in the following \cite{berger2013stat}. (It goes well with decision theory.)
 	    
 	    \section{Basic elements}
-	    Some basic elements are to be defined. The unknown (uncertain?) quantity influencing decision making is usually named denominated as $\theta$, the state of nature. Given statistical information on $\theta$ in the form of probability distributions, $\theta$ is called the parameter. 
+	    Some basic elements are to be defined. The unknown (uncertain) quantity influencing decision making is usually denominated as $\theta$, the state of nature \cite{berger2013stat}. Given statistical information on $\theta$ in the form of probability distributions, $\theta$ is called the parameter. 
 	    Decisions are also referred to as actions $a$.
 	    The outcome of statistical tests in form of information or statistical evidence is denoted as $X$.	    
 	    Loss is defined as $L(\theta,a)$, so $L(\theta_1,a-1)$ is the actual loss incurred when action $a_1$ is taken while the true state of nature is $\theta_1$ \cite{berger2013stat}. Loss, expected loss and loss functions are further explained below.  
         
         \subsection{Bayesian inference}
-        Bayesian inference is most importantly characterized by its preservation of uncertainty, in contrast to standard statistical inference \cite{davidson2015}. Probability is seen as a measure of belief for an event to occur. It has been argued by \cite{davidson2015}  that this Bayesian approach is intuitive and inherent in the natural human perspective. These beliefs can furthermore be assigned to individuals \cite{davidson2015}. Thus, different and even contradicting beliefs about the probability of an event might be held by different individuals, based on variations and disparities in the information available to each one individual \cite{davidson2015}.
-        The initial belief or guess about an event A can be denoted as P(A). This is used as the so-called prior probability on which Bayesian updating is based. The beliefs about the occurrence of an event are revalued in the presence of additional information, i.e. the observation of new evidence which can be denominated as X. These observations are included as likelihoods P(X$|$A). This process of updating results in a posterior probability P(A$|$X) \cite{davidson2015}. It is important to note that the prior is not simply discarded but re-weighted by Bayesian updating. It was also pointed out by \cite{davidson2015} that by utilizing an uncertain prior, the potential for wrongfulness of the initial guess is already included. This means that Bayesian updating is about reducing uncertainty in a belief and reaching a guess that is less wrong \cite{davidson2015}.
+        Bayesian inference is most importantly characterized by its preservation of uncertainty, in contrast to standard statistical inference \cite{davidson2015}. Probability is seen as a measure of belief for an event to occur. It has been argued by \cite{davidson2015}  that this Bayesian approach is intuitive and inherent in the natural human perspective. These beliefs can be assigned to individuals \cite{davidson2015}. Thus, different and even contradicting beliefs about the probability of an event might be held by different individuals, based on variations and disparities in the information available to each one individual \cite{davidson2015}.
+        
+        The initial belief or guess about an event A can be denoted as P(A) \cite{davidson2015}. This is used as the so-called prior probability on which Bayesian updating is based. The beliefs about the occurrence of an event are revalued in the presence of additional information, i.e. the observation of new evidence X. These observations are included as likelihoods P(X$|$A). This process of updating results in a posterior probability P(A$|$X) \cite{davidson2015}. It is important to note that the prior is not simply discarded but re-weighted by Bayesian updating. It was also pointed out by \cite{davidson2015} that by utilizing an uncertain prior, the potential for wrongfulness of the initial guess is already included. This means that Bayesian updating is about reducing uncertainty in a belief and reaching a guess that is less wrong \cite{davidson2015}.
         Bayesian updating is defined by and conducted via the following equation, called the Bayes' Theorem:
         
         \begin{equation}\label{eq:BayesTheorem}
@@ -22,6 +23,8 @@
         \end{equation}
         
         -Law of Large Numbers!
+        
+        -MCMC sampling methods!
                
         \subsection{Estimation}
         The resulting posterior distribution can be used to acquire point estimates for the true state of nature $\theta$. Common and simple examples for such estimators are the mode (i.e. the generalized maximum likelihood estimate), the mean and the median of a distribution \cite{berger2013stat}. The presentation of a point estimate should usually come with a measure for its estimation error. According to \cite{berger2013stat}, the posterior variance is most commonly used as an indication for estimate accuracy. However, it is argued by \cite{davidson2015} that by using pure accuracy metrics, while this technique is objective, it ignores the original intention of conducting the statistical inference in cases, in which payoffs of decisions are valued more than their accuracies. A more appropriate approach can be seen in the introduction of loss and the use of loss functions \cite{davidson2015}.
@@ -106,84 +109,14 @@
         
         - construction of 3D model using GeoModeller3D and GeMPy additionally
         
-        - what about theory of petroleum reservoir and volumetric calculation? explain this in later chapter of 3D model???          
-
-        \section{Example section}
-
-        This is the section. Referring to equations, figures and tables can easily be done by the commands \verb"\eqnref{}",
-        \verb"\figref{}" and \verb"\tabref{}".
-        \begin{equation}\label{eq:First}
-        H(s) = \frac{1}{s+2}
-        \end{equation}
-
-        You see? Refer to equations like this \eqnref{eq:First}, i.e. the name of the label you have given the specific equation, figure or table.
-        
-        \subsection{The first subsection}
-  
-        Now I demonstrate, numbering equations, using subequations:
-	  \begin{subequations}
-		\begin{eqnarray}
-    \label{2eq1d1}
-	  \nabla\times\mathbf{L}  &=& \frac{\partial\mathbf{G}}{\partial t} \\
-    \label{2eq1d2}
-  	\nabla\times\mathbf{G}  &=& \frac{\partial\mathbf{L}}{\partial t} + \mathbf{J} \\
-    \label{2eq1d3}
-    \mathbf{G}              &=& \sigma\mathbf{J}
-		\end{eqnarray}
-			  \end{subequations}
-	
-				Or we can make matrices:
-				\begin{equation}
-				\mathbf{Q}_{12}=\left[\begin{array}{ccc}
-		          0  &     1          &  0 \\
-	            1  &     0          &  1 \\
-	            0  &     1          &  0 \\
-       	\end{array}\right]\quad
-        \nonumber
-		    \label{2eq1cf}
-		    \end{equation}
-		    This can also be done using the \verb"\align{}" command. Equation arrays are also possible:
-     		\begin{eqnarray}
-    		\label{2eq1e1}
-	  \nabla\times\mathbf{L}  &=& \frac{\partial\mathbf{G}}{\partial t} \\
-	    	\label{2eq1e2}
-  	\nabla\times\mathbf{G}  &=& \frac{\partial\mathbf{L}}{\partial t} + \mathbf{J} \\
-		    \label{2eq1e3}
-    \mathbf{G}              &=& \sigma\mathbf{J}
-		  \end{eqnarray}
-
-       
-        \subsubsection[Subsection Short Title]{The first sub-subsection with a very very very long title, but in the table of contents one can only see the short title in square brackets}
-
-                Impressed by the capabilities? \index{Nicecapabilities}
-                If you want to know more about the capabilities of \LaTeX, take a look at the "\textbf{The Not So Short Introduction to \LaTeXe}", which can be found on the internet.
-
-    \paragraph{Next paragraph.}
-    \begin{figure}[htbp]  % fig 6.3 page 186 Turbulence and Remous
-    \centering
-    \includegraphics[width=11cm]{vertstab.eps}
-    \caption{Stability conditions for the vertical stability of saturated and unsaturated air.} %this is how it shows up in the List of Figures
-    \label{f:verticalstab}
-    \end{figure}
-.\\    
-And finally I end this example file with a table which will be centered in the middle of the following page
-\begin{table}[hp]
-\centering
-\renewcommand{\arraystretch}{1.5}
-\begin{tabular}{|ll|}
-\hline
-\multicolumn{2}{|c|}{\bf\sffamily {\it Data} files listed in a table }\\
-\hline\hline
-\multicolumn{2}{|l|}{\bf\sffamily First part} \\
-Fabracadabra.m	& - Saturation computation\\
-Fobracadabra.m	& - Pressure computation\\
-Fibricadibri.m	& - Permeability computation\\
-&\\
-\multicolumn{2}{|l|}{\bf\sffamily Structural rock model} \\
-struct.m	& - Rock structural data using symmetric boundary condition \\
-bstruct.m	& - Rock structural data using anti-symmetric boundary condition \\
-\hline
-\end{tabular}
-\caption{Good-looking program data deck files.} %this is how it shows up in the List of Tables
-\label{tbl:tbl}
-\end{table}
+        - what about theory of petroleum reservoir and volumetric calculation? explain this in later chapter of 3D model???     
+             
+		\subsection{Implementing Bayesian analysis numerically with Python and PyMC3}
+		Bayesian analysis can be conducted using probabilistic programming \cite{salvatier2016pymc3}. For doings this, the programming language of choice in this work is Python. The merits of Python have been pointed out by \cite{behnel2010, salvatier2016pymc3, Langtangen2008}. Development is facilitated by an expressive but concise and clean syntax that is easy to learn. Python is dynamic, compatible with multiple platforms and offers good support for numerical computing. Integration of other scientific libraries and extension via C, C++, Fortran or Cython is easily possible \cite{behnel2010, salvatier2016pymc3, Langtangen2008}. Python is thus a straightforward tool for the implementation of central components of Bayesian analysis, such as custom statistical distributions and samplers \cite{salvatier2016pymc3}.
+		
+		In probabilistic programming, programming variables are used as components to build probabilistic models \cite{davidson2015}. 
+		
+		The numerical implementation of Bayesian analysis is further aided by the use of the Python library PyMC3, which was developed for conducting Bayesian inference and prediction problems in an open-source probabilistic programming framework \cite{davidson2015, salvatier2016pymc3}. Different model fitting techniques are provided in PyMC3, such as the \textit{maximum a posteriori} (MAP) method and several \textit{Monte Carlo Markov Chain} (MCMC) sampling methods \cite{salvatier2016pymc3}. 
+		Name examples for state-of-the-art samplers included.
+		\cite{salvatier2016pymc3} point out that the development of PyMC3 continuing, as the inclusion of further tools is planned for future updates.
+		

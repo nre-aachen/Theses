@@ -1,0 +1,23 @@
+\begin{thebibliography}{}
+
+\bibitem[Berger, 2013]{berger2013stat}
+Berger, J.~O. (2013).
+\newblock {\em Statistical decision theory and Bayesian analysis}.
+\newblock Springer Science \& Business Media.
+
+\bibitem[Davidson-Pilon, 2015]{davidson2015}
+Davidson-Pilon, C. (2015).
+\newblock Bayesian methods for hackers: Probabilistic programming and bayesian
+  inference.
+
+\bibitem[Langtangen, 2008]{Langtangen2008}
+Langtangen, P.~H. (2008).
+\newblock {\em {Python scripting for computational science}}.
+\newblock Springer Verlag, New York.
+
+\bibitem[Salvatier et~al., 2016]{salvatier2016pymc3}
+Salvatier, J., Wiecki, T., and Fonnesbeck, C. (2016).
+\newblock Probabilistic programming in python using pymc3.
+\newblock {\em PeerJ Computer Science}, 55(2).
+
+\end{thebibliography}

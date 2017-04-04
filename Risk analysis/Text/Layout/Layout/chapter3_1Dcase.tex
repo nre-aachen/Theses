@@ -1,0 +1,100 @@
+\chapter{One-dimensional reservoir case}
+
+An abstract one-dimensional case of a petroleum reservoir is presented in this chapter. The underlying model and basic approach are inherited from De la Varga (2016). Parameters were adapted to better represent a reasonable geological petroleum system consisting of a reservoir with overlying seal in the subsurface. This way, a certain economic significance is ascribed to the model and further relevant questions can be derived. Regarding the petroleum sector, the problem of interest is most commonly one of estimating the monetary value contained in an oil or gas reservoir. Limiting the model to only one dimension and a small number of uncertain parameters allows for a relatively straightforward and simplified approach to assessing an abstract type of value for a reservoir and designing a respective loss function for value estimation. A step by step derivation of such as case follows below.
+
+	\section{Constructing the one-dimensional model}
+	
+	De la Varga (2016) constructed a simple geological model using three uncertain locations in one-dimensional space, which mark the boundaries of layers. The probability of positions of these points are defined by sampling from normal distributions. Standard deviations of these distributions increase with depth, representing an increase in uncertainty. For an approximate representation of a petroleum system, the distribution means were set to depths of 2000 (seal top), 2050 (reservoir top) and 2200 (reservoir bottom). These points confine two layers in the middle, from which the upper one can be labeled as seal and the lower one as reservoir. The resulting model with its possible layer boundary locations is illustrated in Figure 1.
+	
+	\section{Assessing reservoir quality using scores}
+	
+	The next step is to find a way to assess the quality of the reservoir from a petroleum industry perspective in such a simplified model. What can be deduced from the distributions of layer boundary locations, is the thickness of the seal and the reservoir, as well as the depth of both, again as probability distributions. To assess the reservoir quality in an abstract way, it can be assigned with a score. This score is made dependant on the three uncertain parameters (1) reservoir thickness, (2) reservoir top depth and (3) seal thickness (see Figure 2).
+	
+	\subsection{Two parameters scoring}
+	
+	Assuming that reservoir thickness is a simplified indicator for the extractable oil or gas and thus value in place, a gain in score can be correlated with increase in thickness. Here, two score points are assigned to one meter of thickness. Increasing costs of drilling are indicated by increasing depth of the reservoir top. Consequently, one negative score point is ascribed to every meter in depth. Samples from the probability distributions of these two parameters are drawn to model the true score of the reservoir (depth scores are subtracted from reservoir thickness scores). For the data used here, it can be seen in Figure 3 that the results of this two parameter score modelling are represented by an approximately normal distribution. The score is negative in about 17\% of the cases. Mean and median are about the same.
+	
+	\subsection{Three parameters scoring}
+	
+	Influence by the seal thickness is added in the following. Score points are not added or subtracted by this parameter directly. Instead, a threshold for seal reliability is defined beforehand. Here it is set at 20 m thickness. If the seal thickness falls below this threshold, it is assumed that the seal fails completely and thus all the potential value of the reservoir is lost, while costs of depth remain. Thus, a condition to check whether the seal is reliable is now included in the model. Results are visualized in Figure 4. The main distribution was not changed significantly, except for a striking peak of probability that emerged for the possibility of a score of -2000. Furthermore, mean and median have been shifted to lower values and are now found further apart.
+	
+	\section{Designing a case-specific loss function}
+	
+	Now that a distribution of reservoir score probabilities has been modelled, a loss function for estimation of the true score value can be developed.
+	
+	\subsection{Testing standard loss functions}
+	
+	Some standard loss function were presented in chapter X (theory of loss fucntions to be explained in foregone chapter). For this case, the absolute-error loss and the squared-error loss function were considered as starting points, to design a more case-specific loss function. Their general forms for certain determined values are illustrated in Figure 5.
+	As explained before in chapter X, the expected loss for an estimate can be approximated by calculating the arithmetic mean of the losses compared to all samples in the modelled score distribution.
+	
+	1N∑i=1NL(θi,θ̂ )≈Eθ[L(θ,θ̂ )]=l(θ̂ )
+	
+	Calculating the expected loss for estimates ranging from -3000 to 6000 using these two standard loss function results in the graphs depicted in Figure 6. As expected (find proper source!), the median of the distribution coincides with the minimum of the absolute-error and the median with the minimum of the squared-error expected loss (Bayes action/estimator).
+	
+	\subsection{Adaptions to design a customized loss function}
+	
+	These standard loss functions provide objectively good estimators minimizing expected loss. Due to their symmetric properties, both will always give the median or mean of the underlying distribution as minimizing estimator respectively. However, assigning an economic notion to our model and assuming the case of an actor or decision maker in any field, naturally necessitates the consideration of preferences, interests and the overall subjective perspective such an individual or company might have. Further constraints and influences can also me specific to the field, industry or generally to the problem at hand. Consequently, the design of a more specific non-standard and possibly asymmetric loss function might be required, so that an adapted Bayesian estimator can be found. One that includes subjective aspects and difference in weighting of particular gains or losses, arising from an actors preferences and the environment in which the actor has to estimate or make a decision. In the face of several uncertain parameters, a perfectly true estimate is virtually unattainable. However, the attempt can be made, to design a customized loss function that returns a Bayesian estimator involving the least bad consequences for an actor in a specific environment. Regarding the petroleum system case modelled above, such an attempt is made and explained step by step in the following. 
+	
+	Text NOT up-to-date!!!
+	
+	For the purpose of estimation, it makes sense that a standard loss function is chosen as a basis. The absolute-error loss seems most approriate for this case of petroleum reservoir value estimation. As stated above, the reservoir score we defined is an abstract and simplified way to reflect a value contained in the reservoir. An actor would wish to extract this, should it be positive (and feasible, but this would require the inclusion of numerous more factors). Ideally, an actor would like to know the exact true score, so that investments or resources can appropriately be allocated. This allocation is the decision to be made or action to be taken. Deviations from the unknown true score in the form of over- and underestimation bring about an error and loss accordingly. In principle, there is no reason for loss to increase exponentially with distance from the true value. Allocation of investments would not increase exponentially with linear increase of the value of the resource. For this reason, the absolute-error loss function is favored over the squared-error loss function in this case. Some adaptions are made below, based on mostly logical case-specific assumptions.
+	
+	    1st Adaption: For any negative estimate, an actor will take the same action as for a zero score, i.e. not to invest at all, since there is no positive value present. If the true score is zero or negative, this means that over- and underestimating, while the estimate is also negative or zero, is irrelevant an results in:
+	
+	L(θ,θ̂ )=0
+	
+	In other words: There is nothing to win and nothing is lost, since no action is taken.
+	
+	    2nd Adaption: Considering the development of a petroleum reservoir, one might also assume that overinvesting is worse than underinvesting. Overestimating the size of a reservoir might for example lead to the installation of equipment or facilites that are actually not needed. This comes with additional unrecoverable expenditures. Consequences from underestimating, however, may presumably be easier to resolve. Additional equipment can often be installed later afterwards. Hence, overestimation is weighted stronger in our loss function by multiplying the error with an overstimation factor a = 1.25:
+	
+	L(θ,θ̂ )=|(θ−θ̂ )|∗a
+	
+	    3d Adaption: The worst case for any project would be, to start and progress its development, only to discover later that the value in the reservoir does not cover the costs of realizing the project. A petroleum system might also turn out to be a complete failure, although the actor's estimate indicated the opposite. This is refered to here as a worst case or fatal overestimation, when a positive score is estimated, but the true score is zero or negative. It is included in the loss function with a second weighting factor b = 2:
+	
+	L(θ,θ̂ )=|(θ−θ̂ )|∗b
+	
+	In other words: Worst case or fatal overestimation is twice as bad as simply underestimating.
+	
+	    4th Adaption: A worst case or fatal underestimation can also be derived from the idea of estimating a zero or negative score, when the true score is actually positive. This basically reflects the opportunity costs of completely discarding a reservoir with a true score of θ:
+	
+	L(θ,θ̂ )=θ
+	
+	A step by step realization of these four adaptions is depicted in the plots in Figure 7. The first adaption is visualized in plot IIa, reflecting the irrelevance of negative estimates. Assignment of a stronger weight to overestimation, has led to a shift of the Bayesian action to a lower value in IIb. This shift has been in reinforced in plott IIc, due to adopting the concept of fatal overestimation. Finally, the inclusion of worst case underestimation raises the baseline for expected loss of not developing the reservoir (estimating zero or negative score).
+	
+	The implementation of this customized loss function using single deterministed values for the true score is plotted in Figure 8.
+	
+	It has to be emphasized that this is just one possible proposal for customization. There exists not one perfect loss function design for such a case. Other designs might differ slightly, for example by choosing different values for the same factors, to fundamentally by basing it on a significantly different mathematical structure. Loss functions are customized according to the subjective needs and objectives of an actor. Thus, they are defined by the actor expressing his perspective and might change, should the actor change his mind. Especially considering individual persons as actors, even psychological aspects may play a significant role.
+	
+	(Estimate or prediction? True value only known if a "yes"-action (development) is taken.)
+	
+	\subsection{Including different risk-affinities in the loss function}
+	
+	TEXT NOT UP TO DATE!!!
+	
+	One can assume that several actors in one sector or decision environment may have the same general loss functions, but different affinities concerning risks. This might be based on psychological factors or economic philosophies followed by a company. It might also be based on the budget and options such an actor has available. An intuitive example is the comparison of a small and a large company. A certain false estimate or error might have a significantly stronger impact on a company which has a a generally lower market share and only few projects, than on a larger company which might possess a higher financial flexibility and for which one project is only one of many development options.
+	
+	In the following, the loss function is further adapted to consider different risk-affinities of different actors. Representing risk behavior in a loss function can also be done in different ways. Here, it is simply included as a the factor r that is multiplied with the overestimation weighting factor a and b:
+	
+	L(θ,θ̂ )=|(θ−θ̂ )|∗(a∗r)
+	
+	L(θ,θ̂ )=|(θ−θ̂ )|∗(b∗r)
+	
+	Thus, the risk-neutral loss function is returned for r = 1. For r < 1, the weight of overestimating is reduced. This represents a more risk-friendly actor that is willing to bid on a higher estimate to attain a higher return in value. For r > 1, the overestimation weight is increased and respectively more risk-averse actors are prompted to bid on lower estimates. They prefer a lower but safer return value, due to the higher loss of wrong overestimation. The implementation of a risk-affinity factor r leads to different steepnesses of the plotted curves of the loss functions on the positive side of estimates (see Figures 9 and 10). The same three given deterministic values are used as true scores in the three plots in Figure 9. For certain determined values, the steepnesses of the functions vary, but their loss minima are found at the same location. However, in Figure 10 it can be seen that the minima for expected loss, i.e. the Bayesian estimators for differently risk-affine actors, are located at different estimates. Mean and median are clearly surpassed by the best estimate of the most risk-fiendly actor, while for the most risk-averse actor the Bayes action equals a zero estimate (and thus the decision to take on action).
+	
+	\section{Updating the model with additional information in the form of thickness likelihoods}
+	
+	De la Varga (2016) made use of Bayesian inference to reduce the uncertainty in this type of one-dimensional model. The same is done here. The probability distributions for the location of the layer boundaries are treated as priors. Likelihood functions for the thicknesses of the layers are introduced as new information in the model. For the seal, a normal distribution with a mean of 25 m and a standard devation of 20 m is chosen to reflect the likelihood. For the reservoir, a normal distribution with a mean of 180 m and a standard deviation of 60 m is chosen. Implementing these likelihoods in the model, the uncertainty in the posterior probability distributions for the layer boundary depths is reduced (see Figure 11).
+	
+	Modelling of a reservoir score is conducted as above, now based on these new distributions. In Figure 12 it can be recognized that the bulk of the distribution was shifted to the positive side and the peak at -2000 was raised. The probability of scores between -2000 and 0 decreased significantly. An interpretation of this would be that the true score is most likely either positive or -2000 if it is negative.
+	
+	The customized loss function is now applied on this updated distribution of the reservoir score. This is visualized in Figure 13 in which the expected losses are compared before and after uncertainty reduction. The risk-neutral loss function is depicted in plots A1 and A2, while in plots B1 and B2 different risk-affinities are included. It is observable, that after adding information about layer thickness likelihoods, Bayesian estimators shift relative to the nature of the information. In this case, the added data generally reinforces the likelihoods of the reservoir to be significantly thick and for the seal to be appropriately reliable. Thus, the minima of expected loss are found at higher estimates for all actors. 
+	
+	\section{Quantifying the value of adding information and reducing uncertainty}
+	
+	TEXT NOT UP TO DATE!!!
+	
+	This shift in Bayesian estimator can be quantified and shows in this case, that the risk-neutral actor experienced the greatest shift and actors most different in risk-affinity were were influenced the least, but still significantly.
+	
+	\section{Case results}
+	
+	Bla Bla
