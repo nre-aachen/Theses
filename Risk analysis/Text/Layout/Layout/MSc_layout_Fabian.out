@@ -20,15 +20,17 @@
 \BOOKMARK [2][-]{subsection.3.2.2}{Three parameters scoring}{section.3.2}% 20
 \BOOKMARK [1][-]{section.3.3}{Designing a case-specific loss function}{chapter.3}% 21
 \BOOKMARK [2][-]{subsection.3.3.1}{Testing standard loss functions}{section.3.3}% 22
-\BOOKMARK [2][-]{subsection.3.3.2}{Adaptions to design a customized loss function}{section.3.3}% 23
+\BOOKMARK [2][-]{subsection.3.3.2}{Adaptions for loss function customization}{section.3.3}% 23
 \BOOKMARK [2][-]{subsection.3.3.3}{Including different risk-affinities in the loss function}{section.3.3}% 24
 \BOOKMARK [1][-]{section.3.4}{Updating the model with additional information in the form of thickness likelihoods}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.5}{Quantifying the value of adding information and reducing uncertainty}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.6}{Case results}{chapter.3}% 27
-\BOOKMARK [0][-]{section.3.6}{Bibliography}{part.1}% 28
-\BOOKMARK [0][-]{appendix.A}{The back of the thesis}{part.1}% 29
-\BOOKMARK [1][-]{section.A.1}{An appendix section}{appendix.A}% 30
-\BOOKMARK [2][-]{subsection.A.1.1}{An appendix subsection with C++ Lisitng}{section.A.1}% 31
-\BOOKMARK [2][-]{subsection.A.1.2}{A Matlab \040Listing}{section.A.1}% 32
-\BOOKMARK [0][-]{appendix.B}{Yet another appendix}{part.1}% 33
-\BOOKMARK [1][-]{section.B.1}{Another test section}{appendix.B}% 34
+\BOOKMARK [2][-]{subsection.3.4.1}{Updating example I \(moderate reinforcement\)- Seal: mean = 25 m, std = 20 m - Reservoir: mean = 180 m, std = 60 m}{section.3.4}% 26
+\BOOKMARK [2][-]{subsection.3.4.2}{Updating example II \(reliable seal\) - Seal: mean = 50 m, std = 20 m - Reservoir: mean = 180 m, std = 60 m}{section.3.4}% 27
+\BOOKMARK [2][-]{subsection.3.4.3}{Updating example III \(safe seal, but reservoir under average\) - Seal: mean = 70 m, std = 10 m - Reservoir: mean = 100 m, std = 40 m}{section.3.4}% 28
+\BOOKMARK [1][-]{section.3.5}{General case results}{chapter.3}% 29
+\BOOKMARK [0][-]{section.3.5}{Bibliography}{part.1}% 30
+\BOOKMARK [0][-]{appendix.A}{The back of the thesis}{part.1}% 31
+\BOOKMARK [1][-]{section.A.1}{An appendix section}{appendix.A}% 32
+\BOOKMARK [2][-]{subsection.A.1.1}{An appendix subsection with C++ Lisitng}{section.A.1}% 33
+\BOOKMARK [2][-]{subsection.A.1.2}{A Matlab \040Listing}{section.A.1}% 34
+\BOOKMARK [0][-]{appendix.B}{Yet another appendix}{part.1}% 35
+\BOOKMARK [1][-]{section.B.1}{Another test section}{appendix.B}% 36

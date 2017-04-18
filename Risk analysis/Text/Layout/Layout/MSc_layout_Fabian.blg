@@ -3,49 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: MSc_layout_Fabian.aux
 A level-1 auxiliary file: chapter1.aux
 A level-1 auxiliary file: chapter2_methods.aux
+A level-1 auxiliary file: chapter3_1Dcase.aux
 The style file: apalike.bst
-Database file #1: complete_biblio.bib
+Database file #1: complete_biblio.bib.bib
 Warning--I didn't find a database entry for "texbook"
 Warning--empty journal in davidson2015
-You've used 4 entries,
+You've used 6 entries,
             1935 wiz_defined-function locations,
-            497 strings with 4258 characters,
-and the built_in function-call counts, 1180 in all, are:
-= -- 107
-> -- 39
-< -- 3
-+ -- 12
-- -- 12
-* -- 84
-:= -- 225
-add.period$ -- 11
-call.type$ -- 4
-change.case$ -- 24
-chr.to.int$ -- 4
-cite$ -- 5
-duplicate$ -- 54
-empty$ -- 88
-format.name$ -- 16
-if$ -- 223
+            511 strings with 4696 characters,
+and the built_in function-call counts, 2031 in all, are:
+= -- 188
+> -- 85
+< -- 4
++ -- 28
+- -- 28
+* -- 165
+:= -- 377
+add.period$ -- 17
+call.type$ -- 6
+change.case$ -- 42
+chr.to.int$ -- 6
+cite$ -- 7
+duplicate$ -- 81
+empty$ -- 140
+format.name$ -- 36
+if$ -- 383
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 6
-newline$ -- 22
-num.names$ -- 12
-pop$ -- 28
+missing$ -- 8
+newline$ -- 32
+num.names$ -- 18
+pop$ -- 41
 preamble$ -- 1
-purify$ -- 26
+purify$ -- 44
 quote$ -- 0
-skip$ -- 43
+skip$ -- 65
 stack$ -- 0
-substring$ -- 48
-swap$ -- 3
+substring$ -- 100
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
+type$ -- 32
 warning$ -- 1
-while$ -- 8
+while$ -- 14
 width$ -- 0
-write$ -- 50
+write$ -- 76
 (There were 2 warnings)

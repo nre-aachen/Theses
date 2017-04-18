@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[Behnel et~al., 2010]{behnel2010}
+Behnel, S., Bradshaw, R., Citro, C., Dalcin, L., Seljebotn, D.~S., and K, S.
+  (2010).
+\newblock Cython: The best of both worlds.
+\newblock {\em Computing in Science & Engineering}, 13(2).
+
 \bibitem[Berger, 2013]{berger2013stat}
 Berger, J.~O. (2013).
 \newblock {\em Statistical decision theory and Bayesian analysis}.
@@ -10,13 +16,19 @@ Davidson-Pilon, C. (2015).
 \newblock Bayesian methods for hackers: Probabilistic programming and bayesian
   inference.
 
+\bibitem[de~la Varga and Wellmann, 2016]{delaVarga2016}
+de~la Varga, M. and Wellmann, J.~F. (2016).
+\newblock Structural geologic modeling as an inference problem: A bayesian
+  perspective.
+\newblock {\em Interpretation}, 4(3):SM1--SM16.
+
 \bibitem[Langtangen, 2008]{Langtangen2008}
 Langtangen, P.~H. (2008).
 \newblock {\em {Python scripting for computational science}}.
 \newblock Springer Verlag, New York.
 
 \bibitem[Salvatier et~al., 2016]{salvatier2016pymc3}
-Salvatier, J., Wiecki, T., and Fonnesbeck, C. (2016).
+Salvatier, J., Wiecki, T.~V., and Fonnesbeck, C. (2016).
 \newblock Probabilistic programming in python using pymc3.
 \newblock {\em PeerJ Computer Science}, 55(2).
 
