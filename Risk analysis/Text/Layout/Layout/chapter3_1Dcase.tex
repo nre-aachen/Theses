@@ -155,11 +155,11 @@ For simple understanding and working out the application of the methods, first, 
 	
 	\citet{delaVarga2016} made use of Bayesian inference to reduce the uncertainty in this type of one-dimensional model. The same is conducted here in the following.
 	
-	The probability distributions for the location of the layer boundaries are treated as priors. Now it is assumed that new observations have been made, providing additional information on the likelihoods of the thicknesses of the two layers. Likelihood functions for reservoir and seal thicknesses are introduced in the form of normal distributions, defined by means and standard deviations. These parameters vary according to nature of the observations made. Using the principle of Bayesian inference as explained in \ref{cha:met}, the model is updated and new posterior distributions for our true reservoir score are attained.
+	The probability distributions for the location of the layer boundaries are treated as priors. Now it is assumed that new observations have been made, providing additional information on the likelihoods of the thicknesses of the two layers. Likelihood functions for reservoir and seal thicknesses are introduced in the form of normal distributions, defined by means and standard deviations. These parameters vary according to nature of the observations made. Using the principle of Bayesian inference as explained in chapter \ref{cha:met}, the model is updated and new posterior distributions for our true reservoir score are attained.
 	
 	- VOI Quantification ???
 	
-	Different examples with different sets of likelihoods are conducted in the following, so that various possible results can be compared. Each take the layer boundaries defined in  \ref{sec:1D_construction} as priors and use Bayesian inference with data defined below for each example.
+	Different examples with different sets of likelihoods are conducted in the following, so that various possible results can be compared. Each take the layer boundaries defined in section \ref{sec:1D_construction} about model construction as priors and use Bayesian inference with data defined below for each example.
 	
 	\subsection{Updating example I (moderate reinforcement)- Seal: mean = 25~m, std = 20~m - Reservoir: mean = 180~m, std = 60~m}
 	
@@ -187,27 +187,27 @@ For simple understanding and working out the application of the methods, first, 
 	
 	The customized loss function (IV) is now applied on this updated distribution of the reservoir score. This is visualized in Figure \ref{fig:update_moderate3} in which the expected losses are compared before (B1 )and after (B2) uncertainty reduction. It is observable, that by adding information about layer thickness likelihoods, Bayes actions are shifted relative to the nature of the information. In this case, the added data generally reinforces the likelihoods of the reservoir to be significantly thick. Information on the seal, however, based on a normal distribution around 25~m thickness, leaves uncertainty about the reliability of the seal, as the safety threshold is defined as 20~m. 
 	
-	\begin{table}
-		\centering
-		\begin{tabular}[c]{| l | l | l |}
-			\hline
-			Risk factor \textit{r} & Shift in Bayes action & Change in expected loss \\ \hline
-			0.50 & +~553.67 & -~105.49 \\ 
-			0.75 & +~673.40 & -~81.67  \\ 
-			1.00 & +~750.05 & -~33.56 \\ 
-			1.25 & +~713.19 & +~75.71 \\ 
-			1.50 & +~0.00 & +~282.64  \\ 
-			\hline
-		\end{tabular}
-		\caption{Bla}
-		\label{tab:update_moderate_tab}
-	\end{table}
+	%\begin{table}
+	%	\centering
+	%	\begin{tabular}[c]{| l | l | l |}
+	%		\hline
+	%		Risk factor \textit{r} & Shift in Bayes action & Change in expected loss \\ \hline
+	%		0.50 & +~553.67 & -~105.49 \\ 
+	%		0.75 & +~673.40 & -~81.67  \\ 
+	%		1.00 & +~750.05 & -~33.56 \\ 
+	%		1.25 & +~713.19 & +~75.71 \\ 
+	%		1.50 & +~0.00 & +~282.64  \\ 
+	%		\hline
+	%	\end{tabular}
+	%	\caption{Bla}
+	%	\label{tab:update_moderate_tab}
+	%\end{table}
 	
-	Increased certainty about the reservoir thickness is sufficient to shift Bayes actions to higher estimates for all actors, but the most risk-averse one. These shifts are quantified in Table \ref{tab:update_moderate_tab}. According to these numbers, the risk-neutral actor's estimate is increased the most. Expected losses decreased for the risk-neutral and the two risk-friendlier individuals. It is clear that the expected loss was reduced the most for the risk-friendliest actor and it increased most significantly for the most risk-averse actor.
+	Increased certainty about the reservoir thickness is sufficient to shift Bayes actions to higher estimates for all actors, but the most risk-averse one. These shifts are quantified in Table \ref{tab:update_examples_all}. According to these numbers, the risk-neutral actor's estimate is increased the most. Expected losses decreased for the risk-neutral and the two risk-friendlier individuals. It is clear that the expected loss was reduced the most for the risk-friendliest actor and it increased most significantly for the most risk-averse actor.
 	
 	\subsection{Updating example II (reliable seal) - Seal: mean = 50 m, std = 20 m - Reservoir: mean = 180 m, std = 60 m}
 	
-	In this second case, the reservoir thickness likelihood is defined in the same way as before. For the seal, a mean of 50~m with a standard deviation of 20~m is chosen, favoring the likelihood of a reliable seal relative to the threshold of 20~m thickness. This results in the score distribution depicted in \ref{fig:update_goodseal2}. The bulk of the distribution is narrowed on the positive side of estimates. Mean and median are clearly shifted to higher values as well. The "seal failure" peak at -~2000 is significantly. decreased.
+	In this second case, the reservoir thickness likelihood is defined in the same way as before. For the seal, a mean of 50~m with a standard deviation of 20~m is chosen, favoring the likelihood of a reliable seal relative to the threshold of 20~m thickness. This results in the score distribution depicted in Figure \ref{fig:update_goodseal2}. The bulk of the distribution is narrowed on the positive side of estimates. Mean and median are clearly shifted to higher values as well. The "seal failure" peak at -~2000 is significantly. decreased.
 	
 	\begin{figure}[h]
 		\centering
@@ -215,7 +215,7 @@ For simple understanding and working out the application of the methods, first, 
 		\caption{...}\label{fig:update_goodseal2} 
 	\end{figure}
 	
-	Applying the loss function on this new score distribution results in the realizations of expected loss illustrated in \ref{fig:update_goodseal3}. Bayes actions are shifted clearly to higher estimates and expected losses of these minima are significantly reduced for all actors. This is quantified in \ref{tab:update_goodseal_tab}. According to these values, the risk-neutral to risk-averse individuals seem to profit the most.
+	Applying the loss function on this new score distribution results in the realizations of expected loss illustrated in Figure \ref{fig:update_goodseal3}. Bayes actions are shifted clearly to higher estimates and expected losses of these minima are significantly reduced for all actors. This is quantified in Table \ref{tab:update_examples_all}. According to these values, the risk-neutral to risk-averse individuals seem to profit the most.
 	
 	\begin{figure}[h]
 		\centering
@@ -223,31 +223,31 @@ For simple understanding and working out the application of the methods, first, 
 		\caption{...}\label{fig:update_goodseal3} 
 	\end{figure}
 	
-	\begin{table}
-		\centering
-		\begin{tabular}[c]{| l | l | l |}
-			\hline
-			Risk factor \textit{r} & Shift in Bayes action & Change in expected loss \\ \hline
-			0.50 & +~522.95 & -~436.26 \\ 
-			0.75 & +~697.73 & -~551.92  \\ 
-			1.00 & +~855.57 & -~631.92 \\ 
-			1.25 & +~912.43 & -~647.10 \\ 
-			1.50 & +~819.26 & -~545.96  \\ 
-			\hline
-		\end{tabular}
-		\caption{Bla}
-		\label{tab:update_goodseal_tab}
-	\end{table}
+	%\begin{table}
+	%	\centering
+	%	\begin{tabular}[c]{| l | l | l |}
+	%		\hline
+	%		Risk factor \textit{r} & Shift in Bayes action & Change in expected loss \\ \hline
+	%		0.50 & +~522.95 & -~436.26 \\ 
+	%		0.75 & +~697.73 & -~551.92  \\ 
+	%		1.00 & +~855.57 & -~631.92 \\ 
+	%		1.25 & +~912.43 & -~647.10 \\ 
+	%		1.50 & +~819.26 & -~545.96  \\ 
+	%		\hline
+	%	\end{tabular}
+	%	\caption{Bla}
+	%	\label{tab:update_goodseal_tab}
+	%\end{table}
 	
 	\subsection{Updating example III (safe seal, but reservoir under average) - Seal: mean = 70 m, std = 10 m - Reservoir: mean = 100 m, std = 40 m}
 	
 	In this third example, seal safety is ensured by using a mean of 70~m with a standard deviation of 10~m for the seal thickness likelihood. However, the new observations are assumed to provide information about the reservoir that makes it likely to be thinner as expected. Reservoir thickness likelihood is assigned a mean of 100~m and a standard deviation of 10~m. 
 	
-	The subsequent score distribution is depicted in \ref{fig:update_smallres2}. It can be seen that while the whole distribution is narrowed, it also is shifted to the left, to lower and negative estimates. Mean and median are almost the same. As seal reliability is practically guaranteed, the peak at -~2000~m vanishes. 
+	The subsequent score distribution is depicted in Figure \ref{fig:update_smallres2}. It can be seen that while the whole distribution is narrowed, it also is shifted to the left, to lower and negative estimates. Mean and median are almost the same. As seal reliability is practically guaranteed, the peak at -~2000~m vanishes. 
 	
-	Based on this probability distribution of the reservoir score, Bayes actions are shifted to lower estimates for all actors (\ref{fig:update_smallres3}). In fact, also but the most risk-friendly individual (\textit{r} = 0.5) find their Bayesian estimator to be zero now, i.e. project development is deemed to be too risky to them. Furthermore, the spread of expected loss values around the minima for all actors is diminished (the expected loss values of the Bayes actions are now much closer to each other).
+	Based on this probability distribution of the reservoir score, Bayes actions are shifted to lower estimates for all actors (see Figure \ref{fig:update_smallres3}). In fact, also but the most risk-friendly individual (\textit{r} = 0.5) find their Bayesian estimator to be zero now, i.e. project development is deemed to be too risky to them. Furthermore, the spread of expected loss values around the minima for all actors is diminished (the expected loss values of the Bayes actions are now much closer to each other).
 	
-	Quantified changes in the position and the values of the Bayes actions are comparable to the results in example II (there is no shift for risk-averse actors, as they already found their best estimates to be zero). Most notable is the large reduction of expected loss in general (see \ref{tab:update_smallres_tab}).	
+	Quantified changes in the position and the values of the Bayes actions are comparable to the results in example II (there is no shift for risk-averse actors, as they already found their best estimates to be zero). Most notable is the large reduction of expected loss in general (see Table \ref{tab:update_examples_all}).	
 	
 	\begin{figure}[h]
 			\centering
@@ -261,20 +261,40 @@ For simple understanding and working out the application of the methods, first, 
 				\caption{...}\label{fig:update_smallres3} 
 	\end{figure}
 			
+	%\begin{table}
+	%	\centering
+	%	\begin{tabular}[c]{| l | l | l |}
+	%		\hline
+	%		Risk factor \textit{r} & Shift in Bayes action & Change in expected loss \\ \hline
+	%		0.50 & -~498.98 & -~538.08 \\ 
+	%		0.75 & -~346.16 & -~717.83  \\ 
+	%		1.00 & -~176.13 & -~872.02 \\ 
+	%		1.25 & -~0.00 & -~946.04 \\ 
+	%		1.50 & -~0.00 & -~951.57  \\ 
+	%		\hline
+	%	\end{tabular}
+	%	\caption{Bla}
+	%	\label{tab:update_smallres_tab}
+	%\end{table}
+	
 	\begin{table}
 		\centering
-		\begin{tabular}[c]{| l | l | l |}
+		\begin{tabular}[c]{| c || l | l || l | l || l | l |}
 			\hline
-			Risk factor \textit{r} & Shift in Bayes action & Change in expected loss \\ \hline
-			0.50 & -~498.98 & -~538.08 \\ 
-			0.75 & -~346.16 & -~717.83  \\ 
-			1.00 & -~176.13 & -~872.02 \\ 
-			1.25 & -~0.00 & -~946.04 \\ 
-			1.50 & -~0.00 & -~951.57  \\ 
+			& Example I & & Example II & & Example III & \\
+			\hline
+			\hline
+			\textit{r} & $\delta$ BA & $\delta$ EL & $\delta$ BA & $\delta$ EL & $\delta$ BA & $\delta$ EL\\ 
+			\hline
+			0.50 & +~553.67 & -~105.49 & +~522.95 & -~436.26 & -~498.98 & -~538.08 \\ 
+			0.75 & +~673.40 & -~81.67 & +~697.73 & -~551.92 & -~346.16 & -~717.83  \\ 
+			1.00 & +~750.05 & -~33.56 & +~855.57 & -~631.92 & -~176.13 & -~872.02 \\ 
+			1.25 & +~713.19 & +~75.71 & +~912.43 & -~647.10 & -~0.00 & -~946.04 \\ 
+			1.50 & +~0.00 & +~282.64 & +~819.26 & -~545.96 & -~0.00 & -~951.57  \\ 
 			\hline
 		\end{tabular}
 		\caption{Bla}
-		\label{tab:update_smallres_tab}
+		\label{tab:update_examples_all}
 	\end{table}
 		
 	\section{General case results}
