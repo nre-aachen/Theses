@@ -8,12 +8,9 @@
 \contentsline {figure}{\numberline {3-5}{\ignorespaces The single steps of customizing the loss function are depicted in plots I - IV.\relax }}{16}{figure.caption.13}
 \contentsline {figure}{\numberline {3-6}{\ignorespaces Loss based on the customized loss function (IV) for determined true scores of -750, 0 and 750.\relax }}{17}{figure.caption.14}
 \contentsline {figure}{\numberline {3-7}{\ignorespaces Plotting of expected loss realizations after including the risk factor r in the loss function (IV) for actors with risk-affinities ranging from risk-averse (r = 0.5 and 0.75), over risk-neutral (r = 1), to risk-friendly (r = 1.25 and r = 1.5).\relax }}{19}{figure.caption.15}
-\contentsline {figure}{\numberline {3-8}{\ignorespaces ...\relax }}{20}{figure.caption.16}
-\contentsline {figure}{\numberline {3-9}{\ignorespaces ...\relax }}{21}{figure.caption.17}
-\contentsline {figure}{\numberline {3-10}{\ignorespaces ...\relax }}{21}{figure.caption.18}
-\contentsline {figure}{\numberline {3-11}{\ignorespaces ...\relax }}{22}{figure.caption.19}
-\contentsline {figure}{\numberline {3-12}{\ignorespaces ...\relax }}{22}{figure.caption.20}
-\contentsline {figure}{\numberline {3-13}{\ignorespaces ...\relax }}{23}{figure.caption.21}
-\contentsline {figure}{\numberline {3-14}{\ignorespaces ...\relax }}{23}{figure.caption.22}
+\contentsline {figure}{\numberline {3-8}{\ignorespaces Prior (A1) and posterior distributions (A2) of the layer boundary positions in depth and respective representations (A2, B2).\relax }}{20}{figure.caption.16}
+\contentsline {figure}{\numberline {3-9}{\ignorespaces Reservoir score distributions (A) and change in the realizations of expected loss for several risk parameters (B1, B2) before and after Bayesian updating based on likelihoods defined as follows: Seal thickness mean = 25\nobreakspace {}m, std = 20\nobreakspace {}m. Reservoir thickness mean = 180\nobreakspace {}m, std = 60\nobreakspace {}m.\relax }}{21}{figure.caption.17}
+\contentsline {figure}{\numberline {3-10}{\ignorespaces Reservoir score distributions (A) and change in the realizations of expected loss for several risk parameters (B1, B2) before and after Bayesian updating based on likelihoods defined as follows: Seal thickness mean = 50\nobreakspace {}m, std = 20\nobreakspace {}m. Reservoir thickness mean = 180\nobreakspace {}m, std = 60\nobreakspace {}m.\relax }}{22}{figure.caption.18}
+\contentsline {figure}{\numberline {3-11}{\ignorespaces Reservoir score distributions (A) and change in the realizations of expected loss for several risk parameters (B1, B2) before and after Bayesian updating based on likelihoods defined as follows: Seal thickness mean = 70\nobreakspace {}m, std = 10\nobreakspace {}m. Reservoir thickness mean = 100\nobreakspace {}m, std = 40\nobreakspace {}m.\relax }}{23}{figure.caption.19}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

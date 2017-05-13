@@ -23,9 +23,9 @@
 \BOOKMARK [2][-]{subsection.3.3.2}{Adaptions for loss function customization}{section.3.3}% 23
 \BOOKMARK [2][-]{subsection.3.3.3}{Including different risk-affinities in the loss function}{section.3.3}% 24
 \BOOKMARK [1][-]{section.3.4}{Updating the model with additional information in the form of thickness likelihoods}{chapter.3}% 25
-\BOOKMARK [2][-]{subsection.3.4.1}{Updating example I \(moderate reinforcement\)- Seal: mean = 25 m, std = 20 m - Reservoir: mean = 180 m, std = 60 m}{section.3.4}% 26
-\BOOKMARK [2][-]{subsection.3.4.2}{Updating example II \(reliable seal\) - Seal: mean = 50 m, std = 20 m - Reservoir: mean = 180 m, std = 60 m}{section.3.4}% 27
-\BOOKMARK [2][-]{subsection.3.4.3}{Updating example III \(safe seal, but reservoir under average\) - Seal: mean = 70 m, std = 10 m - Reservoir: mean = 100 m, std = 40 m}{section.3.4}% 28
+\BOOKMARK [2][-]{subsection.3.4.1}{Updating example I: Moderately reinforcing information}{section.3.4}% 26
+\BOOKMARK [2][-]{subsection.3.4.2}{Updating example II: Likely reliable seal}{section.3.4}% 27
+\BOOKMARK [2][-]{subsection.3.4.3}{Updating example III: Safe seal but likely subpar reservoir thickness}{section.3.4}% 28
 \BOOKMARK [1][-]{section.3.5}{General case results}{chapter.3}% 29
 \BOOKMARK [0][-]{section.3.5}{Bibliography}{part.1}% 30
 \BOOKMARK [0][-]{appendix.A}{The back of the thesis}{part.1}% 31

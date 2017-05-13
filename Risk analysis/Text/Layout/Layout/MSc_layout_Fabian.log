@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.12)  24 APR 2017 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.12)  25 APR 2017 17:22
 entering extended mode
 **MSc_layout_Fabian.tex
 (MSc_layout_Fabian.tex
@@ -466,6 +466,10 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip84
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count137
+) (E:\TeX\tex\latex\caption\subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count138
+\c@subtable=\count139
 )
 \@glossaryfile=\write6
 
@@ -474,32 +478,32 @@ Writing glossary file MSc_layout_Fabian.glo
 Writing index file MSc_layout_Fabian.idx
 (MSc_layout_Fabian.aux (chapter1.aux) (chapter2_methods.aux)
 (chapter3_1Dcase.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
  (E:\TeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count138
+\scratchcounter=\count140
 \scratchdimen=\dimen148
 \scratchbox=\box33
-\nofMPsegments=\count139
-\nofMParguments=\count140
+\nofMPsegments=\count141
+\nofMParguments=\count142
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count141
+\MPscratchCnt=\count143
 \MPscratchDim=\dimen149
-\MPnumerator=\count142
-\makeMPintoPDFobject=\count143
+\MPnumerator=\count144
+\makeMPintoPDFobject=\count145
 \everyMPtoPDFconversion=\toks44
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -530,9 +534,9 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \RaggedRightParindent=\skip97
 \JustifyingParindent=\skip98
 )
-\c@lstlisting=\count144
+\c@lstlisting=\count146
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 30.
+Package hyperref Info: Link coloring ON on input line 31.
 
 (E:\TeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -540,11 +544,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (E:\TeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count145
+\c@section@level=\count147
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
  (MSc_layout_Fabian.out)
 (MSc_layout_Fabian.out)
 \@outlinefile=\write8
@@ -553,7 +557,7 @@ LaTeX Info: Redefining \nameref on input line 30.
 File: IDEA_League_Logo.png Graphic file (type png)
 
 <use IDEA_League_Logo.png>
-Package pdftex.def Info: IDEA_League_Logo.png used on input line 39.
+Package pdftex.def Info: IDEA_League_Logo.png used on input line 40.
 (pdftex.def)             Requested size: 227.62204pt x 40.63281pt.
  [1
 Non-PDF special ignored!
@@ -564,11 +568,11 @@ Non-PDF special ignored!
 [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
  (E:\TeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
 (E:\TeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -576,7 +580,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 	\nonumchap
+l.40 	\nonumchap
                 {Abstract} [1]
 
 ! LaTeX Error: File `StyleStuff/tud' not found.
@@ -585,61 +589,61 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 	\nonumchap
+l.40 	\nonumchap
                 {Abstract}
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
 (E:\TeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 	\nonumchap
+l.40 	\nonumchap
                 {Abstract} [2]
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 
  []
 
@@ -670,7 +674,12 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
 
 ] [12
 
-] (MSc_layout_Fabian.lot)
+] (MSc_layout_Fabian.lot
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 4.
+
+)
 \tf@lot=\write11
  [13
 
@@ -732,7 +741,7 @@ Package natbib Warning: Citation `pberger2013stat' on page 5 undefined on input
 
 ]
 Chapter 3.
-<Figures/1D_model.png, id=485, 903.375pt x 385.44pt>
+<Figures/1D_model.png, id=488, 903.375pt x 385.44pt>
 File: Figures/1D_model.png Graphic file (type png)
 
 <use Figures/1D_model.png>
@@ -746,42 +755,42 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 2961) has occurred while \output is active []
 
  [11]
-<Figures/3_parameters.png, id=492, 1012.78375pt x 276.03125pt>
+<Figures/3_parameters.png, id=495, 1012.78375pt x 276.03125pt>
 File: Figures/3_parameters.png Graphic file (type png)
 
 <use Figures/3_parameters.png>
 Package pdftex.def Info: Figures/3_parameters.png used on input line 21.
 (pdftex.def)             Requested size: 442.65375pt x 120.64122pt.
  [12 <./Figures/1D_model.png> <./Figures/3_parameters.png>] <Figures/score_resu
-lts1.png, id=501, 1029.8475pt x 385.44pt>
+lts1.png, id=504, 1029.8475pt x 385.44pt>
 File: Figures/score_results1.png Graphic file (type png)
 
 <use Figures/score_results1.png>
 Package pdftex.def Info: Figures/score_results1.png used on input line 35.
 (pdftex.def)             Requested size: 442.65375pt x 165.67126pt.
  [13 <./Figures/score_results1.png>]
-<Figures/abs_sqr_LF.png, id=510, 909.3975pt x 385.44pt>
+<Figures/abs_sqr_LF.png, id=513, 909.3975pt x 385.44pt>
 File: Figures/abs_sqr_LF.png Graphic file (type png)
 
 <use Figures/abs_sqr_LF.png>
 Package pdftex.def Info: Figures/abs_sqr_LF.png used on input line 50.
 (pdftex.def)             Requested size: 442.65375pt x 187.61452pt.
  [14 <./Figures/abs_sqr_LF.png>] [15]
-<Figures/LF_4steps.png, id=530, 965.6075pt x 604.2575pt>
+<Figures/LF_4steps.png, id=533, 965.6075pt x 604.2575pt>
 File: Figures/LF_4steps.png Graphic file (type png)
 
 <use Figures/LF_4steps.png>
 Package pdftex.def Info: Figures/LF_4steps.png used on input line 106.
 (pdftex.def)             Requested size: 442.65375pt x 277.00291pt.
  [16 <./Figures/LF_4steps.png>]
-<Figures/LF4_det_values.png, id=540, 909.3975pt x 385.44pt>
+<Figures/LF4_det_values.png, id=543, 909.3975pt x 385.44pt>
 File: Figures/LF4_det_values.png Graphic file (type png)
 
 <use Figures/LF4_det_values.png>
 Package pdftex.def Info: Figures/LF4_det_values.png used on input line 114.
 (pdftex.def)             Requested size: 442.65375pt x 187.61452pt.
  [17 <./Figures/LF4_det_values.png>]
-<Figures/LFR.png, id=550, 915.42pt x 385.44pt>
+<Figures/LFR.png, id=553, 915.42pt x 385.44pt>
 File: Figures/LFR.png Graphic file (type png)
  <use Figures/LFR.png>
 Package pdftex.def Info: Figures/LFR.png used on input line 150.
@@ -790,7 +799,7 @@ Package pdftex.def Info: Figures/LFR.png used on input line 150.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18] <Figures/update_moderate1.png, id=561, 903.375pt x 604.2575pt>
+[18] <Figures/update_moderate1.png, id=564, 903.375pt x 604.2575pt>
 File: Figures/update_moderate1.png Graphic file (type png)
 
 <use Figures/update_moderate1.png>
@@ -800,67 +809,67 @@ Package pdftex.def Info: Figures/update_moderate1.png used on input line 168.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/update_moderate2.png, id=564, 962.59625pt x 385.44pt>
+<Figures/update_moderate2.png, id=567, 962.59625pt x 385.44pt>
 File: Figures/update_moderate2.png Graphic file (type png)
 
 <use Figures/update_moderate2.png>
-Package pdftex.def Info: Figures/update_moderate2.png used on input line 178.
+Package pdftex.def Info: Figures/update_moderate2.png used on input line 179.
 (pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/update_moderate3.png, id=565, 970.62625pt x 385.44pt>
+<Figures/update_moderate3.png, id=568, 970.62625pt x 385.44pt>
 File: Figures/update_moderate3.png Graphic file (type png)
 
 <use Figures/update_moderate3.png>
-Package pdftex.def Info: Figures/update_moderate3.png used on input line 184.
+Package pdftex.def Info: Figures/update_moderate3.png used on input line 186.
 (pdftex.def)             Requested size: 442.65375pt x 175.78128pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [19 <./Figures/LFR.png>] [20 <./Figures/update_moderate1.png>]
-<Figures/update_goodseal2.png, id=580, 962.59625pt x 385.44pt>
+<Figures/update_goodseal2.png, id=585, 962.59625pt x 385.44pt>
 File: Figures/update_goodseal2.png Graphic file (type png)
 
 <use Figures/update_goodseal2.png>
-Package pdftex.def Info: Figures/update_goodseal2.png used on input line 214.
+Package pdftex.def Info: Figures/update_goodseal2.png used on input line 222.
 (pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/update_goodseal3.png, id=583, 970.62625pt x 385.44pt>
+<Figures/update_goodseal3.png, id=586, 970.62625pt x 385.44pt>
 File: Figures/update_goodseal3.png Graphic file (type png)
 
 <use Figures/update_goodseal3.png>
-Package pdftex.def Info: Figures/update_goodseal3.png used on input line 222.
+Package pdftex.def Info: Figures/update_goodseal3.png used on input line 229.
+(pdftex.def)             Requested size: 442.65375pt x 175.78128pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21 <./Figures/update_moderate2.png> <./Figures/update_moderate3.png>]
+<Figures/update_smallres2.png, id=596, 962.59625pt x 385.44pt>
+File: Figures/update_smallres2.png Graphic file (type png)
+
+<use Figures/update_smallres2.png>
+Package pdftex.def Info: Figures/update_smallres2.png used on input line 266.
+(pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
+
+<Figures/update_smallres3.png, id=597, 970.62625pt x 385.44pt>
+File: Figures/update_smallres3.png Graphic file (type png)
+
+<use Figures/update_smallres3.png>
+Package pdftex.def Info: Figures/update_smallres3.png used on input line 273.
 (pdftex.def)             Requested size: 442.65375pt x 175.78128pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 313.
 
- [21 <./Figures/update_moderate2.png> <./Figures/update_moderate3.png>] [22 <./
-Figures/update_goodseal2.png> <./Figures/update_goodseal3.png>]
-<Figures/update_smallres2.png, id=599, 962.59625pt x 385.44pt>
-File: Figures/update_smallres2.png Graphic file (type png)
 
-<use Figures/update_smallres2.png>
-Package pdftex.def Info: Figures/update_smallres2.png used on input line 254.
-(pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
-
-<Figures/update_smallres3.png, id=600, 970.62625pt x 385.44pt>
-File: Figures/update_smallres3.png Graphic file (type png)
-
-<use Figures/update_smallres3.png>
-Package pdftex.def Info: Figures/update_smallres3.png used on input line 260.
-(pdftex.def)             Requested size: 442.65375pt x 175.78128pt.
-) [23 <./Figures/update_smallres2.png> <./Figures/update_smallres3.png>] [24] (
-MSc_layout_Fabian.bbl
+[22 <./Figures/update_goodseal2.png> <./Figures/update_goodseal3.png>] [23 <./F
+igures/update_smallres2.png> <./Figures/update_smallres3.png>]) [24]
+(MSc_layout_Fabian.bbl
 ! Misplaced alignment tab character &.
 l.7 \newblock {\em Computing in Science &
                                           Engineering}, 13(2).
@@ -896,15 +905,15 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <6> not available
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/sc' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 109.
+(Font)              using `OT1/cmss/bx/n' instead on input line 110.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 109.
+(hyperref)                removing `math shift' on input line 110.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 109.
+(hyperref)                removing `math shift' on input line 110.
 
 (test.m) [27
 
@@ -921,26 +930,26 @@ No file MSc_layout_Fabian.ind.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
 (MSc_layout_Fabian.aux (chapter1.aux) (chapter2_methods.aux)
 (chapter3_1Dcase.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
 Package rerunfilecheck Info: File `MSc_layout_Fabian.out' has not changed.
-(rerunfilecheck)             Checksum: 539D33983F056540D5F6833AC2D5B290;2986.
+(rerunfilecheck)             Checksum: E2679B0112E1CF73D3A6A204F3BAAB9B;2796.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 11412 strings out of 493698
- 160697 string characters out of 3152898
- 292527 words of memory out of 3000000
- 14311 multiletter control sequences out of 15000+200000
- 18692 words of font info for 68 fonts, out of 3000000 for 9000
+ 11459 strings out of 493698
+ 161408 string characters out of 3152898
+ 296143 words of memory out of 3000000
+ 14358 multiletter control sequences out of 15000+200000
+ 19404 words of font info for 70 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  43i,12n,58p,1481b,1486s stack positions out of 5000i,500n,10000p,200000b,50000s
 <E:/TeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/TeX/fonts/type1/public/
@@ -952,13 +961,14 @@ pfb><E:/TeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><E:/TeX/fonts/type1/public
 /amsfonts/cm/cmr6.pfb><E:/TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><E:/TeX/f
 onts/type1/public/amsfonts/cm/cmss10.pfb><E:/TeX/fonts/type1/public/amsfonts/cm
 /cmss8.pfb><E:/TeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><E:/TeX/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><E:/TeX/fonts/type1/public/amsfonts/cm/cmsy6.
-pfb><E:/TeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><E:/TeX/fonts/type1/public
-/amsfonts/cm/cmti10.pfb><E:/TeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><E:/Te
-X/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on MSc_layout_Fabian.pdf (48 pages, 1005313 bytes).
+pe1/public/amsfonts/cm/cmssi10.pfb><E:/TeX/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb><E:/TeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><E:/TeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb><E:/TeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><E:/
+TeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><E:/TeX/fonts/type1/public/amsfont
+s/symbols/msbm10.pfb>
+Output written on MSc_layout_Fabian.pdf (48 pages, 1014597 bytes).
 PDF statistics:
- 755 PDF objects out of 1000 (max. 8388607)
- 144 named destinations out of 1000 (max. 500000)
+ 761 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
  364 words of extra memory for PDF output out of 10000 (max. 10000000)
 

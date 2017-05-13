@@ -23,9 +23,9 @@
 \contentsline {subsection}{\numberline {3-3-2}Adaptions for loss function customization}{14}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3-3-3}Including different risk-affinities in the loss function}{17}{subsection.3.3.3}
 \contentsline {section}{\numberline {3-4}Updating the model with additional information in the form of thickness likelihoods}{18}{section.3.4}
-\contentsline {subsection}{\numberline {3-4-1}Updating example I (moderate reinforcement)- Seal: mean = 25\nobreakspace {}m, std = 20\nobreakspace {}m - Reservoir: mean = 180\nobreakspace {}m, std = 60\nobreakspace {}m}{19}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3-4-2}Updating example II (reliable seal) - Seal: mean = 50 m, std = 20 m - Reservoir: mean = 180 m, std = 60 m}{20}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3-4-3}Updating example III (safe seal, but reservoir under average) - Seal: mean = 70 m, std = 10 m - Reservoir: mean = 100 m, std = 40 m}{22}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3-4-1}Updating example I: Moderately reinforcing information}{19}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3-4-2}Updating example II: Likely reliable seal}{20}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3-4-3}Updating example III: Safe seal but likely subpar reservoir thickness}{21}{subsection.3.4.3}
 \contentsline {section}{\numberline {3-5}General case results}{23}{section.3.5}
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{25}{section.3.5}
 \contentsline {chapter}{\numberline {A}The back of the thesis}{27}{appendix.A}

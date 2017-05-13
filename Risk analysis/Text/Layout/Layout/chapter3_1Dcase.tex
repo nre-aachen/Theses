@@ -161,32 +161,37 @@ For simple understanding and working out the application of the methods, first, 
 	
 	Different examples with different sets of likelihoods are conducted in the following, so that various possible results can be compared. Each take the layer boundaries defined in section \ref{sec:1D_construction} about model construction as priors and use Bayesian inference with data defined below for each example.
 	
-	\subsection{Updating example I (moderate reinforcement)- Seal: mean = 25~m, std = 20~m - Reservoir: mean = 180~m, std = 60~m}
+	\subsection{Updating example I: Moderately reinforcing information}
 	
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width=1\textwidth]{Figures/update_moderate1.png}
-		\caption{...}\label{fig:update_moderate1} 
+		\caption{Prior (A1) and posterior distributions (A2) of the layer boundary positions in depth and respective representations (A2, B2).}\label{fig:update_moderate1} 
 	\end{figure}
 	
 	In this first case, a normal distribution with a mean of 25~m and a standard deviation of 20~m is chosen to reflect the likelihood of the seal thickness. For the reservoir, a normal distribution with a mean of 180~m and a standard deviation of 60~m is chosen. Using these likelihoods to update the one-dimensional model, the uncertainty in the posterior probability distributions for the positions of layer boundaries in depth is reduced (see Figure \ref{fig:update_moderate1}).
 		
-	Modeling the reservoir score is conducted as above, now based on these new distributions. In Figure \ref{fig:update_moderate2} it can be recognized that the bulk of the distribution was shifted to the positive side of scores, while the peak at -~2000 was raised. The probability of scores between -~2000 and 0 decreased significantly, i.e. the true score is most likely either positive or -~2000 if it is negative.
+	Modeling the reservoir score is conducted as above, now based on these new distributions. In Figure \ref{fig:update_moderate2_3} A it can be recognized that the bulk of the distribution was shifted to the positive side of scores, while the peak at -~2000 was raised. The probability of scores between -~2000 and 0 decreased significantly, i.e. the true score is most likely either positive or -~2000 if it is negative.	
 	
 	\begin{figure}[h]
-		\centering
-		\includegraphics[width=1\textwidth]{Figures/update_moderate2.png}
-		\caption{...}\label{fig:update_moderate2} 
+		\begin{subfigure}{1\textwidth}
+			\centering
+			\includegraphics[width=1\linewidth]{Figures/update_moderate2.png}
+			%\caption{1a}
+			%\label{fig:sfig1}
+		\end{subfigure}%
+		\\
+		\begin{subfigure}{1\textwidth}
+			\centering
+			\includegraphics[width=1\linewidth]{Figures/update_moderate3.png}
+			%\caption{1b}
+			%\label{fig:sfig2}
+		\end{subfigure}
+		\caption{Reservoir score distributions (A) and change in the realizations of expected loss for several risk parameters (B1, B2) before and after Bayesian updating based on likelihoods defined as follows: Seal thickness mean = 25~m, std = 20~m. Reservoir thickness mean = 180~m, std = 60~m.}
+		\label{fig:update_moderate2_3}
 	\end{figure}
 	
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=1\textwidth]{Figures/update_moderate3.png}
-		\caption{...}\label{fig:update_moderate3} 
-	\end{figure}
-	
-	The customized loss function (IV) is now applied on this updated distribution of the reservoir score. This is visualized in Figure \ref{fig:update_moderate3} in which the expected losses are compared before (B1 )and after (B2) uncertainty reduction. It is observable, that by adding information about layer thickness likelihoods, Bayes actions are shifted relative to the nature of the information. In this case, the added data generally reinforces the likelihoods of the reservoir to be significantly thick. Information on the seal, however, based on a normal distribution around 25~m thickness, leaves uncertainty about the reliability of the seal, as the safety threshold is defined as 20~m. 
-	
+	The customized loss function (IV) is now applied on this updated distribution of the reservoir score. This is visualized in Figure \ref{fig:update_moderate2_3} in which the expected losses are compared before (B1) and after (B2) uncertainty reduction. It is observable, that by adding information about layer thickness likelihoods, Bayes actions are shifted relative to the nature of the information. In this case, the added data generally reinforces the likelihoods of the reservoir to be significantly thick. Information on the seal, however, based on a normal distribution around 25~m thickness, leaves uncertainty about the reliability of the seal, as the safety threshold is defined as 20~m. 
 	%\begin{table}
 	%	\centering
 	%	\begin{tabular}[c]{| l | l | l |}
@@ -205,22 +210,28 @@ For simple understanding and working out the application of the methods, first, 
 	
 	Increased certainty about the reservoir thickness is sufficient to shift Bayes actions to higher estimates for all actors, but the most risk-averse one. These shifts are quantified in Table \ref{tab:update_examples_all}. According to these numbers, the risk-neutral actor's estimate is increased the most. Expected losses decreased for the risk-neutral and the two risk-friendlier individuals. It is clear that the expected loss was reduced the most for the risk-friendliest actor and it increased most significantly for the most risk-averse actor.
 	
-	\subsection{Updating example II (reliable seal) - Seal: mean = 50 m, std = 20 m - Reservoir: mean = 180 m, std = 60 m}
+	\subsection{Updating example II: Likely reliable seal}
 	
-	In this second case, the reservoir thickness likelihood is defined in the same way as before. For the seal, a mean of 50~m with a standard deviation of 20~m is chosen, favoring the likelihood of a reliable seal relative to the threshold of 20~m thickness. This results in the score distribution depicted in Figure \ref{fig:update_goodseal2}. The bulk of the distribution is narrowed on the positive side of estimates. Mean and median are clearly shifted to higher values as well. The "seal failure" peak at -~2000 is significantly. decreased.
+	In this second case, the reservoir thickness likelihood is defined in the same way as before. For the seal, a mean of 50~m with a standard deviation of 20~m is chosen, favoring the likelihood of a reliable seal relative to the threshold of 20~m thickness. This results in the score distribution depicted in Figure \ref{fig:update_goodseal2_3}. The bulk of the distribution is narrowed on the positive side of estimates. Mean and median are clearly shifted to higher values as well. The "seal failure" peak at -~2000 is significantly. decreased.
 	
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=1\textwidth]{Figures/update_goodseal2.png}
-		\caption{...}\label{fig:update_goodseal2} 
-	\end{figure}
-	
-	Applying the loss function on this new score distribution results in the realizations of expected loss illustrated in Figure \ref{fig:update_goodseal3}. Bayes actions are shifted clearly to higher estimates and expected losses of these minima are significantly reduced for all actors. This is quantified in Table \ref{tab:update_examples_all}. According to these values, the risk-neutral to risk-averse individuals seem to profit the most.
+	Applying the loss function on this new score distribution results in the realizations of expected loss illustrated in Figure \ref{fig:update_goodseal2_3}. Bayes actions are shifted clearly to higher estimates and expected losses of these minima are significantly reduced for all actors. This is quantified in Table \ref{tab:update_examples_all}. According to these values, the risk-neutral to risk-averse individuals seem to profit the most.
 	
 	\begin{figure}[h]
-		\centering
-		\includegraphics[width=1\textwidth]{Figures/update_goodseal3.png}
-		\caption{...}\label{fig:update_goodseal3} 
+		\begin{subfigure}{1\textwidth}
+			\centering
+			\includegraphics[width=1\linewidth]{Figures/update_goodseal2.png}
+			%\caption{1a}
+			%\label{fig:sfig1}
+		\end{subfigure}%
+		\\
+		\begin{subfigure}{1\textwidth}
+			\centering
+			\includegraphics[width=1\linewidth]{Figures/update_goodseal3.png}
+			%\caption{1b}
+			%\label{fig:sfig2}
+		\end{subfigure}
+		\caption{Reservoir score distributions (A) and change in the realizations of expected loss for several risk parameters (B1, B2) before and after Bayesian updating based on likelihoods defined as follows: Seal thickness mean = 50~m, std = 20~m. Reservoir thickness mean = 180~m, std = 60~m.}
+		\label{fig:update_goodseal2_3}
 	\end{figure}
 	
 	%\begin{table}
@@ -239,26 +250,32 @@ For simple understanding and working out the application of the methods, first, 
 	%	\label{tab:update_goodseal_tab}
 	%\end{table}
 	
-	\subsection{Updating example III (safe seal, but reservoir under average) - Seal: mean = 70 m, std = 10 m - Reservoir: mean = 100 m, std = 40 m}
+	\subsection{Updating example III: Safe seal but likely subpar reservoir thickness}
 	
-	In this third example, seal safety is ensured by using a mean of 70~m with a standard deviation of 10~m for the seal thickness likelihood. However, the new observations are assumed to provide information about the reservoir that makes it likely to be thinner as expected. Reservoir thickness likelihood is assigned a mean of 100~m and a standard deviation of 10~m. 
+	In this third example, seal safety is ensured by using a mean of 70~m with a standard deviation of 10~m for the seal thickness likelihood. However, the new observations are assumed to provide information about the reservoir that makes it likely to be thinner as expected. Reservoir thickness likelihood is assigned a mean of 100~m and a standard deviation of 40~m. 
 	
-	The subsequent score distribution is depicted in Figure \ref{fig:update_smallres2}. It can be seen that while the whole distribution is narrowed, it also is shifted to the left, to lower and negative estimates. Mean and median are almost the same. As seal reliability is practically guaranteed, the peak at -~2000~m vanishes. 
+	The subsequent score distribution is depicted in Figure \ref{fig:update_smallres2_3}. It can be seen that while the whole distribution is narrowed, it also is shifted to the left, to lower and negative estimates. Mean and median are almost the same. As seal reliability is practically guaranteed, the peak at -~2000~m vanishes. 
 	
-	Based on this probability distribution of the reservoir score, Bayes actions are shifted to lower estimates for all actors (see Figure \ref{fig:update_smallres3}). In fact, also but the most risk-friendly individual (\textit{r} = 0.5) find their Bayesian estimator to be zero now, i.e. project development is deemed to be too risky to them. Furthermore, the spread of expected loss values around the minima for all actors is diminished (the expected loss values of the Bayes actions are now much closer to each other).
+	Based on this probability distribution of the reservoir score, Bayes actions are shifted to lower estimates for all actors (see Figure \ref{fig:update_smallres2_3}). In fact, also but the most risk-friendly individual (\textit{r} = 0.5) find their Bayesian estimator to be zero now, i.e. project development is deemed to be too risky to them. Furthermore, the spread of expected loss values around the minima for all actors is diminished (the expected loss values of the Bayes actions are now much closer to each other).
 	
 	Quantified changes in the position and the values of the Bayes actions are comparable to the results in example II (there is no shift for risk-averse actors, as they already found their best estimates to be zero). Most notable is the large reduction of expected loss in general (see Table \ref{tab:update_examples_all}).	
 	
 	\begin{figure}[h]
+		\begin{subfigure}{1\textwidth}
 			\centering
-			\includegraphics[width=1\textwidth]{Figures/update_smallres2.png}
-			\caption{...}\label{fig:update_smallres2} 
-	\end{figure}
-	
-	\begin{figure}[h]
-				\centering
-				\includegraphics[width=1\textwidth]{Figures/update_smallres3.png}
-				\caption{...}\label{fig:update_smallres3} 
+			\includegraphics[width=1\linewidth]{Figures/update_smallres2.png}
+			%\caption{1a}
+			%\label{fig:sfig1}
+		\end{subfigure}%
+		\\
+		\begin{subfigure}{1\textwidth}
+			\centering
+			\includegraphics[width=1\linewidth]{Figures/update_smallres3.png}
+			%\caption{1b}
+			%\label{fig:sfig2}
+		\end{subfigure}
+		\caption{Reservoir score distributions (A) and change in the realizations of expected loss for several risk parameters (B1, B2) before and after Bayesian updating based on likelihoods defined as follows: Seal thickness mean = 70~m, std = 10~m. Reservoir thickness mean = 100~m, std = 40~m.}
+		\label{fig:update_smallres2_3}
 	\end{figure}
 			
 	%\begin{table}
@@ -284,7 +301,7 @@ For simple understanding and working out the application of the methods, first, 
 			& Example I & & Example II & & Example III & \\
 			\hline
 			\hline
-			\textit{r} & $\delta$ BA & $\delta$ EL & $\delta$ BA & $\delta$ EL & $\delta$ BA & $\delta$ EL\\ 
+			\textit{r} & $\Delta$ BA & $\Delta$ EL & $\Delta$ BA & $\Delta$ EL & $\Delta$ BA & $\Delta$ EL\\ 
 			\hline
 			0.50 & +~553.67 & -~105.49 & +~522.95 & -~436.26 & -~498.98 & -~538.08 \\ 
 			0.75 & +~673.40 & -~81.67 & +~697.73 & -~551.92 & -~346.16 & -~717.83  \\ 
@@ -293,8 +310,24 @@ For simple understanding and working out the application of the methods, first, 
 			1.50 & +~0.00 & +~282.64 & +~819.26 & -~545.96 & -~0.00 & -~951.57  \\ 
 			\hline
 		\end{tabular}
-		\caption{Bla}
+		\caption{Changes in Bayes action (BA) and minimal expected loss (EL) for Bayesian updating examples I, II and III and respective actors with risk parameters \textit{r}.}
 		\label{tab:update_examples_all}
 	\end{table}
 		
 	\section{General case results}
+	
+	-abstract case: easy model construction and straightforward design of a loss function making basic assumptions and taking relative values that can simply be exchanged
+	
+	-so representative in a "relative" way, mostly appropriate to illustrate principles and benefits of the methodology
+	
+	-decision making/ estimation is defined by the design of the loss function which includes framework parameters which depend on the problem environment (e.g. market, technical constraints, etc.)
+	
+	-similar actors but different behaviors concerning risk: different decisions but same general loss function path (just different minima of EL)
+	
+	-additional information changes decision (BA) and EL
+	
+	-magnitude of change varies not only with the nature of the information (magnitude of uncertainty reduction) but also with the risk parameter
+	
+	-some actors might benefit more from some specific additional information than others
+	
+	-quantifiable value of information??
