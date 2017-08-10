@@ -1,0 +1,74 @@
+X,Y,Z,formation
+800,50,-1250,Shale
+800,150,-1300,Shale
+800,300,-1300,Shale
+800,500,-1200,Shale
+800,1000,-1000,Shale
+800,1500,-1300,Shale
+800,1700,-1400,Shale
+800,1950,-1350,Shale
+0,1000,-1000,Shale
+300,1000,-1100,Shale
+600,1000,-1200,Shale
+800,1000,-1000,Shale
+1100,1000,-1100,Shale
+1400,1000,-1150,Shale
+1700,1000,-1100,Shale
+500,1500,-1200,Shale
+1500,1500,-1250,Shale
+800,50,-1550,Sandstone
+800,150,-1600,Sandstone
+800,300,-1600,Sandstone
+800,500,-1500,Sandstone
+800,1000,-1300,Sandstone
+800,1500,-1600,Sandstone
+800,1700,-1700,Sandstone
+800,1950,-1650,Sandstone
+0,1000,-1300,Sandstone
+300,1000,-1400,Sandstone
+600,1000,-1500,Sandstone
+800,1000,-1300,Sandstone
+1100,1000,-1400,Sandstone
+1400,1000,-1350,Sandstone
+1700,1000,-1400,Sandstone
+500,1500,-1500,Sandstone
+1500,1500,-1550,Sandstone
+800,50,-850,Secondary Sandstone
+800,150,-900,Secondary Sandstone
+800,300,-900,Secondary Sandstone
+800,500,-800,Secondary Sandstone
+800,1000,-600,Secondary Sandstone
+800,1500,-900,Secondary Sandstone
+800,1700,-1000,Secondary Sandstone
+800,1950,-950,Secondary Sandstone
+0,1000,-600,Secondary Sandstone
+300,1000,-700,Secondary Sandstone
+600,1000,-800,Secondary Sandstone
+800,1000,-600,Secondary Sandstone
+1100,1000,-700,Secondary Sandstone
+1400,1000,-750,Secondary Sandstone
+1700,1000,-700,Secondary Sandstone
+500,1500,-800,Secondary Sandstone
+1500,1500,-850,Secondary Sandstone
+800,50,-750,Overlying
+800,150,-800,Overlying
+800,300,-800,Overlying
+800,500,-700,Overlying
+800,1000,-500,Overlying
+800,1500,-800,Overlying
+800,1700,-900,Overlying
+800,1950,-850,Overlying
+0,1000,-500,Overlying
+300,1000,-600,Overlying
+600,1000,-700,Overlying
+800,1000,-500,Overlying
+1100,1000,-600,Overlying
+1400,1000,-650,Overlying
+1700,1000,-600,Overlying
+500,1500,-700,Overlying
+1500,1500,-750,Overlying
+700,1000,-1100,MainFault
+600,1000,-1400,MainFault
+400,1000,-1700,MainFault
+800,1000,-800,MainFault
+900,1000,-500,MainFault
