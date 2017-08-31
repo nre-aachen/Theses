@@ -26,14 +26,17 @@
         
         -Law of Large Numbers!
         
-        \subsection{Markov Chain Monte Carlo sampling (MCMC)}
-        Despite the apparent simplicity of the Bayes Theorem, a direct analytical calculation and exact inference of the posterior distribution P(A$|$X) is rarely possible in non-idealized cases, due to intractability in high-dimensional spaces \citep{homan2014no, delaVarga2016}. 
+        \subsection{Markov chain Monte Carlo sampling (MCMC)}
+        Despite the apparent simplicity of the Bayes Theorem, a direct analytical calculation and exact inference of the posterior distribution P(A$|$X) is rarely possible in non-idealized cases, due to intractability in multi-dimensional spaces \citep{hoffman2014no, delaVarga2016}. Thereby arises the necessity to resort to methods of statistical inference approximation. Markov chain Monte Carlo (MCMC) sampling has proven to be a generally applicable and reliable method for exploring multi-dimensional parameter spaces in an intelligent way \citep{hoffman2014no, davidson2015}. \citet{gilks2005mcmc} has emphasized the significance of MCMC for the application of Bayesian statistics.
+        %In Monte Carlo integration, random samples are drawn from a target distribution, such as our posterior distribution P(A$|$X), to approximate the integral or probability density function in terms of an expectation:
         
-        - how to obtain posterior parameter distribution
-        - intractability of multi-dimensional space makes analytical calculation impossible (directly) --> need for MCMC
-        - MCMC: exploration of target distribution by sampling, then accepting or rejecting
-        - here used: adaptive Metropolis
-        
+        %\begin{equation}\label{eq:MonteCarlo}
+        %        E[P(A|X)] \approx \frac{1}{N}\sum_{n=1}^{N}P(A|X)
+        %\end{equation}
+        In the ordinary Monte Carlo approach, random independent samples are drawn from a target distribution in order to approximate its shape \citep{gilks2005mcmc}. High-dimensional spaces as found in Bayesian applications lead to complex shapes and often make independent sampling infeasible \citep{gilks2005mcmc}. This can be solved by extending the Monte Carlo principle with a Markov chain, in which every sample iteration of the parameter $\theta^i$ is dependent uniquely on the previous value $\theta^{(i-1)}$ \citep{gilks2005mcmc, delaVarge2016}.
+        Various algorithms for random MCMC walks have been developed over more than six decades and are still an active field of research. Common examples are the Metropolis-Hastings (devised by \citet{metropolis1953equation} and continued by \citet{hastings1970}) and the Gibbs sampler \citep{geman1984stochastic}.
+        In this work, an adaptive Metropolis-Hastings sampling method is used.
+                
         \subsection{Estimation}
         The resulting posterior distribution can be used to acquire point estimates for the true state of nature $\theta$. Common and simple examples for such estimators are the mode (i.e. the generalized maximum likelihood estimate), the mean and the median of a distribution \citep{berger2013stat}. The presentation of a point estimate should usually come with a measure for its estimation error. According to \citet{berger2013stat}, the posterior variance is most commonly used as an indication for estimate accuracy. However, it is argued by \citet{davidson2015} that by using pure accuracy metrics, while this technique is objective, it ignores the original intention of conducting the statistical inference in cases, in which payoffs of decisions are valued more than their accuracies. A more appropriate approach can be seen in the introduction of loss and the use of loss functions \citep{davidson2015}.
         
