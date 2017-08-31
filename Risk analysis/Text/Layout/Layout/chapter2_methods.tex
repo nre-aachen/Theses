@@ -1,18 +1,18 @@
     \chapter{Methods}\label{cha:met}
 
-    The methods utilized in this work are presented in the following chapter. This includes introductions into Bayesian analysis and decision theory. In particular Bayesian inference, estimation of uncertain values and how loss function can be used in this context. These methods are incorporated in the context of numerical modeling of structural geological settings. This is done by programming in a python environment. Central tools for model construction and conduction of the statistical evaluation are Geomodeler3D, GemPy and PyMC3 in particular and are also presented in this chapter.
+    The methods utilized in this work are presented in the following chapter. Bayesian analysis and decision theory are introduced. Focus is laid on Bayesian inference, estimation of uncertain values and the use of loss functions in this context. These methods are incorporated in computational modeling of structural geological settings by programming in a python 3 environment. Central tools for model construction and conduction of the statistical evaluation are GeMpy and PyMC 2 in particular. These are also presented in this chapter.
     
         \section{Bayesian analysis and decision theory}
-	    Problems and reasoning behind decision making are examined in the field of decision theory, as implied by the name \citep{berger2013stat}. Such decision problems are commonly influenced by parameters that are uncertain. In statistical decision theory, available statistical knowledge is used to gain information on the nature of these uncertainties. (Such uncertain parameters can be considered as numerical quantities.) In order to find the best decision to a problem, it is possible to combine sample information with other aspects such as the possible consequences of decision making and the availability of prior information on our uncertainties. Decision consequences are expressed as gains in economic decision theory and as losses, which equal negative gains, in statistics. Prior information might be given for example due to experience from previous similar problems or from expert knowledge (see Batvold and Begg). The approach of utilizing priors is known as Bayesian analysis and is explained in the following \citep{berger2013stat}. (It goes well with decision theory.)
+	    As implied by the name, the problems and reasoning behind decision-making are examined in the field of decision theory \citep{berger2013stat}. Such decision problems are commonly influenced by parameters that are uncertain. In statistical decision theory, available statistical knowledge is used to gain information on the nature of these uncertainties. (Such uncertain parameters can be considered as numerical quantities.) In order to find the best decision to a problem, it is possible to combine sample information with other aspects such as the possible consequences of decision-making and the availability of prior information on our uncertainties. Decision consequences are expressed as gains in economic decision theory and as losses, which equal negative gains, in statistics. Prior information might be given for example based on experience from previous similar problems or from expert knowledge (see Batvold and Begg). The approach of utilizing priors is known as Bayesian analysis, which is explained in the following \citep{berger2013stat}. (It goes well with decision theory.)
 	    
-	    \section{Basic elements}
-	    Some basic elements are to be defined. The unknown (uncertain) quantity influencing decision making is usually denominated as $\theta$, the state of nature \citep{berger2013stat}. Given statistical information on $\theta$ in the form of probability distributions, $\theta$ is called the parameter. 
+	    \subsection{Basic elements}
+	    First, some basic elements are to be defined. The unknown (uncertain) quantity influencing decision-making is usually denominated as the state of nature $\theta$ \citep{berger2013stat}. Given statistical information on $\theta$ in the form of probability distributions, $\theta$ is called the parameter. 
 	    Decisions are also referred to as actions $a$.
 	    The outcome of statistical tests in form of information or statistical evidence is denoted as $X$.	    
-	    Loss is defined as $L(\theta,a)$, so $L(\theta_1,a-1)$ is the actual loss incurred when action $a_1$ is taken while the true state of nature is $\theta_1$ \cite{pberger2013stat}. Loss, expected loss and loss functions are further explained below.  
+	    Loss is defined as $L(\theta,a)$, so $L(\theta_1,a_1)$ is the actual loss incurred when action $a_1$ is taken while the true state of nature is $\theta_1$ \citep{berger2013stat}. Loss, expected loss and loss functions are explained in detail further below.  
         
         \subsection{Bayesian inference}
-        Bayesian inference is most importantly characterized by its preservation of uncertainty, in contrast to standard statistical inference \citep{davidson2015}. Probability is seen as a measure of belief for an event to occur. It has been argued by \citep{davidson2015}  that this Bayesian approach is intuitive and inherent in the natural human perspective. These beliefs can be assigned to individuals \citep{davidson2015}. Thus, different and even contradicting beliefs about the probability of an event might be held by different individuals, based on variations and disparities in the information available to each one individual \citep{davidson2015}.
+        Bayesian inference is most importantly characterized by its preservation of uncertainty, in contrast to standard statistical inference \citep{davidson2015}. Probability is seen as a measure of belief for an event to occur. It has been argued by \cite{davidson2015}  that this Bayesian approach is intuitive and inherent in the natural human perspective. These beliefs can be assigned to individuals \citep{davidson2015}. Thus, different and even contradicting beliefs about the probability of an event might be held by different individuals, based on variations and disparities in the information available to each one individual \citep{davidson2015}.
         
         The initial belief or guess about an event A can be denoted as P(A) \citep{davidson2015}. This is used as the so-called prior probability on which Bayesian updating is based. The beliefs about the occurrence of an event are revalued in the presence of additional information, i.e. the observation of new evidence X. These observations are included as likelihoods P(X$|$A). This process of updating results in a posterior probability P(A$|$X) \citep{davidson2015}. It is important to note that the prior is not simply discarded but re-weighted by Bayesian updating. It was also pointed out by \citet{davidson2015} that by utilizing an uncertain prior, the potential for wrongfulness of the initial guess is already included. This means that Bayesian updating is about reducing uncertainty in a belief and reaching a guess that is less wrong \citep{davidson2015}.
         Bayesian updating is defined by and conducted via the following equation, called the Bayes' Theorem:
@@ -22,10 +22,18 @@
         \propto P(X|A)P(A)
         \end{equation}
         
+        - Bayes Theorem in geological modeling (see Miguel)
+        
         -Law of Large Numbers!
         
-        -MCMC sampling methods!
-               
+        \subsection{Markov Chain Monte Carlo sampling (MCMC)}
+        Despite the apparent simplicity of the Bayes Theorem, a direct analytical calculation and exact inference of the posterior distribution P(A$|$X) is rarely possible in non-idealized cases, due to intractability in high-dimensional spaces \citep{homan2014no, delaVarga2016}. 
+        
+        - how to obtain posterior parameter distribution
+        - intractability of multi-dimensional space makes analytical calculation impossible (directly) --> need for MCMC
+        - MCMC: exploration of target distribution by sampling, then accepting or rejecting
+        - here used: adaptive Metropolis
+        
         \subsection{Estimation}
         The resulting posterior distribution can be used to acquire point estimates for the true state of nature $\theta$. Common and simple examples for such estimators are the mode (i.e. the generalized maximum likelihood estimate), the mean and the median of a distribution \citep{berger2013stat}. The presentation of a point estimate should usually come with a measure for its estimation error. According to \citet{berger2013stat}, the posterior variance is most commonly used as an indication for estimate accuracy. However, it is argued by \citet{davidson2015} that by using pure accuracy metrics, while this technique is objective, it ignores the original intention of conducting the statistical inference in cases, in which payoffs of decisions are valued more than their accuracies. A more appropriate approach can be seen in the introduction of loss and the use of loss functions \citep{davidson2015}.
         
@@ -37,9 +45,9 @@
         L(\theta,\hat{\theta}) = f(\theta,\hat{\theta})
         \end{equation}
         
-        So, "how bad" a current estimate is, depends on the way a loss function weights accuracy errors and returns respective losses. Two standard loss functions are the absolute-error and the squared-error loss function. Both are simple to understand and commonly used \citep{davidson2015}.
+        So, "how bad" a current estimate is, depends on the way a loss function weighs accuracy errors and returns respective losses. Two standard loss functions are the absolute-error and the squared-error loss function. Both are simple to understand and commonly used \citep{davidson2015}.
         
-        As implied by its name, the absolute-error loss function returns loss as the absolute error, i.e. difference between the estimate and the true parameter \citep{davidson2015}:
+        As implied by its name, the absolute-error loss function returns loss as the absolute error, i.e. the difference between the estimate and the true parameter \citep{davidson2015}:
         
         \begin{equation}\label{eq:AbsLossFunction}
         L(\theta,\hat{\theta}) = |\theta - \hat{\theta}|
@@ -59,7 +67,7 @@
         
         -shift in perspective. look at outcome instead of estimation precision!     
            
-        \citet{davidson2015} and (LF DESIGN PAPER?) propose that it might be useful to move away from these type of objective loss functions to the design of new loss functions that are specifically customized to an reflect an individual's, i.e. the decision maker's objectives, preferences and outcomes. 
+        \citet{davidson2015} and \citet{hennig2007} propose that it might be useful to move away from these type of objective loss functions to the design of customized loss functions that specifically reflect an individual's (i.e. the decision maker's) objectives, preferences and outcomes. 
         
         The standard loss function defined above are symmetric, but can easily be adapted to be asymmetric, for example by weighting on the negative side stronger than those on the positive side. Preference over estimates larger than the true value is thus incorporated in an uncomplicated way \citep{davidson2015}. Much more complicated designs of loss functions are possible, depending on purpose, objective and application \citep{davidson2015}. Some case-specific loss functions are designed in the following chapters of this work.
         
