@@ -11,6 +11,13 @@ Berger, J.~O. (2013).
 \newblock {\em Statistical decision theory and Bayesian analysis}.
 \newblock Springer Science \& Business Media.
 
+\bibitem[Calcagno et~al., 2008]{calcagno2008geological}
+Calcagno, P., Chil{\`e}s, J.-P., Courrioux, G., and Guillen, A. (2008).
+\newblock Geological modelling from field data and geological knowledge: Part
+  i. modelling method coupling 3d potential-field interpolation and geological
+  rules.
+\newblock {\em Physics of the Earth and Planetary Interiors}, 171(1):147--157.
+
 \bibitem[Davidson-Pilon, 2015]{davidson2015}
 Davidson-Pilon, C. (2015).
 \newblock Bayesian methods for hackers: Probabilistic programming and bayesian
@@ -22,19 +29,71 @@ de~la Varga, M. and Wellmann, J.~F. (2016).
   perspective.
 \newblock {\em Interpretation}, 4(3):SM1--SM16.
 
+\bibitem[Gelman et~al., 2014]{gelman2014bayesian}
+Gelman, A., Carlin, J.~B., Stern, H.~S., and Rubin, D.~B. (2014).
+\newblock {\em Bayesian data analysis}, volume~2.
+\newblock Taylor \& Francis.
+
+\bibitem[Geman and Geman, 1984]{geman1984stochastic}
+Geman, S. and Geman, D. (1984).
+\newblock Stochastic relaxation, gibbs distributions, and the bayesian
+  restoration of images.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, (6):721--741.
+
+\bibitem[Gilks, 2005]{gilks2005markov}
+Gilks, W.~R. (2005).
+\newblock {\em Markov chain monte carlo}.
+\newblock Wiley Online Library.
+
+\bibitem[Haario et~al., 2001]{haario2001adaptive}
+Haario, H., Saksman, E., and Tamminen, J. (2001).
+\newblock An adaptive metropolis algorithm. bernoulli 7 223--242.
+\newblock {\em Mathematical Reviews (MathSciNet): MR1828504 Digital Object
+  Identifier: doi}, 10:3318737.
+
+\bibitem[Hastings, 1970]{hastings1970}
+Hastings, W. (1970).
+\newblock {Monte carlo sampling methods using Markov chains and their
+  applications}.
+\newblock {\em Biometrika}, 57(1):97--109.
+
 \bibitem[Hennig and Kutlukaya, 2007]{hennig2007}
 Hennig, C. and Kutlukaya, M. (2007).
 \newblock Some thoughts about the design of loss functions.
 \newblock {\em REVSTAT - Statistical Journal}, 5(1):19--39.
+
+\bibitem[Hoffman and Gelman, 2014]{hoffman2014no}
+Hoffman, M.~D. and Gelman, A. (2014).
+\newblock The no-u-turn sampler: Adaptively setting path lengths in hamiltonian
+  monte carlo.
+\newblock {\em The Journal of Machine Learning Research}, 15(1):1593--1623.
+
+\bibitem[Lajaunie et~al., 1997]{Lajaunie1997}
+Lajaunie, C., Courrioux, G., and Manuel, L. (1997).
+\newblock {Foliation fields and 3D cartography in geology: Principles of a
+  method based on potential interpolation}.
+\newblock {\em Mathematical Geology}, 29(4):571--584.
 
 \bibitem[Langtangen, 2008]{Langtangen2008}
 Langtangen, P.~H. (2008).
 \newblock {\em {Python scripting for computational science}}.
 \newblock Springer Verlag, New York.
 
+\bibitem[Metropolis et~al., 1953]{metropolis1953equation}
+Metropolis, N., Rosenbluth, A.~W., Rosenbluth, M.~N., Teller, A.~H., and
+  Teller, E. (1953).
+\newblock Equation of state calculations by fast computing machines.
+\newblock {\em The journal of chemical physics}, 21(6):1087--1092.
+
 \bibitem[Salvatier et~al., 2016]{salvatier2016pymc3}
 Salvatier, J., Wiecki, T.~V., and Fonnesbeck, C. (2016).
 \newblock Probabilistic programming in python using pymc3.
 \newblock {\em PeerJ Computer Science}, 55(2).
+
+\bibitem[Schaaf, 2017]{schaaf2017}
+Schaaf, A. (2017).
+\newblock Geological inference based on kinematic structural models.
+\newblock Master's thesis, RWTH AACHEN UNIVERSITY, Aachen, Germany.
 
 \end{thebibliography}

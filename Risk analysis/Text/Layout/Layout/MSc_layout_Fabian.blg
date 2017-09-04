@@ -5,6 +5,10 @@ A level-1 auxiliary file: chapter3_1Dcase.aux
 A level-1 auxiliary file: chapter4_3Dcase.aux
 The style file: apalike.bst
 Database file #1: complete_biblio.bib
-Warning--I didn't find a database entry for "texbook"
+Repeated entry---line 9113 of file complete_biblio.bib
+ : @article{hastings1970
+ :                      ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in davidson2015
-(There were 2 warnings)
+Warning--there's a number but no volume in geman1984stochastic
+(There was 1 error message)
