@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[Aug, 2004]{aug2004modelisation}
+Aug, C. (2004).
+\newblock {\em Mod{\'e}lisation g{\'e}ologique 3D et caract{\'e}risation des
+  incertitudes par la m{\'e}thode du champ de potentiel}.
+\newblock PhD thesis, {\'E}cole Nationale Sup{\'e}rieure des Mines de Paris.
+
 \bibitem[Behnel et~al., 2010]{behnel2010}
 Behnel, S., Bradshaw, R., Citro, C., Dalcin, L., Seljebotn, D.~S., and K, S.
   (2010).
@@ -17,6 +23,13 @@ Calcagno, P., Chil{\`e}s, J.-P., Courrioux, G., and Guillen, A. (2008).
   i. modelling method coupling 3d potential-field interpolation and geological
   rules.
 \newblock {\em Physics of the Earth and Planetary Interiors}, 171(1):147--157.
+
+\bibitem[Chil{\`e}s et~al., 2004]{chiles2004modelling}
+Chil{\`e}s, J.-P., Aug, C., Guillen, A., and Lees, T. (2004).
+\newblock Modelling the geometry of geological units and its uncertainty in 3d
+  from structural data: the potential-field method.
+\newblock In {\em Proceedings of international symposium on orebody modelling
+  and strategic mine planning, Perth, Australia}, volume~22, page~24.
 
 \bibitem[Davidson-Pilon, 2015]{davidson2015}
 Davidson-Pilon, C. (2015).

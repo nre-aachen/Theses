@@ -12,29 +12,29 @@
 \contentsline {section}{\numberline {2-2}Application in structural geological modeling}{6}{section.2.2}
 \contentsline {subsection}{\numberline {2-2-1}Markov chain Monte Carlo sampling (MCMC)}{8}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2-2-2}Structural geological forward modeling}{9}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2-2-3}Implementing Bayesian analysis numerically with Python and PyMC}{9}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2-2-4}Reservoir Volumetric Calculation}{10}{subsection.2.2.4}
-\contentsline {chapter}{\numberline {3}One-dimensional reservoir case}{11}{chapter.3}
-\contentsline {section}{\numberline {3-1}Constructing the one-dimensional model}{11}{section.3.1}
-\contentsline {section}{\numberline {3-2}Assessing reservoir quality using scores}{12}{section.3.2}
-\contentsline {subsection}{\numberline {3-2-1}Two parameters scoring}{12}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3-2-2}Three parameters scoring}{13}{subsection.3.2.2}
-\contentsline {section}{\numberline {3-3}Designing a case-specific loss function}{13}{section.3.3}
-\contentsline {subsection}{\numberline {3-3-1}Testing standard loss functions}{13}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3-3-2}Adaptions for loss function customization}{14}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3-3-3}Including different risk-affinities in the loss function}{17}{subsection.3.3.3}
-\contentsline {section}{\numberline {3-4}Updating the model with additional information in the form of thickness likelihoods}{18}{section.3.4}
-\contentsline {subsection}{\numberline {3-4-1}Updating example I: Moderately reinforcing information}{19}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3-4-2}Updating example II: Likely reliable seal}{20}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3-4-3}Updating example III: Safe seal but likely subpar reservoir thickness}{21}{subsection.3.4.3}
-\contentsline {section}{\numberline {3-5}General case results}{23}{section.3.5}
-\contentsline {chapter}{\numberline {4}Three-dimensional reservoir case}{25}{chapter.4}
-\contentsline {section}{\numberline {4-1}Constructing the three-dimensional structural geological model}{26}{section.4.1}
-\contentsline {section}{\numberline {4-2}Identifying trap structures in the geological model}{26}{section.4.2}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{27}{section.4.2}
-\contentsline {chapter}{\numberline {A}The back of the thesis}{29}{appendix.A}
-\contentsline {section}{\numberline {A-1}An appendix section}{29}{section.A.1}
-\contentsline {subsection}{\numberline {A-1-1}An appendix subsection with C++ Lisitng}{29}{subsection.A.1.1}
-\contentsline {subsection}{\numberline {A-1-2}A \textsc {Matlab}$ $ Listing}{29}{subsection.A.1.2}
-\contentsline {chapter}{\numberline {B}Yet another appendix}{31}{appendix.B}
-\contentsline {section}{\numberline {B-1}Another test section}{31}{section.B.1}
+\contentsline {subsection}{\numberline {2-2-3}Implementing Bayesian analysis numerically with Python and PyMC}{10}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2-2-4}Reservoir Volumetric Calculation}{11}{subsection.2.2.4}
+\contentsline {chapter}{\numberline {3}One-dimensional reservoir case}{13}{chapter.3}
+\contentsline {section}{\numberline {3-1}Constructing the one-dimensional model}{13}{section.3.1}
+\contentsline {section}{\numberline {3-2}Assessing reservoir quality using scores}{14}{section.3.2}
+\contentsline {subsection}{\numberline {3-2-1}Two parameters scoring}{14}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3-2-2}Three parameters scoring}{15}{subsection.3.2.2}
+\contentsline {section}{\numberline {3-3}Designing a case-specific loss function}{15}{section.3.3}
+\contentsline {subsection}{\numberline {3-3-1}Testing standard loss functions}{15}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3-3-2}Adaptions for loss function customization}{16}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3-3-3}Including different risk-affinities in the loss function}{19}{subsection.3.3.3}
+\contentsline {section}{\numberline {3-4}Updating the model with additional information in the form of thickness likelihoods}{20}{section.3.4}
+\contentsline {subsection}{\numberline {3-4-1}Updating example I: Moderately reinforcing information}{21}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3-4-2}Updating example II: Likely reliable seal}{22}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3-4-3}Updating example III: Safe seal but likely subpar reservoir thickness}{23}{subsection.3.4.3}
+\contentsline {section}{\numberline {3-5}General case results}{25}{section.3.5}
+\contentsline {chapter}{\numberline {4}Three-dimensional reservoir case}{27}{chapter.4}
+\contentsline {section}{\numberline {4-1}Constructing the three-dimensional structural geological model}{28}{section.4.1}
+\contentsline {section}{\numberline {4-2}Identifying trap structures in the geological model}{28}{section.4.2}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{29}{section.4.2}
+\contentsline {chapter}{\numberline {A}The back of the thesis}{31}{appendix.A}
+\contentsline {section}{\numberline {A-1}An appendix section}{31}{section.A.1}
+\contentsline {subsection}{\numberline {A-1-1}An appendix subsection with C++ Lisitng}{31}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A-1-2}A \textsc {Matlab}$ $ Listing}{31}{subsection.A.1.2}
+\contentsline {chapter}{\numberline {B}Yet another appendix}{33}{appendix.B}
+\contentsline {section}{\numberline {B-1}Another test section}{33}{section.B.1}
