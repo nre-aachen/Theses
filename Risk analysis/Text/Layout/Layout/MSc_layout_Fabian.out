@@ -12,8 +12,8 @@
 \BOOKMARK [1][-]{section.2.2}{Application in structural geological modeling}{chapter.2}% 12
 \BOOKMARK [2][-]{subsection.2.2.1}{Markov chain Monte Carlo sampling \(MCMC\)}{section.2.2}% 13
 \BOOKMARK [2][-]{subsection.2.2.2}{Structural geological forward modeling}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.3}{Implementing Bayesian analysis numerically with Python and PyMC}{section.2.2}% 15
-\BOOKMARK [2][-]{subsection.2.2.4}{Reservoir Volumetric Calculation}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.3}{Economic significance and reservoir valuation}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.4}{Numerical computational implementation via Python, GemPy and PyMC}{section.2.2}% 16
 \BOOKMARK [0][-]{chapter.3}{One-dimensional reservoir case}{}% 17
 \BOOKMARK [1][-]{section.3.1}{Constructing the one-dimensional model}{chapter.3}% 18
 \BOOKMARK [1][-]{section.3.2}{Assessing reservoir quality using scores}{chapter.3}% 19
