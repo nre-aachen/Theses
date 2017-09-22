@@ -47,6 +47,12 @@ de~la Varga, M. and Wellmann, J.~F. (2016).
   perspective.
 \newblock {\em Interpretation}, 4(3):SM1--SM16.
 
+\bibitem[Dean, 2007]{dean2007volumetric}
+Dean, L. (2007).
+\newblock Reservoir engineering for geologists - volumetric estimation.
+\newblock {\em The Monthly Magazine of the Canadian Society of Petroleum
+  Geologists}, pages 11--14.
+
 \bibitem[Gelman et~al., 2014]{gelman2014bayesian}
 Gelman, A., Carlin, J.~B., Stern, H.~S., and Rubin, D.~B. (2014).
 \newblock {\em Bayesian data analysis}, volume~2.
@@ -86,6 +92,10 @@ Hoffman, M.~D. and Gelman, A. (2014).
 \newblock The no-u-turn sampler: Adaptively setting path lengths in hamiltonian
   monte carlo.
 \newblock {\em The Journal of Machine Learning Research}, 15(1):1593--1623.
+
+\bibitem[Labastie, 2011]{labastie2011increasingRF}
+Labastie, A. (2011).
+\newblock En route: Increasing recovery factors: A necessity.
 
 \bibitem[Lajaunie et~al., 1997]{Lajaunie1997}
 Lajaunie, C., Courrioux, G., and Manuel, L. (1997).
