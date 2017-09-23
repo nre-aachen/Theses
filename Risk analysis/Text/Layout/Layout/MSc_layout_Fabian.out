@@ -13,29 +13,34 @@
 \BOOKMARK [2][-]{subsection.2.2.1}{Markov chain Monte Carlo sampling \(MCMC\)}{section.2.2}% 13
 \BOOKMARK [2][-]{subsection.2.2.2}{Structural geological forward modeling}{section.2.2}% 14
 \BOOKMARK [2][-]{subsection.2.2.3}{Economic significance and reservoir valuation}{section.2.2}% 15
-\BOOKMARK [3][-]{section*.9}{Abstract valuation using scores in the one-dimensional case}{subsection.2.2.3}% 16
-\BOOKMARK [2][-]{subsection.2.2.4}{Numerical computational implementation via Python, GemPy and PyMC}{section.2.2}% 17
-\BOOKMARK [0][-]{chapter.3}{One-dimensional reservoir case}{}% 18
-\BOOKMARK [1][-]{section.3.1}{Constructing the one-dimensional model}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.2}{Assessing reservoir quality using scores}{chapter.3}% 20
-\BOOKMARK [2][-]{subsection.3.2.1}{Two parameters scoring}{section.3.2}% 21
-\BOOKMARK [2][-]{subsection.3.2.2}{Three parameters scoring}{section.3.2}% 22
-\BOOKMARK [1][-]{section.3.3}{Designing a case-specific loss function}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.3.1}{Testing standard loss functions}{section.3.3}% 24
-\BOOKMARK [2][-]{subsection.3.3.2}{Adaptions for loss function customization}{section.3.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.3}{Including different risk-affinities in the loss function}{section.3.3}% 26
-\BOOKMARK [1][-]{section.3.4}{Updating the model with additional information in the form of thickness likelihoods}{chapter.3}% 27
-\BOOKMARK [2][-]{subsection.3.4.1}{Updating example I: Moderately reinforcing information}{section.3.4}% 28
-\BOOKMARK [2][-]{subsection.3.4.2}{Updating example II: Likely reliable seal}{section.3.4}% 29
-\BOOKMARK [2][-]{subsection.3.4.3}{Updating example III: Safe seal but likely subpar reservoir thickness}{section.3.4}% 30
-\BOOKMARK [1][-]{section.3.5}{General case results}{chapter.3}% 31
-\BOOKMARK [0][-]{chapter.4}{Three-dimensional reservoir case}{}% 32
-\BOOKMARK [1][-]{section.4.1}{Constructing the three-dimensional structural geological model}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.2}{Identifying trap structures in the geological model}{chapter.4}% 34
-\BOOKMARK [0][-]{section.4.2}{Bibliography}{}% 35
-\BOOKMARK [0][-]{appendix.A}{The back of the thesis}{}% 36
-\BOOKMARK [1][-]{section.A.1}{An appendix section}{appendix.A}% 37
-\BOOKMARK [2][-]{subsection.A.1.1}{An appendix subsection with C++ Lisitng}{section.A.1}% 38
-\BOOKMARK [2][-]{subsection.A.1.2}{A Matlab \040Listing}{section.A.1}% 39
-\BOOKMARK [0][-]{appendix.B}{Yet another appendix}{}% 40
-\BOOKMARK [1][-]{section.B.1}{Another test section}{appendix.B}% 41
+\BOOKMARK [3][-]{section*.9}{Original oil-in-place and recoverable volumes as value measures}{subsection.2.2.3}% 16
+\BOOKMARK [3][-]{section*.10}{Net present value}{subsection.2.2.3}% 17
+\BOOKMARK [3][-]{section*.11}{Abstract valuation using scores in the one-dimensional model}{subsection.2.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.2.4}{Numerical computational implementation via Python, GemPy and PyMC}{section.2.2}% 19
+\BOOKMARK [1][-]{section.2.3}{Designing a case-specific loss function}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.4}{Constructing a 1D geological reservoir model}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.5}{Constructing a full 3D geological reservoir model}{chapter.2}% 22
+\BOOKMARK [0][-]{chapter.3}{One-dimensional reservoir case}{}% 23
+\BOOKMARK [1][-]{section.3.1}{Constructing the one-dimensional model}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.2}{Assessing reservoir quality using scores}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.2.1}{Two parameters scoring}{section.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.2.2}{Three parameters scoring}{section.3.2}% 27
+\BOOKMARK [1][-]{section.3.3}{Designing a case-specific loss function}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.1}{Testing standard loss functions}{section.3.3}% 29
+\BOOKMARK [2][-]{subsection.3.3.2}{Adaptions for loss function customization}{section.3.3}% 30
+\BOOKMARK [2][-]{subsection.3.3.3}{Including different risk-affinities in the loss function}{section.3.3}% 31
+\BOOKMARK [1][-]{section.3.4}{Updating the model with additional information in the form of thickness likelihoods}{chapter.3}% 32
+\BOOKMARK [2][-]{subsection.3.4.1}{Updating example I: Moderately reinforcing information}{section.3.4}% 33
+\BOOKMARK [2][-]{subsection.3.4.2}{Updating example II: Likely reliable seal}{section.3.4}% 34
+\BOOKMARK [2][-]{subsection.3.4.3}{Updating example III: Safe seal but likely subpar reservoir thickness}{section.3.4}% 35
+\BOOKMARK [1][-]{section.3.5}{General case results}{chapter.3}% 36
+\BOOKMARK [0][-]{chapter.4}{Three-dimensional reservoir case}{}% 37
+\BOOKMARK [1][-]{section.4.1}{Constructing the three-dimensional structural geological model}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.2}{Identifying trap structures in the geological model}{chapter.4}% 39
+\BOOKMARK [0][-]{section.4.2}{Bibliography}{}% 40
+\BOOKMARK [0][-]{appendix.A}{The back of the thesis}{}% 41
+\BOOKMARK [1][-]{section.A.1}{An appendix section}{appendix.A}% 42
+\BOOKMARK [2][-]{subsection.A.1.1}{An appendix subsection with C++ Lisitng}{section.A.1}% 43
+\BOOKMARK [2][-]{subsection.A.1.2}{A Matlab \040Listing}{section.A.1}% 44
+\BOOKMARK [0][-]{appendix.B}{Yet another appendix}{}% 45
+\BOOKMARK [1][-]{section.B.1}{Another test section}{appendix.B}% 46

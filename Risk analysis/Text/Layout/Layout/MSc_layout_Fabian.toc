@@ -13,8 +13,13 @@
 \contentsline {subsection}{\numberline {2-2-1}Markov chain Monte Carlo sampling (MCMC)}{8}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2-2-2}Structural geological forward modeling}{9}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2-2-3}Economic significance and reservoir valuation}{10}{subsection.2.2.3}
-\contentsline {subsubsection}{Abstract valuation using scores in the one-dimensional case}{12}{section*.9}
+\contentsline {subsubsection}{Original oil-in-place and recoverable volumes as value measures}{11}{section*.9}
+\contentsline {subsubsection}{Net present value}{12}{section*.10}
+\contentsline {subsubsection}{Abstract valuation using scores in the one-dimensional model}{12}{section*.11}
 \contentsline {subsection}{\numberline {2-2-4}Numerical computational implementation via Python, GemPy and PyMC}{12}{subsection.2.2.4}
+\contentsline {section}{\numberline {2-3}Designing a case-specific loss function}{13}{section.2.3}
+\contentsline {section}{\numberline {2-4}Constructing a 1D geological reservoir model}{13}{section.2.4}
+\contentsline {section}{\numberline {2-5}Constructing a full 3D geological reservoir model}{13}{section.2.5}
 \contentsline {chapter}{\numberline {3}One-dimensional reservoir case}{15}{chapter.3}
 \contentsline {section}{\numberline {3-1}Constructing the one-dimensional model}{15}{section.3.1}
 \contentsline {section}{\numberline {3-2}Assessing reservoir quality using scores}{16}{section.3.2}
