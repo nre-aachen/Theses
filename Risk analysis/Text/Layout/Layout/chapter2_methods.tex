@@ -147,7 +147,7 @@
         \subsection{Economic significance and reservoir valuation}\label{sec:Reservoir_values}
         In this work, the generated structural models are to be assigned an economic significance in order to approach a real setting, in which hypothetical actors could have an interest in taking a decision, and thus, to evaluate the influence of the Bayesian inference of the decision-making process. Changes in Bayes actions are considered as a measure for this effect.\\
         For this purpose, it is assumed that a hydrocarbon reservoir system is represented by each geological model realization. These are typically comprised stratigraphically of at least one potential reservoir formation, succeeded by at least one sealing layer above. Additionally, a trapping mechanism is normally required (source?).\\
-        The resulting reservoirs are to be valuated in a way that respective estimations on the basis of loss functions can be conducted, i.e. Bayesian decision theory is applicable. In the typical petroleum industrial setting, the main question is one of how much of the resource can be produced and how high the return on investment will be \citep{dean2007volumetric}.\\
+        The resulting reservoirs are to be valuated in a way that respective estimations on the basis of loss functions can be conducted, i.e. Bayesian decision theory is applicable. In the typical petroleum industrial setting, the main question is one of how much of the resource can be produced and how high the return on investment will be \citep{dean2007volumetric}.
         
         \subsubsection{Original oil-in-place and recoverable volumes as value measures}
         Before pressure and production tests have been conducted (i.e. before production has started), volumetric estimation is the only approach to assess the amount of hydrocarbons in place in a reservoir. From this value, recoverable reserves can be estimated based on an estimated recovery factor \citep{dean2007volumetric}.\\
@@ -158,23 +158,21 @@
         \item Water saturation in the reservoir rock.
         \item Hydrocarbon fluid properties \citep{dean2007volumetric}.
         \end{enumerate}
-        As the cases used in this work are purely artificial, a pure oil accumulation is assumed. Using the factors listed above, the respective equation for original oil-in-place (OOIP) is formulated as follows:
+        As the cases used in this work are purely artificial, a pure oil accumulation is assumed. Using the factors listed above, the respective equation for original oil-in-place ($OOIP$) is formulated as follows:
         \begin{equation}\label{eq:OOIP}
         OOIP = A * h * \phi * (1 - S_W) * 1/FvF
         \end{equation}
-        Where OOIP is returned in $m³$. The hydrocarbon-filled rock volume is defined by the drainage area $A$ in $m²$ and the net pay thickness $h$ in $m$. Porosity $\phi$ and water saturation $S_W$  (interstitial water) are given in fraction of the rock volume. A dimensionless factor for the change in oil volume between reservoir conditions and standard conditions at surface is represented by the formation volume factor $FvF$. Thus, shrinkage of the oil volume brought to the surface is determined by $1/FvF$ \citep{dean2007volumetric}.\\
-        Subsequently, the effectively recoverable oil volumes (ROV) can be calculated by multiplying the OOIP with a recovery factor $RF$:
+        Where $OOIP$ is returned in $m³$. The hydrocarbon-filled rock volume is defined by the drainage area $A$ in $m²$ and the net pay thickness $h$ in $m$. Porosity $\phi$ and water saturation $S_W$ (interstitial water) are given in fraction of the rock volume. A dimensionless factor for the change in oil volume between reservoir conditions and standard conditions at surface is represented by the formation volume factor $FvF$. Thus, shrinkage of the oil volume brought to the surface is determined by $1/FvF$ \citep{dean2007volumetric}.\\
+        Subsequently, the effectively recoverable oil volumes ($ROV$) can be calculated by multiplying the $OOIP$ with a recovery factor $RF$:
         \begin{equation}\label{eq:ROV}
                 ROV = OOIP * RF = A * h * \phi * (1 - S_W) * 1/FvF * RF
         \end{equation}
         the recovery factor is influenced by a number of fluid properties, such as viscosity, density, solution oil/gas ratio and the formation volume factor. Thus, it is difficult to estimate \citep{dean2007volumetric}. Globally, the ultimate average recovery factor for oil fields is about 35\% \citep{labastie2011increasingRF}. For gas accumulations, however, recovery factors range typically between 70 and 90\% \citep{dean2007volumetric}.\\
         The models in this work are completely hypothetical and not based on real data. The inputs to these equations can thus be chosen arbitrarily to test the applied methods. However, to come to significant conclusion, it makes sense to utilize values that approximately represent real possible scenarios. Furthermore, as 3D geological structures are modeled here, the hydrocarbon-filled rock volume ($A * h$ in Equations \ref{eq:OOIP} and \ref{eq:ROV}) is defined by every realization of the uncertain geological model. The rock volume is thus an uncertain factor. Remaining factors can be implemented deterministically or as uncertain values, too. For most factors, it seems most suitable to define a normal distribution around a known typical value or global average, as it will return a high probability for common scenarios and occasionally produce cases of rare, more extreme values. (INSERT WHAT IS CHOSEN IN THE END - MAYBE MORE SENSE TO TAKE FIXED VALUES FOR THE FACTORS THEN RV, SO THAT ITS INFLUENCE IS CLEAR; THEN MAYBE INCLUDE POROSITY? OR COMPARE BOTH POSSIBILITIES?).\\
-        Consequently, OOIP and ROV calculations represent the step following and using the results from computing the geological model, so that the realizations are assigned values that can be interpreted from a perspective of economic interest. The resulting values from numerous model runs are used as a base probability distribution for the true value, on which loss function estimation can be applied as described in Section \ref{sec:loss}.
+        Consequently, $OOIP$ and $ROV$ calculations represent the step following and using the results from computing the geological model, so that the realizations are assigned values that can be interpreted from a perspective of economic interest. The resulting values from numerous model runs are used as a base probability distribution for the true value, on which loss function estimation can be applied as described in Section \ref{sec:loss}. $OOIP$ and $ROV$ are applicable in a 3D setting, the 1D geological model introduced below in Section \ref{sec:1D_model}, however, requires the use of an abstract valuation system that is explained in Section \ref{sec:1D_score_system}.
+        
         \subsubsection{Net present value}
         hmmm...
-        
-        \subsubsection{Abstract valuation using scores in the one-dimensional model}
-        For the simplified 1D model that is described further below, OOIP and recoverable volume calculations are not applicable, as these require a 3D setting. Given only layer positions in one vertical dimension, it is resorted to an abstract way of reservoir valuation by defining a scoring system. The reservoir score is made dependent on three uncertain parameters which can be deduced from the 1D layer positions: (1) reservoir thickness, (2) reservoir top depth and (3) seal thickness. 
         
 		\subsection{Numerical computational implementation via Python, GemPy and PyMC}
 		Bayesian analysis can be conducted using probabilistic programming \citep{salvatier2016pymc3}. The implicit method of forward geological modeling, described above, is to be embedded in such a framework. For doing so, the programming language of choice in this work is Python. The merits of Python have been pointed out by \citet{behnel2010, salvatier2016pymc3, Langtangen2008}. Development is facilitated by an expressive but concise and clean syntax that is easy to learn. Python is dynamic, compatible with multiple platforms and offers good support for numerical computing. Integration of other scientific libraries and extension via C, C++, Fortran or Cython are easily possible \citep{behnel2010, salvatier2016pymc3, Langtangen2008}. Python is thus a straightforward tool for the implementation of central components of Bayesian analysis, such as custom statistical distributions and samplers \citep{salvatier2016pymc3}.\\
@@ -226,35 +224,18 @@
 		|\theta-\hat{\theta}|*c, & \text{for } \hat{\theta}\leq0<\theta 
 		\end{cases},
 		\text{ with } a,b,c \in \mathbb{Q}
-		\end{equation}
-		  
-		Realizations of the four adaption steps are depicted in the plots in Figure \ref{fig:LF_4steps}. It is important to note that the weighting factors defined above can take basically any numerical values but should be chosen in a way that they appropriately represent the framework conditions of the problem. Here, for example, it is assumed that normal overestimation is 25\% (\textit{a} = 1.25), fatal overestimation 100\% (\textit{b} = 2) and fatal underestimation 50\% (\textit{c} = 1.5) worse than normal underestimation. 
-		
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width=1\textwidth]{Figures/LF_4steps.png}
-			\caption{The single steps of customizing the loss function are depicted in plots I - IV.}\label{fig:LF_4steps}
-		\end{figure}
-		
-		In Figure \ref{fig:LF_4steps} it can be observed, that assigning a stronger weight on overestimation (plot II) steepens the curve on the right hand side and shifts the minimum to the left, i.e. to a lower estimate. Using \textit{a} = 1.25, the Bayes action changes from the median, to a value close to the mean of the distribution. The shift and steepening are significantly reinforced by the introduction of fatal overestimation (plot III). With \textit{b} = 2, the Bayes action drops to the zero score estimate. It can also be noted, that by defining a condition dependent on the algebraic sign of the values, according to which only losses for positive estimates are multiplied by \textit{b}, a distinct jump appears at the zero score boundary. Due to a similar condition, the same effect is observed on the negative side of estimate values, where the curve has also been steepened, after including fatal underestimation (plot IV). This comes with a shift of the minimum towards positive values. It is also to be noted that with every customization step, the overall expected loss is increased.
-		
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width=1\textwidth]{Figures/LF4_det_values.png}
-			\caption{Loss based on the customized loss function (IV) for determined true scores of -750, 0 and 750.}\label{fig:LF4_det_values}
-		\end{figure}
-		
-		The implementation of this customized loss function (IV) using single determined values for the true score is plotted in Figure \ref{fig:LF4_det_values}. This helps to clarify the way real losses result for each guess, relative to given true score values. The expected loss is acquired by arithmetically averaging such loss realizations based on the true score probability distribution by using formula \ref{eq:ExpectedLoss2}.
-		
+		\end{equation}  
+		It is important to note that the weighting factors defined above can take basically any numerical values but should be chosen in a way that they appropriately represent the framework conditions of the problem. Here, based on the considerations named above, it is assumed that normal overestimation is 25\% (\textit{a} = 1.25), fatal overestimation 100\% (\textit{b} = 2) and fatal underestimation 50\% (\textit{c} = 1.5) worse than normal underestimation. \\		
 		It has to be emphasized that this is just one possible proposal for loss function customization. There exists not one perfect design for such a case. Slight to strong changes can already be implemented by simply varying the values of the weighting factors \textit{a, b} and \textit{c}. Fundamentally different loss functions can also be based on a significantly different mathematical structure. Loss functions are customized regarding the problem environment and according to the to the subjective needs and objectives of an actor. Thus, they are mostly defined by the actor expressing his perspective. Changes in the individual's perception and viewpoint might lead to further customization needs even later on. (Especially considering individual persons as actors, psychological aspects may play a significant role.)
 		
 		(Estimate or prediction? True value only known if a "yes"-action (development) is taken.)
+		INSERT PLOTS BASED ON EXAMPLE NORMAL FUNCTIONS?
 		
 		\subsection{Including different risk-affinities in the loss function}
 		
 		One can assume that several actors in one sector or decision environment may have the same general loss function, but different affinities concerning risks. This might be based for example on the different psychological factors or economic philosophies followed by companies. It might also be based on budgets and options such actors have available. An intuitive example is the comparison of a small and a large company. A certain false estimate or error might have a significantly stronger impact on a company which has a a generally lower market share and only few projects, than on a larger company which might possess a higher financial flexibility and for which one project is only one of many development options in a portfolio.
 		
-		In the following, the loss function is further adapted to consider different risk-affinities of several actors. Representing risk behavior in a loss function can also be done in different ways and regarding different types of risks. Here, bidding lower is considered the cautious, risk-averse option, as smaller losses can be expected from underestimating. Guessing higher is deemed riskier. Losses from overestimation are greater. However, bidding correctly on a higher value, will also return a greater gain. It is assumed that risk-friendly actors care less about fatal underestimation, i.e. they will rather develop a project than discard it. In the loss function, risk is simply included using a risk factor \textit{r} which alters the weighting factors \textit{a, b} and \textit{c} respectively:
+		In the following, the loss function is further adapted to consider different risk-affinities of several actors. Representing risk behavior in a loss function can also be done in different ways and regarding different types of risks. Here, bidding lower is considered the cautious, risk-averse option, as smaller losses can be expected from underestimating. Guessing higher is deemed riskier, as losses from overestimation are greater. However, bidding correctly on a higher value, will also return a greater gain. It is assumed that risk-friendly actors care less about fatal underestimation, i.e. they will rather develop a project than discard it. In the loss function, risk is simply included using a risk factor \textit{r} which alters the weighting factors \textit{a, b} and \textit{c} respectively:
 		
 		\begin{equation}\label{eq:LFR_final}
 		L(\theta,\hat{\theta}) =
@@ -267,19 +248,63 @@
 		\text{ with } a,b,c,r \in \mathbb{Q}
 		\end{equation}
 		
-		According to this, for \textit{r} = 1 the risk-neutral loss function is returned, since \textit{a, b} and \textit{c} are not altered. For \textit{r} $<$ 1, the weight on overestimating is reduced and increased for fatal underestimation. This represents a more risk-friendly actor that is willing to bid on a higher estimate to attain a greater gain. For \textit{r} $>$ 1, the overestimation weight is increased, the underestimation weight decreased in the loss function and respectively more risk-averse actors are prompted to bid on lower estimates. 
+		According to this, for \textit{r} = 1 the risk-neutral loss function is returned, since \textit{a, b} and \textit{c} are not altered. For \textit{r} $<$ 1, the weight on overestimating is reduced and increased for fatal underestimation. This represents a more risk-friendly actor that is willing to bid on a higher estimate to attain a greater gain. For \textit{r} $>$ 1, the overestimation weight is increased in the loss function, the underestimation weight is decreased and respectively more risk-averse actors are prompted to bid on lower estimates.\\		
+		The factor \textit{r} can take basically any positive values. However, since risk-neutrality is expressed by \textit{r} = 1, values 0 $<$ \textit{r} $<$ 2 are considered to be the most appropriate choices to represent both sides of risk-affinity equally here.		
 		
-		The factor \textit{r} can take basically any positive values. However, since risk-neutrality is expressed by\textit{r} = 1, values 0 $<$ \textit{r} $<$ 2 are considered to be the most appropriate choices to represent both sides of risk-affinity equally. 
+		\section{1D geological reservoir modeling}\label{sec:1D_model}
+		For simple understanding and a preliminary assessment of the Bayesian statistical methods and the loss function described above, they are first to be applied in the context of an abstract one-dimensional reservoir case. The underlying model and basic approach are inherited from \citet{delaVarga2016}. Parameters are adapted to more appropriately represent a reasonable geological petroleum system, consisting of a reservoir formation with overlying seal in the subsurface. In this 1D setting, only the interface depths and thicknesses of layers such as the reservoir or seal unit can be observed. Other defining aspects, such as structural entrapment, are assumed to be given. Limiting the model to only one dimension and a small number of uncertain stratigraphical parameters allows for a relatively straightforward and simplified approach to assessing an abstract type of value for a reservoir and using the custom loss function (Equation \ref{eq:LF_final}) for value estimation. The construction of the 1D geological model is described in the following.
 		
-		Implementing it as a factor \textit{r} leads to different steepnesses of the plotted curves depicting loss and expected loss. The effect on the latter is visualized in Figure \ref{fig:LFR}, where 0.5, 0.75, 1, 1.25 and 1.5 were chosen as values for \textit{r}. 	
-		It can be observed that the minima for expected loss, i.e. the Bayesian estimators for differently risk-affine actors, are located at different estimates. Mean and median are clearly surpassed by the best estimate of the most risk-friendly actor (\textit{r} = 0.5), while for the most risk-averse actors (\textit{r} 0.5 and \textit{r} = 0.75), the Bayes action equals a zero score estimate (and thus the decision to take on action). In Figure \ref{fig:LFR} it can also be recognized that the expected loss is generally lower for risk-friendlier actors (on the side of positive estimates).
+			\subsection{Construction of the 1D geological model}\label{sec:1D_construction}	
+			\citet{delaVarga2016} constructed a simple geological model using three uncertain positions in vertical one-dimensional space, marking hypothetical boundaries of layers in a subsurface column. The location probabilities for these points are defined by sampling from normal distributions. Standard deviations of these distributions increase with depth, representing an increase in uncertainty. For an approximate representation of a hydrocarbon reservoir system, the distribution means were set to depths of 2000 m (seal top), 2050 m (reservoir top) and 2200 m (reservoir bottom). STD-DEVIATIONS? These points confine two layers in the middle, from which the upper one can be labeled as seal and the lower one as reservoir. The resulting model with its possible layer boundary locations is illustrated in Figure \ref{fig:1D_model}.
 		
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width=1\textwidth]{Figures/LFR.png}
-			\caption{Plotting of expected loss realizations after including the risk factor r in the loss function (IV) for actors with risk-affinities ranging from risk-averse (r = 0.5 and 0.75), over risk-neutral (r = 1), to risk-friendly (r = 1.25 and r = 1.5).}\label{fig:LFR} 
-		\end{figure}
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=1\textwidth]{Figures/1D_model.png}
+				\caption{Probability distributions for positions of layer boundaries in the subsurface and a respective representation using lines.}\label{fig:1D_model}
+			\end{figure}
 		
-		\section{Constructing a 1D geological reservoir model}
+	        \subsection{Abstract valuation (scoring) of the 1D geological model}\label{sec:1D_score_system}
+	        For valuating a simplified 1D model, $OOIP$ and recoverable volume calculations are not applicable, as these require a 3D setting. Given only layer boundary positions in one vertical dimension, it is resorted to an abstract way of reservoir valuation by defining a scoring system. A dimensionless reservoir score is made dependent on three uncertain parameters which can be deduced from the 1D interface positions: (1) reservoir thickness, (2) reservoir top depth and (3) seal thickness (see Figure \ref{fig:3_parameters}).
+	        	
+	        \begin{figure}[h]
+	        	\centering
+	        	\includegraphics[width=1\textwidth]{Figures/3_parameters.png}
+	        	\caption{Probability distributions for the three parameters deduced from the 1D model depicted in \ref{fig:1D_model}. Values from these parameter distributions are combined in \ref{eq:1D_score_system} attain a score to valuate reservoir model realizations.}\label{fig:3_parameters}
+	        \end{figure}
+	        
+	        Assuming that reservoir thickness is a simplified indicator for the amount of extractable oil or gas and thus value in place, a gain in score can be correlated with increase in thickness. Here, two score points are assigned to one meter of thickness. Increasing costs of drilling are indicated by increasing depth of the reservoir top. Consequently, one negative score point is ascribed to every meter in depth. Samples from the probability distributions of these two parameters are drawn to model the true score of the reservoir (depth scores are subtracted from reservoir thickness scores).
+	        A third parameter is defined by the seal thickness. Score points are not added or subtracted by this parameter directly. Instead, a threshold for seal reliability is defined beforehand. Here it is set at 20 m thickness. If the seal thickness falls below this threshold, it is assumed that the seal fails completely and thus all the potential value (positive score) of the reservoir is lost, while costs of depth (negative score) remain. Thus, a condition to check whether the seal is reliable is included in the model. A respective equation for the reservoir score $S_{res}$ is defined as follows:
+			
+			\begin{equation}\label{eq:1D_score_system}
+			S_{res} = 
+			\begin{cases}
+			2h_{res} + d_{res}, & \text{for } h_{seal} >= 20  \\
+			d_{res}, & \text{for } h_{seal} < 20
+			\end{cases},
+			\end{equation}
+			
+			Where reservoir thickness is given by $h_{res}$, seal thickness by $h_{seal}$ and reservoir depth, which is always a negative value, by $d_{res}$.
 		
 		\section{Constructing a full 3D geological reservoir model}
+		- concept of 1D case in chapter 3 transferred to a 3D case of a structural geological model
+		- same again here: relatively simple model including some important typical geological and structural features and giving it an economic meaning
+		- alternating layers of sandstones and shales, so typical reservoir and seal formations
+		- structurally defined by a tilted dome-formation (folding along in the direction of two perpendicular axes) which is displaced by a standard normal fault
+		- these features are arranged in a way, that they result in the formation of a trap, defined by the anticlinal features and the fault, as well as enabled by the presence of a reservoir rock
+		- considering a petroleum production industry perspective, actors/ decision makers would be interested in the evaluation of value this potential reservoir
+		- "traditionally", this is represented by volumetric calculations or estimations of the recoverable reserves
+		- here: maximum volume of entrapment and subsequently, relative or hypothetical volumes of recoverable reserve can be calculated (for each model realization)
+		- (later: numbers from example case are taken, to achieve estimations of the NPV for a development project realization)
+		- looking at this structural model, not only the calculated volume can be taken into account, but also risk factors, such as fault permeabity seal safety (and capacity?), possible juxtapositions and leaks
+		
+		- as in the 1D case, uncertainties are introduced for a number of parameters in the model, in a way that they affect the resulting maximum volume of the trap (and following also the recoverable reserves)
+		- again, a specific loss function is designed and applied on the results from numerous iterations of the constructed uncertain model, thus resembling the different value estimations/predictions or decisions different actors might make
+		- (to bring this Bayesian method of using loss functions closer to the traditional application of deterministic decision-making in decision-trees, the continuous estimation space of the reservoir value (volume) is combined with the assumption, that the estimated value is linked to a consequent investment into a determined project development size. thus, the continuous approach is used to make the decision in a deterministic decision-making space. ))
+		
+		- later on,  the effect of adding information (in the form of likelihoods) is examined, particularly by looking at the changes in decision-making after applying this Bayesian updating and uncertainty has been reduced
+		
+		- in the following, the construction and design of this model is described
+		
+		- base of the structural geological model is a 3Dcubic  space (block)  with 2000 m size in X, Y and Z x3
+		- place layer positional points in three lines, resembling three hypothetical seismic lines as base information
+		-  
