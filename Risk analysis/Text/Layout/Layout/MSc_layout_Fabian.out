@@ -2,45 +2,33 @@
 \BOOKMARK [0][-]{chapter*.3}{Acknowledgements}{}% 2
 \BOOKMARK [0][-]{chapter*.6}{Nomenclature}{}% 3
 \BOOKMARK [0][-]{chapter*.7}{Acronyms}{}% 4
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 5
-\BOOKMARK [0][-]{chapter.2}{Methods}{}% 6
-\BOOKMARK [1][-]{section.2.1}{Bayesian analysis and decision theory}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.1.1}{Basic elements}{section.2.1}% 8
-\BOOKMARK [2][-]{subsection.2.1.2}{Bayesian inference}{section.2.1}% 9
-\BOOKMARK [2][-]{subsection.2.1.3}{Estimation}{section.2.1}% 10
-\BOOKMARK [2][-]{subsection.2.1.4}{Expected loss and loss functions}{section.2.1}% 11
-\BOOKMARK [1][-]{section.2.2}{Application in structural geological modeling}{chapter.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.1}{Markov chain Monte Carlo sampling \(MCMC\)}{section.2.2}% 13
-\BOOKMARK [2][-]{subsection.2.2.2}{Structural geological forward modeling}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.3}{Economic significance and reservoir valuation}{section.2.2}% 15
-\BOOKMARK [3][-]{section*.9}{Original oil-in-place and recoverable volumes as value measures}{subsection.2.2.3}% 16
-\BOOKMARK [3][-]{section*.10}{Net present value}{subsection.2.2.3}% 17
-\BOOKMARK [3][-]{section*.11}{Abstract valuation using scores in the one-dimensional model}{subsection.2.2.3}% 18
-\BOOKMARK [2][-]{subsection.2.2.4}{Numerical computational implementation via Python, GemPy and PyMC}{section.2.2}% 19
-\BOOKMARK [1][-]{section.2.3}{Designing a case-specific loss function}{chapter.2}% 20
-\BOOKMARK [1][-]{section.2.4}{Constructing a 1D geological reservoir model}{chapter.2}% 21
-\BOOKMARK [1][-]{section.2.5}{Constructing a full 3D geological reservoir model}{chapter.2}% 22
-\BOOKMARK [0][-]{chapter.3}{One-dimensional reservoir case}{}% 23
-\BOOKMARK [1][-]{section.3.1}{Constructing the one-dimensional model}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.2}{Assessing reservoir quality using scores}{chapter.3}% 25
-\BOOKMARK [2][-]{subsection.3.2.1}{Two parameters scoring}{section.3.2}% 26
-\BOOKMARK [2][-]{subsection.3.2.2}{Three parameters scoring}{section.3.2}% 27
-\BOOKMARK [1][-]{section.3.3}{Designing a case-specific loss function}{chapter.3}% 28
-\BOOKMARK [2][-]{subsection.3.3.1}{Testing standard loss functions}{section.3.3}% 29
-\BOOKMARK [2][-]{subsection.3.3.2}{Adaptions for loss function customization}{section.3.3}% 30
-\BOOKMARK [2][-]{subsection.3.3.3}{Including different risk-affinities in the loss function}{section.3.3}% 31
-\BOOKMARK [1][-]{section.3.4}{Updating the model with additional information in the form of thickness likelihoods}{chapter.3}% 32
-\BOOKMARK [2][-]{subsection.3.4.1}{Updating example I: Moderately reinforcing information}{section.3.4}% 33
-\BOOKMARK [2][-]{subsection.3.4.2}{Updating example II: Likely reliable seal}{section.3.4}% 34
-\BOOKMARK [2][-]{subsection.3.4.3}{Updating example III: Safe seal but likely subpar reservoir thickness}{section.3.4}% 35
-\BOOKMARK [1][-]{section.3.5}{General case results}{chapter.3}% 36
-\BOOKMARK [0][-]{chapter.4}{Three-dimensional reservoir case}{}% 37
-\BOOKMARK [1][-]{section.4.1}{Constructing the three-dimensional structural geological model}{chapter.4}% 38
-\BOOKMARK [1][-]{section.4.2}{Identifying trap structures in the geological model}{chapter.4}% 39
-\BOOKMARK [0][-]{section.4.2}{Bibliography}{}% 40
-\BOOKMARK [0][-]{appendix.A}{The back of the thesis}{}% 41
-\BOOKMARK [1][-]{section.A.1}{An appendix section}{appendix.A}% 42
-\BOOKMARK [2][-]{subsection.A.1.1}{An appendix subsection with C++ Lisitng}{section.A.1}% 43
-\BOOKMARK [2][-]{subsection.A.1.2}{A Matlab \040Listing}{section.A.1}% 44
-\BOOKMARK [0][-]{appendix.B}{Yet another appendix}{}% 45
-\BOOKMARK [1][-]{section.B.1}{Another test section}{appendix.B}% 46
+\BOOKMARK [0][-]{chapter.1}{Methods}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Bayesian analysis and decision theory}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.1}{Basic elements}{section.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.2}{Bayesian inference}{section.1.1}% 8
+\BOOKMARK [2][-]{subsection.1.1.3}{Estimation}{section.1.1}% 9
+\BOOKMARK [2][-]{subsection.1.1.4}{Expected loss and loss functions}{section.1.1}% 10
+\BOOKMARK [1][-]{section.1.2}{Application in structural geological modeling}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.2.1}{Markov chain Monte Carlo sampling \(MCMC\)}{section.1.2}% 12
+\BOOKMARK [2][-]{subsection.1.2.2}{Structural geological forward modeling}{section.1.2}% 13
+\BOOKMARK [2][-]{subsection.1.2.3}{Economic significance and reservoir valuation}{section.1.2}% 14
+\BOOKMARK [3][-]{section*.9}{Original oil-in-place and recoverable volumes as value measures}{subsection.1.2.3}% 15
+\BOOKMARK [3][-]{section*.10}{Net present value}{subsection.1.2.3}% 16
+\BOOKMARK [3][-]{section*.11}{Abstract valuation using scores in the one-dimensional model}{subsection.1.2.3}% 17
+\BOOKMARK [2][-]{subsection.1.2.4}{Numerical computational implementation via Python, GemPy and PyMC}{section.1.2}% 18
+\BOOKMARK [1][-]{section.1.3}{Designing a case-specific loss function}{chapter.1}% 19
+\BOOKMARK [2][-]{subsection.1.3.1}{Including different risk-affinities in the loss function}{section.1.3}% 20
+\BOOKMARK [1][-]{section.1.4}{Constructing a 1D geological reservoir model}{chapter.1}% 21
+\BOOKMARK [1][-]{section.1.5}{Constructing a full 3D geological reservoir model}{chapter.1}% 22
+\BOOKMARK [0][-]{chapter.2}{Results}{}% 23
+\BOOKMARK [1][-]{section.2.1}{Results using the 1D geological model}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.2}{Results using the 3D geological model}{chapter.2}% 25
+\BOOKMARK [0][-]{chapter.3}{Discussion}{}% 26
+\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 27
+\BOOKMARK [0][-]{chapter.4}{Bibliography}{}% 28
+\BOOKMARK [0][-]{appendix.A}{The back of the thesis}{}% 29
+\BOOKMARK [1][-]{section.A.1}{An appendix section}{appendix.A}% 30
+\BOOKMARK [2][-]{subsection.A.1.1}{An appendix subsection with C++ Lisitng}{section.A.1}% 31
+\BOOKMARK [2][-]{subsection.A.1.2}{A Matlab \040Listing}{section.A.1}% 32
+\BOOKMARK [0][-]{appendix.B}{Yet another appendix}{}% 33
+\BOOKMARK [1][-]{section.B.1}{Another test section}{appendix.B}% 34

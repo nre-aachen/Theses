@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.7.19)  23 SEP 2017 17:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.7.19)  28 SEP 2017 10:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -510,12 +510,8 @@ Writing glossary file MSc_layout_Fabian.glo
 \openout7 = `MSc_layout_Fabian.idx'.
 
 Writing index file MSc_layout_Fabian.idx
-(./MSc_layout_Fabian.aux (./chapter1.aux) (./chapter2_methods.aux)
-(./chapter3_1Dcase.aux
-
-LaTeX Warning: Label `tab:update_examples_all' multiply defined.
-
-) (./chapter4_3Dcase.aux))
+(./MSc_layout_Fabian.aux (./chapter2_methods.aux) (./chapter3_results.aux)
+(./chapter4_discussion.aux) (./chapter4_conclusion.aux))
 \openout1 = `MSc_layout_Fabian.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -615,7 +611,7 @@ LaTeX Info: Redefining \nameref on input line 31.
 \openout8 = `MSc_layout_Fabian.out'.
 
 
-<IDEA_League_Logo.png, id=179, 579.16376pt x 103.38625pt>
+<IDEA_League_Logo.png, id=135, 579.16376pt x 103.38625pt>
 File: IDEA_League_Logo.png Graphic file (type png)
 
 <use IDEA_League_Logo.png>
@@ -656,7 +652,7 @@ ed-to.pdf StyleStuff/tud.eps>
 (epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
 
-<StyleStuff/tud-eps-converted-to.pdf, id=200, 140.525pt x 77.28876pt>
+<StyleStuff/tud-eps-converted-to.pdf, id=156, 140.525pt x 77.28876pt>
 File: StyleStuff/tud-eps-converted-to.pdf Graphic file (type pdf)
 
 <use StyleStuff/tud-eps-converted-to.pdf>
@@ -730,7 +726,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--40
 ] (./MSc_layout_Fabian.toc [9]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 42.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 31.
 
 )
 \tf@toc=\write9
@@ -746,18 +742,14 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
 
 ] [12
 
-] (./MSc_layout_Fabian.lot
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 4.
-
-)
+] (./MSc_layout_Fabian.lot)
 \tf@lot=\write11
 \openout11 = `MSc_layout_Fabian.lot'.
 
  [13
 
-] [14
+]
+[14
 
 ]
 No file MSc_layout_Fabian.gls.
@@ -768,207 +760,92 @@ No file MSc_layout_Fabian.gls.
 ] [16
 
 ]
-\openout2 = `chapter1.aux'.
-
- (./chapter1.tex
-Chapter 1.
-! Misplaced alignment tab character &.
-l.13 ...of uncertainty and work done by Wellmann &
-                                                   DeLaVarga
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-) [1
-
-
-
-] [2
-
-
-]
 \openout2 = `chapter2_methods.aux'.
 
  (./chapter2_methods.tex
-Chapter 2.
-[3
+Chapter 1.
+[1
 
 
-] [4] [5] [6] [7] [8]
-<Figures/calcagno_pot_field.png, id=618, 1138.2525pt x 570.13pt>
+
+
+] [2] [3] [4] [5] [6]
+<Figures/calcagno_pot_field.png, id=516, 1138.2525pt x 570.13pt>
 File: Figures/calcagno_pot_field.png Graphic file (type png)
 
 <use Figures/calcagno_pot_field.png>
 Package pdftex.def Info: Figures/calcagno_pot_field.png used on input line 141.
 
 (pdftex.def)             Requested size: 442.65375pt x 221.71474pt.
- [9]
+ [7]
 Underfull \hbox (badness 10000) in paragraph at lines 148--151
 
  []
 
-[10 <./Figures/calcagno_pot_field.png>]
+[8 <./Figures/calcagno_pot_field.png>]
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ³ in font cmr10!
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ² in font cmr10!
- [11] [12]) [13]
-\openout2 = `chapter3_1Dcase.aux'.
-
- (./chapter3_1Dcase.tex
-[14
-
-
-
-]
-Chapter 3.
-<Figures/1D_model.png, id=741, 903.375pt x 385.44pt>
-File: Figures/1D_model.png Graphic file (type png)
-
-<use Figures/1D_model.png>
-Package pdftex.def Info: Figures/1D_model.png used on input line 11.
-(pdftex.def)             Requested size: 442.65375pt x 188.86725pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 2961) has occurred while \output is active []
-
- [15]
-<Figures/3_parameters.png, id=747, 1012.78375pt x 276.03125pt>
-File: Figures/3_parameters.png Graphic file (type png)
-
-<use Figures/3_parameters.png>
-Package pdftex.def Info: Figures/3_parameters.png used on input line 21.
-(pdftex.def)             Requested size: 442.65375pt x 120.64122pt.
- [16 <./Figures/1D_model.png> <./Figures/3_parameters.png>] <Figures/score_resu
-lts1.png, id=756, 1029.8475pt x 385.44pt>
-File: Figures/score_results1.png Graphic file (type png)
-
-<use Figures/score_results1.png>
-Package pdftex.def Info: Figures/score_results1.png used on input line 35.
-(pdftex.def)             Requested size: 442.65375pt x 165.67126pt.
- [17 <./Figures/score_results1.png>]
-<Figures/abs_sqr_LF.png, id=764, 909.3975pt x 385.44pt>
-File: Figures/abs_sqr_LF.png Graphic file (type png)
-
-<use Figures/abs_sqr_LF.png>
-Package pdftex.def Info: Figures/abs_sqr_LF.png used on input line 50.
-(pdftex.def)             Requested size: 442.65375pt x 187.61452pt.
- [18 <./Figures/abs_sqr_LF.png>] [19]
-<Figures/LF_4steps.png, id=786, 965.6075pt x 604.2575pt>
+ [9] [10] [11] [12]
+<Figures/LF_4steps.png, id=643, 965.6075pt x 604.2575pt>
 File: Figures/LF_4steps.png Graphic file (type png)
 
 <use Figures/LF_4steps.png>
-Package pdftex.def Info: Figures/LF_4steps.png used on input line 106.
+Package pdftex.def Info: Figures/LF_4steps.png used on input line 235.
 (pdftex.def)             Requested size: 442.65375pt x 277.00291pt.
- [20 <./Figures/LF_4steps.png>]
-<Figures/LF4_det_values.png, id=796, 909.3975pt x 385.44pt>
+ [13 <./Figures/LF_4steps.png>]
+<Figures/LF4_det_values.png, id=654, 909.3975pt x 385.44pt>
 File: Figures/LF4_det_values.png Graphic file (type png)
 
 <use Figures/LF4_det_values.png>
-Package pdftex.def Info: Figures/LF4_det_values.png used on input line 114.
+Package pdftex.def Info: Figures/LF4_det_values.png used on input line 243.
 (pdftex.def)             Requested size: 442.65375pt x 187.61452pt.
- [21 <./Figures/LF4_det_values.png>]
-<Figures/LFR.png, id=806, 915.42pt x 385.44pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <./Figures/LF4_det_values.png>] <Figures/LFR.png, id=664, 915.42pt x 385.4
+4pt>
 File: Figures/LFR.png Graphic file (type png)
- <use Figures/LFR.png>
-Package pdftex.def Info: Figures/LFR.png used on input line 150.
+
+<use Figures/LFR.png>
+Package pdftex.def Info: Figures/LFR.png used on input line 279.
 (pdftex.def)             Requested size: 442.65375pt x 186.37944pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22] <Figures/update_moderate1.png, id=817, 903.375pt x 604.2575pt>
-File: Figures/update_moderate1.png Graphic file (type png)
+) [15] [16 <./Figures/LFR.png>]
+\openout2 = `chapter3_results.aux'.
 
-<use Figures/update_moderate1.png>
-Package pdftex.def Info: Figures/update_moderate1.png used on input line 168.
-(pdftex.def)             Requested size: 442.65375pt x 296.08876pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/update_moderate2.png, id=820, 962.59625pt x 385.44pt>
-File: Figures/update_moderate2.png Graphic file (type png)
-
-<use Figures/update_moderate2.png>
-Package pdftex.def Info: Figures/update_moderate2.png used on input line 179.
-(pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
-
-<Figures/update_moderate3.png, id=821, 970.62625pt x 385.44pt>
-File: Figures/update_moderate3.png Graphic file (type png)
-
-<use Figures/update_moderate3.png>
-Package pdftex.def Info: Figures/update_moderate3.png used on input line 186.
-(pdftex.def)             Requested size: 442.65375pt x 175.78128pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[23 <./Figures/LFR.png>] [24 <./Figures/update_moderate1.png>]
-<Figures/update_goodseal2.png, id=837, 962.59625pt x 385.44pt>
-File: Figures/update_goodseal2.png Graphic file (type png)
-
-<use Figures/update_goodseal2.png>
-Package pdftex.def Info: Figures/update_goodseal2.png used on input line 222.
-(pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
-
-<Figures/update_goodseal3.png, id=838, 970.62625pt x 385.44pt>
-File: Figures/update_goodseal3.png Graphic file (type png)
-
-<use Figures/update_goodseal3.png>
-Package pdftex.def Info: Figures/update_goodseal3.png used on input line 229.
-(pdftex.def)             Requested size: 442.65375pt x 175.78128pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[25 <./Figures/update_moderate2.png> <./Figures/update_moderate3.png>]
-<Figures/update_smallres2.png, id=849, 962.59625pt x 385.44pt>
-File: Figures/update_smallres2.png Graphic file (type png)
-
-<use Figures/update_smallres2.png>
-Package pdftex.def Info: Figures/update_smallres2.png used on input line 266.
-(pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
-
-<Figures/update_smallres3.png, id=850, 970.62625pt x 385.44pt>
-File: Figures/update_smallres3.png Graphic file (type png)
-
-<use Figures/update_smallres3.png>
-Package pdftex.def Info: Figures/update_smallres3.png used on input line 273.
-(pdftex.def)             Requested size: 442.65375pt x 175.78128pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 313.
-
-
-[26 <./Figures/update_goodseal2.png> <./Figures/update_goodseal3.png>] [27 <./F
-igures/update_smallres2.png> <./Figures/update_smallres3.png>]) [28]
-\openout2 = `chapter4_3Dcase.aux'.
-
-
-(./chapter4_3Dcase.tex
-Chapter 4.
-[29
+ (./chapter3_results.tex
+Chapter 2.
+) [17
 
 
 
 ]
-Underfull \hbox (badness 3895) in paragraph at lines 21--21
-[]\OT1/cmss/bx/n/14.4 Constructing the three-dimensional struc-tural ge-o-log-i
--cal
- []
+\openout2 = `chapter4_discussion.aux'.
 
-) [30] (./MSc_layout_Fabian.bbl
+ (./chapter4_discussion.tex [18
+
+
+
+]
+Chapter 3.
+) [19]
+\openout2 = `chapter5_conclusion.aux'.
+
+ (./chapter5_conclusion.tex [20
+
+
+
+]
+Chapter 4.
+) [21] [22
+
+
+] (./MSc_layout_Fabian.bbl
 ! Misplaced alignment tab character &.
 l.13 \newblock {\em Computing in Science &
                                            Engineering}, 13(2).
@@ -979,11 +856,9 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[31
+[23
 
-
-
-]) [32]
+]) [24]
 Appendix A.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -1004,36 +879,37 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <6> not available
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/sc' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 108.
+(Font)              using `OT1/cmss/bx/n' instead on input line 111.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 108.
+(hyperref)                removing `math shift' on input line 111.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 108.
+(hyperref)                removing `math shift' on input line 111.
 
-(./test.m) [33
+(./test.m) [25
 
 
-] [34
+] [26
 
 ]
 Appendix B.
 No file MSc_layout_Fabian.ind.
-[35] [36
+[27] [28
 
 ]
 \tf@thm=\write12
 \openout12 = `MSc_layout_Fabian.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
- (./MSc_layout_Fabian.aux (./chapter1.aux) (./chapter2_methods.aux)
-(./chapter3_1Dcase.aux) (./chapter4_3Dcase.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
+ (./MSc_layout_Fabian.aux (./chapter2_methods.aux)
+(./chapter3_results.aux) (./chapter4_discussion.aux) (./chapter5_conclusion.aux
+))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
 
 
 Package rerunfilecheck Warning: File `MSc_layout_Fabian.out' has changed.
@@ -1041,24 +917,24 @@ Package rerunfilecheck Warning: File `MSc_layout_Fabian.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `MSc_layout_Fabian.out':
-(rerunfilecheck)             Before: 9F57AAF95B440F5A37E87759708CF797;3567
-(rerunfilecheck)             After:  510D9EBCC0F67DF82FE52FE17B0B9AC7;3754.
+(rerunfilecheck)             Before: BE618B46B7B0A08BF6FFBA6FD15983ED;2505
+(rerunfilecheck)             After:  885450A27708EDF80B2A536A857A3CEE;2551.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
- 11752 strings out of 494902
- 171053 string characters out of 6179891
- 298934 words of memory out of 5000000
- 14559 multiletter control sequences out of 15000+600000
- 18665 words of font info for 68 fonts, out of 8000000 for 9000
+ 11630 strings out of 494902
+ 168529 string characters out of 6179891
+ 294174 words of memory out of 5000000
+ 14478 multiletter control sequences out of 15000+600000
+ 17953 words of font info for 66 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 43i,12n,58p,1535b,1486s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,58p,1542b,1486s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
@@ -1072,18 +948,17 @@ ts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/symbols/msbm10.pfb>
-Output written on MSc_layout_Fabian.pdf (54 pages, 1282106 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/symbols/msbm10.pfb>
+Output written on MSc_layout_Fabian.pdf (46 pages, 671488 bytes).
 PDF statistics:
- 1040 PDF objects out of 1200 (max. 8388607)
- 915 compressed objects within 10 object streams
- 190 named destinations out of 1000 (max. 500000)
- 438 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 857 PDF objects out of 1000 (max. 8388607)
+ 766 compressed objects within 8 object streams
+ 160 named destinations out of 1000 (max. 500000)
+ 295 words of extra memory for PDF output out of 10000 (max. 10000000)
 
