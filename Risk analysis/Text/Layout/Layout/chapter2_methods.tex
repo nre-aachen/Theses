@@ -2,7 +2,7 @@
 
     The methods utilized in this work are presented in the following chapter. Bayesian analysis and decision theory are introduced. Focus is laid on Bayesian inference, estimation of uncertain values and the use of loss functions in this context. These methods are incorporated in computational modeling of structural geological settings by programming in a python 3 environment. Central tools for model construction and conduction of the statistical evaluation are GeMpy and PyMC 2 in particular. These are also presented in this chapter.
     
-        \section{Bayesian analysis and decision theory}
+        \section{Bayesian analysis and decision theory}\label{sec:bayes}
 	    As implied by the name, the problems and reasoning behind decision-making are examined in the field of decision theory \citep{berger2013stat}. Such decision problems are commonly influenced by parameters that are uncertain. In statistical decision theory, available statistical knowledge is used to gain information on the nature of these uncertainties. (Such uncertain parameters can be considered as numerical quantities.) In order to find the best decision to a problem, it is possible to combine sample information with other aspects such as the possible consequences of decision-making and the availability of prior information on our uncertainties. Decision consequences are expressed as gains in economic decision theory and as losses, which equal negative gains, in statistics. Prior information might be given for example based on experience from previous similar problems or from expert knowledge (see Batvold and Begg). The approach of utilizing priors is known as Bayesian analysis, which is explained in the following \citep{berger2013stat}. (It goes well with decision theory.)
 	    
 	    \subsection{Basic elements}
@@ -285,7 +285,10 @@
 			
 			Where reservoir thickness is given by $h_{res}$, seal thickness by $h_{seal}$ and reservoir depth, which is always a negative value, by $d_{res}$.
 		
-		\section{Constructing a full 3D geological reservoir model}
+		\section{3D geological reservoir model}
+		The concept of the 1D geological model is to be transferred and extended to a 3D setting that incorporates a more complete geological reservoir system. A three-dimensional space allows not only for better consideration of stratigraphical aspects, but also for the inclusion of structural formations, in particular reservoir trap-defining features.\\
+		For the purpose of exploring the effect of the methods of Bayesian analysis and decision theory in this work, the model is nevertheless to be kept relatively simple. 
+		
 		- concept of 1D case in chapter 3 transferred to a 3D case of a structural geological model
 		- same again here: relatively simple model including some important typical geological and structural features and giving it an economic meaning
 		- alternating layers of sandstones and shales, so typical reservoir and seal formations
