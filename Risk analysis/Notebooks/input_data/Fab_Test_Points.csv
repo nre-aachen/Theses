@@ -56,6 +56,6 @@ X,Y,Z,formation
 1500,1500,-750,SecRes_Top
 700,1000,-1100,MainFault
 600,1000,-1400,MainFault
-400,1000,-1700,MainFault
+500,1000,-1700,MainFault
 800,1000,-800,MainFault
 900,1000,-500,MainFault
