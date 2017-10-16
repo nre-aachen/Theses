@@ -290,25 +290,26 @@
 		
 		\subsection{Design of the 3D geological reservoir model}\label{sec:3D_design}
 		For the purpose of exploring the effect of the methods of Bayesian analysis and decision theory in this work, the model is nevertheless to be kept relatively simple. Stratigraphically, it is designed to include one main reservoir unit (sandstone), one main seal unit (shale), an underlying basement through which hydrocarbon fluids could have flown upwards and an overlying formation that is assumed to be permeable, so that hydrocarbons can leak upwards. Structurally, it is constructed to feature an anticlinal dome fold that is displaced by a normal fault. All layers are tilted so that they dip in the opposite direction of the fault plane dip. The original concept of this model is designed in a way, that a potential hydrocarbon trap is formed in the reservoir rock enclosed by the deformed and tilted seal and normal fault.\\
-		This trap is defined as the central feature of economic interest. 
+		This trap is defined as the central feature of economic interest. [...]
+		
+		The maximum trap volume is assumed to equate the hydrocarbon-filled rock volume $A * h$ in Equation \ref{eq:OOIP}. $OOIP$ and recoverable oil volumes are thus to be used to valuate each realization of the geological model. Single results are expected to vary, depending on the uncertain input parameters defined in Section \ref{sec:3D_construction} below. The custom loss function \ref{eq:LFR_final} is to be applied on the resulting value distributions before and after performing Bayesian inference. This way, the effect of incorporating additional information in the form of likelihoods is to be assessed from a perspective of Bayesian decision theory.
+				- (to bring this Bayesian method of using loss functions closer to the traditional application of deterministic decision-making in decision-trees, the continuous estimation space of the reservoir value (volume) is combined with the assumption, that the estimated value is linked to a consequent investment into a determined project development size. thus, the continuous approach is used to make the decision in a deterministic decision-making space. )?
 
-		- considering a petroleum production industry perspective, actors/ decision makers would be interested in the evaluation of value this potential reservoir
-		- "traditionally", this is represented by volumetric calculations or estimations of the recoverable reserves
-		- here: maximum volume of entrapment and subsequently, relative or hypothetical volumes of recoverable reserve can be calculated (for each model realization)
-		- (later: numbers from example case are taken, to achieve estimations of the NPV for a development project realization)
-		- looking at this structural model, not only the calculated volume can be taken into account, but also risk factors, such as fault permeabity seal safety (and capacity?), possible juxtapositions and leaks
+		\subsection{Construction of the uncertain 3D geological reservoir model}\label{sec:3D_construction}
+		The 3D structural geological model is constructed as follows: In principle, it is defined as a cubic block with an extent of 2000~m in X, Y and Z directions. The basic input data for the interpolation of the geological features is comprised of 3D point coordinates for layer interfaces and fault surfaces, as well as measurements that indicate respective dip directions and angles. In a Python environment, the data is imported as comma-separated values (CSV) using gemPy. From the generated data frame, gemPy is able to interpolate surfaces following the potential-field method explained in Section \ref{sec:struc_geo_modeling}) and compute voxel-based 3D geological models (see Figure \ref{fig:base3Dmodel_section}).
 		
-		- as in the 1D case, uncertainties are introduced for a number of parameters in the model, in a way that they affect the resulting maximum volume of the trap (and following also the recoverable reserves)
-		- again, a specific loss function is designed and applied on the results from numerous iterations of the constructed uncertain model, thus resembling the different value estimations/predictions or decisions different actors might make
-		- (to bring this Bayesian method of using loss functions closer to the traditional application of deterministic decision-making in decision-trees, the continuous estimation space of the reservoir value (volume) is combined with the assumption, that the estimated value is linked to a consequent investment into a determined project development size. thus, the continuous approach is used to make the decision in a deterministic decision-making space. ))
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=1\textwidth]{Figures/base3Dmodel_plot.png}
+			\caption{Mid section of the base 3D geological model as defined by the original data frame (see Appendix). Layer interfaces are defined by points and foliation dipping indicated by perpendicularly oriented arrows.}\label{fig:base3Dmodel_section}
+		\end{figure}
 		
-		- later on,  the effect of adding information (in the form of likelihoods) is examined, particularly by looking at the changes in decision-making after applying this Bayesian updating and uncertainty has been reduced
-		
-		\subsection{Construction of the 3D geological reservoir model}\label{sec:3D_construction}
-		- in the following, the construction and design of this model is described
-		
-		- base of the structural geological model is a 3Dcubic  space (block)  with 2000 m size in X, Y and Z x3
-		- place layer positional points in three lines, resembling three hypothetical seismic lines as base information
+		Uncertainties are implemented in several ways:
+		\begin{enumerate}
+		        \item \textbf{Z-values for layer interfaces:} Analogously to the 1D model, uncertainties for the vertical position of layer interfaces are implemented by using normal probability distributions. A deviation from the original input data Z-value is hereby added and allows for the consideration of uncertainties regarding layer surface positions in depth, layer thicknesses, topological shape and degree of fault offset. Points belonging to the same layer interface are assigned the same base uncertainty by applying one shared probability distribution. Assuming an increase of uncertainty with depth, standard deviations for the distributions are increased for lower formations. Furthermore, uncertainty regarding the magnitude of fault offset is incorporated by adding a further normal probability distribution that is shared by all layer interface points on the hanging wall. The specific ditributions are listed in the Appendix.
+		        \item \textbf{Cross-fault sealing:} Uncertainty about the sealing capacity across the fault is implemented using a Bernoulli distribution. In doing so, a probability of success is defined beforehand. In the case of such a "success", a value of one is returned by the distribution and lateral sealing of the fault is assumed. Should a value of zero be returned, cross-fault leakage is determined to be generally possible, depending on the occurrence of juxtapositions.
+		        \item \textbf{Other non-structural parameters:} Other factors that determine the $OOIP$ and $ROV$ calculations, such as porosity and recovery factor, can be implemented stochastically or deterministically. WHAT DO I USE?
+		\end{enumerate}
 		
 		\subsection{Determination of the trap volume}
 		
