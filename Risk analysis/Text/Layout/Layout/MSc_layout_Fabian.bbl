@@ -70,6 +70,11 @@ Gilks, W.~R. (2005).
 \newblock {\em Markov chain monte carlo}.
 \newblock Wiley Online Library.
 
+\bibitem[Guichard et~al., 2013]{guichard2013calculus}
+Guichard, D., Koblitz, N., and Keisler, H.~J. (2013).
+\newblock {\em Calculus: Early Transcendentals}.
+\newblock D. Guichard.
+
 \bibitem[Haario et~al., 2001]{haario2001adaptive}
 Haario, H., Saksman, E., and Tamminen, J. (2001).
 \newblock An adaptive metropolis algorithm. bernoulli 7 223--242.
@@ -123,5 +128,18 @@ Salvatier, J., Wiecki, T.~V., and Fonnesbeck, C. (2016).
 Schaaf, A. (2017).
 \newblock Geological inference based on kinematic structural models.
 \newblock Master's thesis, RWTH AACHEN UNIVERSITY, Aachen, Germany.
+
+\bibitem[Verschelde, 2017]{verschelde2017programmingtools}
+Verschelde, J. (2017).
+\newblock Programming tools and file management - part i: A tour of python.
+\newblock
+  \url{http://homepages.math.uic.edu/~jan/mcs275/mcs275notes/index.html}.
+\newblock Last visited on 18/10/2017.
+
+\bibitem[Weisstein, 2017]{weisstein2017saddlepoint}
+Weisstein, E.~W. (2017).
+\newblock Saddle point. from mathworld---a wolfram web resource.
+\newblock \url{http://mathworld.wolfram.com/SaddlePoint.html}.
+\newblock Last visited on 18/10/2017.
 
 \end{thebibliography}

@@ -25,16 +25,16 @@
 \BOOKMARK [2][-]{subsection.1.5.2}{Construction of the uncertain 3D geological reservoir model}{section.1.5}% 25
 \BOOKMARK [2][-]{subsection.1.5.3}{Determination of the trap volume}{section.1.5}% 26
 \BOOKMARK [3][-]{section*.14}{Finding the final spill point of a trap}{subsection.1.5.3}% 27
-\BOOKMARK [3][-]{section*.16}{Calculating the maximum trap volume}{subsection.1.5.3}% 28
-\BOOKMARK [2][-]{subsection.1.5.4}{Determination of layer thicknesses}{section.1.5}% 29
+\BOOKMARK [3][-]{section*.17}{Calculating the maximum trap volume}{subsection.1.5.3}% 28
+\BOOKMARK [2][-]{subsection.1.5.4}{Implementation of reservoir-related likelihoods in the 3D model}{section.1.5}% 29
 \BOOKMARK [0][-]{chapter.2}{Results}{}% 30
 \BOOKMARK [1][-]{section.2.1}{1D geological reservoir model results}{chapter.2}% 31
 \BOOKMARK [2][-]{subsection.2.1.1}{Scoring}{section.2.1}% 32
 \BOOKMARK [2][-]{subsection.2.1.2}{Applying the custom loss function on the 1D reservoir scores}{section.2.1}% 33
 \BOOKMARK [2][-]{subsection.2.1.3}{Bayesian updating using thickness likelihoods}{section.2.1}% 34
-\BOOKMARK [3][-]{section*.20}{Updating case I: Moderately reinforcing information}{subsection.2.1.3}% 35
-\BOOKMARK [3][-]{section*.22}{Updating case II: Likely reliable seal}{subsection.2.1.3}% 36
-\BOOKMARK [3][-]{section*.24}{Updating case III: Safe seal but likely subpar reservoir thickness}{subsection.2.1.3}% 37
+\BOOKMARK [3][-]{section*.21}{Updating case I: Moderately reinforcing information}{subsection.2.1.3}% 35
+\BOOKMARK [3][-]{section*.23}{Updating case II: Likely reliable seal}{subsection.2.1.3}% 36
+\BOOKMARK [3][-]{section*.25}{Updating case III: Safe seal but likely subpar reservoir thickness}{subsection.2.1.3}% 37
 \BOOKMARK [2][-]{subsection.2.1.4}{General 1D model updating results}{section.2.1}% 38
 \BOOKMARK [1][-]{section.2.2}{Results using the 3D geological model}{chapter.2}% 39
 \BOOKMARK [0][-]{chapter.3}{Discussion}{}% 40

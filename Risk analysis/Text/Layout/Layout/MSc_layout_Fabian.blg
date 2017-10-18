@@ -13,45 +13,45 @@ Repeated entry---line 9113 of file complete_biblio.bib
 I'm skipping whatever remains of this entry
 Warning--empty journal in davidson2015
 Warning--there's a number but no volume in geman1984stochastic
-You've used 22 entries,
+You've used 25 entries,
             1935 wiz_defined-function locations,
-            620 strings with 7812 characters,
-and the built_in function-call counts, 8009 in all, are:
-= -- 782
-> -- 312
-< -- 18
-+ -- 106
-- -- 102
-* -- 667
-:= -- 1429
-add.period$ -- 64
-call.type$ -- 22
-change.case$ -- 156
-chr.to.int$ -- 22
-cite$ -- 24
-duplicate$ -- 308
-empty$ -- 554
-format.name$ -- 134
-if$ -- 1540
+            633 strings with 8280 characters,
+and the built_in function-call counts, 8858 in all, are:
+= -- 868
+> -- 344
+< -- 20
++ -- 116
+- -- 112
+* -- 724
+:= -- 1594
+add.period$ -- 75
+call.type$ -- 25
+change.case$ -- 175
+chr.to.int$ -- 25
+cite$ -- 27
+duplicate$ -- 342
+empty$ -- 607
+format.name$ -- 147
+if$ -- 1699
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 22
-newline$ -- 111
-num.names$ -- 66
-pop$ -- 136
+missing$ -- 24
+newline$ -- 128
+num.names$ -- 75
+pop$ -- 151
 preamble$ -- 1
-purify$ -- 161
+purify$ -- 181
 quote$ -- 0
-skip$ -- 240
+skip$ -- 267
 stack$ -- 0
-substring$ -- 523
-swap$ -- 32
+substring$ -- 559
+swap$ -- 33
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 124
+type$ -- 140
 warning$ -- 2
-while$ -- 65
+while$ -- 71
 width$ -- 0
-write$ -- 281
+write$ -- 321
 (There was 1 error message)

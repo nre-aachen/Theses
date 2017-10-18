@@ -318,29 +318,53 @@
 				        \item \textbf{Location above spill point horizon:} The voxel is located vertically above the final spill point of the trap. In the algorithm to find this final spill point, it is distinguished between a spill point defined by the folding structure, referred to as anticlinal spill point, and a cross-fault leak point, that depends on the magnitude of displacement and the resulting nature of juxtapositions. Once both of these points have been determined, the higher one is defined to be the final spill point used to determine the maximum fill capacity of the trap. In the case of fault sealing, however, the cross-fault leak point is discarded as irrelevant. The process of finding the decisive spill point is explained below in further detail.
 				        \item \textbf{Location inside of closed system:} The voxel is part of a model section inside of the main anticlinal feature. All of the voxels in this section are separated from the borders of the model by voxels that don't meet the conditions above, which primarily means that they are encapsulated by seal voxel laterally and upwards. This condition is applicable  under the assumption, that connection to the borders of the model lead to leakage. A trap is thus defined as a closed system in this model.
 		\end{enumerate} 
-		REGARD THE RELATIVITY OF THE CONDITIONS AND THE APPROACH TO THIS SPECIFIC MODEL!
+		It has to be emphasized that these conditions have been fitted to the geological model constructed as described in Section \ref{sec:3D_construction}. For other models featuring different geological properties, features and levels of complexities, these conditions might not apply at all or might have to be adapted. Models of higher complexities will surely require the introduction of further conditions.
 		
 			\subsubsection{Finding the final spill point of a trap} %\label{sec:spill_leak_finding}
-			Regarding dome-shaped anticlinal structures, it can be observed that, geometrically and mathematically, a spill point is a saddle point of the reservoir top surface in 3D. SADDLE POINT DEFINITION
-			Two examples for such saddle points are visualized in Figure \ref{fig:saddle_points_general}. Particularly Figure \ref{fig:saddle_point_between_maxima} can be seen as a representation of a point of spill between two dome structures (i.e. 3D surface maxima) is defined by the surface's saddle point between both.
-			
+			Regarding dome-shaped anticlinal structures, it can be observed that, geometrically and mathematically, a spill point is a saddle point of the reservoir top surface in 3D. Regarding a surface defined by $f(x,y)$, a local maximum at $(x_0,y_0,z_0)$ would resemble a hill top \citep{guichard2013calculus}. Local maxima will be found looking at the cross-sections in the planes $y = y_0$ and $x = x_0$. Furthermore, the respective partial derivatives (i.e. gradients) $\frac{\delta z}{\delta x}$ and $\frac{\delta z}{\delta y}$ will equal zero at $x_0$ and $y_0$, i.e. that the extremum is a stationary point \citep{guichard2013calculus, weisstein2017saddlepoint}. In the context of a geological reservoir system, such a hill can be considered to represent an anticlinal structural trap. Local minima are defined analogously, presenting local minima in both planes at a stationary point \citep{guichard2013calculus}. A saddle point, however, is a stationary point, while not being an extremum \citep{weisstein2017saddlepoint}. In general, saddle points can be distinguished from extrema by applying the second derivative test \citep{guichard2013calculus, weisstein2017saddlepoint}: Considering a 2D function $f(x,y)$ with continuous partial derivatives at a  point $(x_0,y_0)$, so that $f_x(x_0,y_0) = 0$ and $f_x(x_0,y_0) = 0$, the following discriminant $D$ can be introduced:
+			\begin{equation}\label{eq:discriminant_D}
+			D(x_0,y_0) = f_{xx}(x_0,y_0)f_{yy}(x_0,y_0) - f_{xy}(x_0,y_0)^2
+			\end{equation}
+			Using this, the following holds for a point $(x_0,y_0)$:
+			\begin{enumerate}
+				\item If $D > 0$ and $f_{xx}(x_0,y_0) < 0$, there is a local maximum.
+				\item If $D > 0$ and $f_{xx}(x_0,y_0) > 0$, there is a local minimum.
+				\item If $D < 0$, there is a saddle point at the point $(x_0,y_0)$.
+				\item If $D = 0$, the test fails \citep{guichard2013calculus}.
+			\end{enumerate}
 			\begin{figure}[h]
 				%\centering
 				\begin{subfigure}{.5\textwidth}
-					\centering
-					\includegraphics[width=1\linewidth]{Figures/Saddle_point.png}
-					\caption{Graph and saddle point of the function $z=x2−y2$.}\label{fig:saddle_point} 
-				\end{subfigure}
+				\centering
+				\includegraphics[width=1\linewidth]{Figures/Saddle_point.png}
+				\caption{Graph and saddle point of the function $z=x2~-~y2$.}\label{fig:saddle_point} 
+			\end{subfigure}
 				\begin{subfigure}{.5\textwidth}
-					\centering
-					\includegraphics[width=1\linewidth]{Figures/Saddle_Point_between_maxima.png}
-					\caption{Saddle point between two maxima.}\label{fig:saddle_point_between_maxima} 
+				\centering
+				\includegraphics[width=1\linewidth]{Figures/Saddle_Point_between_maxima.png}
+				\caption{Saddle point between two maxima.}\label{fig:saddle_point_between_maxima} 
 				\end{subfigure}
 				\caption{Two examples for saddle points on surfaces of 3D functions (from Wikimedia Commons)}\label{fig:saddle_points_general}
-			\end{figure}
+			\end{figure}		
+			Two examples for such saddle points are visualized in Figure \ref{fig:saddle_points_general}. Particularly Figure \ref{fig:saddle_point_between_maxima} can be seen as a representation of a point of spill between two dome structures (i.e. surface maxima or "hills") which is defined by the surface's saddle point between both.\\			
+			In gemPy, layer boundary surfaces are returned in the form of discretized arrays of simplices and vertices. The latter can be transformed into a 2D rectangular array that contains Z-positional values for the surface in X and Y directions. According to \citet{verschelde2017programmingtools}, a saddle point in a matrix is maximal in its row and minimal in its column. This corresponds to the logical geometrical deduction, that a saddle point for a surface defined by $f(x,y)$ is marked by a local maximum in one plane, but a local minimum in the perpendicular plane. This is observable in Figure \ref{fig:saddle_points_general}.\\
+			Regarding leakage across the normal fault in this geological model, a similar approach is taken. If the fault offset remains small enough, that the seal layer is not broken, then the reservoir top surface can be used to find the cross-fault leak point. In this case, the leak point can be defined as the maximal point of hanging wall contact of the reservoir top surface with the fault. At the same time, this point will be a local minimum on the plane perpendicular to the normal fault and thus equal a saddle point. However, higher magnitudes of fault displacement can lead to breaking of the seal, i.e. the juxtaposition of the trap structure with overlying formations which are assumed to be complete permeable. In this case, the maximum footwall contact of the surface with the fault is to be defined as cross-fault leak point.\\
+			Following these observations, the algorithm developed in this work uses differentiation techniques to find local extrema in the 2D reservoir top surface arrays attained over gemPy. Points where minima and maxima of perpendicular axes X and Y coincide are then defined as saddle points. The anticlinal spill point is deduced as the maximal saddle point in the footwall. The cross-fault leak point is determined analogously in the hanging wall. In the end, whichever point of these two is maximal, is defined to be the final spill point of the trap. If no cross-fault leak point is found, it is presumed that full leakage is allowed to take place due to little displacement of the reservoir layer. However, if fault sealing is given, any fault leakage and respective leak points become irrelevant and only the anticlinal spill point is considered. The Z-value of the final spill point is used to determine the maximum down-to-horizon to which the trap feature can be filled.\\
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=1\textwidth]{Figures/restop_surface_spill_leak.png}
+				\caption{Plot of reservoir top surface points and determined anticlinal spill point (marked by 'X') and cross-fault leak point (marked by '+').}\label{fig:restop_surface_spill_leak}
+			\end{figure}\\	
+			\citet{kuijper2004detecting} has pointed out that using finding spatial critical points, saddle points especially, can be problematic using discretized methods and rectangular grids in particular. Finding all extrema and saddle points can be difficult \citep{kuijper2004detecting}. Some failures to detect saddle points in this work's model are resolved by adding a buffer around extrema that define the anticlinal structure. IMPLEMENT BETTER METHOD? However, it has to be pointed out that saddle points might still be missed in some rare cases, especially if they are located in an orientation which is "rotated" and not aligned with the X and Y axes. Furthermore, in this work, the geological model was designed in a way that saddle points are presumed to only occur within or near the structures of interest. FUTURE: MORE UNIVERSALLY APPLICAPLE METHODS
 						
-			
 			\subsubsection{Calculating the maximum trap volume}
+			Have all voxels that fulfill the conditions defined above been determined, these voxels are seen as part of the maximum trap volume $V_{trap}$. This volume can then be calculated by simply counting the number of these voxels and rescaling their cumulative volume depending on the resolution in which the model was computed:
+			\begin{equation}
+			V_{trap} = n_v*(\frac{S_{orig}}{R_{m}})^3
+			\end{equation}
+			Where $n_v$ is the number of trap voxels, $S_{orig}$ gives the original scale and $R_m$ the used resolution for the model. As mentioned before, $V_{trap}$ is assumed to equal the hydrocarbon-filled rock volume $A * h$ used in Equation \ref{eq:OOIP}. 
+			For the example of a geological model with an original extent of 2000~m in three directions, computed using a resolution of 50, the scale factor is 40~m. Every voxels thus accounts for $40^3~m=64,000~m^3$ in volume. It has to be noted, that this direct approach to rescaling and calculating the volume requires the model to be designed as a cubic block.\\
+		
+		\subsection{Implementation of reservoir-related likelihoods in the 3D model}
 		
 		
-		\subsection{Determination of layer thicknesses}
