@@ -1,0 +1,6 @@
+X,Y,Z,azimuth,dip,polarity,formation
+900,1000,950,90,18.435,1,Res_Top
+1000,800,950,180,6,1,Res_Top
+900,1000,1450,90,18.435,1,SecRes_Top
+1000,800,1450,180,6,1,SecRes_Top
+917.45,1000,864.602,270,71.565,1,MainFault
