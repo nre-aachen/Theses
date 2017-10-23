@@ -80,7 +80,7 @@
         %- also as a measure to see how much additional information is worth to different actors with different risk affinities
         %- here we use the comparison between Bayes actions before and after Bayesian updating
         
-        \section{Application in structural geological modeling}
+        \section{Application in structural geological modeling}\label{sec:bayes_in_struc_modeling}
         In this work, these methods of Bayesian analysis and decision theory are applied in the field of geological structural modeling. The fundamental approach follows closely the research conducted by \citet{delaVarga2016} and builds upon their findings.\\
         According to them, structural geological modeling can be regarded as a forward problem and the elements of Bayesian inference can be specified in this context as follows:
         \begin{enumerate}
@@ -284,6 +284,7 @@
 			\end{equation}
 			
 			Where reservoir thickness is given by $h_{res}$, seal thickness by $h_{seal}$ and reservoir depth, which is always a negative value, by $d_{res}$.
+			This 1D model is then placed inside the Bayesian probabilistic modeling framework
 		
 		\section{3D geological reservoir model}
 		The concept of the 1D geological model is to be transferred and extended to a 3D setting that incorporates a more complete geological reservoir system. A three-dimensional space allows not only for better consideration of stratigraphical aspects, but also for the inclusion of structural formations, in particular reservoir trap-defining features.
@@ -366,6 +367,9 @@
 			For the example of a geological model with an original extent of 2000~m in three directions, computed using a resolution of 50, the scale factor is 40~m. Every voxels thus accounts for $40^3~m=64,000~m^3$ in volume. It has to be noted, that this direct approach to rescaling and calculating the volume requires the model to be designed as a cubic block.\\
 		
 		\subsection{Implementation of reservoir-related likelihoods in the 3D model}
-		As for the 1D case before, for the 3D case it is assumed that additional information is provided in the form of layers thickness likelihoods. In this geological scenario, the information might have been gained for example from additional seismic obersavtions or from core sample data from a well nearby. Assuming a possible correlation with the layers in our model section, layer thickness likelihoods can be deduced respectively.\\
-		First of all, a method to determine layer thicknesses in our model realizations has to be introduced. Here, 
+		As for the 1D case before, for the 3D case it is assumed that additional information is provided in the form of layers thickness likelihoods. In this geological scenario, the information might have been gained for example from additional seismic observations or from core sample data from a well nearby. Likelihoods could also be derived from knowledge of the geological history of the formation, such as the depositional environment of sedimentary layers. Assuming a possible correlation of nearby core samples with the layers in our model section, layer thickness likelihoods can be deduced respectively.\\
+		First of all, a method to determine layer thicknesses in our model realizations has to be introduced. Here, as single X- and Y-point (1D column in Z) in the footwall of the model is chosen as a measure for the thickness of the layers. In this column, point coordinates for the layer interfaces had been defined in the original data frame and can be observed as they are altered in the interpolation data frame for each iteration. The column is located centrally in the overall model block, as well as the original potential trap structure (X~=~1100~m,Y~=~1000~m) and is thus presumed to be representative and of significance for the reservoir analysis. Thickness variations are traced and vary relative to the changes in the layer interface positions, given by their uncertainties in Z-values.\\
+		After defining these thickness to point-positional dependencies, thickness likelihoods are implemented as probability distributions, as done for the 1D model. Various types of geological information, conclusions and expectations can be expressed by adapting mean and standard deviation of these normal distributions. For core sampling, for example, information might be evenly provided for all layers, irrespective of depth, so that similar standard distributions might be assigned to all layer thicknesses. Alternatively, taking into account certain depositional environments for which high thickness variablity is characteristic, specific standard deviations can be raised accordingly. Some representative cases are presented in Chapter \ref{cha:results}.
 		
+		\subsection{Bayesian analysis and valuation of the 3D model}
+		According to the methods introduced in Sections \ref{sec:bayes} and \ref{sec:bayes_in_struc_modeling}, the 3D geological model is to be incorporated in a probabilistic modeling framework and analyzed from a Bayesian perspective.
