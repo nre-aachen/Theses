@@ -27,6 +27,7 @@
 \contentsline {subsubsection}{Finding the final spill point of a trap}{19}{section*.14}
 \contentsline {subsubsection}{Calculating the maximum trap volume}{21}{section*.17}
 \contentsline {subsection}{\numberline {1-5-4}Implementation of reservoir-related likelihoods in the 3D model}{21}{subsection.1.5.4}
+\contentsline {subsection}{\numberline {1-5-5}Bayesian analysis and valuation of the 3D model}{22}{subsection.1.5.5}
 \contentsline {chapter}{\numberline {2}Results}{23}{chapter.2}
 \contentsline {section}{\numberline {2-1}1D geological reservoir model results}{23}{section.2.1}
 \contentsline {subsection}{\numberline {2-1-1}Scoring}{23}{subsection.2.1.1}
