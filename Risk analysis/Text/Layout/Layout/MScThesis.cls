@@ -1062,15 +1062,15 @@
 \AddToShipoutPicture*{\BackgroundPicture{\mscbackpicture}}
 }
 %\AddToShipoutPicture*{\TuPicture{StyleStuff/TUD_banner_A4_ENG_edited}}
-    \begin{center}
-     \includegraphics[width=8cm]{IDEA_League_Logo}
-    \end{center} 
+    %\begin{center}
+     %\includegraphics[width=8cm]{IDEA_League_Logo}
+    %\end{center} 
  \begin{center}
 % \huge{\textsc{IDEA League}}\\
  \vspace{1em}
- \LARGE{\textsc{Master of Science in Applied Geophysics}} \\
+ \LARGE{\textsc{Master of Science in Georesources Management}} \\
  \vspace{0.5em}
- \LARGE{\textsc{Research Thesis}} \\
+ \LARGE{\textsc{Master's Thesis}} \\
  \end{center}%
  \newcommand{\HRule}{\rule{\linewidth}{1mm}}
  \setlength{\parindent}{0mm}
@@ -1095,10 +1095,10 @@
 \begin{center}
 \Huge{\textbf{\textsf{\msctitle}}}\\ \Large{\textbf{\textsf{\mscsubtitle}}} \\[1cm]
 \Large{\textsc{Master of Science Thesis}}\\[2cm]
-\Large{for the degree of Master of Science in Applied Geophysics at \par 
-Delft University of Technology \par % pick here the university where you carried out your MSc research
-ETH Z\"{u}rich \par
-RWTH Aachen University\par
+\Large{for the degree of Master of Science in Georesources Management at \par 
+RWTH Aachen University \par % pick here the university where you carried out your MSc research
+%ETH Z\"{u}rich \par
+%RWTH Aachen University\par
 by}\\[3cm]
 \Large{\mscname}\\[1cm]
 \Large{\mscdate}
@@ -1108,8 +1108,6 @@ by}\\[3cm]
  %
  \begin{center}
  \begin{tabular}{lcr}
- Department of Geoscience \& Engineering & $\cdot$ & Delft University of Technology \\ % Choose here your university and corresponding department.
- Department of Earth Sciences & $\cdot$ & ETH Z\"{u}rich \\ % Choose here your university and corresponding department.
  Faculty of Georesources and Material Engineering & $\cdot$ & RWTH Aachen University \\ % Choose here your university and corresponding department.
   \end{tabular}
  \end{center}
@@ -1123,18 +1121,18 @@ by}\\[3cm]
 \vspace*{13cm}
 \vspace*{\stretch{3}}
 \thispagestyle{empty}
-\begin{figure}[h!] % PUT HERE the link and logo of the university where you carried out your MSc thesis %research
-  \href{http://www.tudelft.nl}{\includegraphics{StyleStuff/tud}}
-  \label{fig:TUDlogo}
-\end{figure}
-Copyright $\copyright$ 2013 by IDEA League Joint Master's in Applied Geophysics:
+%\begin{figure}[h!] % PUT HERE the link and logo of the university where you carried out your MSc thesis %research
+  %\href{http://www.tudelft.nl}{\includegraphics{StyleStuff/tud}}
+  %\label{fig:TUDlogo}
+%\end{figure}
+%Copyright $\copyright$ 2013 by IDEA League Joint Master's in Applied Geophysics:
 \par
-Delft University of Technology, ETH Z\"{u}rich, RWTH Aachen University % pick here the university where %you carried out your MSc research
+RWTH Aachen University % pick here the university where %you carried out your MSc research
 \par
 All rights reserved.\\
 No part of the material protected by this copyright notice may be reproduced or utilized in any form or by any means, electronic or mechanical, including photocopying or by any information storage and retrieval system, without permission from this publisher.
 \par
-Printed in The Netherlands, Switzerland, Germany % pick here the country of the university where you carried out your MSc research
+Printed in Germany % pick here the country of the university where you carried out your MSc research
 \cleardoublepage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Readers Page
@@ -1142,11 +1140,11 @@ Printed in The Netherlands, Switzerland, Germany % pick here the country of the 
 \thispagestyle{empty}
 \vspace{10em}
 \begin{center}
-     \large IDEA LEAGUE \\
-     JOINT MASTER'S IN APPLIED GEOPHYSICS \\
+     %\large IDEA LEAGUE \\
+     %JOINT MASTER'S IN APPLIED GEOPHYSICS \\
      \vspace{5em}
-    	 Delft University of Technology, The Netherlands\\
-    	 ETH Z\"{u}rich, Switzerland  \\
+    	 %Delft University of Technology, The Netherlands\\
+    	 %ETH Z\"{u}rich, Switzerland  \\
     	 RWTH Aachen, Germany
 \end{center}
 
