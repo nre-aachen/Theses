@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.7.19)  25 OCT 2017 14:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.7.19)  25 OCT 2017 18:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -731,21 +731,17 @@ Missing character: There is no ² in font cmr10!
 File: Figures/1D_model.png Graphic file (type png)
 
 <use Figures/1D_model.png>
-Package pdftex.def Info: Figures/1D_model.png used on input line 266.
+Package pdftex.def Info: Figures/1D_model.png used on input line 263.
 (pdftex.def)             Requested size: 442.65375pt x 188.86725pt.
-
-<Figures/3_parameters.png, id=789, 1012.78375pt x 276.03125pt>
+ [15 <./Figures/1D_model.png>]
+<Figures/3_parameters.png, id=795, 1012.78375pt x 276.03125pt>
 File: Figures/3_parameters.png Graphic file (type png)
 
 <use Figures/3_parameters.png>
 Package pdftex.def Info: Figures/3_parameters.png used on input line 275.
 (pdftex.def)             Requested size: 442.65375pt x 120.64122pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15 <./Figures/1D_model.png>] [16 <./Figures/3_parameters.png>]
-<Figures/base3Dmodel_plot.png, id=810, 469.755pt x 314.17375pt>
+ [16 <./Figures/3_parameters.png>]
+<Figures/base3Dmodel_plot.png, id=811, 469.755pt x 314.17375pt>
 File: Figures/base3Dmodel_plot.png Graphic file (type png)
 
 <use Figures/base3Dmodel_plot.png>
@@ -755,15 +751,18 @@ Package pdftex.def Info: Figures/base3Dmodel_plot.png used on input line 307.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17] [18 <./Figures/base3Dmodel_plot.png>] [19]
-<Figures/Saddle_point.png, id=853, 1284.8pt x 1003.75pt>
+[17]
+Underfull \vbox (badness 2181) has occurred while \output is active []
+
+ [18 <./Figures/base3Dmodel_plot.png>] [19]
+<Figures/Saddle_point.png, id=850, 1284.8pt x 1003.75pt>
 File: Figures/Saddle_point.png Graphic file (type png)
 
 <use Figures/Saddle_point.png>
 Package pdftex.def Info: Figures/Saddle_point.png used on input line 344.
 (pdftex.def)             Requested size: 221.32687pt x 172.90201pt.
 
-<Figures/Saddle_Point_between_maxima.png, id=854, 1284.8pt x 1003.75pt>
+<Figures/Saddle_Point_between_maxima.png, id=851, 1284.8pt x 1003.75pt>
 File: Figures/Saddle_Point_between_maxima.png Graphic file (type png)
 
 <use Figures/Saddle_Point_between_maxima.png>
@@ -775,7 +774,7 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 342--352
 []$[]$ $[]$ 
  []
 
-<Figures/restop_surface_spill_leak.png, id=860, 854.19125pt x 341.275pt>
+<Figures/restop_surface_spill_leak.png, id=857, 854.19125pt x 341.275pt>
 File: Figures/restop_surface_spill_leak.png Graphic file (type png)
 
 <use Figures/restop_surface_spill_leak.png>
@@ -792,62 +791,63 @@ Package natbib Warning: Citation `kuijper2004detecting' on page 20 undefined on
  input line 363.
 
 [20 <./Figures/Saddle_point.png> <./Figures/Saddle_Point_between_maxima.png>]
+[21 <./Figures/restop_surface_spill_leak.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 369--372
 
  []
 
-[21 <./Figures/restop_surface_spill_leak.png>]) [22]
+[22]) [23]
 \openout2 = `chapter3_results.aux'.
 
- (./chapter3_results.tex
+ (./chapter3_results.tex [24
+
+
+
+]
 Chapter 2.
-<Figures/score_results1.png, id=888, 1029.8475pt x 385.44pt>
+<Figures/score_results1.png, id=895, 1029.8475pt x 385.44pt>
 File: Figures/score_results1.png Graphic file (type png)
 
 <use Figures/score_results1.png>
 Package pdftex.def Info: Figures/score_results1.png used on input line 9.
 (pdftex.def)             Requested size: 442.65375pt x 165.67126pt.
- [23
-
-
-
- <./Figures/score_results1.png>]
-<Figures/LF_4steps.png, id=901, 965.6075pt x 604.2575pt>
+ [25 <./Figures/score_results1.png>]
+<Figures/LF_4steps.png, id=907, 965.6075pt x 604.2575pt>
 File: Figures/LF_4steps.png Graphic file (type png)
 
 <use Figures/LF_4steps.png>
 Package pdftex.def Info: Figures/LF_4steps.png used on input line 19.
 (pdftex.def)             Requested size: 442.65375pt x 277.00291pt.
 
-<Figures/LF4_det_values.png, id=902, 909.3975pt x 385.44pt>
+<Figures/LF4_det_values.png, id=908, 909.3975pt x 385.44pt>
 File: Figures/LF4_det_values.png Graphic file (type png)
 
 <use Figures/LF4_det_values.png>
 Package pdftex.def Info: Figures/LF4_det_values.png used on input line 22.
 (pdftex.def)             Requested size: 442.65375pt x 187.61452pt.
 
-<Figures/LFR.png, id=905, 915.42pt x 385.44pt>
+<Figures/LFR.png, id=911, 915.42pt x 385.44pt>
 File: Figures/LFR.png Graphic file (type png)
  <use Figures/LFR.png>
 Package pdftex.def Info: Figures/LFR.png used on input line 27.
 (pdftex.def)             Requested size: 442.65375pt x 186.37944pt.
 
-<Figures/update_moderate1.png, id=908, 903.375pt x 604.2575pt>
+<Figures/update_moderate1.png, id=914, 903.375pt x 604.2575pt>
 File: Figures/update_moderate1.png Graphic file (type png)
 
 <use Figures/update_moderate1.png>
 Package pdftex.def Info: Figures/update_moderate1.png used on input line 30.
 (pdftex.def)             Requested size: 442.65375pt x 296.08876pt.
- [24] [25 <./Figures/LF_4steps.png> <./Figures/LF4_det_values.png>] [26 <./Figu
+ [26] [27 <./Figures/LF_4steps.png> <./Figures/LF4_det_values.png>] [28 <./Figu
 res/LFR.png> <./Figures/update_moderate1.png>] <Figures/update_moderate2.png, i
-d=942, 962.59625pt x 385.44pt>
+d=947, 962.59625pt x 385.44pt>
 File: Figures/update_moderate2.png Graphic file (type png)
 
 <use Figures/update_moderate2.png>
 Package pdftex.def Info: Figures/update_moderate2.png used on input line 49.
 (pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
 
-<Figures/update_moderate3.png, id=943, 970.62625pt x 385.44pt>
+<Figures/update_moderate3.png, id=948, 970.62625pt x 385.44pt>
 File: Figures/update_moderate3.png Graphic file (type png)
 
 <use Figures/update_moderate3.png>
@@ -858,15 +858,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--84
 
  []
 
-[27 <./Figures/update_moderate2.png> <./Figures/update_moderate3.png>]
-<Figures/update_goodseal2.png, id=957, 962.59625pt x 385.44pt>
+[29 <./Figures/update_moderate2.png> <./Figures/update_moderate3.png>]
+<Figures/update_goodseal2.png, id=960, 962.59625pt x 385.44pt>
 File: Figures/update_goodseal2.png Graphic file (type png)
 
 <use Figures/update_goodseal2.png>
 Package pdftex.def Info: Figures/update_goodseal2.png used on input line 89.
 (pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
 
-<Figures/update_goodseal3.png, id=958, 970.62625pt x 385.44pt>
+<Figures/update_goodseal3.png, id=961, 970.62625pt x 385.44pt>
 File: Figures/update_goodseal3.png Graphic file (type png)
 
 <use Figures/update_goodseal3.png>
@@ -881,14 +881,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--121
 
  []
 
-<Figures/update_smallres2.png, id=962, 962.59625pt x 385.44pt>
+<Figures/update_smallres2.png, id=965, 962.59625pt x 385.44pt>
 File: Figures/update_smallres2.png Graphic file (type png)
 
 <use Figures/update_smallres2.png>
 Package pdftex.def Info: Figures/update_smallres2.png used on input line 126.
 (pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
 
-<Figures/update_smallres3.png, id=963, 970.62625pt x 385.44pt>
+<Figures/update_smallres3.png, id=966, 970.62625pt x 385.44pt>
 File: Figures/update_smallres3.png Graphic file (type png)
 
 <use Figures/update_smallres3.png>
@@ -903,27 +903,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--159
 
  []
 
-[28] [29 <./Figures/update_goodseal2.png> <./Figures/update_goodseal3.png>]
-[30 <./Figures/update_smallres2.png> <./Figures/update_smallres3.png>])
-[31]
+[30] [31 <./Figures/update_goodseal2.png> <./Figures/update_goodseal3.png>]
+[32 <./Figures/update_smallres2.png> <./Figures/update_smallres3.png>])
+[33]
 \openout2 = `chapter4_discussion.aux'.
 
- (./chapter4_discussion.tex [32
+ (./chapter4_discussion.tex [34
 
 
 
 ]
 Chapter 3.
-) [33]
+) [35]
 \openout2 = `chapter5_conclusion.aux'.
 
- (./chapter5_conclusion.tex [34
+ (./chapter5_conclusion.tex [36
 
 
 
 ]
 Chapter 4.
-) [35] [36
+) [37] [38
 
 
 ] (./MSc_layout_Fabian.bbl
@@ -937,9 +937,9 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[37
+[39
 
-]) [38]
+]) [40]
 Appendix A.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -977,15 +977,15 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 111.
 
-(./test.m) [39
+(./test.m) [41
 
 
-] [40
+] [42
 
 ]
 Appendix B.
 No file MSc_layout_Fabian.ind.
-[41] [42
+[43] [44
 
 ]
 \tf@thm=\write12
@@ -1008,8 +1008,8 @@ Package rerunfilecheck Warning: File `MSc_layout_Fabian.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `MSc_layout_Fabian.out':
-(rerunfilecheck)             Before: E4556B16FBB9B8A7793A44640E552923;3982
-(rerunfilecheck)             After:  BF0CDA77EFEBFFEB886E4BD02418EE7F;3912.
+(rerunfilecheck)             Before: 90903A0C1E1806A0B6EF0CCFBF413A22;4012
+(rerunfilecheck)             After:  F61608601EADEABD49DEB0955B1EB512;4000.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1019,76 +1019,37 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
- 11821 strings out of 494902
- 172875 string characters out of 6179891
- 301855 words of memory out of 5000000
- 14610 multiletter control sequences out of 15000+600000
+ 11815 strings out of 494902
+ 172816 string characters out of 6179891
+ 302035 words of memory out of 5000000
+ 14614 multiletter control sequences out of 15000+600000
  19652 words of font info for 74 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  43i,12n,58p,1542b,1486s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.caption.26} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.25} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.23} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.21} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.19} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.15} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.12} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.24} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.22} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.20} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.16} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.13} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.9} has been referenced but does not exist,
- replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/symbols/msbm10.pfb>
-Output written on MSc_layout_Fabian.pdf (60 pages, 2190573 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/symbols/msbm10.pfb>
+Output written on MSc_layout_Fabian.pdf (62 pages, 2194760 bytes).
 PDF statistics:
- 1188 PDF objects out of 1200 (max. 8388607)
- 1052 compressed objects within 11 object streams
- 227 named destinations out of 1000 (max. 500000)
+ 1186 PDF objects out of 1200 (max. 8388607)
+ 1048 compressed objects within 11 object streams
+ 217 named destinations out of 1000 (max. 500000)
  483 words of extra memory for PDF output out of 10000 (max. 10000000)
 
