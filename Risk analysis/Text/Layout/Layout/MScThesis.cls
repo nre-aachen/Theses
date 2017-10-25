@@ -1070,7 +1070,7 @@
  \vspace{1em}
  \LARGE{\textsc{Master of Science in Georesources Management}} \\
  \vspace{0.5em}
- \LARGE{\textsc{Master's Thesis}} \\
+ \LARGE{\textsc{Research Thesis}} \\
  \end{center}%
  \newcommand{\HRule}{\rule{\linewidth}{1mm}}
  \setlength{\parindent}{0mm}
@@ -1141,7 +1141,7 @@ Printed in Germany % pick here the country of the university where you carried o
 \vspace{10em}
 \begin{center}
      %\large IDEA LEAGUE \\
-     %JOINT MASTER'S IN APPLIED GEOPHYSICS \\
+     %MASTER'S IN GEORESOURCES MANAGEMENT \\
      \vspace{5em}
     	 %Delft University of Technology, The Netherlands\\
     	 %ETH Z\"{u}rich, Switzerland  \\
@@ -1167,19 +1167,19 @@ Supervisor(s):    \hfill \underline{ \hspace{7cm} }\\
 %\hfill \underline{ \hspace{7cm} }\\
 %\mbox{}        \hfill  \mscreaderthree\\
 \\
-\\
-Committee Members:       \hfill \underline{ \hspace{7cm} }\\
-\mbox{}        \hfill  \mscreaderone\\
-\ifthenelse{ \equal{\mscreadertwo}{} }{}{\\
-\\
-\mbox{}        \hfill \underline{ \hspace{7cm} }\\
-\mbox{}        \hfill \mscreadertwo\\
-}
-\ifthenelse{ \equal{\mscreaderthree}{} }{}{\\
-\\
-\mbox{}        \hfill \underline{ \hspace{7cm} }\\
-\mbox{}        \hfill \mscreaderthree\\
-}
+%\\
+%Committee Members:       \hfill \underline{ \hspace{7cm} }\\
+%\mbox{}        \hfill  \mscreaderone\\
+%\ifthenelse{ \equal{\mscreadertwo}{} }{}{\\
+%\\
+%\mbox{}        \hfill \underline{ \hspace{7cm} }\\
+%\mbox{}        \hfill \mscreadertwo\\
+%}
+%\ifthenelse{ \equal{\mscreaderthree}{} }{}{\\
+%\\
+%\mbox{}        \hfill \underline{ \hspace{7cm} }\\
+%\mbox{}        \hfill \mscreaderthree\\
+%}
 %%\ifthenelse{ \equal{\mscreaderfour}{} }{}{\\
 %%\\
 %%\mbox{}        \hfill \underline{ \hspace{7cm} }\\
