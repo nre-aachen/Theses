@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: MSc_layout_Fabian.aux
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: MSc_layout_Fabian.aux
 A level-1 auxiliary file: chapter2_methods.aux
 A level-1 auxiliary file: chapter3_results.aux
 A level-1 auxiliary file: chapter4_discussion.aux
@@ -11,4 +13,46 @@ Repeated entry---line 9113 of file complete_biblio.bib
 I'm skipping whatever remains of this entry
 Warning--empty journal in davidson2015
 Warning--there's a number but no volume in geman1984stochastic
+Warning--empty journal in sorkhabi2005place
+You've used 30 entries,
+            1935 wiz_defined-function locations,
+            663 strings with 9350 characters,
+and the built_in function-call counts, 10934 in all, are:
+= -- 1070
+> -- 428
+< -- 24
++ -- 147
+- -- 139
+* -- 892
+:= -- 1950
+add.period$ -- 91
+call.type$ -- 30
+change.case$ -- 212
+chr.to.int$ -- 30
+cite$ -- 33
+duplicate$ -- 426
+empty$ -- 761
+format.name$ -- 181
+if$ -- 2113
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 29
+newline$ -- 152
+num.names$ -- 92
+pop$ -- 190
+preamble$ -- 1
+purify$ -- 218
+quote$ -- 0
+skip$ -- 326
+stack$ -- 0
+substring$ -- 703
+swap$ -- 44
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 170
+warning$ -- 3
+while$ -- 89
+width$ -- 0
+write$ -- 384
 (There was 1 error message)

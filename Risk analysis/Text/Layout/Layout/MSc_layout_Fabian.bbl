@@ -53,6 +53,12 @@ Dean, L. (2007).
 \newblock {\em The Monthly Magazine of the Canadian Society of Petroleum
   Geologists}, pages 11--14.
 
+\bibitem[Dolson, 2016]{dolson2016basics}
+Dolson, J. (2016).
+\newblock The basics of traps, seals, reservoirs and shows.
+\newblock In {\em Understanding Oil and Gas Shows and Seals in the Search for
+  Hydrocarbons}, pages 47--90. Springer.
+
 \bibitem[Gelman et~al., 2014]{gelman2014bayesian}
 Gelman, A., Carlin, J.~B., Stern, H.~S., and Rubin, D.~B. (2014).
 \newblock {\em Bayesian data analysis}, volume~2.
@@ -133,6 +139,15 @@ Salvatier, J., Wiecki, T.~V., and Fonnesbeck, C. (2016).
 Schaaf, A. (2017).
 \newblock Geological inference based on kinematic structural models.
 \newblock Master's thesis, RWTH AACHEN UNIVERSITY, Aachen, Germany.
+
+\bibitem[Sorkhabi and Tsuji, 2005]{sorkhabi2005place}
+Sorkhabi, R. and Tsuji, Y. (2005).
+\newblock The place of faults in petroleum traps.
+
+\bibitem[van~der Zee et~al., 2003]{van2003lateral}
+van~der Zee, W., Urai, J.~L., and Richard, P.~D. (2003).
+\newblock Lateral clay injection into normal faults.
+\newblock {\em GEOARABIA-MANAMA-}, 8:501--522.
 
 \bibitem[Verschelde, 2017]{verschelde2017programmingtools}
 Verschelde, J. (2017).
