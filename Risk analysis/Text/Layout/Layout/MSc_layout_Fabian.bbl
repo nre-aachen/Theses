@@ -98,6 +98,11 @@ Hoffman, M.~D. and Gelman, A. (2014).
   monte carlo.
 \newblock {\em The Journal of Machine Learning Research}, 15(1):1593--1623.
 
+\bibitem[Kuijper, 2004]{kuijper2004detecting}
+Kuijper, A. (2004).
+\newblock On detecting all saddle points in 2d images.
+\newblock {\em Pattern Recognition Letters}, 25(15):1665--1672.
+
 \bibitem[Labastie, 2011]{labastie2011increasingRF}
 Labastie, A. (2011).
 \newblock En route: Increasing recovery factors: A necessity.
@@ -141,5 +146,15 @@ Weisstein, E.~W. (2017).
 \newblock Saddle point. from mathworld---a wolfram web resource.
 \newblock \url{http://mathworld.wolfram.com/SaddlePoint.html}.
 \newblock Last visited on 18/10/2017.
+
+\bibitem[Wellmann et~al., 2017]{wellmann2017sandstone}
+Wellmann, J.~F., De~la Varga, M., Murdie, R.~E., Gessner, K., and Jessell, M.
+  (2017).
+\newblock Uncertainty estimation for a geological model of the sandstone
+  greenstone belt, western australia – insights from integrated geological
+  and geophysical inversion in a bayesian inference framework.
+\newblock In Gessner, K., Glessinkop, T.~G., and Sorjonen-Ward, P., editors,
+  {\em Characterization of Ore-Forming Systems from Geological, Geochemical and
+  Geophysical Studies}. Geological Society, London, Special Publications, 453.
 
 \end{thebibliography}
