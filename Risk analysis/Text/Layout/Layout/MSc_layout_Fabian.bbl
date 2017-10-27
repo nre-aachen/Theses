@@ -53,11 +53,18 @@ Dean, L. (2007).
 \newblock {\em The Monthly Magazine of the Canadian Society of Petroleum
   Geologists}, pages 11--14.
 
-\bibitem[Dolson, 2016]{dolson2016basics}
-Dolson, J. (2016).
+\bibitem[Dolson, 2016a]{dolson2016basics}
+Dolson, J. (2016a).
 \newblock The basics of traps, seals, reservoirs and shows.
 \newblock In {\em Understanding Oil and Gas Shows and Seals in the Search for
   Hydrocarbons}, pages 47--90. Springer.
+
+\bibitem[Dolson, 2016b]{dolson2016quantifying}
+Dolson, J. (2016b).
+\newblock Quantifying seals and saturations: Capillary pressure,
+  pseudo-capillary pressure and quantitative show assessment.
+\newblock In {\em Understanding Oil and Gas Shows and Seals in the Search for
+  Hydrocarbons}, pages 233--314. Springer.
 
 \bibitem[Gelman et~al., 2014]{gelman2014bayesian}
 Gelman, A., Carlin, J.~B., Stern, H.~S., and Rubin, D.~B. (2014).
@@ -140,9 +147,21 @@ Schaaf, A. (2017).
 \newblock Geological inference based on kinematic structural models.
 \newblock Master's thesis, RWTH AACHEN UNIVERSITY, Aachen, Germany.
 
+\bibitem[Schmatz et~al., 2010]{schmatz2010clay}
+Schmatz, J., Vrolijk, P., and Urai, J. (2010).
+\newblock Clay smear in normal fault zones--the effect of multilayers and clay
+  cementation in water-saturated model experiments.
+\newblock {\em Journal of Structural Geology}, 32(11):1834--1849.
+
 \bibitem[Sorkhabi and Tsuji, 2005]{sorkhabi2005place}
 Sorkhabi, R. and Tsuji, Y. (2005).
 \newblock The place of faults in petroleum traps.
+
+\bibitem[van~der Zee and Urai, 2005]{van2005processes}
+van~der Zee, W. and Urai, J.~L. (2005).
+\newblock Processes of normal fault evolution in a siliciclastic sequence: a
+  case study from miri, sarawak, malaysia.
+\newblock {\em Journal of Structural Geology}, 27(12):2281--2300.
 
 \bibitem[van~der Zee et~al., 2003]{van2003lateral}
 van~der Zee, W., Urai, J.~L., and Richard, P.~D. (2003).
@@ -155,6 +174,11 @@ Verschelde, J. (2017).
 \newblock
   \url{http://homepages.math.uic.edu/~jan/mcs275/mcs275notes/index.html}.
 \newblock Last visited on 18/10/2017.
+
+\bibitem[Vrolijk et~al., 2016]{vrolijk2016clay}
+Vrolijk, P.~J., Urai, J.~L., and Kettermann, M. (2016).
+\newblock Clay smear: Review of mechanisms and applications.
+\newblock {\em Journal of Structural Geology}, 86:95--152.
 
 \bibitem[Weisstein, 2017]{weisstein2017saddlepoint}
 Weisstein, E.~W. (2017).
@@ -171,5 +195,10 @@ Wellmann, J.~F., De~la Varga, M., Murdie, R.~E., Gessner, K., and Jessell, M.
 \newblock In Gessner, K., Glessinkop, T.~G., and Sorjonen-Ward, P., editors,
   {\em Characterization of Ore-Forming Systems from Geological, Geochemical and
   Geophysical Studies}. Geological Society, London, Special Publications, 453.
+
+\bibitem[Yielding et~al., 1997]{yielding1997quantitative}
+Yielding, G., Freeman, B., and Needham, D.~T. (1997).
+\newblock Quantitative fault seal prediction.
+\newblock {\em AAPG bulletin}, 81(6):897--917.
 
 \end{thebibliography}
