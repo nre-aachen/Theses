@@ -10,7 +10,6 @@ X,Y,Z,formation
 0,1000,1000,Res_Top
 300,1000,900,Res_Top
 450,1000,850,Res_Top
-800,1000,1000,Res_Top
 1100,1000,900,Res_Top
 1400,1000,850,Res_Top
 1700,1000,900,Res_Top
@@ -26,7 +25,6 @@ X,Y,Z,formation
 800,1950,350,Base_Top
 0,1000,700,Base_Top
 300,1000,600,Base_Top
-800,1000,700,Base_Top
 1100,1000,600,Base_Top
 1400,1000,550,Base_Top
 1700,1000,600,Base_Top
