@@ -49,6 +49,11 @@
         \begin{equation}\label{eq:SqrLossFunction}
         L(\theta,\hat{\theta}) = |\theta - \hat{\theta}|^2
         \end{equation}        
+        \begin{figure}[h]
+        	\centering
+        	\includegraphics[width=1\textwidth]{Figures/loss_functions.png}
+        	\caption{Expected loss based on the standard absolute-error loss (A) and squared-loss function (B).}\label{fig:standard_LF} 
+        \end{figure}
         
         This exponential growth of loss also means that large errors are weighed much stronger than small errors. This might come with over-valuation of distant outliers and misrepresentation of magnitudes in distance. Regarding this, the absolute-error loss function can be seen as more robust \citep{davidson2015}.\\
         Both of these standard loss functions are symmetric and can be described as objectively aiming at a high precision in estimating the true parameter value.
@@ -100,9 +105,6 @@
         	In a chosen model ($M$), this is achieved by linking parameters and data through deterministic operations which are additionally compared to the likelihood functions. It is pointed out by \citet{delaVarga2016} that any combination of parameter-observation connections is allowed, i.e. not all parameters need to be necessarily connected to all observed data. After all conditional probabilities have been set up, the Bayes Theorem (Equation \ref{eq:BayesTheorem}) is applied to attain the posterior. However, due to the multi-dimensionality given in geological problems, the use of Markov chain Monte Carlo methods is advised to achieve this as described in Section \ref{sec:mcmc} below.
         	\item \textbf{Evaluation of the posterior model}: Depending on the aim of the study, a post-processing analysis can be conducted accordingly. \citet{delaVarga2016} focused on the examination of the posterior distributions of the parameters $\theta$ and the generated models, particularly regarding information entropy within the model space. In this work, the geological models are assigned an economic meaning by declaring them potential petroleum reservoirs and introducing customized loss functions to reflect the economic interest of decision makers in developing respective resource extraction projects (see Section \ref{sec:loss}). Shifts in Bayes actions are considered a measure for the influence of Bayesian inference on decision-making and the significance of additional observations for different decision makers.
         \end{enumerate}
-        
-        \subsection{Bayesian hierarchical networks}\label{sec:hierarchical_bayes}
-                
         
         \subsection{Markov chain Monte Carlo sampling (MCMC)}\label{sec:mcmc}
         Despite the apparent simplicity of the Bayes Theorem, a direct analytical calculation and exact inference of the posterior distribution P(A$|$X) is rarely possible in non-idealized cases, due to intractability in multi-dimensional spaces \citep{hoffman2014no, delaVarga2016}. Thereby arises the necessity to resort to methods of statistical inference approximation. Markov chain Monte Carlo (MCMC) sampling has proven to be a generally applicable and reliable method for exploring multi-dimensional parameter spaces in an intelligent way \citep{hoffman2014no, davidson2015}. \citet{gilks2005markov} has emphasized the significance of MCMC for the application of Bayesian statistics.
@@ -157,6 +159,8 @@
 		For conducting the Bayesian analysis and embedding the geological modeling step in a probabilistic modeling framework, GemPy is combined with PyMC. This Python library was developed for conducting Bayesian inference and prediction problems in an open-source probabilistic programming environment \citep{davidson2015, salvatier2016pymc3}. Different model fitting techniques are provided in PyMC, such as the \textit{maximum a posteriori} (MAP) method and several (MCMC) sampling methods, including the Adaptive Metropolis explained in Section \ref{sec:mcmc} \citep{salvatier2016pymc3}. The components which are used to construct a statistical model, are represented by \textit{Deterministic} or \textit{Stochastic} variables in PyMC. The values of \textit{Deterministic} variables are completely dependent on its parents' values, as defined by a respective mathematical function \citep{salvatier2016pymc3}. \textit{Stochastic} variables are used to represent uncertain parameters $\theta$ or observed stochastic variables as likelihood functions $p(y|\theta)$ \citep{salvatier2016pymc3, delaVarga2016}. Complex mathematical relations between \textit{Stochastic} variables can be described through \textit{Deterministic} variables \citep{delaVarga2016}. Futhermore, PyMC allows for the creation of own object definitions inheriting from the class descriptions of these two variable types.\\
 		%While conducting MCMC sampling, a burn-function can be implemented via PyMC, through which it can be defined that the $t_b$ first trace samples are discarded. This can be useful to d\\		
 		\citet{salvatier2016pymc3} point out that the development of PyMC is continuing, as the inclusion of further tools is planned for future updates.
+		
+		\subsection{Bayesian hierarchical networks}\label{sec:hierarchical_bayes}
 		
         \section{Model evaluation: Economic significance and reservoir valuation}\label{sec:Reservoir_values}
         In this work, the generated structural models are to be assigned an economic significance in order to approach a real setting, in which hypothetical actors could have an interest in taking a decision, and thus, to evaluate the influence of the Bayesian inference of the decision-making process. Changes in Bayes actions are considered as a measure for this effect. For this purpose, it is assumed that a hydrocarbon reservoir system is represented by each geological model realization.
@@ -223,19 +227,19 @@
 		For the purpose of estimation, it makes sense that one of the standard loss functions is chosen as a basis and a customized loss function is developed from there. The absolute-error loss seems most appropriate for this case of hydrocarbon reservoir value estimation. Ideally, an actor would like to know the exact true value of interest, say the OOIP, so that investments or resources can be allocated appropriately in order to acquire economic gains. This allocation is the decision to be made or action to be taken. Deviations from the unknown true value in the form of over- and underestimation bring about an error and loss accordingly. In this case, it is assumed that investments increase linearly with linear growth in the value of the resource. For this reason, the absolute-error loss function is favored here over the squared-error loss function. It is chosen as the base function to which further development steps refer, based on mostly logical case-specific assumptions:
 		
 		\begin{enumerate}
-			\item Step I: The standard symmetrical absolute-error loss function is chosen as a starting point for further customization steps:
+			\item \textbf{Step I}: The standard symmetrical absolute-error loss function is chosen as a starting point for further customization steps:
 			
 			\begin{equation}
 			L(\theta,\hat{\theta}) = |\theta - \hat{\theta}|
 			\end{equation}  
 			
-			\item Step II: Considering the development of a hydrocarbon reservoir, it can be assumed that over-investing is worse than under-investing. Overestimating the size of an accumulation might for example lead to the installation of equipment or facilites that are actually redundant or unnecessary. This would come with additional unrecoverable expenditures. Consequences from underestimating, however, may presumably be easier to resolve. Additional equipment can often be installed later on. Hence, overestimation is weighted stronger in this loss function by multiplying the error with an overestimation factor \textit{a} (= 1.25):
+			\item \textbf{Step II}: Considering the development of a hydrocarbon reservoir, it can be assumed that over-investing is worse than under-investing. Overestimating the size of an accumulation might for example lead to the installation of equipment or facilites that are actually redundant or unnecessary. This would come with additional unrecoverable expenditures. Consequences from underestimating, however, may presumably be easier to resolve. Additional equipment can often be installed later on. Hence, overestimation is weighted stronger in this loss function by multiplying the error with an overestimation factor \textit{a} (= 1.25):
 			
 			\begin{equation}\label{eq:LF_II}
 			L(\theta,\hat{\theta}) = |(\theta-\hat{\theta})|*a
 			\end{equation}
 			
-			\item Step III: The worst case for any project would be that its development is set into motion, expecting a gain, only to discover later that the value in the reservoir does not cover the costs of realizing the project, resulting in an overall loss. A petroleum system might also turn out to be a complete failure, containing no value at all, although the actor's estimate indicated the opposite. Here, this is referred to as worst case or fatal overestimation. A positive value is estimated, but the true value is zero or negative. This is worse than the "normal" non-fatal overestimation, where both values are positive and a net gain is still achieved, which is only smaller then the best possible gain of expecting the true value. Fatal overestimation is included in the loss function by using another weighting factor \textit{b} (= 2) that replaces \textit{a}:
+			\item \textbf{Step III}: The worst case for any project would be that its development is set into motion, expecting a gain, only to discover later that the value in the reservoir does not cover the costs of realizing the project, resulting in an overall loss. A petroleum system might also turn out to be a complete failure, containing no value at all, although the actor's estimate indicated the opposite. Here, this is referred to as worst case or fatal overestimation. A positive value is estimated, but the true value is zero or negative. This is worse than the "normal" non-fatal overestimation, where both values are positive and a net gain is still achieved, which is only smaller then the best possible gain of expecting the true value. Fatal overestimation is included in the loss function by using another weighting factor \textit{b} (= 2) that replaces \textit{a}:
 			
 			\begin{equation}\label{eq:LF_III}
 			L(\theta,\hat{\theta}) = |(\theta-\hat{\theta})|*b
@@ -243,13 +247,21 @@
 			
 			(In other words: Fatal overestimation is twice as bad as simple underestimation.)
 			
-			\item Step IV: A worst case or fatal underestimation can also be derived from the idea of estimating a zero or negative value, when the true value is actually positive. This is assumed to be worse than non-fatal overestimation, but clearly better than fatal overestimation. No already owned resources are wasted, it is only the potential value that is lost, i.e. opportunity costs that arise from completely discarding a reservoir with a potential gain equal to the positive true value. Fatal underestimation is weighted using a third factor \textit{c}:
+			\item \textbf{Step IV}: A worst case or fatal underestimation can also be derived from the idea of estimating a zero or negative value, when the true value is actually positive. This is assumed to be worse than non-fatal overestimation, but clearly better than fatal overestimation. No already owned resources are wasted, it is only the potential value that is lost, i.e. opportunity costs that arise from completely discarding a reservoir with a potential gain equal to the positive true value. Fatal underestimation is weighted using a third factor \textit{c}:
 					
 			\begin{equation}\label{eq:LF_IV}
 			L(\theta,\hat{\theta}) = |(\theta-\hat{\theta})|*c
 			\end{equation}
 			
 		\end{enumerate}
+		\begin{figure}[p!]
+			\centering
+			\includegraphics[width=1\textwidth]{Figures/LF_4steps_normal.png}
+			\caption{The single steps of customizing the loss function are depicted in plots I to IV.}\label{fig:LF_4steps_normal}
+			\centering
+			\includegraphics[width=1\textwidth]{Figures/LF4_det_values.png}
+			\caption{Loss based on the customized loss function (Equation \ref{eq:LF_final}) for determined true scores of -750, 0 and 750.}\label{fig:LF4_det_values}
+		\end{figure}
 		
 		Combining these adaption steps and the conditions defined in them, results in the following customized loss function:
 		
@@ -283,6 +295,11 @@
 		\end{cases},
 		\text{ with } a,b,c,r \in \mathbb{Q}
 		\end{equation}	
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=1\textwidth]{Figures/LFR_normal.png}
+			\caption{Plotting of expected loss realizations after including the risk factor $r$ in the loss function (Equation \ref{eq:LFR_final}) for actors with risk-affinities ranging from risk-averse ($r$ = 0.5 and 0.75), over risk-neutral ($r$ = 1), to risk-friendly ($r$ = 1.25 and $r$ = 1.5).}\label{fig:LFR_normal} 
+		\end{figure}
 		According to this, for \textit{r} = 1 the risk-neutral loss function is returned, since \textit{a, b} and \textit{c} are not changed. For \textit{r} $<$ 1, the weight on overestimating (\textit{a, b}) is reduced and increased for fatal underestimation (\textit{c}). This represents a risk-friendlier actor that is willing to bid on a higher estimate to attain a greater gain. For \textit{r} $>$ 1, the overestimation weight (\textit{a, b}) is increased in the loss function, the fatal underestimation weight (\textit{c}) is decreased and respectively more risk-averse actors are prompted to bid on lower estimates.\\		
 		The factor \textit{r} can take basically any positive values. However, since risk-neutrality is expressed by \textit{r} = 1, values 0 $<$ \textit{r} $<$ 2 are considered to be the most appropriate choices to represent both sides of risk-affinity equally here.		
 		
