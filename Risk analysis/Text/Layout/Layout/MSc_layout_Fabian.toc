@@ -7,37 +7,37 @@
 \contentsline {subsection}{\numberline {1-1-1}Basic elements}{1}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1-1-2}Bayesian inference}{2}{subsection.1.1.2}
 \contentsline {subsection}{\numberline {1-1-3}Estimation}{2}{subsection.1.1.3}
-\contentsline {subsection}{\numberline {1-1-4}Expected loss and loss functions}{3}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1-1-4}Expected loss and loss functions}{2}{subsection.1.1.4}
 \contentsline {section}{\numberline {1-2}Application in structural geological modeling}{5}{section.1.2}
-\contentsline {subsection}{\numberline {1-2-1}Markov chain Monte Carlo sampling (MCMC)}{6}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1-2-2}Structural geological forward modeling}{8}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1-2-3}Numerical computational implementation via Python, GemPy and PyMC}{9}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1-2-4}Bayesian hierarchical networks}{10}{subsection.1.2.4}
-\contentsline {section}{\numberline {1-3}Model evaluation: Economic significance and reservoir valuation}{10}{section.1.3}
-\contentsline {subsection}{\numberline {1-3-1}Hydrocarbon reservoir system and structural traps}{10}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1-3-2}Original oil-in-place and recoverable volumes as value measures}{13}{subsection.1.3.2}
-\contentsline {section}{\numberline {1-4}Designing a case-specific loss function}{14}{section.1.4}
-\contentsline {subsection}{\numberline {1-4-1}Including different risk-affinities in the loss function}{18}{subsection.1.4.1}
-\contentsline {section}{\numberline {1-5}1D geological reservoir modeling}{19}{section.1.5}
-\contentsline {subsection}{\numberline {1-5-1}Construction of the 1D geological model}{19}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1-5-2}Bayesian inference and analysis of the 1D case}{19}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1-5-3}Abstract valuation of the 1D geological model}{20}{subsection.1.5.3}
-\contentsline {section}{\numberline {1-6}3D geological reservoir model}{21}{section.1.6}
-\contentsline {subsection}{\numberline {1-6-1}Design of the 3D geological reservoir model}{21}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1-6-2}Construction of the uncertain 3D geological reservoir model}{22}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1-6-3}Determination of the trap volume}{23}{subsection.1.6.3}
-\contentsline {subsubsection}{Finding the final spill point of a trap}{24}{section*.16}
-\contentsline {subsubsection}{Calculating the maximum trap volume}{26}{section*.19}
-\contentsline {subsection}{\numberline {1-6-4}Implementation of reservoir-related likelihoods in the 3D model}{27}{subsection.1.6.4}
-\contentsline {subsection}{\numberline {1-6-5}Bayesian analysis and valuation of the 3D model}{27}{subsection.1.6.5}
+\contentsline {subsection}{\numberline {1-2-1}Markov chain Monte Carlo sampling (MCMC)}{7}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1-2-2}Structural geological forward modeling}{9}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1-2-3}Numerical computational implementation via Python, GemPy and PyMC}{10}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1-2-4}Bayesian hierarchical networks}{11}{subsection.1.2.4}
+\contentsline {section}{\numberline {1-3}Model evaluation: Economic significance and reservoir valuation}{11}{section.1.3}
+\contentsline {subsection}{\numberline {1-3-1}Hydrocarbon reservoir system and structural traps}{11}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1-3-2}Original oil-in-place and recoverable volumes as value measures}{14}{subsection.1.3.2}
+\contentsline {section}{\numberline {1-4}Designing a case-specific loss function}{15}{section.1.4}
+\contentsline {subsection}{\numberline {1-4-1}Including different risk-affinities in the loss function}{17}{subsection.1.4.1}
+\contentsline {section}{\numberline {1-5}1D geological reservoir modeling}{20}{section.1.5}
+\contentsline {subsection}{\numberline {1-5-1}Construction of the 1D geological model}{20}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1-5-2}Bayesian inference and analysis of the 1D case}{20}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1-5-3}Abstract valuation of the 1D geological model}{21}{subsection.1.5.3}
+\contentsline {section}{\numberline {1-6}3D geological reservoir model}{22}{section.1.6}
+\contentsline {subsection}{\numberline {1-6-1}Design of the 3D geological reservoir model}{22}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1-6-2}Construction of the uncertain 3D geological reservoir model}{23}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1-6-3}Determination of the trap volume}{24}{subsection.1.6.3}
+\contentsline {subsubsection}{Finding the final spill point of a trap}{25}{section*.18}
+\contentsline {subsubsection}{Calculating the maximum trap volume}{27}{section*.21}
+\contentsline {subsection}{\numberline {1-6-4}Implementation of reservoir-related likelihoods in the 3D model}{28}{subsection.1.6.4}
+\contentsline {subsection}{\numberline {1-6-5}Bayesian analysis and valuation of the 3D model}{28}{subsection.1.6.5}
 \contentsline {chapter}{\numberline {2}Results}{29}{chapter.2}
 \contentsline {section}{\numberline {2-1}1D geological reservoir model results}{29}{section.2.1}
 \contentsline {subsection}{\numberline {2-1-1}Scoring}{29}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2-1-2}Applying the custom loss function on the 1D reservoir scores}{30}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2-1-3}Bayesian updating using thickness likelihoods}{30}{subsection.2.1.3}
-\contentsline {subsubsection}{Updating case I: Moderately reinforcing information}{32}{section*.22}
-\contentsline {subsubsection}{Updating case II: Likely reliable seal}{33}{section*.24}
-\contentsline {subsubsection}{Updating case III: Safe seal but likely subpar reservoir thickness}{33}{section*.26}
+\contentsline {subsubsection}{Updating case I: Moderately reinforcing information}{32}{section*.24}
+\contentsline {subsubsection}{Updating case II: Likely reliable seal}{33}{section*.26}
+\contentsline {subsubsection}{Updating case III: Safe seal but likely subpar reservoir thickness}{33}{section*.28}
 \contentsline {subsection}{\numberline {2-1-4}General 1D model updating results}{35}{subsection.2.1.4}
 \contentsline {section}{\numberline {2-2}Results using the 3D geological model}{36}{section.2.2}
 \contentsline {chapter}{\numberline {3}Discussion}{37}{chapter.3}
