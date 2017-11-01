@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  1 NOV 2017 21:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  1 NOV 2017 22:08
 entering extended mode
 **./MSc_layout_Fabian.tex
 (MSc_layout_Fabian.tex
@@ -902,12 +902,12 @@ File: Figures/LFR.png Graphic file (type png)
 Package pdftex.def Info: Figures/LFR.png used on input line 24.
 (pdftex.def)             Requested size: 442.65375pt x 186.37944pt.
 
-<Figures/update_moderate1.png, id=1144, 903.375pt x 604.2575pt>
+<Figures/update_moderate1.png, id=1144, 899.36pt x 599.23875pt>
 File: Figures/update_moderate1.png Graphic file (type png)
 
 <use Figures/update_moderate1.png>
 Package pdftex.def Info: Figures/update_moderate1.png used on input line 27.
-(pdftex.def)             Requested size: 442.65375pt x 296.08876pt.
+(pdftex.def)             Requested size: 442.65375pt x 294.9371pt.
 
 
 LaTeX Warning: Reference `fig:LF_4steps' on page 32 undefined on input line 31.
@@ -938,19 +938,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
 [33 <./Figures/LFR.png> <./Figures/update_moderate1.png>]
-<Figures/update_moderate2.png, id=1165, 962.59625pt x 385.44pt>
+<Figures/update_moderate2.png, id=1165, 962.59625pt x 381.425pt>
 File: Figures/update_moderate2.png Graphic file (type png)
 
 <use Figures/update_moderate2.png>
 Package pdftex.def Info: Figures/update_moderate2.png used on input line 46.
-(pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
+(pdftex.def)             Requested size: 442.65375pt x 175.39941pt.
 
-<Figures/update_moderate3.png, id=1166, 970.62625pt x 385.44pt>
+<Figures/update_moderate3.png, id=1166, 965.6075pt x 381.425pt>
 File: Figures/update_moderate3.png Graphic file (type png)
 
 <use Figures/update_moderate3.png>
 Package pdftex.def Info: Figures/update_moderate3.png used on input line 53.
-(pdftex.def)             Requested size: 442.65375pt x 175.78128pt.
+(pdftex.def)             Requested size: 442.65375pt x 174.85233pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -960,19 +960,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--81
 
  []
 
-[34] <Figures/update_goodseal2.png, id=1176, 962.59625pt x 385.44pt>
+[34] <Figures/update_goodseal2.png, id=1176, 957.5775pt x 381.425pt>
 File: Figures/update_goodseal2.png Graphic file (type png)
 
 <use Figures/update_goodseal2.png>
 Package pdftex.def Info: Figures/update_goodseal2.png used on input line 86.
-(pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
+(pdftex.def)             Requested size: 442.65375pt x 176.31898pt.
 
-<Figures/update_goodseal3.png, id=1177, 970.62625pt x 385.44pt>
+<Figures/update_goodseal3.png, id=1177, 965.6075pt x 381.425pt>
 File: Figures/update_goodseal3.png Graphic file (type png)
 
 <use Figures/update_goodseal3.png>
 Package pdftex.def Info: Figures/update_goodseal3.png used on input line 93.
-(pdftex.def)             Requested size: 442.65375pt x 175.78128pt.
+(pdftex.def)             Requested size: 442.65375pt x 174.85233pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -983,19 +983,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--118
  []
 
 [35 <./Figures/update_moderate2.png> <./Figures/update_moderate3.png>]
-<Figures/update_smallres2.png, id=1187, 962.59625pt x 385.44pt>
+<Figures/update_smallres2.png, id=1187, 957.5775pt x 381.425pt>
 File: Figures/update_smallres2.png Graphic file (type png)
 
 <use Figures/update_smallres2.png>
 Package pdftex.def Info: Figures/update_smallres2.png used on input line 123.
-(pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
+(pdftex.def)             Requested size: 442.65375pt x 176.31898pt.
 
-<Figures/update_smallres3.png, id=1188, 970.62625pt x 385.44pt>
+<Figures/update_smallres3.png, id=1188, 965.6075pt x 381.425pt>
 File: Figures/update_smallres3.png Graphic file (type png)
 
 <use Figures/update_smallres3.png>
 Package pdftex.def Info: Figures/update_smallres3.png used on input line 130.
-(pdftex.def)             Requested size: 442.65375pt x 175.78128pt.
+(pdftex.def)             Requested size: 442.65375pt x 174.85233pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1005,8 +1005,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--156
 
  []
 
-[36 <./Figures/update_goodseal2.png> <./Figures/update_goodseal3.png>] [37 <./F
-igures/update_smallres2.png> <./Figures/update_smallres3.png>]) [38]
+[36 <./Figures/update_goodseal2.png> <./Figures/update_goodseal3.png>]
+Underfull \vbox (badness 1584) has occurred while \output is active []
+
+ [37 <./Figures/update_smallres2.png> <./Figures/update_smallres3.png>]) [38]
 \openout2 = `chapter4_discussion.aux'.
 
 
@@ -1136,7 +1138,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
 Here is how much of TeX's memory you used:
  11948 strings out of 493323
  175499 string characters out of 3139062
- 320051 words of memory out of 3000000
+ 320052 words of memory out of 3000000
  14940 multiletter control sequences out of 15000+200000
  19960 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1161,7 +1163,7 @@ sfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 >
-Output written on MSc_layout_Fabian.pdf (68 pages, 2599243 bytes).
+Output written on MSc_layout_Fabian.pdf (68 pages, 2604601 bytes).
 PDF statistics:
  1413 PDF objects out of 1440 (max. 8388607)
  253 named destinations out of 1000 (max. 500000)
