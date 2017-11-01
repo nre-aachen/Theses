@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  1 NOV 2017 20:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  1 NOV 2017 21:25
 entering extended mode
 **./MSc_layout_Fabian.tex
 (MSc_layout_Fabian.tex
@@ -674,7 +674,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
 
 ]
 
-LaTeX Warning: Reference `fig:1D_model' on page xii undefined on input line 12.
+LaTeX Warning: Reference `fig:1D_model' on page xii undefined on input line 13.
 
 
 )
@@ -708,14 +708,14 @@ Chapter 1.
 
 
 
-] [2] <Figures/abs_sqr_det.png, id=523, 383.4325pt x 381.425pt>
+] [2] <Figures/abs_sqr_det.png, id=529, 383.4325pt x 381.425pt>
 File: Figures/abs_sqr_det.png Graphic file (type png)
 
 <use Figures/abs_sqr_det.png>
 Package pdftex.def Info: Figures/abs_sqr_det.png used on input line 45.
 (pdftex.def)             Requested size: 221.32687pt x 220.17322pt.
  [3 <./Figures/abs_sqr_det.png>]
-<Figures/loss_functions.png, id=560, 904.37875pt x 381.425pt>
+<Figures/loss_functions.png, id=566, 904.37875pt x 381.425pt>
 File: Figures/loss_functions.png Graphic file (type png)
 
 <use Figures/loss_functions.png>
@@ -726,14 +726,14 @@ Package pdftex.def Info: Figures/loss_functions.png used on input line 60.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4] [5 <./Figures/loss_functions.png>]
-<Figures/joint_prob.png, id=611, 1108.14pt x 536.75531pt>
+<Figures/joint_prob.png, id=617, 1108.14pt x 536.75531pt>
 File: Figures/joint_prob.png Graphic file (type png)
 
 <use Figures/joint_prob.png>
 Package pdftex.def Info: Figures/joint_prob.png used on input line 101.
 (pdftex.def)             Requested size: 354.12434pt x 171.52768pt.
  [6 <./Figures/joint_prob.png>] [7] [8]
-<Figures/calcagno_pot_field.png, id=733, 1138.2525pt x 570.13pt>
+<Figures/calcagno_pot_field.png, id=739, 1138.2525pt x 570.13pt>
 File: Figures/calcagno_pot_field.png Graphic file (type png)
 
 <use Figures/calcagno_pot_field.png>
@@ -745,7 +745,7 @@ Package pdftex.def Info: Figures/calcagno_pot_field.png used on input line 150.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9] [10 <./Figures/calcagno_pot_field.png>] [11]
-<Figures/trap_closure1.PNG, id=843, 523.9575pt x 500.87125pt>
+<Figures/trap_closure1.PNG, id=849, 523.9575pt x 500.87125pt>
 File: Figures/trap_closure1.PNG Graphic file (type png)
 
 <use Figures/trap_closure1.PNG>
@@ -755,20 +755,29 @@ Package pdftex.def Info: Figures/trap_closure1.PNG used on input line 179.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/fault_trap_mechA1.PNG, id=851, 1279.78125pt x 671.50874pt>
+<Figures/fault_trap_mechA1.PNG, id=857, 1279.78125pt x 671.50874pt>
 File: Figures/fault_trap_mechA1.PNG Graphic file (type png)
 
 <use Figures/fault_trap_mechA1.PNG>
 Package pdftex.def Info: Figures/fault_trap_mechA1.PNG used on input line 188.
 (pdftex.def)             Requested size: 354.12434pt x 185.80794pt.
 
-<Figures/fault_trap_mechB1.PNG, id=852, 301.125pt x 673.51625pt>
+<Figures/fault_trap_mechB1.PNG, id=858, 301.125pt x 673.51625pt>
 File: Figures/fault_trap_mechB1.PNG Graphic file (type png)
 
 <use Figures/fault_trap_mechB1.PNG>
 Package pdftex.def Info: Figures/fault_trap_mechB1.PNG used on input line 193.
 (pdftex.def)             Requested size: 79.67442pt x 178.20348pt.
- [12]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12] <Figures/SSF.PNG, id=897, 578.16pt x 632.3625pt>
+File: Figures/SSF.PNG Graphic file (type png)
+ <use Figures/SSF.PNG>
+Package pdftex.def Info: Figures/SSF.PNG used on input line 204.
+(pdftex.def)             Requested size: 309.85626pt x 338.90402pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -778,111 +787,101 @@ Missing character: There is no Â in font cmr10!
 Missing character: There is no ³ in font cmr10!
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ² in font cmr10!
- [15] [16]
-<Figures/LF_4steps_normal.png, id=963, 960.58875pt x 599.23875pt>
+ [15 <./Figures/SSF.PNG>] [16]
+<Figures/LF_4steps_normal.png, id=971, 960.58875pt x 599.23875pt>
 File: Figures/LF_4steps_normal.png Graphic file (type png)
 
 <use Figures/LF_4steps_normal.png>
-Package pdftex.def Info: Figures/LF_4steps_normal.png used on input line 264.
+Package pdftex.def Info: Figures/LF_4steps_normal.png used on input line 269.
 (pdftex.def)             Requested size: 442.65375pt x 276.13779pt.
 
-<Figures/LF4_det_values.png, id=964, 904.37875pt x 381.425pt>
+<Figures/LF4_det_values.png, id=972, 904.37875pt x 381.425pt>
 File: Figures/LF4_det_values.png Graphic file (type png)
 
 <use Figures/LF4_det_values.png>
-Package pdftex.def Info: Figures/LF4_det_values.png used on input line 267.
+Package pdftex.def Info: Figures/LF4_det_values.png used on input line 272.
 (pdftex.def)             Requested size: 442.65375pt x 186.69035pt.
- [17] [18 <./Figures/LF_4steps_normal.png> <./Figures/LF4_det_values.png>]
-<Figures/LFR_normal.png, id=982, 904.37875pt x 381.425pt>
+ [17] [18] [19 <./Figures/LF_4steps_normal.png> <./Figures/LF4_det_values.png>]
+
+<Figures/LFR_normal.png, id=999, 904.37875pt x 381.425pt>
 File: Figures/LFR_normal.png Graphic file (type png)
 
 <use Figures/LFR_normal.png>
-Package pdftex.def Info: Figures/LFR_normal.png used on input line 305.
+Package pdftex.def Info: Figures/LFR_normal.png used on input line 310.
 (pdftex.def)             Requested size: 442.65375pt x 186.69035pt.
+ [20 <./Figures/LFR_normal.png>]
+
+LaTeX Warning: Reference `fig:1D_model' on page 21 undefined on input line 320.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[19]
-
-LaTeX Warning: Reference `fig:1D_model' on page 20 undefined on input line 315.
-
-
-<Figures/1D_principle.png, id=996, 840.89156pt x 605.26125pt>
+<Figures/1D_principle.png, id=1013, 840.89156pt x 605.26125pt>
 File: Figures/1D_principle.png Graphic file (type png)
 
 <use Figures/1D_principle.png>
-Package pdftex.def Info: Figures/1D_principle.png used on input line 324.
+Package pdftex.def Info: Figures/1D_principle.png used on input line 329.
 (pdftex.def)             Requested size: 442.65375pt x 318.61658pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[20 <./Figures/LFR_normal.png>]
-<Figures/3_parameters.png, id=1008, 1012.78375pt x 276.03125pt>
+ [21 <./Figures/1D_principle.png>]
+<Figures/3_parameters.png, id=1025, 1012.78375pt x 276.03125pt>
 File: Figures/3_parameters.png Graphic file (type png)
 
 <use Figures/3_parameters.png>
-Package pdftex.def Info: Figures/3_parameters.png used on input line 335.
+Package pdftex.def Info: Figures/3_parameters.png used on input line 340.
 (pdftex.def)             Requested size: 442.65375pt x 120.64122pt.
 
 
-LaTeX Warning: Reference `fig:1D_model' on page 21 undefined on input line 336.
+LaTeX Warning: Reference `fig:1D_model' on page 22 undefined on input line 341.
 
 
 
-LaTeX Warning: Reference `fig:1D_model' on page 21 undefined on input line 336.
+LaTeX Warning: Reference `fig:1D_model' on page 22 undefined on input line 341.
 
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[21 <./Figures/1D_principle.png>] [22 <./Figures/3_parameters.png>]
-<Figures/3Dmodel_section.png, id=1027, 471.7625pt x 297.11pt>
+[22 <./Figures/3_parameters.png>] [23]
+<Figures/3Dmodel_section.png, id=1043, 471.7625pt x 297.11pt>
 File: Figures/3Dmodel_section.png Graphic file (type png)
 
 <use Figures/3Dmodel_section.png>
-Package pdftex.def Info: Figures/3Dmodel_section.png used on input line 367.
+Package pdftex.def Info: Figures/3Dmodel_section.png used on input line 372.
 (pdftex.def)             Requested size: 442.65375pt x 278.78021pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[23] [24 <./Figures/3Dmodel_section.png>] [25]
-<Figures/Saddle_Point_between_maxima.png, id=1072, 748.7975pt x 511.9125pt>
+ [24 <./Figures/3Dmodel_section.png>] [25]
+<Figures/Saddle_Point_between_maxima.png, id=1082, 748.7975pt x 511.9125pt>
 File: Figures/Saddle_Point_between_maxima.png Graphic file (type png)
 
 <use Figures/Saddle_Point_between_maxima.png>
 Package pdftex.def Info: Figures/Saddle_Point_between_maxima.png used on input 
-line 402.
+line 407.
 (pdftex.def)             Requested size: 442.65375pt x 302.6194pt.
 
-<Figures/saddle_point_flow.png, id=1077, 917.4275pt x 675.52374pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/saddle_point_flow.png, id=1087, 917.4275pt x 675.52374pt>
 File: Figures/saddle_point_flow.png Graphic file (type png)
 
 <use Figures/saddle_point_flow.png>
-Package pdftex.def Info: Figures/saddle_point_flow.png used on input line 423.
+Package pdftex.def Info: Figures/saddle_point_flow.png used on input line 428.
 (pdftex.def)             Requested size: 442.65375pt x 325.93817pt.
- [26 <./Figures/Saddle_Point_between_maxima.png>] [27 <./Figures/saddle_point_f
-low.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 442--445
+ [26]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27 <./Figures/Saddle_Point_between_maxima.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28 <./Figures/saddle_point_flow.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 447--450
 
  []
 
-
-Underfull \vbox (badness 1715) has occurred while \output is active []
-
- [28])
-[29]
+[29]) [30]
 \openout2 = `chapter3_results.aux'.
 
- (chapter3_results.tex [30
-
-
-
-]
+ (chapter3_results.tex
 Chapter 2.
-<Figures/score_results1.png, id=1118, 1029.8475pt x 385.44pt>
+<Figures/score_results1.png, id=1130, 1029.8475pt x 385.44pt>
 File: Figures/score_results1.png Graphic file (type png)
 
 <use Figures/score_results1.png>
@@ -892,14 +891,18 @@ Package pdftex.def Info: Figures/score_results1.png used on input line 9.
 
 LaTeX Warning: Reference `fig:1D_model' on page 31 undefined on input line 13.
 
-[31 <./Figures/score_results1.png>]
-<Figures/LFR.png, id=1129, 915.42pt x 385.44pt>
+[31
+
+
+
+ <./Figures/score_results1.png>]
+<Figures/LFR.png, id=1141, 915.42pt x 385.44pt>
 File: Figures/LFR.png Graphic file (type png)
  <use Figures/LFR.png>
 Package pdftex.def Info: Figures/LFR.png used on input line 24.
 (pdftex.def)             Requested size: 442.65375pt x 186.37944pt.
 
-<Figures/update_moderate1.png, id=1132, 903.375pt x 604.2575pt>
+<Figures/update_moderate1.png, id=1144, 903.375pt x 604.2575pt>
 File: Figures/update_moderate1.png Graphic file (type png)
 
 <use Figures/update_moderate1.png>
@@ -935,14 +938,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
 [33 <./Figures/LFR.png> <./Figures/update_moderate1.png>]
-<Figures/update_moderate2.png, id=1153, 962.59625pt x 385.44pt>
+<Figures/update_moderate2.png, id=1165, 962.59625pt x 385.44pt>
 File: Figures/update_moderate2.png Graphic file (type png)
 
 <use Figures/update_moderate2.png>
 Package pdftex.def Info: Figures/update_moderate2.png used on input line 46.
 (pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
 
-<Figures/update_moderate3.png, id=1154, 970.62625pt x 385.44pt>
+<Figures/update_moderate3.png, id=1166, 970.62625pt x 385.44pt>
 File: Figures/update_moderate3.png Graphic file (type png)
 
 <use Figures/update_moderate3.png>
@@ -957,14 +960,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--81
 
  []
 
-[34] <Figures/update_goodseal2.png, id=1164, 962.59625pt x 385.44pt>
+[34] <Figures/update_goodseal2.png, id=1176, 962.59625pt x 385.44pt>
 File: Figures/update_goodseal2.png Graphic file (type png)
 
 <use Figures/update_goodseal2.png>
 Package pdftex.def Info: Figures/update_goodseal2.png used on input line 86.
 (pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
 
-<Figures/update_goodseal3.png, id=1165, 970.62625pt x 385.44pt>
+<Figures/update_goodseal3.png, id=1177, 970.62625pt x 385.44pt>
 File: Figures/update_goodseal3.png Graphic file (type png)
 
 <use Figures/update_goodseal3.png>
@@ -980,14 +983,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--118
  []
 
 [35 <./Figures/update_moderate2.png> <./Figures/update_moderate3.png>]
-<Figures/update_smallres2.png, id=1175, 962.59625pt x 385.44pt>
+<Figures/update_smallres2.png, id=1187, 962.59625pt x 385.44pt>
 File: Figures/update_smallres2.png Graphic file (type png)
 
 <use Figures/update_smallres2.png>
 Package pdftex.def Info: Figures/update_smallres2.png used on input line 123.
 (pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
 
-<Figures/update_smallres3.png, id=1176, 970.62625pt x 385.44pt>
+<Figures/update_smallres3.png, id=1188, 970.62625pt x 385.44pt>
 File: Figures/update_smallres3.png Graphic file (type png)
 
 <use Figures/update_smallres3.png>
@@ -1097,7 +1100,7 @@ No file MSc_layout_Fabian.ind.
 
 
 
-! LaTeX Error: \begin{enumerate} on input line 380 ended by \end{document}.
+! LaTeX Error: \begin{enumerate} on input line 385 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1116,7 +1119,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
 Package rerunfilecheck Info: File `MSc_layout_Fabian.out' has not changed.
-(rerunfilecheck)             Checksum: FF582F875A105C6620749D6A5B9992AF;4359.
+(rerunfilecheck)             Checksum: 820690716138C262C305DE4B75FB72D4;4315.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1124,20 +1127,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 380 (\begingroup)
+### semi simple group (level 1) entered at line 385 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 11940 strings out of 493323
- 175378 string characters out of 3139062
- 319741 words of memory out of 3000000
- 14934 multiletter control sequences out of 15000+200000
+ 11948 strings out of 493323
+ 175499 string characters out of 3139062
+ 320051 words of memory out of 3000000
+ 14940 multiletter control sequences out of 15000+200000
  19960 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,12n,58p,1679b,1653s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1161,9 +1161,9 @@ sfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 >
-Output written on MSc_layout_Fabian.pdf (68 pages, 2576219 bytes).
+Output written on MSc_layout_Fabian.pdf (68 pages, 2599243 bytes).
 PDF statistics:
- 1399 PDF objects out of 1440 (max. 8388607)
- 252 named destinations out of 1000 (max. 500000)
- 537 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1413 PDF objects out of 1440 (max. 8388607)
+ 253 named destinations out of 1000 (max. 500000)
+ 542 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -13,8 +13,8 @@
 \BOOKMARK [2][-]{subsection.1.2.2}{Structural geological forward modeling}{section.1.2}% 13
 \BOOKMARK [2][-]{subsection.1.2.3}{Numerical computational implementation via Python, GemPy and PyMC}{section.1.2}% 14
 \BOOKMARK [2][-]{subsection.1.2.4}{Bayesian hierarchical networks}{section.1.2}% 15
-\BOOKMARK [1][-]{section.1.3}{Model evaluation: Economic significance and reservoir valuation}{chapter.1}% 16
-\BOOKMARK [2][-]{subsection.1.3.1}{Hydrocarbon reservoir system and structural traps}{section.1.3}% 17
+\BOOKMARK [1][-]{section.1.3}{Model evaluation}{chapter.1}% 16
+\BOOKMARK [2][-]{subsection.1.3.1}{Economic significance and reservoir system valuation}{section.1.3}% 17
 \BOOKMARK [2][-]{subsection.1.3.2}{Original oil-in-place and recoverable volumes as value measures}{section.1.3}% 18
 \BOOKMARK [1][-]{section.1.4}{Designing a case-specific loss function}{chapter.1}% 19
 \BOOKMARK [2][-]{subsection.1.4.1}{Including different risk-affinities in the loss function}{section.1.4}% 20
@@ -36,9 +36,9 @@
 \BOOKMARK [2][-]{subsection.2.1.1}{Scoring}{section.2.1}% 36
 \BOOKMARK [2][-]{subsection.2.1.2}{Applying the custom loss function on the 1D reservoir scores}{section.2.1}% 37
 \BOOKMARK [2][-]{subsection.2.1.3}{Bayesian updating using thickness likelihoods}{section.2.1}% 38
-\BOOKMARK [3][-]{section*.22}{Updating case I: Moderately reinforcing information}{subsection.2.1.3}% 39
-\BOOKMARK [3][-]{section*.24}{Updating case II: Likely reliable seal}{subsection.2.1.3}% 40
-\BOOKMARK [3][-]{section*.26}{Updating case III: Safe seal but likely subpar reservoir thickness}{subsection.2.1.3}% 41
+\BOOKMARK [3][-]{section*.23}{Updating case I: Moderately reinforcing information}{subsection.2.1.3}% 39
+\BOOKMARK [3][-]{section*.25}{Updating case II: Likely reliable seal}{subsection.2.1.3}% 40
+\BOOKMARK [3][-]{section*.27}{Updating case III: Safe seal but likely subpar reservoir thickness}{subsection.2.1.3}% 41
 \BOOKMARK [2][-]{subsection.2.1.4}{General 1D model updating results}{section.2.1}% 42
 \BOOKMARK [1][-]{section.2.2}{Results using the 3D geological model}{chapter.2}% 43
 \BOOKMARK [0][-]{chapter.3}{Discussion}{}% 44
