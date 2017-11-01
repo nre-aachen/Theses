@@ -31,6 +31,12 @@ Chil{\`e}s, J.-P., Aug, C., Guillen, A., and Lees, T. (2004).
 \newblock In {\em Proceedings of international symposium on orebody modelling
   and strategic mine planning, Perth, Australia}, volume~22, page~24.
 
+\bibitem[Collignon et~al., 2015]{collignon2015fold_linkage}
+Collignon, M., Fernandez, N., and Kaus, B. (2015).
+\newblock Influence of surface processes and initial topography on lateral fold
+  growth and fold linkage mode.
+\newblock pages n/a--n/a.
+
 \bibitem[Davidson-Pilon, 2015]{davidson2015}
 Davidson-Pilon, C. (2015).
 \newblock Bayesian methods for hackers: Probabilistic programming and bayesian
@@ -65,6 +71,12 @@ Dolson, J. (2016b).
   pseudo-capillary pressure and quantitative show assessment.
 \newblock In {\em Understanding Oil and Gas Shows and Seals in the Search for
   Hydrocarbons}, pages 233--314. Springer.
+
+\bibitem[F{\ae}rseth, 2006]{faerseth2006shale}
+F{\ae}rseth, R.~B. (2006).
+\newblock Shale smear along large faults: continuity of smear and the fault
+  seal capacity.
+\newblock {\em Journal of the Geological Society}, 163(5):741--751.
 
 \bibitem[Gelman et~al., 2014]{gelman2014bayesian}
 Gelman, A., Carlin, J.~B., Stern, H.~S., and Rubin, D.~B. (2014).
@@ -131,6 +143,12 @@ Langtangen, P.~H. (2008).
 \newblock {\em {Python scripting for computational science}}.
 \newblock Springer Verlag, New York.
 
+\bibitem[Lindsay et~al., 1993]{lindsay1993outcrop}
+Lindsay, N., Murphy, F., Walsh, J., and Watterson, J. (1993).
+\newblock Outcrop studies of shale smears on fault surfaces.
+\newblock {\em The Geological Modelling of Hydrocarbon Reservoirs and Outcrop
+  Analogues}, pages 113--123.
+
 \bibitem[Metropolis et~al., 1953]{metropolis1953equation}
 Metropolis, N., Rosenbluth, A.~W., Rosenbluth, M.~N., Teller, A.~H., and
   Teller, E. (1953).
@@ -195,6 +213,12 @@ Wellmann, J.~F., De~la Varga, M., Murdie, R.~E., Gessner, K., and Jessell, M.
 \newblock In Gessner, K., Glessinkop, T.~G., and Sorjonen-Ward, P., editors,
   {\em Characterization of Ore-Forming Systems from Geological, Geochemical and
   Geophysical Studies}. Geological Society, London, Special Publications, 453.
+
+\bibitem[Yielding, 2012]{yielding2012using}
+Yielding, G. (2012).
+\newblock Using probabilistic shale smear modelling to relate sgr predictions
+  of column height to fault-zone heterogeneity.
+\newblock {\em Petroleum Geoscience}, 18(1):33--42.
 
 \bibitem[Yielding et~al., 1997]{yielding1997quantitative}
 Yielding, G., Freeman, B., and Needham, D.~T. (1997).

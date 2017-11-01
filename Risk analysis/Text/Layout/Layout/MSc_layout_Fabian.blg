@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: MSc_layout_Fabian.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: MSc_layout_Fabian.aux
 A level-1 auxiliary file: chapter2_methods.aux
 A level-1 auxiliary file: chapter3_results.aux
 A level-1 auxiliary file: chapter4_discussion.aux
@@ -11,48 +9,8 @@ Repeated entry---line 9113 of file complete_biblio.bib
  : @article{hastings1970
  :                      ,
 I'm skipping whatever remains of this entry
+Warning--empty journal in collignon2015fold_linkage
 Warning--empty journal in davidson2015
 Warning--there's a number but no volume in geman1984stochastic
 Warning--empty journal in sorkhabi2005place
-You've used 35 entries,
-            1935 wiz_defined-function locations,
-            691 strings with 10189 characters,
-and the built_in function-call counts, 13143 in all, are:
-= -- 1299
-> -- 502
-< -- 27
-+ -- 172
-- -- 163
-* -- 1082
-:= -- 2315
-add.period$ -- 107
-call.type$ -- 35
-change.case$ -- 249
-chr.to.int$ -- 34
-cite$ -- 38
-duplicate$ -- 509
-empty$ -- 927
-format.name$ -- 212
-if$ -- 2557
-int.to.chr$ -- 2
-int.to.str$ -- 0
-missing$ -- 34
-newline$ -- 177
-num.names$ -- 107
-pop$ -- 220
-preamble$ -- 1
-purify$ -- 255
-quote$ -- 0
-skip$ -- 388
-stack$ -- 0
-substring$ -- 904
-swap$ -- 58
-text.length$ -- 6
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 200
-warning$ -- 3
-while$ -- 110
-width$ -- 0
-write$ -- 450
 (There was 1 error message)
