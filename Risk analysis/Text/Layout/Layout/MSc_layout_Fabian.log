@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  1 NOV 2017 19:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  1 NOV 2017 20:40
 entering extended mode
 **./MSc_layout_Fabian.tex
 (MSc_layout_Fabian.tex
@@ -849,27 +849,31 @@ Package pdftex.def Info: Figures/3Dmodel_section.png used on input line 367.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [23] [24 <./Figures/3Dmodel_section.png>] [25]
-<Figures/Saddle_Point_between_maxima.png, id=1073, 748.7975pt x 511.9125pt>
+<Figures/Saddle_Point_between_maxima.png, id=1072, 748.7975pt x 511.9125pt>
 File: Figures/Saddle_Point_between_maxima.png Graphic file (type png)
 
 <use Figures/Saddle_Point_between_maxima.png>
 Package pdftex.def Info: Figures/Saddle_Point_between_maxima.png used on input 
-line 403.
+line 402.
 (pdftex.def)             Requested size: 442.65375pt x 302.6194pt.
 
-<Figures/saddle_point_flow.png, id=1078, 917.4275pt x 675.52374pt>
+<Figures/saddle_point_flow.png, id=1077, 917.4275pt x 675.52374pt>
 File: Figures/saddle_point_flow.png Graphic file (type png)
 
 <use Figures/saddle_point_flow.png>
-Package pdftex.def Info: Figures/saddle_point_flow.png used on input line 424.
+Package pdftex.def Info: Figures/saddle_point_flow.png used on input line 423.
 (pdftex.def)             Requested size: 442.65375pt x 325.93817pt.
  [26 <./Figures/Saddle_Point_between_maxima.png>] [27 <./Figures/saddle_point_f
 low.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 443--446
+Underfull \hbox (badness 10000) in paragraph at lines 442--445
 
  []
 
-[28]) [29]
+
+Underfull \vbox (badness 1715) has occurred while \output is active []
+
+ [28])
+[29]
 \openout2 = `chapter3_results.aux'.
 
  (chapter3_results.tex [30
@@ -878,7 +882,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 443--446
 
 ]
 Chapter 2.
-<Figures/score_results1.png, id=1120, 1029.8475pt x 385.44pt>
+<Figures/score_results1.png, id=1118, 1029.8475pt x 385.44pt>
 File: Figures/score_results1.png Graphic file (type png)
 
 <use Figures/score_results1.png>
@@ -889,13 +893,13 @@ Package pdftex.def Info: Figures/score_results1.png used on input line 9.
 LaTeX Warning: Reference `fig:1D_model' on page 31 undefined on input line 13.
 
 [31 <./Figures/score_results1.png>]
-<Figures/LFR.png, id=1131, 915.42pt x 385.44pt>
+<Figures/LFR.png, id=1129, 915.42pt x 385.44pt>
 File: Figures/LFR.png Graphic file (type png)
  <use Figures/LFR.png>
 Package pdftex.def Info: Figures/LFR.png used on input line 24.
 (pdftex.def)             Requested size: 442.65375pt x 186.37944pt.
 
-<Figures/update_moderate1.png, id=1134, 903.375pt x 604.2575pt>
+<Figures/update_moderate1.png, id=1132, 903.375pt x 604.2575pt>
 File: Figures/update_moderate1.png Graphic file (type png)
 
 <use Figures/update_moderate1.png>
@@ -926,34 +930,41 @@ LaTeX Warning: Reference `fig:LF_4steps' on page 32 undefined on input line 32.
 LaTeX Warning: Reference `fig:LF_4steps' on page 32 undefined on input line 33.
 
 
-[32] [33 <./Figures/LFR.png> <./Figures/update_moderate1.png>]
-<Figures/update_moderate2.png, id=1155, 962.59625pt x 385.44pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+[33 <./Figures/LFR.png> <./Figures/update_moderate1.png>]
+<Figures/update_moderate2.png, id=1153, 962.59625pt x 385.44pt>
 File: Figures/update_moderate2.png Graphic file (type png)
 
 <use Figures/update_moderate2.png>
 Package pdftex.def Info: Figures/update_moderate2.png used on input line 46.
 (pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
 
-<Figures/update_moderate3.png, id=1156, 970.62625pt x 385.44pt>
+<Figures/update_moderate3.png, id=1154, 970.62625pt x 385.44pt>
 File: Figures/update_moderate3.png Graphic file (type png)
 
 <use Figures/update_moderate3.png>
 Package pdftex.def Info: Figures/update_moderate3.png used on input line 53.
 (pdftex.def)             Requested size: 442.65375pt x 175.78128pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 61--81
 
  []
 
-[34 <./Figures/update_moderate2.png> <./Figures/update_moderate3.png>]
-<Figures/update_goodseal2.png, id=1168, 962.59625pt x 385.44pt>
+[34] <Figures/update_goodseal2.png, id=1164, 962.59625pt x 385.44pt>
 File: Figures/update_goodseal2.png Graphic file (type png)
 
 <use Figures/update_goodseal2.png>
 Package pdftex.def Info: Figures/update_goodseal2.png used on input line 86.
 (pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
 
-<Figures/update_goodseal3.png, id=1169, 970.62625pt x 385.44pt>
+<Figures/update_goodseal3.png, id=1165, 970.62625pt x 385.44pt>
 File: Figures/update_goodseal3.png Graphic file (type png)
 
 <use Figures/update_goodseal3.png>
@@ -968,14 +979,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--118
 
  []
 
-<Figures/update_smallres2.png, id=1173, 962.59625pt x 385.44pt>
+[35 <./Figures/update_moderate2.png> <./Figures/update_moderate3.png>]
+<Figures/update_smallres2.png, id=1175, 962.59625pt x 385.44pt>
 File: Figures/update_smallres2.png Graphic file (type png)
 
 <use Figures/update_smallres2.png>
 Package pdftex.def Info: Figures/update_smallres2.png used on input line 123.
 (pdftex.def)             Requested size: 442.65375pt x 177.24573pt.
 
-<Figures/update_smallres3.png, id=1174, 970.62625pt x 385.44pt>
+<Figures/update_smallres3.png, id=1176, 970.62625pt x 385.44pt>
 File: Figures/update_smallres3.png Graphic file (type png)
 
 <use Figures/update_smallres3.png>
@@ -990,12 +1002,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--156
 
  []
 
-[35] [36 <./Figures/update_goodseal2.png> <./Figures/update_goodseal3.png>]
-[37 <./Figures/update_smallres2.png> <./Figures/update_smallres3.png>])
-[38]
+[36 <./Figures/update_goodseal2.png> <./Figures/update_goodseal3.png>] [37 <./F
+igures/update_smallres2.png> <./Figures/update_smallres3.png>]) [38]
 \openout2 = `chapter4_discussion.aux'.
 
- (chapter4_discussion.tex
+
+(chapter4_discussion.tex
 Chapter 3.
 ) [39
 
@@ -1083,9 +1095,23 @@ No file MSc_layout_Fabian.ind.
 \tf@thm=\write12
 \openout12 = `MSc_layout_Fabian.thm'.
 
+
+
+! LaTeX Error: \begin{enumerate} on input line 380 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
- (MSc_layout_Fabian.aux (chapter2_methods.aux) (chapter3_results.aux)
+(MSc_layout_Fabian.aux (chapter2_methods.aux) (chapter3_results.aux)
 (chapter4_discussion.aux) (chapter5_conclusion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
@@ -1098,36 +1124,44 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 380 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
  11940 strings out of 493323
  175378 string characters out of 3139062
- 314981 words of memory out of 3000000
+ 319741 words of memory out of 3000000
  14934 multiletter control sequences out of 15000+200000
  19960 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,58p,1679b,1486s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on MSc_layout_Fabian.pdf (68 pages, 2575367 bytes).
+ 43i,12n,58p,1679b,1653s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+>
+Output written on MSc_layout_Fabian.pdf (68 pages, 2576219 bytes).
 PDF statistics:
  1399 PDF objects out of 1440 (max. 8388607)
  252 named destinations out of 1000 (max. 500000)
