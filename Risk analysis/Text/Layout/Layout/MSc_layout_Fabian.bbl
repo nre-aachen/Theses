@@ -53,6 +53,12 @@ De~la Varga, M. and Wellmann, J.~F. (2016).
   perspective.
 \newblock {\em Interpretation}, 4(3):SM1--SM16.
 
+\bibitem[De~Luca and Termini, 1972]{de1972definition}
+De~Luca, A. and Termini, S. (1972).
+\newblock A definition of a nonprobabilistic entropy in the setting of fuzzy
+  sets theory.
+\newblock {\em Information and control}, 20(4):301--312.
+
 \bibitem[Dean, 2007]{dean2007volumetric}
 Dean, L. (2007).
 \newblock Reservoir engineering for geologists - volumetric estimation.
@@ -171,6 +177,11 @@ Schmatz, J., Vrolijk, P., and Urai, J. (2010).
   cementation in water-saturated model experiments.
 \newblock {\em Journal of Structural Geology}, 32(11):1834--1849.
 
+\bibitem[Shannon, 1948]{shannon1948mathematical}
+Shannon, C.~E. (1948).
+\newblock A mathematical theory of communication, part i, part ii.
+\newblock {\em Bell Syst. Tech. J.}, 27:623--656.
+
 \bibitem[Sorkhabi and Tsuji, 2005]{sorkhabi2005place}
 Sorkhabi, R. and Tsuji, Y. (2005).
 \newblock The place of faults in petroleum traps.
@@ -214,6 +225,12 @@ Wellmann, J.~F., De~la Varga, M., Murdie, R.~E., Gessner, K., and Jessell, M.
   {\em Characterization of Ore-Forming Systems from Geological, Geochemical and
   Geophysical Studies}. Geological Society, London, Special Publications, 453.
 
+\bibitem[Wellmann and Regenauer-Lieb, 2012]{wellmann2012uncertainties}
+Wellmann, J.~F. and Regenauer-Lieb, K. (2012).
+\newblock Uncertainties have a meaning: Information entropy as a quality
+  measure for 3-d geological models.
+\newblock {\em Tectonophysics}, 526:207--216.
+
 \bibitem[Yielding, 2012]{yielding2012using}
 Yielding, G. (2012).
 \newblock Using probabilistic shale smear modelling to relate sgr predictions
@@ -224,5 +241,10 @@ Yielding, G. (2012).
 Yielding, G., Freeman, B., and Needham, D.~T. (1997).
 \newblock Quantitative fault seal prediction.
 \newblock {\em AAPG bulletin}, 81(6):897--917.
+
+\bibitem[Zadeh, 1965]{zadeh1965fuzzy}
+Zadeh, L.~A. (1965).
+\newblock Fuzzy sets.
+\newblock {\em Information and control}, 8(3):338--353.
 
 \end{thebibliography}
