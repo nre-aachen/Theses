@@ -1,0 +1,35 @@
+digraph G {
+res_th [shape=invtriangle];
+interp_unc [shape=invtriangle];
+interp_unc -> res_th  [label=interp_data];
+z_unc_res_top;
+z_unc_res_top -> interp_unc  [label=z_unc_res_top];
+z_unc_secres_top;
+z_unc_secres_top -> interp_unc  [label=z_unc_secres_top];
+z_unc_seal_top;
+z_unc_seal_top -> interp_unc  [label=z_unc_seal_top];
+z_unc_base_top;
+z_unc_base_top -> interp_unc  [label=z_unc_base_top];
+offset_unc;
+offset_unc -> interp_unc  [label=off_unc];
+fault_sealing_unc;
+over_jux_area [shape=invtriangle];
+"structural_model[0]" [shape=invtriangle];
+"structural_model[0]" -> over_jux_area  [label=lith_sol];
+index [shape=invtriangle];
+index -> "structural_model[0]"  [label=index];
+structural_model [shape=invtriangle];
+structural_model -> "structural_model[0]"  [label=x];
+seal_th [shape=invtriangle];
+seal_th -> structural_model  [label=seal_th];
+interp_unc -> seal_th  [label=interp_data];
+interp_unc -> structural_model  [label=interp_data_M];
+fault_sealing_unc -> structural_model  [label=fault_sealing];
+"structural_model[1]" [shape=invtriangle];
+"structural_model[1]" -> over_jux_area  [label=fault_sol];
+index [shape=invtriangle];
+index -> "structural_model[1]"  [label=index];
+structural_model -> "structural_model[1]"  [label=x];
+sec_res_th [shape=invtriangle];
+interp_unc -> sec_res_th  [label=interp_data];
+}
