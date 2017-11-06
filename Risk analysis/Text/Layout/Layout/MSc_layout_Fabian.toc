@@ -1,7 +1,7 @@
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Abstract}{v}{chapter*.1}
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Acknowledgements}{vii}{chapter*.2}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Nomenclature}{xv}{chapter*.5}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Acronyms}{xv}{chapter*.6}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Nomenclature}{xvii}{chapter*.5}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Acronyms}{xvii}{chapter*.6}
 \contentsline {chapter}{\numberline {1}Methods}{1}{chapter.1}
 \contentsline {section}{\numberline {1-1}Bayesian analysis and decision theory}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1-1-1}Basic elements}{1}{subsection.1.1.1}
@@ -21,27 +21,26 @@
 \contentsline {subsection}{\numberline {1-4-1}Including different risk-affinities in the loss function}{22}{subsection.1.4.1}
 \contentsline {section}{\numberline {1-5}1D geological reservoir modeling}{23}{section.1.5}
 \contentsline {subsection}{\numberline {1-5-1}Construction of the 1D geological model}{23}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1-5-2}Bayesian inference and analysis of the 1D case}{23}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1-5-3}Abstract valuation of the 1D geological model}{24}{subsection.1.5.3}
-\contentsline {section}{\numberline {1-6}3D geological reservoir model}{25}{section.1.6}
-\contentsline {subsection}{\numberline {1-6-1}Design of the 3D geological reservoir model}{25}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1-5-2}Bayesian inference and analysis of the 1D case}{24}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1-5-3}Abstract valuation of the 1D geological model}{25}{subsection.1.5.3}
+\contentsline {section}{\numberline {1-6}3D geological reservoir model}{26}{section.1.6}
+\contentsline {subsection}{\numberline {1-6-1}Design of the 3D geological reservoir model}{26}{subsection.1.6.1}
 \contentsline {subsection}{\numberline {1-6-2}Construction of the uncertain 3D geological reservoir model}{26}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1-6-3}Determination of the trap volume}{27}{subsection.1.6.3}
-\contentsline {subsection}{\numberline {1-6-4}Finding the final spill point of a trap}{28}{subsection.1.6.4}
+\contentsline {subsection}{\numberline {1-6-3}Determination of the trap volume}{28}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1-6-4}Finding the final spill point of a trap}{29}{subsection.1.6.4}
 \contentsline {subsection}{\numberline {1-6-5}Checking for juxtapositions and possible fault sealing}{31}{subsection.1.6.5}
 \contentsline {subsection}{\numberline {1-6-6}Calculating the maximum trap volume}{31}{subsection.1.6.6}
-\contentsline {subsection}{\numberline {1-6-7}Implementation of reservoir-related likelihoods in the 3D model}{31}{subsection.1.6.7}
+\contentsline {subsection}{\numberline {1-6-7}Implementation of reservoir-related likelihoods in the 3D model}{32}{subsection.1.6.7}
 \contentsline {subsection}{\numberline {1-6-8}Bayesian analysis and valuation of the 3D model}{32}{subsection.1.6.8}
 \contentsline {chapter}{\numberline {2}Results}{33}{chapter.2}
 \contentsline {section}{\numberline {2-1}1D geological reservoir model results}{33}{section.2.1}
 \contentsline {subsection}{\numberline {2-1-1}Scoring}{33}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2-1-2}Applying the custom loss function on the 1D reservoir scores}{34}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2-1-3}Bayesian updating using thickness likelihoods}{34}{subsection.2.1.3}
-\contentsline {subsubsection}{Updating case I: Moderately reinforcing information}{36}{section*.24}
-\contentsline {subsubsection}{Updating case II: Likely reliable seal}{37}{section*.26}
-\contentsline {subsubsection}{Updating case III: Safe seal but likely subpar reservoir thickness}{37}{section*.28}
-\contentsline {subsection}{\numberline {2-1-4}General 1D model updating results}{39}{subsection.2.1.4}
-\contentsline {section}{\numberline {2-2}Results using the 3D geological model}{40}{section.2.2}
+\contentsline {subsection}{\numberline {2-1-2}Bayesian inference using thickness likelihoods}{34}{subsection.2.1.2}
+\contentsline {subsubsection}{Inference case I: Moderately reinforcing information}{35}{section*.27}
+\contentsline {subsubsection}{Inference case II: Likely reliable seal}{36}{section*.29}
+\contentsline {subsubsection}{Inference case III: Safe seal but likely subpar reservoir thickness}{38}{section*.31}
+\contentsline {subsection}{\numberline {2-1-3}General 1D model inference results}{39}{subsection.2.1.3}
+\contentsline {section}{\numberline {2-2}Results using the 3D geological model}{39}{section.2.2}
 \contentsline {chapter}{\numberline {3}Discussion}{41}{chapter.3}
 \contentsline {chapter}{\numberline {4}Conclusion}{43}{chapter.4}
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{45}{chapter.4}

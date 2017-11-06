@@ -263,8 +263,13 @@
 		
 		\section{Designing a case-specific loss function}\label{sec:LF_design}	
 		As explained before in Section \ref{sec:loss}, the standard symmetric loss functions provide objectively good estimators minimizing expected loss by returning the median or mean respectively. However, assigning an economic notion to our model and assuming the case of an actor or decision maker in any field, naturally necessitates the consideration of preferences, interests and the overall subjective perspective such an individual or for example a company might have. Further constraints, properties and factors can also be specific to the field, industry or generally to the problem at hand. Consequently, the design of a more specific non-standard and possibly asymmetric loss function might be required, so that an adapted Bayesian estimator can be found. One that includes subjective aspects and difference in weighting of particular gains or losses, arising from an actor's inherent preferences and the environment in which the actor has to estimate or make a decision. In the face of several uncertain parameters, a perfectly true estimate is virtually unattainable. However, an attempt can be made to design a customized loss function that returns a Bayesian estimator involving the least bad consequences for an individual in a specific environment. Assuming the reservoir setting case and valuation methods introduced in Section \ref{sec:Reservoir_values}), such a customization attempt is made and explained step by step in the following. (SOURCES?)\\
-		For the purpose of estimation, it makes sense that one of the standard loss functions is chosen as a basis and a customized loss function is developed from there. The absolute-error loss seems most appropriate for this case of hydrocarbon reservoir value estimation. Ideally, an actor would like to know the exact true value of interest, say the OOIP, so that investments or resources can be allocated appropriately in order to acquire economic gains. This allocation is the decision to be made or action to be taken. Deviations from the unknown true value in the form of over- and underestimation bring about an error and loss accordingly. In this case, it is assumed that investments increase linearly with linear growth in the value of the resource. For this reason, the absolute-error loss function is favored here over the squared-error loss function. It is chosen as the base function to which further development steps refer, based on mostly logical case-specific assumptions:
-		
+		For the purpose of estimation, it makes sense that one of the standard loss functions is chosen as a basis and a customized loss function is developed from there. The absolute-error loss seems most appropriate for this case of hydrocarbon reservoir value estimation. Ideally, an actor would like to know the exact true value of interest, say the $OOIP$, so that investments or resources can be allocated appropriately in order to acquire economic gains. This allocation is the decision to be made or action to be taken. Deviations from the unknown true value in the form of over- and underestimation bring about an error and loss accordingly. In this case, it is assumed that investments increase linearly with linear growth in the value of the resource. For this reason, the absolute-error loss function is favored here over the squared-error loss function. It is chosen as the base function to which further development steps refer, based on mostly logical case-specific assumptions. The steps are illustrated in Figure \ref{fig:LF_4steps_normal} and listed in the following:
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=1\textwidth]{Figures/LF_4steps_normal.png}
+			\caption{Single steps (I-IV) of customizing the loss function applied on an exemplary normal distribution ($\mu=0; \sigma=500$). The median (in this case also mean and average) is returned for the Bayes action, when using the standard symmetric absolute-error loss function (I). Assigning a stronger weight on overestimation steepens the curve on the right hand side and shifts the minimum to the left, i.e. to a lower estimate (II). Steepening is significantly reinforced by the introduction of fatal overestimation in (III). This affects only the positive side of estimates and leads to a jump at zero, where signs change. Due to a similar condition, the same effect is observed on the negative side of estimate values, where the curve is also steepened, after including fatal underestimation (IV). Due to this, the Bayes action is shifted back to the zero estimate. The final custom loss function is represented by the curve in (IV).}\label{fig:LF_4steps_normal}
+			\centering
+		\end{figure}		
 		\begin{enumerate}
 			\item \textbf{Step I}: The standard symmetrical absolute-error loss function is chosen as a starting point for further customization steps:
 			
@@ -284,22 +289,17 @@
 			L(\theta,\hat{\theta}) = |(\theta-\hat{\theta})|*b
 			\end{equation}
 			
-			(In other words: Fatal overestimation is twice as bad as simple underestimation.)
+			In other words: With \textit{b} (= 2), fatal overestimation is twice as bad as simple underestimation.
 			
 			\item \textbf{Step IV}: A worst case or fatal underestimation can also be derived from the idea of estimating a zero or negative value, when the true value is actually positive. This is assumed to be worse than non-fatal overestimation, but clearly better than fatal overestimation. No already owned resources are wasted, it is only the potential value that is lost, i.e. opportunity costs that arise from completely discarding a reservoir with a potential gain equal to the positive true value. Fatal underestimation is weighted using a third factor \textit{c}:
 					
 			\begin{equation}\label{eq:LF_IV}
 			L(\theta,\hat{\theta}) = |(\theta-\hat{\theta})|*c
-			\end{equation}
-			
+			\end{equation}			
 		\end{enumerate}
-		\begin{figure}[p!]
-			\centering
-			\includegraphics[width=1\textwidth]{Figures/LF_4steps_normal.png}
-			\caption{The single steps of customizing the loss function are depicted in plots I to IV.}\label{fig:LF_4steps_normal}
-			\centering
+		\begin{figure}[h]
 			\includegraphics[width=1\textwidth]{Figures/LF4_det_values.png}
-			\caption{Loss based on the customized loss function (Equation \ref{eq:LF_final}) for determined true scores of -750, 0 and 750.}\label{fig:LF4_det_values}
+			\caption{Loss based on the customized loss function (Equation \ref{eq:LF_final}) for determined true scores of -750, 0 and 750. This plot is meant to clarify the way real losses are incurred for each guess, relative to a given true score value. The expected loss, as seen in Figure \ref{fig:LF_4steps_normal}, is acquired by arithmetically averaging such deterministic loss realizations based on the true score probability distribution by using Equation \ref{eq:ExpectedLoss2}.}\label{fig:LF4_det_values}
 		\end{figure}
 		
 		Combining these adaption steps and the conditions defined in them, results in the following customized loss function:
@@ -316,9 +316,6 @@
 		\end{equation}  
 		It is important to note that the weighting factors defined above can take basically any numerical values but should be chosen in a way that they appropriately represent the framework conditions of the problem. Here, based on the considerations named above, it is assumed that normal overestimation is 25\% (\textit{a} = 1.25), fatal overestimation 100\% (\textit{b} = 2) and fatal underestimation 50\% (\textit{c} = 1.5) worse than normal underestimation. \\		
 		It has to be emphasized that this is just one possible proposal for loss function customization. There exists not one perfect design for such a case. Slight to strong changes can already be implemented by simply varying the values of the weighting factors \textit{a, b} and \textit{c}. Fundamentally different loss functions can also be based on a significantly different mathematical structure. Loss functions are customized regarding the problem environment and according to the to the subjective needs and objectives of an actor. Thus, they are mostly defined by the actor expressing his perspective. Changes in the individual's perception and viewpoint might lead to further customization needs even later on. (Especially considering individual persons as actors, psychological aspects may play a significant role.)
-		
-		(Estimate or prediction? True value only known if a "yes"-action (development) is taken.)
-		INSERT PLOTS BASED ON EXAMPLE NORMAL FUNCTIONS?
 		
 		\subsection{Including different risk-affinities in the loss function}
 		
@@ -344,22 +341,20 @@
 		
 		\section{1D geological reservoir modeling}\label{sec:1D_model}
 		For simple understanding and a preliminary assessment of the Bayesian statistical methods and the loss function described above, they are first to be applied in the context of an conceptual one-dimensional reservoir case. The underlying model and basic approach are inherited from \citet{delaVarga2016}. Parameters are adapted to more appropriately represent a reasonable geological petroleum system, consisting of a reservoir formation with overlying seal in the subsurface. In this 1D setting, only the interface depths and thicknesses of layers such as the reservoir or seal unit can be observed. Other defining aspects, such as structural entrapment, are assumed to be given. Limiting the model to only one dimension and a small number of uncertain stratigraphical parameters allows for a relatively straightforward and simplified approach to assessing an abstract type of value for a reservoir, applying the custom loss function (Equation \ref{eq:LF_final}) for value estimation and observing respective effects of Bayesian inference. The construction of the 1D geological model is described in the following.
-		
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=1\textwidth]{Figures/1D_model.png}
+				\caption{Probability distributions for positions of layer boundaries in the subsurface and a respective representation using lines.}\label{fig:1D_model}
+			\end{figure}
 			\subsection{Construction of the 1D geological model}\label{sec:1D_construction}	
-			\citet{delaVarga2016} constructed a simple geological model using three uncertain positions in vertical one-dimensional space, marking hypothetical boundaries of layers in a subsurface column. The location probabilities for these points are defined by sampling from normal distributions. Standard deviations of these distributions increase with depth, representing an increase in uncertainty. For an approximate representation of a hydrocarbon reservoir system, the distribution means were set to depths of 2000 m (seal top), 2050 m (reservoir top) and 2200 m (reservoir bottom). STD-DEVIATIONS? These points confine two layers in the middle, from which the upper one can be labeled as seal and the lower one as reservoir. The resulting model with its prior distributions of possible layer boundary locations is illustrated in Figure \ref{fig:1D_model}.
-		
-			%\begin{figure}[h]
-			%	\centering
-			%	\includegraphics[width=1\textwidth]{Figures/1D_model.png}
-%				\caption{Probability distributions for positions of layer boundaries in the subsurface and a respective representation using lines.}\label{fig:1D_model}
-%			\end{figure}
+			\citet{delaVarga2016} constructed a simple geological model using three uncertain positions in vertical one-dimensional space, marking hypothetical boundaries of layers in a subsurface column. The location probabilities for these points are defined by sampling from normal distributions. These points confine two layers in the middle, from which the upper one can be labeled as seal and the lower one as reservoir. The standard deviations ($sigma$) of the distributions increase with depth, representing an increase in uncertainty. For an approximate representation of a hydrocarbon reservoir system, the distribution means ($\mu$) are set to depths of 2000 m (seal top, $\sigma=7$), 2050 m (reservoir top, $\sigma=25$) and 2200 m (reservoir bottom, $\sigma=45$). The resulting model with its prior distributions of possible layer boundary locations is illustrated in Figure \ref{fig:1D_model}.
 			\begin{figure}[h]
 			\centering
 			\includegraphics[width=1\textwidth]{Figures/1D_principle.PNG}
 			\caption{ (from \citet{delaVarga2016}).}\label{fig:1D_principle}
 			\end{figure}
 			\subsection{Bayesian inference and analysis of the 1D case}\label{sec:1D_bayes}
-			For conducting Bayesian inference, layer thickness likelihood functions are introduced based on another set of normal probability distributions. These are directly related to the layer boundary positions, i.e. the prior distributions. Means and standard deviations of the likelihood distributions are variable, so that several scenarios based on the assumption of different observations can be tested. Parameter priors and likelihood functions are embedded into a probabilistic modeling framework as described in Section \ref{sec:numerical_implementation} and MCMC sampling is executed accordingly. Posterior distributions can then be evaluated, based on the valuation method described in the following.
+			For conducting Bayesian inference, it is assumed that new observations have been made, providing additional information on the likelihoods of the thicknesses of the two layers of interest. Likelihood functions for reservoir and seal thicknesses are introduced based on another set of normal probability distributions. These are directly related to the layer boundary positions, i.e. the prior parameter distributions. Means and standard deviations of the likelihood distributions are variable, so that several scenarios based on the assumption of different observations can be tested. Parameter priors and likelihood functions are embedded into a probabilistic modeling framework as described in Section \ref{sec:numerical_implementation} and MCMC sampling is executed accordingly. Posterior distributions are then to be evaluated, based on the valuation method described in the following and subsequent application of the custom loss function.
 			
 	        \subsection{Abstract valuation of the 1D geological model}\label{sec:1D_score_system}
 	        For valuating a simplified 1D model, $OOIP$ and recoverable volume calculations are not applicable, as these require a 3D setting. Given only layer boundary positions in one vertical dimension, it is resorted to an abstract way of reservoir valuation by defining a scoring system. A dimensionless reservoir score is made dependent on three uncertain parameters which can be deduced from the 1D interface positions: (1) reservoir thickness, (2) reservoir top depth and (3) seal thickness (see Figure \ref{fig:3_parameters}).
