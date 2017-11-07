@@ -17,6 +17,11 @@ Berger, J.~O. (2013).
 \newblock {\em Statistical decision theory and Bayesian analysis}.
 \newblock Springer Science \& Business Media.
 
+\bibitem[Bratvold and Begg, 2010]{bratvold2010making}
+Bratvold, R. and Begg, S. (2010).
+\newblock {\em Making good decisions}.
+\newblock Society of Petroleum Engineers.
+
 \bibitem[Calcagno et~al., 2008]{calcagno2008geological}
 Calcagno, P., Chil{\`e}s, J.-P., Courrioux, G., and Guillen, A. (2008).
 \newblock Geological modelling from field data and geological knowledge: Part
@@ -128,6 +133,11 @@ Hoffman, M.~D. and Gelman, A. (2014).
 \newblock The no-u-turn sampler: Adaptively setting path lengths in hamiltonian
   monte carlo.
 \newblock {\em The Journal of Machine Learning Research}, 15(1):1593--1623.
+
+\bibitem[Koller and Friedman, 2009]{koller2009probabilistic}
+Koller, D. and Friedman, N. (2009).
+\newblock {\em Probabilistic graphical models: principles and techniques}.
+\newblock MIT press.
 
 \bibitem[Kuijper, 2004]{kuijper2004detecting}
 Kuijper, A. (2004).
