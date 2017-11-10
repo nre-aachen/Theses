@@ -1,10 +1,25 @@
 \begin{thebibliography}{}
 
+\bibitem[Ashby, 2006]{ashby2006bayesian}
+Ashby, D. (2006).
+\newblock Bayesian statistics in medicine: a 25 year review.
+\newblock {\em Statistics in medicine}, 25(21):3589--3631.
+
+\bibitem[Ashby and Smith, 2000]{ashby2000evidence}
+Ashby, D. and Smith, A.~F. (2000).
+\newblock Evidence-based medicine as bayesian decision-making.
+\newblock {\em Statistics in medicine}, 19(23):3291--3305.
+
 \bibitem[Aug, 2004]{aug2004modelisation}
 Aug, C. (2004).
 \newblock {\em Mod{\'e}lisation g{\'e}ologique 3D et caract{\'e}risation des
   incertitudes par la m{\'e}thode du champ de potentiel}.
 \newblock PhD thesis, {\'E}cole Nationale Sup{\'e}rieure des Mines de Paris.
+
+\bibitem[Barber, 2012]{barber2012bayesian}
+Barber, D. (2012).
+\newblock {\em Bayesian reasoning and machine learning}.
+\newblock Cambridge University Press.
 
 \bibitem[Behnel et~al., 2010]{behnel2010}
 Behnel, S., Bradshaw, R., Citro, C., Dalcin, L., Seljebotn, D.~S., and K, S.
@@ -128,11 +143,21 @@ Hennig, C. and Kutlukaya, M. (2007).
 \newblock Some thoughts about the design of loss functions.
 \newblock {\em REVSTAT - Statistical Journal}, 5(1):19--39.
 
+\bibitem[Hillier et~al., 2014]{hillier2014three}
+Hillier, M.~J., Schetselaar, E.~M., de~Kemp, E.~A., and Perron, G. (2014).
+\newblock Three-dimensional modelling of geological surfaces using generalized
+  interpolation with radial basis functions.
+\newblock {\em Mathematical Geosciences}, 46(8):931--953.
+
 \bibitem[Hoffman and Gelman, 2014]{hoffman2014no}
 Hoffman, M.~D. and Gelman, A. (2014).
 \newblock The no-u-turn sampler: Adaptively setting path lengths in hamiltonian
   monte carlo.
 \newblock {\em The Journal of Machine Learning Research}, 15(1):1593--1623.
+
+\bibitem[Jaynes, 1986]{jaynes1986bayesian}
+Jaynes, E.~T. (1986).
+\newblock Bayesian methods: General background.
 
 \bibitem[Koller and Friedman, 2009]{koller2009probabilistic}
 Koller, D. and Friedman, N. (2009).
@@ -148,8 +173,14 @@ Kuijper, A. (2004).
 Labastie, A. (2011).
 \newblock En route: Increasing recovery factors: A necessity.
 
-\bibitem[Lajaunie et~al., 1997]{Lajaunie1997}
-Lajaunie, C., Courrioux, G., and Manuel, L. (1997).
+\bibitem[Lajaunie et~al., 1997a]{lajaunie1997foliation}
+Lajaunie, C., Courrioux, G., and Manuel, L. (1997a).
+\newblock Foliation fields and 3d cartography in geology: principles of a
+  method based on potential interpolation.
+\newblock {\em Mathematical Geology}, 29(4):571--584.
+
+\bibitem[Lajaunie et~al., 1997b]{Lajaunie1997}
+Lajaunie, C., Courrioux, G., and Manuel, L. (1997b).
 \newblock {Foliation fields and 3D cartography in geology: Principles of a
   method based on potential interpolation}.
 \newblock {\em Mathematical Geology}, 29(4):571--584.
@@ -165,16 +196,37 @@ Lindsay, N., Murphy, F., Walsh, J., and Watterson, J. (1993).
 \newblock {\em The Geological Modelling of Hydrocarbon Reservoirs and Outcrop
   Analogues}, pages 113--123.
 
+\bibitem[Mallet, 1992]{mallet1992discrete}
+Mallet, J.-L. (1992).
+\newblock Discrete smooth interpolation in geometric modelling.
+\newblock {\em Computer-aided design}, 24(4):178--191.
+
 \bibitem[Metropolis et~al., 1953]{metropolis1953equation}
 Metropolis, N., Rosenbluth, A.~W., Rosenbluth, M.~N., Teller, A.~H., and
   Teller, E. (1953).
 \newblock Equation of state calculations by fast computing machines.
 \newblock {\em The journal of chemical physics}, 21(6):1087--1092.
 
+\bibitem[Mosegaard et~al., 2002]{mosegaard2002probabilistic}
+Mosegaard, K., Tarantola, A., et~al. (2002).
+\newblock Probabilistic approach to inverse problems.
+\newblock {\em International Geophysics Series}, 81(A):237--268.
+
+\bibitem[Moy{\'e}, 2006]{moye2006statistical}
+Moy{\'e}, L.~A. (2006).
+\newblock {\em Statistical reasoning in medicine: the intuitive P-value
+  primer}.
+\newblock Springer Science \& Business Media.
+
 \bibitem[Salvatier et~al., 2016]{salvatier2016pymc3}
 Salvatier, J., Wiecki, T.~V., and Fonnesbeck, C. (2016).
 \newblock Probabilistic programming in python using pymc3.
 \newblock {\em PeerJ Computer Science}, 55(2).
+
+\bibitem[Sambridge and Mosegaard, 2002]{sambridge2002monte}
+Sambridge, M. and Mosegaard, K. (2002).
+\newblock Monte carlo methods in geophysical inverse problems.
+\newblock {\em Reviews of Geophysics}, 40(3).
 
 \bibitem[Schaaf, 2017]{schaaf2017}
 Schaaf, A. (2017).
@@ -195,6 +247,16 @@ Shannon, C.~E. (1948).
 \bibitem[Sorkhabi and Tsuji, 2005]{sorkhabi2005place}
 Sorkhabi, R. and Tsuji, Y. (2005).
 \newblock The place of faults in petroleum traps.
+
+\bibitem[Tarantola and Valette, 1982]{tarantola1982inverse}
+Tarantola, A. and Valette, B. (1982).
+\newblock Inverse problems= quest for information.
+\newblock {\em J. geophys}, 50(3):150--170.
+
+\bibitem[Theodoridis, 2015]{theodoridis2015machine}
+Theodoridis, S. (2015).
+\newblock {\em Machine learning: a Bayesian and optimization perspective}.
+\newblock Academic Press.
 
 \bibitem[van~der Zee and Urai, 2005]{van2005processes}
 van~der Zee, W. and Urai, J.~L. (2005).

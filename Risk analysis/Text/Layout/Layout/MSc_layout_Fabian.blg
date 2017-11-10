@@ -1,6 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: MSc_layout_Fabian.aux
+A level-1 auxiliary file: chapter1.aux
 A level-1 auxiliary file: chapter2_methods.aux
 A level-1 auxiliary file: chapter3_results.aux
 A level-1 auxiliary file: chapter4_discussion.aux
@@ -14,46 +15,47 @@ I'm skipping whatever remains of this entry
 Warning--empty journal in collignon2015fold_linkage
 Warning--empty journal in davidson2015
 Warning--there's a number but no volume in geman1984stochastic
+Warning--empty journal in jaynes1986bayesian
 Warning--empty journal in sorkhabi2005place
-You've used 45 entries,
+You've used 57 entries,
             1935 wiz_defined-function locations,
-            750 strings with 11713 characters,
-and the built_in function-call counts, 17075 in all, are:
-= -- 1699
-> -- 623
-< -- 37
-+ -- 214
-- -- 201
-* -- 1397
-:= -- 2975
-add.period$ -- 137
-call.type$ -- 45
-change.case$ -- 316
-chr.to.int$ -- 44
-cite$ -- 49
-duplicate$ -- 667
-empty$ -- 1219
-format.name$ -- 268
-if$ -- 3343
-int.to.chr$ -- 2
+            813 strings with 13260 characters,
+and the built_in function-call counts, 21369 in all, are:
+= -- 2124
+> -- 763
+< -- 46
++ -- 259
+- -- 245
+* -- 1759
+:= -- 3729
+add.period$ -- 172
+call.type$ -- 57
+change.case$ -- 394
+chr.to.int$ -- 55
+cite$ -- 62
+duplicate$ -- 833
+empty$ -- 1543
+format.name$ -- 330
+if$ -- 4174
+int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 46
-newline$ -- 227
-num.names$ -- 137
-pop$ -- 277
+missing$ -- 61
+newline$ -- 286
+num.names$ -- 173
+pop$ -- 344
 preamble$ -- 1
-purify$ -- 324
+purify$ -- 405
 quote$ -- 0
-skip$ -- 518
+skip$ -- 645
 stack$ -- 0
-substring$ -- 1232
-swap$ -- 85
+substring$ -- 1563
+swap$ -- 96
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 256
-warning$ -- 4
-while$ -- 147
+type$ -- 322
+warning$ -- 5
+while$ -- 185
 width$ -- 0
-write$ -- 577
+write$ -- 727
 (There was 1 error message)
