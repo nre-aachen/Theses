@@ -26,9 +26,9 @@
 \contentsline {section}{\numberline {2-6}3D geological reservoir model}{28}{section.2.6}
 \contentsline {subsection}{\numberline {2-6-1}Design of the 3D geological reservoir model}{28}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2-6-2}Construction of the uncertain 3D geological reservoir model}{28}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2-6-3}Determination of the trap volume}{30}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2-6-3}Determination of the trap volume}{29}{subsection.2.6.3}
 \contentsline {subsection}{\numberline {2-6-4}Finding the final spill point of a trap}{31}{subsection.2.6.4}
-\contentsline {subsection}{\numberline {2-6-5}Checking for juxtapositions and possible fault sealing}{33}{subsection.2.6.5}
+\contentsline {subsection}{\numberline {2-6-5}Checking for juxtapositions and possible fault sealing}{34}{subsection.2.6.5}
 \contentsline {subsection}{\numberline {2-6-6}Calculating the maximum trap volume}{34}{subsection.2.6.6}
 \contentsline {subsection}{\numberline {2-6-7}Implementation of reservoir-related likelihoods in the 3D model}{34}{subsection.2.6.7}
 \contentsline {subsection}{\numberline {2-6-8}Bayesian analysis and evaluation for the 3D geological model}{35}{subsection.2.6.8}
@@ -36,9 +36,9 @@
 \contentsline {section}{\numberline {3-1}1D geological reservoir model results}{37}{section.3.1}
 \contentsline {subsection}{\numberline {3-1-1}Scoring}{37}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3-1-2}Bayesian inference using thickness likelihoods}{38}{subsection.3.1.2}
-\contentsline {subsubsection}{Inference case I: Moderately reinforcing information}{39}{section*.27}
-\contentsline {subsubsection}{Inference case II: Likely reliable seal}{40}{section*.29}
-\contentsline {subsubsection}{Inference case III: Safe seal but likely subpar reservoir thickness}{42}{section*.31}
+\contentsline {subsubsection}{Inference case I: Moderately reinforcing information}{39}{section*.28}
+\contentsline {subsubsection}{Inference case II: Likely reliable seal}{40}{section*.30}
+\contentsline {subsubsection}{Inference case III: Safe seal but likely subpar reservoir thickness}{42}{section*.32}
 \contentsline {subsection}{\numberline {3-1-3}General 1D model inference results}{43}{subsection.3.1.3}
 \contentsline {section}{\numberline {3-2}Results using the 3D geological model}{43}{section.3.2}
 \contentsline {chapter}{\numberline {4}Discussion}{45}{chapter.4}
