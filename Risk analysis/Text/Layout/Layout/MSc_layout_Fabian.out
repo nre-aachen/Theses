@@ -27,7 +27,7 @@
 \BOOKMARK [2][-]{subsection.2.6.1}{Design of the 3D geological reservoir model}{section.2.6}% 27
 \BOOKMARK [2][-]{subsection.2.6.2}{Construction of the uncertain 3D geological reservoir model}{section.2.6}% 28
 \BOOKMARK [2][-]{subsection.2.6.3}{Determination of the trap volume}{section.2.6}% 29
-\BOOKMARK [2][-]{subsection.2.6.4}{Finding the final spill point of a trap}{section.2.6}% 30
+\BOOKMARK [2][-]{subsection.2.6.4}{Finding the decisive spill or leak point of a trap}{section.2.6}% 30
 \BOOKMARK [2][-]{subsection.2.6.5}{Checking for juxtapositions and possible fault sealing}{section.2.6}% 31
 \BOOKMARK [2][-]{subsection.2.6.6}{Calculating the maximum trap volume}{section.2.6}% 32
 \BOOKMARK [2][-]{subsection.2.6.7}{Implementation of reservoir-related likelihoods in the 3D model}{section.2.6}% 33
