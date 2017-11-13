@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  12 NOV 2017 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  13 NOV 2017 12:40
 entering extended mode
 **./MSc_layout_Fabian.tex
 (MSc_layout_Fabian.tex
@@ -500,6 +500,14 @@ Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count138
 \c@subtable=\count139
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen148
+\WF@size=\dimen149
+\c@WF@wrappedlines=\count140
+\WF@box=\box33
+\WF@everypar=\toks43
+Package: wrapfig 2003/01/31  v 3.6
+)
 \@glossaryfile=\write6
 \openout6 = `MSc_layout_Fabian.glo'.
 
@@ -513,34 +521,34 @@ Writing index file MSc_layout_Fabian.idx
 (chapter3_results.aux) (chapter4_discussion.aux) (chapter5_conclusion.aux))
 \openout1 = `MSc_layout_Fabian.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count140
-\scratchdimen=\dimen148
-\scratchbox=\box33
-\nofMPsegments=\count141
-\nofMParguments=\count142
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count143
-\MPscratchDim=\dimen149
-\MPnumerator=\count144
-\makeMPintoPDFobject=\count145
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count141
+\scratchdimen=\dimen150
+\scratchbox=\box34
+\nofMPsegments=\count142
+\nofMParguments=\count143
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count144
+\MPscratchDim=\dimen151
+\MPnumerator=\count145
+\makeMPintoPDFobject=\count146
+\everyMPtoPDFconversion=\toks45
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -558,6 +566,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: sidecap package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
@@ -585,9 +594,9 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \RaggedRightParindent=\skip97
 \JustifyingParindent=\skip98
 )
-\c@lstlisting=\count146
-\AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 31.
+\c@lstlisting=\count147
+\AtBeginShipoutBox=\box35
+Package hyperref Info: Link coloring ON on input line 32.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -595,11 +604,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count147
+\c@section@level=\count148
 )
-LaTeX Info: Redefining \ref on input line 31.
-LaTeX Info: Redefining \pageref on input line 31.
-LaTeX Info: Redefining \nameref on input line 31.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
 
 (MSc_layout_Fabian.out) (MSc_layout_Fabian.out)
 \@outlinefile=\write8
@@ -614,11 +623,11 @@ Non-PDF special ignored!
 [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -626,24 +635,24 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 	\nonumchap
+l.41 	\nonumchap
                 {Abstract} [1]pdfTeX warning (ext4): destination with the same 
 identifier (name{page.ii}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 	\nonumchap
+l.41 	\nonumchap
                 {Abstract} [2]
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
 
  []
 
@@ -714,7 +723,7 @@ Chapter 2.
 
 
 
-] [4] <Figures/abs_sqr_det.png, id=655, 383.4325pt x 381.425pt>
+] [4] <Figures/abs_sqr_det.png, id=675, 383.4325pt x 381.425pt>
 File: Figures/abs_sqr_det.png Graphic file (type png)
 
 <use Figures/abs_sqr_det.png>
@@ -724,7 +733,7 @@ Package pdftex.def Info: Figures/abs_sqr_det.png used on input line 45.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] <Figures/loss_functions.png, id=694, 904.37875pt x 381.425pt>
+[5] <Figures/loss_functions.png, id=714, 904.37875pt x 381.425pt>
 File: Figures/loss_functions.png Graphic file (type png)
 
 <use Figures/loss_functions.png>
@@ -735,7 +744,7 @@ Package pdftex.def Info: Figures/loss_functions.png used on input line 60.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6 <./Figures/abs_sqr_det.png>] [7 <./Figures/loss_functions.png>]
-<Figures/joint_prob.png, id=750, 1108.14pt x 536.75531pt>
+<Figures/joint_prob.png, id=770, 1108.14pt x 536.75531pt>
 File: Figures/joint_prob.png Graphic file (type png)
 
 <use Figures/joint_prob.png>
@@ -746,7 +755,7 @@ Package pdftex.def Info: Figures/joint_prob.png used on input line 100.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8] [9 <./Figures/joint_prob.png>] [10]
-<Figures/calcagno_pot_field.png, id=875, 1138.2525pt x 570.13pt>
+<Figures/calcagno_pot_field.png, id=895, 1138.2525pt x 570.13pt>
 File: Figures/calcagno_pot_field.png Graphic file (type png)
 
 <use Figures/calcagno_pot_field.png>
@@ -758,7 +767,7 @@ Package pdftex.def Info: Figures/calcagno_pot_field.png used on input line 148.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [11] [12 <./Figures/calcagno_pot_field.png>]
-<Figures/information_entropy.png, id=949, 955.57pt x 875.27pt>
+<Figures/information_entropy.png, id=969, 955.57pt x 875.27pt>
 File: Figures/information_entropy.png Graphic file (type png)
 
 <use Figures/information_entropy.png>
@@ -766,21 +775,21 @@ Package pdftex.def Info: Figures/information_entropy.png used on input line 174
 .
 (pdftex.def)             Requested size: 442.65375pt x 405.4471pt.
  [13] [14 <./Figures/information_entropy.png>] [15] [16] <Figures/trap_closure1
-.png, id=1052, 523.9575pt x 500.87125pt>
+.png, id=1072, 523.9575pt x 500.87125pt>
 File: Figures/trap_closure1.png Graphic file (type png)
 
 <use Figures/trap_closure1.png>
 Package pdftex.def Info: Figures/trap_closure1.png used on input line 204.
 (pdftex.def)             Requested size: 221.32687pt x 211.57202pt.
 
-<Figures/fault_trap_mechA1.png, id=1060, 1279.78125pt x 671.50874pt>
+<Figures/fault_trap_mechA1.png, id=1080, 1279.78125pt x 671.50874pt>
 File: Figures/fault_trap_mechA1.png Graphic file (type png)
 
 <use Figures/fault_trap_mechA1.png>
 Package pdftex.def Info: Figures/fault_trap_mechA1.png used on input line 213.
 (pdftex.def)             Requested size: 354.12434pt x 185.80794pt.
 
-<Figures/fault_trap_mechB1.png, id=1061, 301.125pt x 673.51625pt>
+<Figures/fault_trap_mechB1.png, id=1081, 301.125pt x 673.51625pt>
 File: Figures/fault_trap_mechB1.png Graphic file (type png)
 
 <use Figures/fault_trap_mechB1.png>
@@ -791,7 +800,7 @@ Package pdftex.def Info: Figures/fault_trap_mechB1.png used on input line 218.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17 <./Figures/trap_closure1.png>]
-<Figures/SSF.PNG, id=1104, 578.16pt x 632.3625pt>
+<Figures/SSF.PNG, id=1124, 578.16pt x 632.3625pt>
 File: Figures/SSF.PNG Graphic file (type png)
  <use Figures/SSF.PNG>
 Package pdftex.def Info: Figures/SSF.PNG used on input line 229.
@@ -802,135 +811,131 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [18 <./Figures/fault_trap_mechA1.png> <./Figures/fault_trap_mechB1.png>]
 [19 <./Figures/SSF.PNG>]
-<Figures/LF_4steps_normal.png, id=1160, 965.6075pt x 605.26125pt>
+<Figures/LF_4steps_normal.png, id=1180, 965.6075pt x 605.26125pt>
 File: Figures/LF_4steps_normal.png Graphic file (type png)
 
 <use Figures/LF_4steps_normal.png>
-Package pdftex.def Info: Figures/LF_4steps_normal.png used on input line 265.
+Package pdftex.def Info: Figures/LF_4steps_normal.png used on input line 264.
 (pdftex.def)             Requested size: 442.65375pt x 277.46304pt.
  [20]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21] <Figures/LF4_det_values.png, id=1177, 904.37875pt x 381.425pt>
+[21] <Figures/LF4_det_values.png, id=1198, 904.37875pt x 381.425pt>
 File: Figures/LF4_det_values.png Graphic file (type png)
 
 <use Figures/LF4_det_values.png>
-Package pdftex.def Info: Figures/LF4_det_values.png used on input line 297.
+Package pdftex.def Info: Figures/LF4_det_values.png used on input line 296.
 (pdftex.def)             Requested size: 442.65375pt x 186.69035pt.
- [22 <./Figures/LF_4steps_normal.png>] [23 <./Figures/LF4_det_values.png>]
-<Figures/LFR_normal.png, id=1199, 904.37875pt x 381.425pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22 <./Figures/LF_4steps_normal.png>] [23 <./Figures/LF4_det_values.png>]
+<Figures/LFR_normal.png, id=1219, 904.37875pt x 381.425pt>
 File: Figures/LFR_normal.png Graphic file (type png)
 
 <use Figures/LFR_normal.png>
-Package pdftex.def Info: Figures/LFR_normal.png used on input line 332.
+Package pdftex.def Info: Figures/LFR_normal.png used on input line 331.
 (pdftex.def)             Requested size: 442.65375pt x 186.69035pt.
  [24 <./Figures/LFR_normal.png>]
-<Figures/1D_model.png, id=1211, 903.375pt x 385.44pt>
+<Figures/1D_model.png, id=1231, 903.375pt x 385.44pt>
 File: Figures/1D_model.png Graphic file (type png)
 
 <use Figures/1D_model.png>
-Package pdftex.def Info: Figures/1D_model.png used on input line 342.
+Package pdftex.def Info: Figures/1D_model.png used on input line 341.
 (pdftex.def)             Requested size: 442.65375pt x 188.86725pt.
 
-<Figures/1D_principle.PNG, id=1215, 840.89156pt x 605.26125pt>
+<Figures/1D_principle.PNG, id=1235, 840.89156pt x 605.26125pt>
 File: Figures/1D_principle.PNG Graphic file (type png)
 
 <use Figures/1D_principle.PNG>
-Package pdftex.def Info: Figures/1D_principle.PNG used on input line 349.
+Package pdftex.def Info: Figures/1D_principle.PNG used on input line 348.
 (pdftex.def)             Requested size: 442.65375pt x 318.61658pt.
  [25 <./Figures/1D_model.png>] [26 <./Figures/1D_principle.PNG>]
-<Figures/3_parameters.png, id=1232, 1012.78375pt x 276.03125pt>
+<Figures/3_parameters.png, id=1252, 1012.78375pt x 276.03125pt>
 File: Figures/3_parameters.png Graphic file (type png)
 
 <use Figures/3_parameters.png>
-Package pdftex.def Info: Figures/3_parameters.png used on input line 360.
+Package pdftex.def Info: Figures/3_parameters.png used on input line 359.
 (pdftex.def)             Requested size: 442.65375pt x 120.64122pt.
  [27 <./Figures/3_parameters.png>]
-<Figures/Uncertainties_Likelihoods.png, id=1248, 837.1275pt x 539.01375pt>
+<Figures/Uncertainties_Likelihoods.png, id=1268, 836.8866pt x 538.8933pt>
 File: Figures/Uncertainties_Likelihoods.png Graphic file (type png)
 
 <use Figures/Uncertainties_Likelihoods.png>
 Package pdftex.def Info: Figures/Uncertainties_Likelihoods.png used on input li
-ne 390.
-(pdftex.def)             Requested size: 442.65375pt x 285.01794pt.
+ne 389.
+(pdftex.def)             Requested size: 442.65375pt x 285.03648pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[28]
-
-LaTeX Warning: Reference `fig:ig:trap_recognition' on page 29 undefined on inpu
-t line 401.
-
-<Figures/Trap_Cond_H.png, id=1253, 766.865pt x 540.0175pt>
+[28] <Figures/Trap_Cond_H.png, id=1274, 574.3056pt x 539.1342pt>
 File: Figures/Trap_Cond_H.png Graphic file (type png)
 
 <use Figures/Trap_Cond_H.png>
-Package pdftex.def Info: Figures/Trap_Cond_H.png used on input line 404.
-(pdftex.def)             Requested size: 442.65375pt x 311.71892pt.
+Package pdftex.def Info: Figures/Trap_Cond_H.png used on input line 403.
+(pdftex.def)             Requested size: 442.65375pt x 415.55417pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:trap_recognitionn' on page 29 undefined on input 
-line 408.
-
-[29 <./Figures/Uncertainties_Likelihoods.png>] [30 <./Figures/Trap_Cond_H.png>]
-<Figures/Saddle_Point_between_maxima.png, id=1289, 748.7975pt x 511.9125pt>
+ [29 <./Figures/Uncertainties_Likelihoods.png>] [30] [31 <./Figures/Trap_Cond_H
+.png>]
+<Figures/Saddle_Point_between_maxima.png, id=1316, 748.7975pt x 511.9125pt>
 File: Figures/Saddle_Point_between_maxima.png Graphic file (type png)
 
 <use Figures/Saddle_Point_between_maxima.png>
 Package pdftex.def Info: Figures/Saddle_Point_between_maxima.png used on input 
-line 430.
+line 429.
 (pdftex.def)             Requested size: 442.65375pt x 302.6194pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/Saddle_point_flow.png, id=1294, 917.4275pt x 675.52374pt>
+<Figures/Saddle_point_flow.png, id=1321, 917.4275pt x 675.52374pt>
 File: Figures/Saddle_point_flow.png Graphic file (type png)
 
 <use Figures/Saddle_point_flow.png>
-Package pdftex.def Info: Figures/Saddle_point_flow.png used on input line 451.
+Package pdftex.def Info: Figures/Saddle_point_flow.png used on input line 450.
 (pdftex.def)             Requested size: 442.65375pt x 325.93817pt.
- [31]
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[32 <./Figures/Saddle_Point_between_maxima.png>]
-Underfull \vbox (badness 2261) has occurred while \output is active []
+[32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33 <./Figures/Saddle_point_flow.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 473--476
+ [33 <./Figures/Saddle_Point_between_maxima.png>] [34 <./Figures/Saddle_point_f
+low.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 472--475
 
  []
 
-[34]) [35]
+[35]) [36]
 \openout2 = `chapter3_results.aux'.
 
- (chapter3_results.tex [36
-
-
-
-]
+ (chapter3_results.tex
 Chapter 3.
-<Figures/score_results1.png, id=1346, 1034.86626pt x 387.4475pt>
+<Figures/score_results1.png, id=1368, 1034.86626pt x 387.4475pt>
 File: Figures/score_results1.png Graphic file (type png)
 
 <use Figures/score_results1.png>
 Package pdftex.def Info: Figures/score_results1.png used on input line 8.
 (pdftex.def)             Requested size: 442.65375pt x 165.7242pt.
 
-<Figures/LFR.png, id=1354, 915.42pt x 387.4475pt>
+<Figures/LFR.png, id=1376, 915.42pt x 387.4475pt>
 File: Figures/LFR.png Graphic file (type png)
  <use Figures/LFR.png>
 Package pdftex.def Info: Figures/LFR.png used on input line 22.
 (pdftex.def)             Requested size: 442.65375pt x 187.35017pt.
 
-[37 <./Figures/score_results1.png>]
-<Figures/update_moderate1.png, id=1364, 899.36pt x 599.23875pt>
+[37
+
+
+
+ <./Figures/score_results1.png>]
+<Figures/update_moderate1.png, id=1386, 899.36pt x 599.23875pt>
 File: Figures/update_moderate1.png Graphic file (type png)
 
 <use Figures/update_moderate1.png>
@@ -940,14 +945,14 @@ Package pdftex.def Info: Figures/update_moderate1.png used on input line 33.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/update_moderate2.png, id=1366, 962.59625pt x 381.425pt>
+<Figures/update_moderate2.png, id=1388, 962.59625pt x 381.425pt>
 File: Figures/update_moderate2.png Graphic file (type png)
 
 <use Figures/update_moderate2.png>
 Package pdftex.def Info: Figures/update_moderate2.png used on input line 43.
 (pdftex.def)             Requested size: 442.65375pt x 175.39941pt.
 
-<Figures/update_moderate3.png, id=1367, 965.6075pt x 381.425pt>
+<Figures/update_moderate3.png, id=1389, 965.6075pt x 381.425pt>
 File: Figures/update_moderate3.png Graphic file (type png)
 
 <use Figures/update_moderate3.png>
@@ -963,14 +968,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--78
  []
 
 [39 <./Figures/update_moderate1.png>]
-<Figures/update_goodseal2.png, id=1382, 957.5775pt x 381.425pt>
+<Figures/update_goodseal2.png, id=1404, 957.5775pt x 381.425pt>
 File: Figures/update_goodseal2.png Graphic file (type png)
 
 <use Figures/update_goodseal2.png>
 Package pdftex.def Info: Figures/update_goodseal2.png used on input line 83.
 (pdftex.def)             Requested size: 442.65375pt x 176.31898pt.
 
-<Figures/update_goodseal3.png, id=1383, 965.6075pt x 381.425pt>
+<Figures/update_goodseal3.png, id=1405, 965.6075pt x 381.425pt>
 File: Figures/update_goodseal3.png Graphic file (type png)
 
 <use Figures/update_goodseal3.png>
@@ -986,14 +991,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--115
  []
 
 [40 <./Figures/update_moderate2.png> <./Figures/update_moderate3.png>]
-<Figures/update_smallres2.png, id=1392, 957.5775pt x 381.425pt>
+<Figures/update_smallres2.png, id=1414, 957.5775pt x 381.425pt>
 File: Figures/update_smallres2.png Graphic file (type png)
 
 <use Figures/update_smallres2.png>
 Package pdftex.def Info: Figures/update_smallres2.png used on input line 120.
 (pdftex.def)             Requested size: 442.65375pt x 176.31898pt.
 
-<Figures/update_smallres3.png, id=1393, 965.6075pt x 381.425pt>
+<Figures/update_smallres3.png, id=1415, 965.6075pt x 381.425pt>
 File: Figures/update_smallres3.png Graphic file (type png)
 
 <use Figures/update_smallres3.png>
@@ -1070,15 +1075,15 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/sc' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 111.
+(Font)              using `OT1/cmss/bx/n' instead on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 111.
+(hyperref)                removing `math shift' on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 111.
+(hyperref)                removing `math shift' on input line 112.
 
 (test.m) [53
 
@@ -1094,12 +1099,12 @@ No file MSc_layout_Fabian.ind.
 \tf@thm=\write12
 \openout12 = `MSc_layout_Fabian.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
  (MSc_layout_Fabian.aux (chapter1.aux) (chapter2_methods.aux)
 (chapter3_results.aux) (chapter4_discussion.aux) (chapter5_conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `MSc_layout_Fabian.out' has not changed.
 (rerunfilecheck)             Checksum: F52B23E9487E52EAAEF1153592F34E66;4284.
 
@@ -1107,15 +1112,15 @@ Package rerunfilecheck Info: File `MSc_layout_Fabian.out' has not changed.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
  ) 
 Here is how much of TeX's memory you used:
- 12072 strings out of 493323
- 178307 string characters out of 3139062
- 324676 words of memory out of 3000000
- 15015 multiletter control sequences out of 15000+200000
+ 12126 strings out of 493323
+ 178990 string characters out of 3139062
+ 330243 words of memory out of 3000000
+ 15065 multiletter control sequences out of 15000+200000
  19652 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,12n,58p,1697b,1486s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1138,9 +1143,9 @@ s/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
 10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on MSc_layout_Fabian.pdf (76 pages, 2872304 bytes).
+Output written on MSc_layout_Fabian.pdf (76 pages, 3257502 bytes).
 PDF statistics:
- 1629 PDF objects out of 1728 (max. 8388607)
+ 1651 PDF objects out of 1728 (max. 8388607)
  292 named destinations out of 1000 (max. 500000)
  557 words of extra memory for PDF output out of 10000 (max. 10000000)
 

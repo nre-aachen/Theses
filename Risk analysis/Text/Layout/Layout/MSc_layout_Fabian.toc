@@ -26,12 +26,12 @@
 \contentsline {section}{\numberline {2-6}3D geological reservoir model}{28}{section.2.6}
 \contentsline {subsection}{\numberline {2-6-1}Design of the 3D geological reservoir model}{28}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2-6-2}Construction of the uncertain 3D geological reservoir model}{28}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2-6-3}Determination of the trap volume}{29}{subsection.2.6.3}
-\contentsline {subsection}{\numberline {2-6-4}Finding the final spill point of a trap}{31}{subsection.2.6.4}
+\contentsline {subsection}{\numberline {2-6-3}Determination of the trap volume}{30}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2-6-4}Finding the final spill point of a trap}{32}{subsection.2.6.4}
 \contentsline {subsection}{\numberline {2-6-5}Checking for juxtapositions and possible fault sealing}{34}{subsection.2.6.5}
-\contentsline {subsection}{\numberline {2-6-6}Calculating the maximum trap volume}{34}{subsection.2.6.6}
-\contentsline {subsection}{\numberline {2-6-7}Implementation of reservoir-related likelihoods in the 3D model}{34}{subsection.2.6.7}
-\contentsline {subsection}{\numberline {2-6-8}Bayesian analysis and evaluation for the 3D geological model}{35}{subsection.2.6.8}
+\contentsline {subsection}{\numberline {2-6-6}Calculating the maximum trap volume}{35}{subsection.2.6.6}
+\contentsline {subsection}{\numberline {2-6-7}Implementation of reservoir-related likelihoods in the 3D model}{35}{subsection.2.6.7}
+\contentsline {subsection}{\numberline {2-6-8}Bayesian analysis and evaluation for the 3D geological model}{36}{subsection.2.6.8}
 \contentsline {chapter}{\numberline {3}Results}{37}{chapter.3}
 \contentsline {section}{\numberline {3-1}1D geological reservoir model results}{37}{section.3.1}
 \contentsline {subsection}{\numberline {3-1-1}Scoring}{37}{subsection.3.1.1}
