@@ -27,7 +27,7 @@
 \contentsline {subsection}{\numberline {2-6-1}Design of the 3D geological reservoir model}{28}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2-6-2}Construction of the uncertain 3D geological reservoir model}{28}{subsection.2.6.2}
 \contentsline {subsection}{\numberline {2-6-3}Determination of the trap volume}{30}{subsection.2.6.3}
-\contentsline {subsection}{\numberline {2-6-4}Finding the final spill point of a trap}{32}{subsection.2.6.4}
+\contentsline {subsection}{\numberline {2-6-4}Finding the decisive spill or leak point of a trap}{32}{subsection.2.6.4}
 \contentsline {subsection}{\numberline {2-6-5}Checking for juxtapositions and possible fault sealing}{34}{subsection.2.6.5}
 \contentsline {subsection}{\numberline {2-6-6}Calculating the maximum trap volume}{35}{subsection.2.6.6}
 \contentsline {subsection}{\numberline {2-6-7}Implementation of reservoir-related likelihoods in the 3D model}{35}{subsection.2.6.7}
