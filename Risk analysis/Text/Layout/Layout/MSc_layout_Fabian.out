@@ -39,13 +39,17 @@
 \BOOKMARK [3][-]{section*.28}{Inference case I: Moderately reinforcing or ambivalent information}{subsection.3.1.2}% 39
 \BOOKMARK [3][-]{section*.30}{Inference case II: Likely reliable seal}{subsection.3.1.2}% 40
 \BOOKMARK [3][-]{section*.32}{Inference case III: Safe seal but likely subpar reservoir thickness}{subsection.3.1.2}% 41
-\BOOKMARK [1][-]{section.3.2}{Results using the 3D geological model}{chapter.3}% 42
-\BOOKMARK [0][-]{chapter.4}{Discussion}{}% 43
-\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 44
-\BOOKMARK [0][-]{chapter.5}{Bibliography}{}% 45
-\BOOKMARK [0][-]{appendix.A}{The back of the thesis}{}% 46
-\BOOKMARK [1][-]{section.A.1}{An appendix section}{appendix.A}% 47
-\BOOKMARK [2][-]{subsection.A.1.1}{An appendix subsection with C++ Lisitng}{section.A.1}% 48
-\BOOKMARK [2][-]{subsection.A.1.2}{A Matlab \040Listing}{section.A.1}% 49
-\BOOKMARK [0][-]{appendix.B}{Yet another appendix}{}% 50
-\BOOKMARK [1][-]{section.B.1}{Another test section}{appendix.B}% 51
+\BOOKMARK [1][-]{section.3.2}{3D geological model results}{chapter.3}% 42
+\BOOKMARK [2][-]{subsection.3.2.1}{Prior model}{section.3.2}% 43
+\BOOKMARK [2][-]{subsection.3.2.2}{Posterior model I}{section.3.2}% 44
+\BOOKMARK [2][-]{subsection.3.2.3}{Posterior model II}{section.3.2}% 45
+\BOOKMARK [2][-]{subsection.3.2.4}{Posterior model III}{section.3.2}% 46
+\BOOKMARK [0][-]{chapter.4}{Discussion}{}% 47
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 48
+\BOOKMARK [0][-]{chapter.5}{Bibliography}{}% 49
+\BOOKMARK [0][-]{appendix.A}{The back of the thesis}{}% 50
+\BOOKMARK [1][-]{section.A.1}{An appendix section}{appendix.A}% 51
+\BOOKMARK [2][-]{subsection.A.1.1}{An appendix subsection with C++ Lisitng}{section.A.1}% 52
+\BOOKMARK [2][-]{subsection.A.1.2}{A Matlab \040Listing}{section.A.1}% 53
+\BOOKMARK [0][-]{appendix.B}{Yet another appendix}{}% 54
+\BOOKMARK [1][-]{section.B.1}{Another test section}{appendix.B}% 55

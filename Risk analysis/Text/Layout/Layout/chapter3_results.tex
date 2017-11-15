@@ -198,12 +198,39 @@
 			%The second mechanism, i.e. uncertainty reduction, can thus presumed to be most significant regarding the process of "good" decision-making, as actor's wish to minimize their expected loss from bidding on an estimate. In an optimal case, this would come in combination with a shift of probabilities (first mechanism) to more positive values, so that a higher economic value may be returned from the acquisition of information.
 			%As can be expected intuitively, reassurance of positive scores, for example by narrowing of the distribution of scores on the side of positive estimates or by reducing the occurrence of negative extrema, leads to shifts towards higher Bayes action estimates for all actors. Conversely, actors are discouraged to expect gains when facing a higher probability of negative scores. Unsurprising is also the inverse behavior of risk-averse and risk-friendly individuals. However, it is most notable that a reduction of uncertainty in any case leads to a diminished spread of Bayes actions between all actors. In other words, given better information about the true value of the reservoir, different actors come to more similar decisions. Given perfect information, all actors would presumably choose the same estimate, which would equal the true score.
 				
-		\section{Results using the 3D geological model}
+		\section{3D geological model results}
+		- first: MC simulation of only prior uncertainty error propagation to generate a prior reference model
+		- second: Bayesian inference using only thickness likelihoods
+		- third: Bayesian inference including SSF likelihood
+		- last test: BI using only SSF likelihood
 		
+		\subsection{Prior model}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=1\textwidth]{Figures/M_prior}
+			\caption{....}\label{fig:M_prior}
+		\end{figure}
+		
+		\subsection{Posterior model I}
+		\begin{figure}[p!]
+			\centering
+			\includegraphics[width=1\textwidth]{Figures/ML1}
+			\caption{....}\label{fig:ML1}
+		\end{figure}
+		
+		\subsection{Posterior model II}%ML3
+		-results similar to I, basically same
 		- results of ML1 generally similar as for ML3:
-			i.e. thicker reservoir does not mean higher volume, as we didn't implement a direct uncertainty to the shape, the spill point will stay more or less the same
-			-> spill and leak point as limiting factors to max volume
-			-> max volume already defined in prior (ROV max 5,500,000)
+		i.e. thicker reservoir does not mean higher volume, as we didn't implement a direct uncertainty to the shape, the spill point will stay more or less the same
+		-> spill and leak point as limiting factors to max volume
+		-> max volume already defined in prior (ROV max 5,500,000)
+	
+		\subsection{Posterior model III}%ML2
+		\begin{figure}[p!]
+			\centering
+			\includegraphics[width=1\textwidth]{Figures/ML2}
+			\caption{....}\label{fig:ML2}
+		\end{figure}
 		- see ML2: seal thickness as decisive factor
 			-> if seal thin and reservoir thick see the ratio of both!), higher likelihood of surpassing SSF
 		
