@@ -41,15 +41,15 @@
 \contentsline {subsubsection}{Inference case III: Safe seal but likely subpar reservoir thickness}{43}{section*.32}
 \contentsline {section}{\numberline {3-2}3D geological model results}{45}{section.3.2}
 \contentsline {subsection}{\numberline {3-2-1}Prior model}{45}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3-2-2}Posterior model I}{45}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3-2-3}Posterior model II}{45}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3-2-4}Posterior model III}{46}{subsection.3.2.4}
-\contentsline {chapter}{\numberline {4}Discussion}{49}{chapter.4}
-\contentsline {chapter}{\numberline {5}Conclusion}{51}{chapter.5}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{53}{chapter.5}
-\contentsline {chapter}{\numberline {A}The back of the thesis}{57}{appendix.A}
-\contentsline {section}{\numberline {A-1}An appendix section}{57}{section.A.1}
-\contentsline {subsection}{\numberline {A-1-1}An appendix subsection with C++ Lisitng}{57}{subsection.A.1.1}
-\contentsline {subsection}{\numberline {A-1-2}A \textsc {Matlab}$ $ Listing}{57}{subsection.A.1.2}
-\contentsline {chapter}{\numberline {B}Yet another appendix}{59}{appendix.B}
-\contentsline {section}{\numberline {B-1}Another test section}{59}{section.B.1}
+\contentsline {subsection}{\numberline {3-2-2}Posterior model I}{47}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3-2-3}Posterior model II}{47}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3-2-4}Posterior model III}{49}{subsection.3.2.4}
+\contentsline {chapter}{\numberline {4}Discussion}{51}{chapter.4}
+\contentsline {chapter}{\numberline {5}Conclusion}{53}{chapter.5}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{55}{chapter.5}
+\contentsline {chapter}{\numberline {A}The back of the thesis}{59}{appendix.A}
+\contentsline {section}{\numberline {A-1}An appendix section}{59}{section.A.1}
+\contentsline {subsection}{\numberline {A-1-1}An appendix subsection with C++ Lisitng}{59}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A-1-2}A \textsc {Matlab}$ $ Listing}{59}{subsection.A.1.2}
+\contentsline {chapter}{\numberline {B}Yet another appendix}{61}{appendix.B}
+\contentsline {section}{\numberline {B-1}Another test section}{61}{section.B.1}

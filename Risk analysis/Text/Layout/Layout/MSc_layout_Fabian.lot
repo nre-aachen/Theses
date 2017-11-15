@@ -1,6 +1,8 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {3-1}{\ignorespaces Prior parameter uncertainties defined by distributions with respective means $\mu $, standard deviations $\sigma $ and shape factor $\alpha $, as used in all models. Uncertainties about the position of layer interfaces (a) are implemented by drawing values from normal distributions. All points belonging to one layer are assigned one shared distribution. Drawn values are added or subtracted respectively from the originally defined $z$-positional values. The offset uncertainty (b) is based on a skew normal distribution that affects all positional points in the hanging wall.\relax }}{46}{table.caption.34}
+\contentsline {table}{\numberline {3-2}{\ignorespaces Layer thickness likelihoods determined by normal distributions as used for posterior model I.\relax }}{49}{table.caption.36}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
