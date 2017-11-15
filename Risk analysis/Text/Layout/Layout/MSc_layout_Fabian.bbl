@@ -173,16 +173,10 @@ Kuijper, A. (2004).
 Labastie, A. (2011).
 \newblock En route: Increasing recovery factors: A necessity.
 
-\bibitem[Lajaunie et~al., 1997a]{lajaunie1997foliation}
-Lajaunie, C., Courrioux, G., and Manuel, L. (1997a).
+\bibitem[Lajaunie et~al., 1997]{lajaunie1997foliation}
+Lajaunie, C., Courrioux, G., and Manuel, L. (1997).
 \newblock Foliation fields and 3d cartography in geology: principles of a
   method based on potential interpolation.
-\newblock {\em Mathematical Geology}, 29(4):571--584.
-
-\bibitem[Lajaunie et~al., 1997b]{Lajaunie1997}
-Lajaunie, C., Courrioux, G., and Manuel, L. (1997b).
-\newblock {Foliation fields and 3D cartography in geology: Principles of a
-  method based on potential interpolation}.
 \newblock {\em Mathematical Geology}, 29(4):571--584.
 
 \bibitem[Langtangen, 2008]{Langtangen2008}
@@ -302,6 +296,11 @@ Wellmann, J.~F. and Regenauer-Lieb, K. (2012).
 \newblock Uncertainties have a meaning: Information entropy as a quality
   measure for 3-d geological models.
 \newblock {\em Tectonophysics}, 526:207--216.
+
+\bibitem[Wim et~al., 2001]{wim2001guidelines}
+Wim, J., Swinkels, H., et~al. (2001).
+\newblock Guidelines for the evaluation of petroleum reserves and resources.
+\newblock {\em Society of Petroleum Engineers}.
 
 \bibitem[Yielding, 2012]{yielding2012using}
 Yielding, G. (2012).
