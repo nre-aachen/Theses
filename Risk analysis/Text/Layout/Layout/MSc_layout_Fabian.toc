@@ -47,8 +47,7 @@
 \contentsline {subsection}{\numberline {3-2-5}Posterior model IV: SSF likelihood reinforcing trap reliability}{52}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {3-2-6}Posterior model V: Controversial information about the Shale Smear Factor}{52}{subsection.3.2.6}
 \contentsline {chapter}{\numberline {4}Discussion}{55}{chapter.4}
-\contentsline {chapter}{\numberline {5}Conclusion}{57}{chapter.5}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{59}{chapter.5}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{59}{chapter.4}
 \contentsline {chapter}{\numberline {A}The back of the thesis}{63}{appendix.A}
 \contentsline {section}{\numberline {A-1}An appendix section}{63}{section.A.1}
 \contentsline {subsection}{\numberline {A-1-1}An appendix subsection with C++ Lisitng}{63}{subsection.A.1.1}
