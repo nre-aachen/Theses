@@ -53,5 +53,5 @@
 \contentsline {section}{\numberline {A-1}An appendix section}{63}{section.A.1}
 \contentsline {subsection}{\numberline {A-1-1}An appendix subsection with C++ Lisitng}{63}{subsection.A.1.1}
 \contentsline {subsection}{\numberline {A-1-2}A \textsc {Matlab}$ $ Listing}{63}{subsection.A.1.2}
-\contentsline {chapter}{\numberline {B}Yet another appendix}{65}{appendix.B}
-\contentsline {section}{\numberline {B-1}Another test section}{65}{section.B.1}
+\contentsline {chapter}{\numberline {B}Yet another appendix}{67}{appendix.B}
+\contentsline {section}{\numberline {B-1}Another test section}{67}{section.B.1}
