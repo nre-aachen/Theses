@@ -42,7 +42,7 @@
 \contentsline {section}{\numberline {3-2}3D geological model results}{45}{section.3.2}
 \contentsline {subsection}{\numberline {3-2-1}Prior model}{45}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3-2-2}Posterior model I: Seal and reservoir likely thick}{48}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3-2-3}Posterior model II: Likely thin reservoir formation}{50}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3-2-3}Posterior model II: Likely thin reservoir formation}{48}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3-2-4}Posterior model III: Likely very thin seal}{50}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3-2-5}Posterior model IV: SSF likelihood reinforcing trap reliability}{52}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {3-2-6}Posterior model V: Controversial information about the Shale Smear Factor}{52}{subsection.3.2.6}
