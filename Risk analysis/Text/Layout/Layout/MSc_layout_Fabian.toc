@@ -16,17 +16,17 @@
 \contentsline {section}{\numberline {2-3}Model evaluation}{13}{section.2.3}
 \contentsline {subsection}{\numberline {2-3-1}Visualizing uncertainty}{13}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2-3-2}Economic significance of structural geological models as hydrocarbon systems}{15}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2-3-3}Original oil-in-place and recoverable volumes as value measures}{19}{subsection.2.3.3}
-\contentsline {section}{\numberline {2-4}Designing a case-specific loss function}{21}{section.2.4}
+\contentsline {subsection}{\numberline {2-3-3}Original oil-in-place and recoverable volumes as value measures}{18}{subsection.2.3.3}
+\contentsline {section}{\numberline {2-4}Designing a case-specific loss function}{20}{section.2.4}
 \contentsline {subsection}{\numberline {2-4-1}Including different risk-affinities in the loss function}{24}{subsection.2.4.1}
 \contentsline {section}{\numberline {2-5}1D geological reservoir modeling}{25}{section.2.5}
-\contentsline {subsection}{\numberline {2-5-1}Construction of the 1D geological model}{26}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2-5-2}Abstract valuation of the 1D geological model}{27}{subsection.2.5.2}
-\contentsline {section}{\numberline {2-6}3D geological reservoir model}{28}{section.2.6}
+\contentsline {subsection}{\numberline {2-5-1}Construction of the 1D geological model}{25}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2-5-2}Abstract valuation of the 1D geological model}{26}{subsection.2.5.2}
+\contentsline {section}{\numberline {2-6}3D geological reservoir model}{27}{section.2.6}
 \contentsline {subsection}{\numberline {2-6-1}Design of the 3D geological reservoir model}{28}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2-6-2}Construction of the uncertain 3D geological reservoir model}{28}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2-6-3}Determination of the trap volume}{30}{subsection.2.6.3}
-\contentsline {subsection}{\numberline {2-6-4}Finding the decisive spill or leak point of a trap}{32}{subsection.2.6.4}
+\contentsline {subsection}{\numberline {2-6-3}Determination of the trap volume}{29}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2-6-4}Finding the decisive spill or leak point of a trap}{30}{subsection.2.6.4}
 \contentsline {subsection}{\numberline {2-6-5}Checking for juxtapositions and possible fault sealing}{34}{subsection.2.6.5}
 \contentsline {subsection}{\numberline {2-6-6}Calculating the maximum trap volume}{35}{subsection.2.6.6}
 \contentsline {subsection}{\numberline {2-6-7}Implementation of reservoir-related likelihoods in the 3D model}{35}{subsection.2.6.7}
