@@ -32,6 +32,11 @@ Berger, J.~O. (2013).
 \newblock {\em Statistical decision theory and Bayesian analysis}.
 \newblock Springer Science \& Business Media.
 
+\bibitem[Box and Tiao, 2011]{box2011bayesian}
+Box, G.~E. and Tiao, G.~C. (2011).
+\newblock {\em Bayesian inference in statistical analysis}, volume~40.
+\newblock John Wiley \& Sons.
+
 \bibitem[Bratvold and Begg, 2010]{bratvold2010making}
 Bratvold, R. and Begg, S. (2010).
 \newblock {\em Making good decisions}.
@@ -132,6 +137,11 @@ Haario, H., Saksman, E., and Tamminen, J. (2001).
 \newblock {\em Mathematical Reviews (MathSciNet): MR1828504 Digital Object
   Identifier: doi}, 10:3318737.
 
+\bibitem[Harney, 2013]{harney2013bayesian}
+Harney, H.~L. (2013).
+\newblock {\em Bayesian inference: Parameter estimation and decisions}.
+\newblock Springer Science \& Business Media.
+
 \bibitem[Hastings, 1970]{hastings1970}
 Hastings, W. (1970).
 \newblock {Monte carlo sampling methods using Markov chains and their
@@ -158,6 +168,11 @@ Hoffman, M.~D. and Gelman, A. (2014).
 \bibitem[Jaynes, 1986]{jaynes1986bayesian}
 Jaynes, E.~T. (1986).
 \newblock Bayesian methods: General background.
+
+\bibitem[Jaynes, 2003]{jaynes2003probability}
+Jaynes, E.~T. (2003).
+\newblock {\em Probability theory: The logic of science}.
+\newblock Cambridge university press.
 
 \bibitem[Koller and Friedman, 2009]{koller2009probabilistic}
 Koller, D. and Friedman, N. (2009).
@@ -190,6 +205,19 @@ Lindsay, N., Murphy, F., Walsh, J., and Watterson, J. (1993).
 \newblock {\em The Geological Modelling of Hydrocarbon Reservoirs and Outcrop
   Analogues}, pages 113--123.
 
+\bibitem[Liu et~al., 2010]{liu2010continuous}
+Liu, C., McVay, D.~A., et~al. (2010).
+\newblock Continuous reservoir-simulation-model updating and forecasting
+  improves uncertainty quantification.
+\newblock {\em SPE Reservoir Evaluation \& Engineering}, 13(04):626--637.
+
+\bibitem[Ma et~al., 2006]{ma2006multistage}
+Ma, X., Al-Harbi, M., Datta-Gupta, A., Efendiev, Y., et~al. (2006).
+\newblock A multistage sampling method for rapid quantification of uncertainty
+  in history matching geological models.
+\newblock In {\em SPE Annual Technical Conference and Exhibition}. Society of
+  Petroleum Engineers.
+
 \bibitem[Mallet, 1992]{mallet1992discrete}
 Mallet, J.-L. (1992).
 \newblock Discrete smooth interpolation in geometric modelling.
@@ -211,6 +239,18 @@ Moy{\'e}, L.~A. (2006).
 \newblock {\em Statistical reasoning in medicine: the intuitive P-value
   primer}.
 \newblock Springer Science \& Business Media.
+
+\bibitem[Mudford et~al., 2000]{mudford2000valuing}
+Mudford, B. et~al. (2000).
+\newblock Valuing and comparing oil and gas opportunities: A comparison of
+  decision tree and simulation methodologies.
+\newblock In {\em SPE Annual Technical Conference and Exhibition}. Society of
+  Petroleum Engineers.
+
+\bibitem[Murtha et~al., 1997]{murtha1997monte}
+Murtha, J.~A. et~al. (1997).
+\newblock Monte carlo simulation: its status and future.
+\newblock {\em Journal of Petroleum Technology}, 49(04):361--373.
 
 \bibitem[Salvatier et~al., 2016]{salvatier2016pymc3}
 Salvatier, J., Wiecki, T.~V., and Fonnesbeck, C. (2016).
@@ -274,6 +314,16 @@ Verschelde, J. (2017).
 Vrolijk, P.~J., Urai, J.~L., and Kettermann, M. (2016).
 \newblock Clay smear: Review of mechanisms and applications.
 \newblock {\em Journal of Structural Geology}, 86:95--152.
+
+\bibitem[Wadsley et~al., 2005]{wadsley2005markov}
+Wadsley, A.~W. et~al. (2005).
+\newblock Markov chain monte carlo methods for reserves estimation.
+\newblock In {\em International Petroleum Technology Conference}. International
+  Petroleum Technology Conference.
+
+\bibitem[Wald, 1950]{wald1950statistical}
+Wald, A. (1950).
+\newblock Statistical decision functions.
 
 \bibitem[Weisstein, 2017]{weisstein2017saddlepoint}
 Weisstein, E.~W. (2017).

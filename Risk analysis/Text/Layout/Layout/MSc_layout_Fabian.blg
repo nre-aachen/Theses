@@ -1,9 +1,10 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: MSc_layout_Fabian.aux
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: MSc_layout_Fabian.aux
 A level-1 auxiliary file: chapter1.aux
 A level-1 auxiliary file: chapter2_methods.aux
 A level-1 auxiliary file: chapter3_results.aux
 A level-1 auxiliary file: chapter4_discussion.aux
-A level-1 auxiliary file: chapter5_conclusion.aux
 The style file: apalike.bst
 Database file #1: complete_biblio.bib
 Repeated entry---line 9113 of file complete_biblio.bib
@@ -15,4 +16,46 @@ Warning--empty journal in davidson2015
 Warning--there's a number but no volume in geman1984stochastic
 Warning--empty journal in jaynes1986bayesian
 Warning--empty journal in sorkhabi2005place
+Warning--empty journal in wald1950statistical
+You've used 66 entries,
+            1935 wiz_defined-function locations,
+            849 strings with 14433 characters,
+and the built_in function-call counts, 24376 in all, are:
+= -- 2411
+> -- 882
+< -- 54
++ -- 298
+- -- 283
+* -- 1979
+:= -- 4272
+add.period$ -- 201
+call.type$ -- 66
+change.case$ -- 449
+chr.to.int$ -- 65
+cite$ -- 72
+duplicate$ -- 969
+empty$ -- 1769
+format.name$ -- 382
+if$ -- 4768
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 73
+newline$ -- 330
+num.names$ -- 200
+pop$ -- 415
+preamble$ -- 1
+purify$ -- 463
+quote$ -- 0
+skip$ -- 741
+stack$ -- 0
+substring$ -- 1698
+swap$ -- 105
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 370
+warning$ -- 6
+while$ -- 205
+width$ -- 0
+write$ -- 838
 (There was 1 error message)
