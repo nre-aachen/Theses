@@ -341,6 +341,12 @@ Wellmann, J.~F., De~la Varga, M., Murdie, R.~E., Gessner, K., and Jessell, M.
   {\em Characterization of Ore-Forming Systems from Geological, Geochemical and
   Geophysical Studies}. Geological Society, London, Special Publications, 453.
 
+\bibitem[Wellmann et~al., 2010]{wellmann2010towards}
+Wellmann, J.~F., Horowitz, F.~G., Schill, E., and Regenauer-Lieb, K. (2010).
+\newblock Towards incorporating uncertainty of structural data in 3d geological
+  inversion.
+\newblock {\em Tectonophysics}, 490(3):141--151.
+
 \bibitem[Wellmann and Regenauer-Lieb, 2012]{wellmann2012uncertainties}
 Wellmann, J.~F. and Regenauer-Lieb, K. (2012).
 \newblock Uncertainties have a meaning: Information entropy as a quality
