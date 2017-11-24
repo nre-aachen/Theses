@@ -44,7 +44,7 @@
 \contentsline {subsection}{\numberline {3-2-3}Posterior model II: Likely thin reservoir formation}{50}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3-2-4}Posterior model III: Likely very thin seal}{50}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3-2-5}Posterior model IV: SSF likelihood reinforcing trap reliability}{52}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3-2-6}Posterior model V: Controversial information about the Shale Smear Factor}{52}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3-2-6}Posterior model V: Controversial information about the Shale Smear Factor}{54}{subsection.3.2.6}
 \contentsline {chapter}{\numberline {4}Discussion}{57}{chapter.4}
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{63}{chapter.4}
 \contentsline {chapter}{\numberline {A}The back of the thesis}{69}{appendix.A}

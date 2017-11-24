@@ -274,7 +274,23 @@
 		As the probability of failure and thus the bimodality of the probability distribution disappeared, all Bayes actions were shifted to higher estimates, most significantly those of the two risk-averse individuals (see Figure \ref{fig:ML1} (e). These have thus converged into an area of similar expectations. Additionally, expected losses were lowered overall. The posterior state of knowledge, provided by the updated model, encouraged even the most risk-averse decision-maker to expect recoverable oil volumes from 3.5 million m$^3$ upwards.
 		
 		\subsection{Posterior model II: Likely thin reservoir formation}%ML3
-		For the second model, thickness likelihoods were defined in a way that reinforced the probability of a very thick seal but at the same time restricted the reservoir formation to a likely significantly thinner thickness of around 50 m (see Table in Appendix). The results (see Figure \ref{fig:ML3}) are very similar, in fact almost identical, to those of model I above. This can be explained by the influence of leak and spill point. As the shape of the general structure itself was not defined to be uncertain, the position of the anticlinal spill point relative to the fault top remains mostly unchanged, irrespective of layer thickness variations. Thus, reservoir thickness is only a secondary factor to trap volume control. Assuming fixed values for all other parameters, the maximum fill horizon is most likely the same for a 300 m as for a 50 m thick reservoir unit. The thickness of the reservoir only becomes significant, if it is thin enough to locate the respective layer bottom above the leak and spill point depth in the trap section. Ultimately, the spill point appears to be the primariy limiting factor to maximum trap fill. It can furthermore be derived from this that the maximum trap volume potential, as defined by the given structural features, is already represented in the $ROV$ probability distribution of the prior model. After examining Figure \ref{fig:ML1} (d), it seems that this overall maximum volume is found at approximately 5.7 millon m$3$. Higher values were not observed in any other model realization and are presumed to be unattainable due to the restriction given by the spill point.
+		\begin{table}[h]
+			\centering
+			\begin{tabular}{lrr} 
+				\toprule
+				Model II - Likelihoods: layer thicknesses (normal distributions)\\  
+				\midrule 
+				Formation & $\mu$ [m] & $\sigma$ [m]\\ 
+				\midrule 
+				Sandstone 2 & 300 & 30 \\
+				Shale (Seal) & 400 & 40\\ 
+				Sandstone 1 (Reservoir) & 50 & 10 \\
+				\bottomrule
+			\end{tabular}
+			\caption{Layer thickness likelihoods determined by normal distributions as used for posterior model II.}
+			\label{tab:ML3_likelihoods}
+		\end{table}
+		For the second model, thickness likelihoods were defined in a way that reinforced the probability of a very thick seal but at the same time restricted the reservoir formation to a likely significantly thinner thickness of around 50 m (see Table \ref{tab:ML3_likelihoods}). The results (see Figure \ref{fig:ML3}) are very similar, in fact almost identical, to those of model I above. This can be explained by the influence of leak and spill point. As the shape of the general structure itself was not defined to be uncertain, the position of the anticlinal spill point relative to the fault top remains mostly unchanged, irrespective of layer thickness variations. Thus, reservoir thickness is only a secondary factor to trap volume control. Assuming fixed values for all other parameters, the maximum fill horizon is most likely the same for a 300 m as for a 50 m thick reservoir unit. The thickness of the reservoir only becomes significant, if it is thin enough to locate the respective layer bottom above the leak and spill point depth in the trap section. Ultimately, the spill point appears to be the primariy limiting factor to maximum trap fill. It can furthermore be derived from this that the maximum trap volume potential, as defined by the given structural features, is already represented in the $ROV$ probability distribution of the prior model. After examining Figure \ref{fig:ML1} (d), it seems that this overall maximum volume is found at approximately 5.7 millon m$3$. Higher values were not observed in any other model realization and are presumed to be unattainable due to the restriction given by the spill point.
 	
 		\subsection{Posterior model III: Likely very thin seal}%ML2
 		\begin{figure}[p!]
@@ -282,7 +298,23 @@
 			\includegraphics[width=1\textwidth]{Figures/ML2}
 			\caption{....}\label{fig:ML2}
 		\end{figure}
-		Using likelihoods which favor a thick reservoir, but only a thin seal of about 50 m thickness, leakage due to juxtaposition with seal-overlying formations across the fault ("LEAK OVER") became the primary mechanism for trap volume control (see Figure \ref{fig:ML2} (c). It can be recognized in Figure \ref{fig:ML2} (b) that, while uncertainty was reduced clearly in the footwall, it remains high in the hanging wall. The state of information entropy furthermore suggests that the seal layer frequently appeared significantly deeper in the hanging wall than in the footwall. Combined with a generally very thin seal, this allowed for the occurrence of high displacement to seal thickness ratios, i.e. a high $SSF$. Thus, frequent surpassing of the critical $SSF$ and subsequent fault seal breaching were enabled. It is additionally apparent in Figure \ref{fig:ML2} (b), that while fault-related leakage became predominant, control by the spill point was suppressed to be widely irrelevant in this posterior model.\\	%It is suggested by the footwall information entropy in Figure \ref{label} (b), that the general shape of the structure has been flattened.
+		\begin{table}[h]
+			\centering
+			\begin{tabular}{lrr} 
+				\toprule
+				Model III - Likelihoods: layer thicknesses (normal distributions)\\  
+				\midrule 
+				Formation & $\mu$ [m] & $\sigma$ [m]\\ 
+				\midrule 
+				Sandstone 2 & 300 & 30 \\
+				Shale (Seal) & 50 & 10\\ 
+				Sandstone 1 (Reservoir) & 400 & 30 \\
+				\bottomrule
+			\end{tabular}
+			\caption{Layer thickness likelihoods determined by normal distributions as used for posterior model III.}
+			\label{tab:ML2_likelihoods}
+		\end{table}
+		Using likelihoods which favor a thick reservoir, but only a thin seal of about 50 m thickness (see Table \ref{tab:ML2_likelihoods}), leakage due to juxtaposition with seal-overlying formations across the fault ("LEAK OVER") became the primary mechanism for trap volume control (see Figure \ref{fig:ML2} (c). It can be recognized in Figure \ref{fig:ML2} (b) that, while uncertainty was reduced clearly in the footwall, it remains high in the hanging wall. The state of information entropy furthermore suggests that the seal layer frequently appeared significantly deeper in the hanging wall than in the footwall. Combined with a generally very thin seal, this allowed for the occurrence of high displacement to seal thickness ratios, i.e. a high $SSF$. Thus, frequent surpassing of the critical $SSF$ and subsequent fault seal breaching were enabled. It is additionally apparent in Figure \ref{fig:ML2} (b), that while fault-related leakage became predominant, control by the spill point was suppressed to be widely irrelevant in this posterior model.\\	%It is suggested by the footwall information entropy in Figure \ref{label} (b), that the general shape of the structure has been flattened.
 		A dramatically higher probability of complete trap failure was induced by the high frequency of cross-fault leakage to overlying formations. Consequently, the bulk of the posterior $ROV$ probability distribution was shifted to a volume of zero, as depicted in Figure \ref{fig:ML2} (d). Any positive trap volumes have become highly improbable.\\
 		Bayes actions changed accordingly. Given this posterior $ROV$ distribution, all actors found their minimum of expected loss at $ROV = 0$, which equals the decision to "take no action" (see Figure \ref{fig:ML2} (e)). It has to be pointed out that all Bayes actions were found at the same point due to the lack of negative values into which more risk-averse actors would presumably have moved, given the possibility. This poses a difference to the score system implemented for the 1D geological model evaluation. As volumes cannot be negative, Bayes actions cannot be shifted past the limit of $ROV = 0$. Compared to the prior model, expected losses were decreased overall, but are higher for risk-friendlier individuals at the minimum. Results from this third model show that in contrast to the reservoir thickness, seal thickness is a primary and decisive factor for the manifestation of a reliable trap structure.
 		
@@ -292,7 +324,30 @@
 			\includegraphics[width=1\textwidth]{Figures/Appendix/ML4}
 			\caption{....}\label{fig:ML4}
 		\end{figure}
-		For this fourth model, thickness likelihoods were chosen to be comparable to those of model I, i.e. supporting the probability of thick layers in general. Additionally, a $SSF$-related likelihood function was implemented. With a mean of 1.5 and a standard deviation of 0.5, it was chosen to mostly reinforce the likelihood of a $SSF$ below the critical value of $SSF_c = 3$.\\
+		\begin{table}[h]
+			\centering
+			\begin{tabular}{lrr} 
+				\toprule
+				Model IV - Likelihood: layer thicknesses (normal distributions)\\  
+				\midrule 
+				Formation & $\mu$ [m] & $\sigma$ [m]\\ 
+				\midrule 
+				Sandstone 2 & 150 & 20 \\
+				Shale (Seal) & 300 & 30\\ 
+				Sandstone 1 (Reservoir) & 250 & 25 \\
+				\bottomrule
+				\toprule
+				Likelihood: Shale Smear Factor (normal distribution)\\
+				\midrule
+				- & $\mu$ & $\sigma$\\
+				\midrule
+				SSF & 1.5 & 0.5\\
+				\bottomrule
+			\end{tabular}
+			\caption{Layer thickness likelihoods determined by normal distributions as used for posterior model IV.}
+			\label{tab:ML4_likelihoods}
+		\end{table}
+		For this fourth model, thickness likelihoods were chosen to be comparable to those of model I, i.e. supporting the probability of thick layers in general. Additionally, a $SSF$-related likelihood function was implemented. With a mean of 1.5 and a standard deviation of 0.5, it was chosen to mostly reinforce the likelihood of a $SSF$ below the critical value of $SSF_c = 3$ (see Table \ref{tab:ML4_likelihoods}).\\
 		In Figure \ref{fig:ML4} (b), it can be seen that the uncertainty about the position of interfaces in the footwall was greatly reduced for all layers. In the hanging wall, information entropy remained high but was shifted upwards and mainly concentrated in an area that is juxtaposed to the footwall seal formation.\\
 		In the resulting $ROV$ distribution, the possibility of trap failure was completely extinguished, while the probability of high volumes in the range between 3.5  and 5 million m$^3$ was significantly increased. Mean and median are found at almost the same value, but the bulk of the distribution found in this range appears to be slightly bimodal in itself, resembling approximately the shape of two normal distributions overlapping around the value of 4 million m$^3$.\\
 		Accordingly, Bayes actions converged within this range of positive values. Considering the two modes in this range, risk-averse to risk-neutral bids remained in the middle of the mode of lower volumes, while risk-friendly actors were encouraged to estimate higher volumes as found in the second mode. Overall, significant convergence was achieved, also in respect to expected losses.\\		
@@ -304,6 +359,19 @@
 			\includegraphics[width=1\textwidth]{Figures/ML5}
 			\caption{....}\label{fig:ML5}
 		\end{figure}
-		In this last case example, no thickness likelihoods, only a $SSF$-related likelihood was used. In contrast to model IV, this was chosen to narrow the probability of the $SSF$ to be around the threshold of its critical value, by basing it on a normal distribution with a mean of 3 and a standard deviation of 0.3.\\
+		\begin{table}[h]
+			\centering
+			\begin{tabular}{lrr} 
+				Model V - Likelihood: Shale Smear Factor (normal distribution)\\
+				\midrule
+				- & $\mu$ & $\sigma$\\
+				\midrule
+				SSF & 3 & 0.3\\
+				\bottomrule
+			\end{tabular}
+			\caption{SSF-likelihood determined by normal distributions as used for posterior model V.}
+			\label{tab:ML5_likelihoods}
+		\end{table}
+		In this last case example, no thickness likelihoods, only a $SSF$-related likelihood was used. In contrast to model IV, this was chosen to narrow the probability of the $SSF$ to be around the threshold of its critical value of $SSF_c = 3$ (see Table \ref{tab:ML5_likelihoods}).\\
 		Results are relatively similar to those of the prior model. It is notable that the information entropy regarding the position of layer boundaries in the footwall was decreased, while the entropy seems to have been raised significantly in the hanging wall (Figure \ref{fig:ML5} (b)). Furthermore, an increase in the relevance of cross-fault leakage to overlying formations ("LEAK OVER") as a trap volume mechanism (increase from $\sim13\%$ to $\sim18\%$) was observed (Figure \ref{fig:ML5} (c)). Consequently, the bimodal character between the bulk of positive values and the probability of complete failure in the $ROV$ distribution was reinforced. This is also indicated by a shift of mean and median to lower volumes (Figure \ref{fig:ML5} (d)). Accordingly, a higher degree of decision divergence, i.e. a greater separation of different Bayes actions, was induced (Figure \ref{fig:ML5} (e)). Expected losses of these minima were raised as well.\\
 		It is notable that the implementation of a likelihood function, which can be expected to significantly decrease the $SSF$ related uncertainty, overall leads to an amplification of the duality in the $ROV$ probability distribution and to dispersion of differently risk-affine decisions. This effect is presumably caused by conservation of decisive uncertainty between "success" and complete failure of the trap, due to narrowing of the $SSF$ probability around its critical value. 
