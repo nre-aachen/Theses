@@ -218,10 +218,21 @@ Ma, X., Al-Harbi, M., Datta-Gupta, A., Efendiev, Y., et~al. (2006).
 \newblock In {\em SPE Annual Technical Conference and Exhibition}. Society of
   Petroleum Engineers.
 
+\bibitem[MacKay, 2003]{mackay2003information}
+MacKay, D.~J. (2003).
+\newblock {\em Information theory, inference and learning algorithms}.
+\newblock Cambridge university press.
+
 \bibitem[Mallet, 1992]{mallet1992discrete}
 Mallet, J.-L. (1992).
 \newblock Discrete smooth interpolation in geometric modelling.
 \newblock {\em Computer-aided design}, 24(4):178--191.
+
+\bibitem[Mann, 1993]{Mann1993}
+Mann, J.~C. (1993).
+\newblock {Uncertainty in geology}.
+\newblock In {\em Computers in geology---25 years of progress}, pages 241--254.
+  Oxford University Press, Inc.
 
 \bibitem[Metropolis et~al., 1953]{metropolis1953equation}
 Metropolis, N., Rosenbluth, A.~W., Rosenbluth, M.~N., Teller, A.~H., and
@@ -251,6 +262,11 @@ Mudford, B. et~al. (2000).
 Murtha, J.~A. et~al. (1997).
 \newblock Monte carlo simulation: its status and future.
 \newblock {\em Journal of Petroleum Technology}, 49(04):361--373.
+
+\bibitem[Patil et~al., 2010]{patil2010pymc}
+Patil, A., Huard, D., and Fonnesbeck, C.~J. (2010).
+\newblock Pymc: Bayesian stochastic modelling in python.
+\newblock {\em Journal of statistical software}, 35(4):1.
 
 \bibitem[Salvatier et~al., 2016]{salvatier2016pymc3}
 Salvatier, J., Wiecki, T.~V., and Fonnesbeck, C. (2016).
