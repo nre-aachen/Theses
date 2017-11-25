@@ -19,7 +19,7 @@
 \contentsline {subsection}{\numberline {2-3-3}Original oil-in-place and recoverable volumes as value measures}{19}{subsection.2.3.3}
 \contentsline {section}{\numberline {2-4}Designing a case-specific loss function}{21}{section.2.4}
 \contentsline {subsection}{\numberline {2-4-1}Including different risk-affinities in the loss function}{24}{subsection.2.4.1}
-\contentsline {section}{\numberline {2-5}1D geological reservoir modeling}{25}{section.2.5}
+\contentsline {section}{\numberline {2-5}1D geological reservoir modeling}{26}{section.2.5}
 \contentsline {subsection}{\numberline {2-5-1}Construction of the 1D geological model}{26}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2-5-2}Abstract valuation of the 1D geological model}{27}{subsection.2.5.2}
 \contentsline {section}{\numberline {2-6}3D geological reservoir model}{28}{section.2.6}

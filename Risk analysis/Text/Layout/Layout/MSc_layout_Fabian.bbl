@@ -49,6 +49,11 @@ Calcagno, P., Chil{\`e}s, J.-P., Courrioux, G., and Guillen, A. (2008).
   rules.
 \newblock {\em Physics of the Earth and Planetary Interiors}, 171(1):147--157.
 
+\bibitem[Caumon, 2010]{Caumon2010}
+Caumon, G. (2010).
+\newblock {Towards Stochastic Time-Varying Geological Modeling}.
+\newblock {\em Mathematical Geosciences}, 42(5):555--569.
+
 \bibitem[Chil{\`e}s et~al., 2004]{chiles2004modelling}
 Chil{\`e}s, J.-P., Aug, C., Guillen, A., and Lees, T. (2004).
 \newblock Modelling the geometry of geological units and its uncertainty in 3d
@@ -173,6 +178,12 @@ Jaynes, E.~T. (1986).
 Jaynes, E.~T. (2003).
 \newblock {\em Probability theory: The logic of science}.
 \newblock Cambridge university press.
+
+\bibitem[Jessell et~al., 2010]{jessell2010towards}
+Jessell, M.~W., Ailleres, L., and De~Kemp, E.~A. (2010).
+\newblock Towards an integrated inversion of geoscientific data: What price of
+  geology?
+\newblock {\em Tectonophysics}, 490(3):294--306.
 
 \bibitem[Koller and Friedman, 2009]{koller2009probabilistic}
 Koller, D. and Friedman, N. (2009).
@@ -357,8 +368,14 @@ Wellmann, J.~F., De~la Varga, M., Murdie, R.~E., Gessner, K., and Jessell, M.
   {\em Characterization of Ore-Forming Systems from Geological, Geochemical and
   Geophysical Studies}. Geological Society, London, Special Publications, 453.
 
-\bibitem[Wellmann et~al., 2010]{wellmann2010towards}
-Wellmann, J.~F., Horowitz, F.~G., Schill, E., and Regenauer-Lieb, K. (2010).
+\bibitem[Wellmann et~al., 2010a]{Wellmann2010b}
+Wellmann, J.~F., Horowitz, F.~G., Schill, E., and Regenauer-Lieb, K. (2010a).
+\newblock {Towards incorporating uncertainty of structural data in 3D
+  geological inversion}.
+\newblock {\em Tectonophysics}, 490(3-4):141--151.
+
+\bibitem[Wellmann et~al., 2010b]{wellmann2010towards}
+Wellmann, J.~F., Horowitz, F.~G., Schill, E., and Regenauer-Lieb, K. (2010b).
 \newblock Towards incorporating uncertainty of structural data in 3d geological
   inversion.
 \newblock {\em Tectonophysics}, 490(3):141--151.

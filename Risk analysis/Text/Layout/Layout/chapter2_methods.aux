@@ -1,8 +1,8 @@
 \relax 
 \providecommand\hyper@newdestlabel[2]{}
 \citation{berger2013stat}
-\citation{bratvold2010making}
 \citation{berger2013stat}
+\citation{bratvold2010making}
 \citation{berger2013stat}
 \citation{berger2013stat}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Methods}{3}{chapter.2}}
@@ -11,8 +11,8 @@
 \newlabel{cha:met}{{2}{3}{Methods}{chapter.2}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2-1}Bayesian analysis and decision theory}{3}{section.2.1}}
 \newlabel{sec:bayes}{{2-1}{3}{Bayesian analysis and decision theory}{section.2.1}{}}
-\citation{jaynes2003probability,box2011bayesian,harney2013bayesian,davidson2015}
-\citation{jaynes2003probability,box2011bayesian,harney2013bayesian,davidson2015}
+\citation{jaynes2003probability,gelman2014bayesian,box2011bayesian,harney2013bayesian,davidson2015}
+\citation{jaynes2003probability,gelman2014bayesian,box2011bayesian,harney2013bayesian,davidson2015}
 \citation{berger2013stat}
 \citation{berger2013stat}
 \citation{davidson2015}
@@ -22,8 +22,7 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2-1-2}Bayesian inference}{4}{subsection.2.1.2}}
 \newlabel{eq:BayesTheorem}{{2-1}{4}{Bayesian inference}{equation.2.1.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2-1-3}Estimation}{4}{subsection.2.1.3}}
-\citation{davidson2015}
-\citation{davidson2015}
+\citation{davidson2015,hennig2007}
 \citation{hennig2007}
 \citation{davidson2015,moye2006statistical}
 \citation{davidson2015}
@@ -32,10 +31,7 @@
 \citation{hennig2007}
 \citation{hennig2007}
 \citation{davidson2015,hennig2007}
-\citation{davidson2015}
 \citation{berger2013stat,davidson2015}
-\citation{davidson2015}
-\citation{berger2013stat}
 \citation{davidson2015}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2-1-4}Expected loss and loss functions}{5}{subsection.2.1.4}}
 \newlabel{sec:loss}{{2-1-4}{5}{Expected loss and loss functions}{subsection.2.1.4}{}}
@@ -47,8 +43,6 @@
 \citation{berger2013stat,moye2006statistical}
 \citation{davidson2015,berger2013stat}
 \citation{davidson2015}
-\citation{berger2013stat}
-\citation{davidson2015}
 \citation{davidson2015}
 \@writefile{lof}{\contentsline {figure}{\numberline {2-1}{\ignorespaces Realizations of loss based on the absolute-error loss function (blue) and the squared-error loss function (red) for a determined true value $\theta $ = 0.\relax }}{6}{figure.caption.7}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
@@ -58,12 +52,11 @@
 \citation{delaVarga2016}
 \citation{wellmann2010towards}
 \citation{delaVarga2016}
-\citation{wellmann2017sandstone,delaVarga2016}
-\@writefile{lof}{\contentsline {figure}{\numberline {2-2}{\ignorespaces Expected loss and respective Bayes actions based on the standard absolute-error loss (A) and squared-loss function (B). In this example, we applied the functions on a normal distribution characterized by $\mu = 0$ and $\sigma = 500$ (shown in light blue).\relax }}{7}{figure.caption.8}}
-\newlabel{fig:standard_LF}{{2-2}{7}{Expected loss and respective Bayes actions based on the standard absolute-error loss (A) and squared-loss function (B). In this example, we applied the functions on a normal distribution characterized by $\mu = 0$ and $\sigma = 500$ (shown in light blue).\relax }{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2-2}{\ignorespaces Expected loss for estimates of the true value and Bayes actions based on the standard absolute-error loss (A) and squared-loss function (B). In this example, the probability distribution of the true value is normal around zero ($\mu = 0$; $\sigma = 500$; shown in light blue). It can be seen that expected loss increase exponentially with distance from zero for the squared-error loss function.\relax }}{7}{figure.caption.8}}
+\newlabel{fig:standard_LF}{{2-2}{7}{Expected loss for estimates of the true value and Bayes actions based on the standard absolute-error loss (A) and squared-loss function (B). In this example, the probability distribution of the true value is normal around zero ($\mu = 0$; $\sigma = 500$; shown in light blue). It can be seen that expected loss increase exponentially with distance from zero for the squared-error loss function.\relax }{figure.caption.8}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2-2}Application in structural geological modeling}{7}{section.2.2}}
 \newlabel{sec:bayes_in_struc_modeling}{{2-2}{7}{Application in structural geological modeling}{section.2.2}{}}
-\newlabel{eq:forward_model}{{2-7}{7}{Application in structural geological modeling}{equation.2.2.7}{}}
+\citation{wellmann2017sandstone,delaVarga2016}
 \citation{mackay2003information,patil2010pymc,delaVarga2016}
 \citation{gelman2014bayesian}
 \citation{delaVarga2016}
@@ -72,6 +65,7 @@
 \citation{delaVarga2016}
 \citation{delaVarga2016}
 \citation{delaVarga2016}
+\newlabel{eq:forward_model}{{2-7}{8}{Application in structural geological modeling}{equation.2.2.7}{}}
 \citation{hoffman2014no,delaVarga2016}
 \citation{hoffman2014no,davidson2015}
 \citation{gilks2005markov}
@@ -149,6 +143,7 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2-3}Model evaluation}{13}{section.2.3}}
 \newlabel{sec:model_evaluation}{{2-3}{13}{Model evaluation}{section.2.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2-3-1}Visualizing uncertainty}{13}{subsection.2.3.1}}
+\newlabel{sec:shannon_entropy}{{2-3-1}{13}{Visualizing uncertainty}{subsection.2.3.1}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2-5}{\ignorespaces Illustrations depicting the concept of Shannon entropy to visualize uncertainties in spatial applications. In (a), a map composed of uncertain units is subdivided into a regular grid of equally sized cells. The probabilities of possible outcomes regarding each unit is estimated for each cell in (b). From this results a map of cell Shannon entropies (c), with the highest values where all units can occur equally frequent, and lowest for cells where no uncertainty is given and entropy is zero (from \citet  {wellmann2012uncertainties}).\relax }}{14}{figure.caption.11}}
 \newlabel{fig:information_entropy}{{2-5}{14}{Illustrations depicting the concept of Shannon entropy to visualize uncertainties in spatial applications. In (a), a map composed of uncertain units is subdivided into a regular grid of equally sized cells. The probabilities of possible outcomes regarding each unit is estimated for each cell in (b). From this results a map of cell Shannon entropies (c), with the highest values where all units can occur equally frequent, and lowest for cells where no uncertainty is given and entropy is zero (from \citet {wellmann2012uncertainties}).\relax }{figure.caption.11}{}}
 \citation{de1972definition}
@@ -205,10 +200,10 @@
 \citation{labastie2011increasingRF}
 \citation{dean2007volumetric}
 \citation{wim2001guidelines}
-\citation{davidson2015,hennig2007}
-\citation{bratvold2010making}
 \newlabel{eq:OOIP}{{2-14}{20}{Original oil-in-place and recoverable volumes as value measures}{equation.2.3.14}{}}
 \newlabel{eq:ROV}{{2-15}{20}{Original oil-in-place and recoverable volumes as value measures}{equation.2.3.15}{}}
+\citation{davidson2015,hennig2007}
+\citation{bratvold2010making}
 \@writefile{toc}{\contentsline {section}{\numberline {2-4}Designing a case-specific loss function}{21}{section.2.4}}
 \newlabel{sec:LF_design}{{2-4}{21}{Designing a case-specific loss function}{section.2.4}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2-9}{\ignorespaces Single steps (I-IV) of customizing the loss function applied on an exemplary normal distribution ($\mu =0; \sigma =500$; illustrated n light blue). The median (in this case also mean and average) is returned for the Bayes action, when using the standard symmetric absolute-error loss function (I). Assigning a stronger weight on overestimation steepens the curve on the right hand side and shifts the minimum to the left, i.e. to a lower estimate (II). Steepening is significantly reinforced by the introduction of fatal overestimation in (III). This affects only the positive side of estimates and leads to a jump at zero, where signs change. Due to a similar condition, the same effect is observed on the negative side of estimate values, where the curve is also steepened, after including fatal underestimation (IV). Due to this, the Bayes action is shifted back to the zero estimate. The final custom loss function is represented by the curve in (IV).\relax }}{22}{figure.caption.15}}
@@ -227,10 +222,10 @@
 \newlabel{eq:LFR_final}{{2-21}{25}{Including different risk-affinities in the loss function}{equation.2.4.21}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2-11}{\ignorespaces Plotting of expected loss realizations after including the risk factor $r$ in the loss function (Equation \ref  {eq:LFR_final}) for actors with risk-affinities ranging from risk-averse ($r$ = 0.5 and 0.75), over risk-neutral ($r$ = 1), to risk-friendly ($r$ = 1.25 and $r$ = 1.5). The loss function was applied the same normal distribution ($\mu =0; \sigma =500$) as in Figure \ref  {fig:LF_4steps_normal}.\relax }}{25}{figure.caption.17}}
 \newlabel{fig:LFR_normal}{{2-11}{25}{Plotting of expected loss realizations after including the risk factor $r$ in the loss function (Equation \ref {eq:LFR_final}) for actors with risk-affinities ranging from risk-averse ($r$ = 0.5 and 0.75), over risk-neutral ($r$ = 1), to risk-friendly ($r$ = 1.25 and $r$ = 1.5). The loss function was applied the same normal distribution ($\mu =0; \sigma =500$) as in Figure \ref {fig:LF_4steps_normal}.\relax }{figure.caption.17}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2-5}1D geological reservoir modeling}{25}{section.2.5}}
-\newlabel{sec:1D_model}{{2-5}{25}{1D geological reservoir modeling}{section.2.5}{}}
 \citation{delaVarga2016}
 \citation{delaVarga2016}
+\@writefile{toc}{\contentsline {section}{\numberline {2-5}1D geological reservoir modeling}{26}{section.2.5}}
+\newlabel{sec:1D_model}{{2-5}{26}{1D geological reservoir modeling}{section.2.5}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2-12}{\ignorespaces Probability distributions for positions of layer boundaries in the subsurface and a respective representation using lines. These normal distributions are determined by the following values: Seal top: $\mu = 2000 m, \sigma = 7$; reservoir top: $\mu = 2050 m, \sigma = 25$; reservoir bottom: $\mu = 2200 m, \sigma = 45$. \relax }}{26}{figure.caption.18}}
 \newlabel{fig:1D_model}{{2-12}{26}{Probability distributions for positions of layer boundaries in the subsurface and a respective representation using lines. These normal distributions are determined by the following values: Seal top: $\mu = 2000 m, \sigma = 7$; reservoir top: $\mu = 2050 m, \sigma = 25$; reservoir bottom: $\mu = 2200 m, \sigma = 45$. \relax }{figure.caption.18}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2-5-1}Construction of the 1D geological model}{26}{subsection.2.5.1}}
