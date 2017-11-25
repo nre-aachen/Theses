@@ -186,7 +186,6 @@
 				%		\caption{Bla}
 				%		\label{tab:update_examples_all}
 				%\end{table}
-				
 			%\subsection{General 1D model inference results}
 			%This conceptual application in an abstract 1D geological model already serves to illuminate some of the main effects of Bayesian inference on decision-making. Three main mechanisms were observable in these cases: 
 			%\begin{enumerate}
@@ -265,7 +264,7 @@
 		\begin{figure}[p!]
 			\centering
 			\includegraphics[width=1\textwidth]{Figures/ML1}
-			\caption{....}\label{fig:ML1}
+			\caption{Summary of results from evaluating posterior model I. Shannon entropies in prior (a) and posterior (b) are compared. So are the mechanisms of maximum trap volume control (c). Prior and posterior ROV probability distributions are shown in (d). Respective loss function and Bayes actions are plotted in (e).}\label{fig:ML1}
 		\end{figure}		
 		For the simulation of this first posterior model, thickness likelihoods for the three central layers were included in the probabilistic model. These were defined in a way that reinforced the probabilities of the relevant layers to be significantly thick (see Table \ref{tab:ML1_likelihoods}). Respective results are summarized in Figure \ref{fig:ML1}.\\
 		Considering the changes in information entropy, it can be seen that the uncertainty about layer interface positions in $z$ was clearly reduced in the footwall. Information entropy was also decreased in the middle section of the hanging wall, but remained high in upper and lower parts, presumably due to the remaining influence of the offset uncertainty.\\
@@ -296,7 +295,7 @@
 		\begin{figure}[p!]
 			\centering
 			\includegraphics[width=1\textwidth]{Figures/ML2}
-			\caption{....}\label{fig:ML2}
+			\caption{Summary of results from evaluating posterior model III. Shannon entropies in prior (a) and posterior (b) are compared. So are the mechanisms of maximum trap volume control (c). Prior and posterior ROV probability distributions are shown in (d). Respective loss function and Bayes actions are plotted in (e).}\label{fig:ML2}
 		\end{figure}
 		\begin{table}[h]
 			\centering
@@ -322,7 +321,7 @@
 		\begin{figure}[p!]
 			\centering
 			\includegraphics[width=1\textwidth]{Figures/Appendix/ML4}
-			\caption{....}\label{fig:ML4}
+			\caption{Summary of results from evaluating posterior model IV. Shannon entropies in prior (a) and posterior (b) are compared. So are the mechanisms of maximum trap volume control (c). Prior and posterior ROV probability distributions are shown in (d). Respective loss function and Bayes actions are plotted in (e).}\label{fig:ML4}
 		\end{figure}
 		\begin{table}[h]
 			\centering
@@ -344,7 +343,7 @@
 				SSF & 1.5 & 0.5\\
 				\bottomrule
 			\end{tabular}
-			\caption{Layer thickness likelihoods determined by normal distributions as used for posterior model IV.}
+			\caption{Layer thickness likelihoods and SSF-likelihood determined by normal distributions as used for posterior model IV.}
 			\label{tab:ML4_likelihoods}
 		\end{table}
 		For this fourth model, thickness likelihoods were chosen to be comparable to those of model I, i.e. supporting the probability of thick layers in general. Additionally, a $SSF$-related likelihood function was implemented. With a mean of 1.5 and a standard deviation of 0.5, it was chosen to mostly reinforce the likelihood of a $SSF$ below the critical value of $SSF_c = 3$ (see Table \ref{tab:ML4_likelihoods}).\\
@@ -357,11 +356,12 @@
 		\begin{figure}[p!]
 			\centering
 			\includegraphics[width=1\textwidth]{Figures/ML5}
-			\caption{....}\label{fig:ML5}
+			\caption{Summary of results from evaluating posterior model V. Shannon entropies in prior (a) and posterior (b) are compared. So are the mechanisms of maximum trap volume control (c). Prior and posterior ROV probability distributions are shown in (d). Respective loss function and Bayes actions are plotted in (e).}\label{fig:ML5}
 		\end{figure}
 		\begin{table}[h]
 			\centering
 			\begin{tabular}{lrr} 
+				\toprule
 				Model V - Likelihood: Shale Smear Factor (normal distribution)\\
 				\midrule
 				- & $\mu$ & $\sigma$\\
@@ -369,7 +369,7 @@
 				SSF & 3 & 0.3\\
 				\bottomrule
 			\end{tabular}
-			\caption{SSF-likelihood determined by normal distributions as used for posterior model V.}
+			\caption{SSF-likelihood determined by a normal distributions as used for posterior model V.}
 			\label{tab:ML5_likelihoods}
 		\end{table}
 		In this last case example, no thickness likelihoods, only a $SSF$-related likelihood was used. In contrast to model IV, this was chosen to narrow the probability of the $SSF$ to be around the threshold of its critical value of $SSF_c = 3$ (see Table \ref{tab:ML5_likelihoods}).\\

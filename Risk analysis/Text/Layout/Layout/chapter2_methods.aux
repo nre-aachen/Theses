@@ -58,11 +58,12 @@
 \citation{delaVarga2016}
 \citation{wellmann2010towards}
 \citation{delaVarga2016}
-\@writefile{lof}{\contentsline {figure}{\numberline {2-2}{\ignorespaces Expected loss and respective Bayes actions based on the standard absolute-error loss (A) and squared-loss function (B). In this example, we applied the functions on a normal distribution characterized by $\mu = 0$ and $\sigma = 500$.\relax }}{7}{figure.caption.8}}
-\newlabel{fig:standard_LF}{{2-2}{7}{Expected loss and respective Bayes actions based on the standard absolute-error loss (A) and squared-loss function (B). In this example, we applied the functions on a normal distribution characterized by $\mu = 0$ and $\sigma = 500$.\relax }{figure.caption.8}{}}
+\citation{wellmann2017sandstone,delaVarga2016}
+\@writefile{lof}{\contentsline {figure}{\numberline {2-2}{\ignorespaces Expected loss and respective Bayes actions based on the standard absolute-error loss (A) and squared-loss function (B). In this example, we applied the functions on a normal distribution characterized by $\mu = 0$ and $\sigma = 500$ (shown in light blue).\relax }}{7}{figure.caption.8}}
+\newlabel{fig:standard_LF}{{2-2}{7}{Expected loss and respective Bayes actions based on the standard absolute-error loss (A) and squared-loss function (B). In this example, we applied the functions on a normal distribution characterized by $\mu = 0$ and $\sigma = 500$ (shown in light blue).\relax }{figure.caption.8}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2-2}Application in structural geological modeling}{7}{section.2.2}}
 \newlabel{sec:bayes_in_struc_modeling}{{2-2}{7}{Application in structural geological modeling}{section.2.2}{}}
-\citation{wellmann2017sandstone,delaVarga2016}
+\newlabel{eq:forward_model}{{2-7}{7}{Application in structural geological modeling}{equation.2.2.7}{}}
 \citation{mackay2003information,patil2010pymc,delaVarga2016}
 \citation{gelman2014bayesian}
 \citation{delaVarga2016}
@@ -70,7 +71,6 @@
 \citation{delaVarga2016}
 \citation{delaVarga2016}
 \citation{delaVarga2016}
-\newlabel{eq:forward_model}{{2-7}{8}{Application in structural geological modeling}{equation.2.2.7}{}}
 \citation{delaVarga2016}
 \citation{hoffman2014no,delaVarga2016}
 \citation{hoffman2014no,davidson2015}
@@ -205,14 +205,14 @@
 \citation{labastie2011increasingRF}
 \citation{dean2007volumetric}
 \citation{wim2001guidelines}
-\newlabel{eq:OOIP}{{2-14}{20}{Original oil-in-place and recoverable volumes as value measures}{equation.2.3.14}{}}
-\newlabel{eq:ROV}{{2-15}{20}{Original oil-in-place and recoverable volumes as value measures}{equation.2.3.15}{}}
 \citation{davidson2015,hennig2007}
 \citation{bratvold2010making}
+\newlabel{eq:OOIP}{{2-14}{20}{Original oil-in-place and recoverable volumes as value measures}{equation.2.3.14}{}}
+\newlabel{eq:ROV}{{2-15}{20}{Original oil-in-place and recoverable volumes as value measures}{equation.2.3.15}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2-4}Designing a case-specific loss function}{21}{section.2.4}}
 \newlabel{sec:LF_design}{{2-4}{21}{Designing a case-specific loss function}{section.2.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2-9}{\ignorespaces Single steps (I-IV) of customizing the loss function applied on an exemplary normal distribution ($\mu =0; \sigma =500$). The median (in this case also mean and average) is returned for the Bayes action, when using the standard symmetric absolute-error loss function (I). Assigning a stronger weight on overestimation steepens the curve on the right hand side and shifts the minimum to the left, i.e. to a lower estimate (II). Steepening is significantly reinforced by the introduction of fatal overestimation in (III). This affects only the positive side of estimates and leads to a jump at zero, where signs change. Due to a similar condition, the same effect is observed on the negative side of estimate values, where the curve is also steepened, after including fatal underestimation (IV). Due to this, the Bayes action is shifted back to the zero estimate. The final custom loss function is represented by the curve in (IV).\relax }}{22}{figure.caption.15}}
-\newlabel{fig:LF_4steps_normal}{{2-9}{22}{Single steps (I-IV) of customizing the loss function applied on an exemplary normal distribution ($\mu =0; \sigma =500$). The median (in this case also mean and average) is returned for the Bayes action, when using the standard symmetric absolute-error loss function (I). Assigning a stronger weight on overestimation steepens the curve on the right hand side and shifts the minimum to the left, i.e. to a lower estimate (II). Steepening is significantly reinforced by the introduction of fatal overestimation in (III). This affects only the positive side of estimates and leads to a jump at zero, where signs change. Due to a similar condition, the same effect is observed on the negative side of estimate values, where the curve is also steepened, after including fatal underestimation (IV). Due to this, the Bayes action is shifted back to the zero estimate. The final custom loss function is represented by the curve in (IV).\relax }{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2-9}{\ignorespaces Single steps (I-IV) of customizing the loss function applied on an exemplary normal distribution ($\mu =0; \sigma =500$; illustrated n light blue). The median (in this case also mean and average) is returned for the Bayes action, when using the standard symmetric absolute-error loss function (I). Assigning a stronger weight on overestimation steepens the curve on the right hand side and shifts the minimum to the left, i.e. to a lower estimate (II). Steepening is significantly reinforced by the introduction of fatal overestimation in (III). This affects only the positive side of estimates and leads to a jump at zero, where signs change. Due to a similar condition, the same effect is observed on the negative side of estimate values, where the curve is also steepened, after including fatal underestimation (IV). Due to this, the Bayes action is shifted back to the zero estimate. The final custom loss function is represented by the curve in (IV).\relax }}{22}{figure.caption.15}}
+\newlabel{fig:LF_4steps_normal}{{2-9}{22}{Single steps (I-IV) of customizing the loss function applied on an exemplary normal distribution ($\mu =0; \sigma =500$; illustrated n light blue). The median (in this case also mean and average) is returned for the Bayes action, when using the standard symmetric absolute-error loss function (I). Assigning a stronger weight on overestimation steepens the curve on the right hand side and shifts the minimum to the left, i.e. to a lower estimate (II). Steepening is significantly reinforced by the introduction of fatal overestimation in (III). This affects only the positive side of estimates and leads to a jump at zero, where signs change. Due to a similar condition, the same effect is observed on the negative side of estimate values, where the curve is also steepened, after including fatal underestimation (IV). Due to this, the Bayes action is shifted back to the zero estimate. The final custom loss function is represented by the curve in (IV).\relax }{figure.caption.15}{}}
 \citation{davidson2015,hennig2007}
 \citation{hennig2007}
 \citation{bratvold2010making}
@@ -225,12 +225,12 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2-4-1}Including different risk-affinities in the loss function}{24}{subsection.2.4.1}}
 \citation{delaVarga2016}
 \newlabel{eq:LFR_final}{{2-21}{25}{Including different risk-affinities in the loss function}{equation.2.4.21}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2-11}{\ignorespaces Plotting of expected loss realizations after including the risk factor $r$ in the loss function (Equation \ref  {eq:LFR_final}) for actors with risk-affinities ranging from risk-averse ($r$ = 0.5 and 0.75), over risk-neutral ($r$ = 1), to risk-friendly ($r$ = 1.25 and $r$ = 1.5). The loss function was applied on a normal distribution around zero ($\mu =0; \sigma =500$).\relax }}{25}{figure.caption.17}}
-\newlabel{fig:LFR_normal}{{2-11}{25}{Plotting of expected loss realizations after including the risk factor $r$ in the loss function (Equation \ref {eq:LFR_final}) for actors with risk-affinities ranging from risk-averse ($r$ = 0.5 and 0.75), over risk-neutral ($r$ = 1), to risk-friendly ($r$ = 1.25 and $r$ = 1.5). The loss function was applied on a normal distribution around zero ($\mu =0; \sigma =500$).\relax }{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2-11}{\ignorespaces Plotting of expected loss realizations after including the risk factor $r$ in the loss function (Equation \ref  {eq:LFR_final}) for actors with risk-affinities ranging from risk-averse ($r$ = 0.5 and 0.75), over risk-neutral ($r$ = 1), to risk-friendly ($r$ = 1.25 and $r$ = 1.5). The loss function was applied the same normal distribution ($\mu =0; \sigma =500$) as in Figure \ref  {fig:LF_4steps_normal}.\relax }}{25}{figure.caption.17}}
+\newlabel{fig:LFR_normal}{{2-11}{25}{Plotting of expected loss realizations after including the risk factor $r$ in the loss function (Equation \ref {eq:LFR_final}) for actors with risk-affinities ranging from risk-averse ($r$ = 0.5 and 0.75), over risk-neutral ($r$ = 1), to risk-friendly ($r$ = 1.25 and $r$ = 1.5). The loss function was applied the same normal distribution ($\mu =0; \sigma =500$) as in Figure \ref {fig:LF_4steps_normal}.\relax }{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2-5}1D geological reservoir modeling}{25}{section.2.5}}
+\newlabel{sec:1D_model}{{2-5}{25}{1D geological reservoir modeling}{section.2.5}{}}
 \citation{delaVarga2016}
 \citation{delaVarga2016}
-\@writefile{toc}{\contentsline {section}{\numberline {2-5}1D geological reservoir modeling}{26}{section.2.5}}
-\newlabel{sec:1D_model}{{2-5}{26}{1D geological reservoir modeling}{section.2.5}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2-12}{\ignorespaces Probability distributions for positions of layer boundaries in the subsurface and a respective representation using lines. These normal distributions are determined by the following values: Seal top: $\mu = 2000 m, \sigma = 7$; reservoir top: $\mu = 2050 m, \sigma = 25$; reservoir bottom: $\mu = 2200 m, \sigma = 45$. \relax }}{26}{figure.caption.18}}
 \newlabel{fig:1D_model}{{2-12}{26}{Probability distributions for positions of layer boundaries in the subsurface and a respective representation using lines. These normal distributions are determined by the following values: Seal top: $\mu = 2000 m, \sigma = 7$; reservoir top: $\mu = 2050 m, \sigma = 25$; reservoir bottom: $\mu = 2200 m, \sigma = 45$. \relax }{figure.caption.18}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2-5-1}Construction of the 1D geological model}{26}{subsection.2.5.1}}

@@ -48,14 +48,12 @@
 \BOOKMARK [0][-]{chapter.4}{Discussion}{}% 48
 \BOOKMARK [1][-]{section*.44}{State of knowledge, decision uncertainty and consequent decision making via loss function optimization}{chapter.4}% 49
 \BOOKMARK [2][-]{section*.45}{Impact of additional information on decision making}{section*.44}% 50
-\BOOKMARK [3][-]{section*.46}{Value distribution modes as model scenarios and potential decision options}{section*.45}% 51
-\BOOKMARK [3][-]{section*.47}{Comparison to common practices and other research in the hydrocarbon sector}{section*.45}% 52
-\BOOKMARK [3][-]{section*.48}{Representativity and limitations of this methodology}{section*.45}% 53
-\BOOKMARK [3][-]{section*.49}{Possibilities for future research and extensions}{section*.45}% 54
-\BOOKMARK [0][-]{section*.49}{Bibliography}{}% 55
+\BOOKMARK [3][-]{section*.46}{Value distribution modes as possible model scenarios and potential decision options}{section*.45}% 51
+\BOOKMARK [3][-]{section*.48}{Comparison to common practices and other research in the hydrocarbon sector}{section*.45}% 52
+\BOOKMARK [3][-]{section*.49}{Representativity and limitations of this methodology}{section*.45}% 53
+\BOOKMARK [3][-]{section*.50}{Possibilities for future research and extensions}{section*.45}% 54
+\BOOKMARK [0][-]{section*.50}{Bibliography}{}% 55
 \BOOKMARK [0][-]{appendix.A}{The back of the thesis}{}% 56
 \BOOKMARK [1][-]{section.A.1}{An appendix section}{appendix.A}% 57
-\BOOKMARK [2][-]{subsection.A.1.1}{An appendix subsection with C++ Lisitng}{section.A.1}% 58
-\BOOKMARK [2][-]{subsection.A.1.2}{A Matlab \040Listing}{section.A.1}% 59
-\BOOKMARK [0][-]{appendix.B}{Yet another appendix}{}% 60
-\BOOKMARK [1][-]{section.B.1}{Another test section}{appendix.B}% 61
+\BOOKMARK [0][-]{appendix.B}{Yet another appendix}{}% 58
+\BOOKMARK [1][-]{section.B.1}{Another test section}{appendix.B}% 59
