@@ -1105,40 +1105,46 @@
 \end{flushright}
 \end{minipage}\\[3cm]
 \end{center}%
-
+\centering
+\large{submitted to the\par 
+	Institute of Computational Geoscience and Reservoir Engineering}\\
 %\vfill{}
-
+\begin{center}
+ \begin{tabular}{lcr}
+Faculty of Georesources and Material Engineering & $\cdot$ & RWTH Aachen University \\ % Choose here your university and corresponding department.
+ \end{tabular}
+\end{center}
  \vspace*{\stretch{2}}
  \hspace{1cm}
 \end{titlepage}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Second title page
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\clearemptydoublepage
-\thispagestyle{empty}
-\setcounter{page}{1}
-\begin{center}
-\Huge{\textbf{\textsf{\msctitle}}}\\ \Large{\textbf{\textsf{\mscsubtitle}}} \\[1cm]
-\Large{\textsc{Master of Science Thesis}}\\[2cm]
-\Large{submitted to the\par 
-Institute of Computational Geoscience and Reservoir Engineering}\\[1cm]
-\Large{for the degree of \par 
-Master of Science in Georesources Management at \par 
-RWTH Aachen University \par % pick here the university where you carried out your MSc research
+%\clearemptydoublepage
+%\thispagestyle{empty}
+%\setcounter{page}{1}
+%\begin{center}
+%\Huge{\textbf{\textsf{\msctitle}}}\\ \Large{\textbf{\textsf{\mscsubtitle}}} \\[1cm]
+%\Large{\textsc{Master of Science Thesis}}\\[2cm]
+%\Large{submitted to the\par 
+%Institute of Computational Geoscience and Reservoir Engineering}\\[1cm]
+%\Large{for the degree of \par 
+%Master of Science in Georesources Management at \par 
+%RWTH Aachen University \par % pick here the university where you carried out your MSc research
 %ETH Z\"{u}rich \par
 %RWTH Aachen University\par
-by}\\[3cm]
-\Large{\mscname}\\[1cm]
-\Large{\mscdate}
-\end{center}
- \vspace*{\stretch{2}}
+%by}\\[3cm]
+%\Large{\mscname}\\[1cm]
+%\Large{\mscdate}
+%\end{center}
+% \vspace*{\stretch{2}}
  %\begin{center} \epsfig{file=cslogo.eps,width=3cm} \end{center}
  %
- \begin{center}
- \begin{tabular}{lcr}
-Faculty of Georesources and Material Engineering & $\cdot$ & RWTH Aachen University \\ % Choose here your university and corresponding department.
-  \end{tabular}
- \end{center}
+% \begin{center}
+% \begin{tabular}{lcr}
+%Faculty of Georesources and Material Engineering & $\cdot$ & RWTH Aachen University \\ % Choose here your university and corresponding department.
+%  \end{tabular}
+% \end{center}
 
 
 %%%
