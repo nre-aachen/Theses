@@ -14,6 +14,7 @@
 \usepackage{subcaption}
 \usepackage{wrapfig}
 \usepackage{booktabs}
+\usepackage{pdfpages}
 \graphicspath{Figures/}
 %\usepackage{mathpazo}
 \mscName{Fabian Antonio Stamm}
@@ -38,48 +39,7 @@
 % Make a hell of a lot of title pages
     \maketitle
 %
-Statutory Declaration in Lieu of an Oath
-
-\vspace*{0.1\textheight}
-
-\noindent\begin{minipage}[t]{0.5\textwidth}
-\begin{flushleft} \large
-
-%\authorname \\
-Stamm, Fabian \\
-\emph{\footnotesize Last Name, First Name}
-
-\end{flushleft}
-\end{minipage}%
-\begin{minipage}[t]{0.5\textwidth}
-\begin{flushright} \large
-
-%123456 \\
-%\emph{\footnotesize Matriculation No.}
-
-\end{flushright}
-\end{minipage}\\[1cm]
-
-\noindent I hereby declare in lieu of an oath that I have completed the present Master thesis entitled "\msctitle\ - \mscsubtitle" independently and without illegitimate assistance from third parties. I have used no other than the specified sources and aids. In case that the thesis is additionally submitted in an electronic format, I declare that the written and electronic versions are fully identical. The thesis has not been submitted to any examination body in this, or similar, form.\\[2cm]
-
-
-\noindent\begin{minipage}[t]{0.5\textwidth}
-\begin{flushleft} \large
-
-Aachen, \today \\
-\emph{\footnotesize City, Date}
-
-\end{flushleft}
-\end{minipage}%
-\begin{minipage}[t]{0.5\textwidth}
-\begin{flushright} \large
-
-\break
-\rule{10em}{0.5pt}\\ % This prints a line for the signature
-\emph{\footnotesize Signature}
-
-\end{flushright}
-\end{minipage}\\[3cm]
+\includepdf[pages={1}]{eidesstattliche_erklaerung.pdf}
 
 \cleardoublepage
 
@@ -87,7 +47,7 @@ Aachen, \today \\
 
 % Abstract
 \nonumchap{Abstract}
-Bayesian decision theory is applicable to a wide spectrum of problems. Hydrocarbon exploration and production is a high-risk, high-reward sector in which good decision making is indispensable. Actors in this field are faced by numerous uncertainties that have to be considered. Structural geological modeling is of central importance for the assessment of uncertain hydrocarbon accumulations in potential reservoirs. By regarding such modeling as a Bayesian inference problem, additional geological information can be incorporated as likelihood functions linked to prior parameters in a probabilistic framework. Markov chain Monte Carlo sampling is used to approximate posterior models of reduced uncertainty. Here, synthetic geological models are constructed to represent potential hydrocarbon system. Algorithms for automatic trap recognition are developed to enable the reservoir valuation of prior and posterior models. These serve as a base for true value estimation by respective optimization of a case-specific loss function. This function is customized to reflect the decision making of differently risk-affine actors in this context. Results from conducting this for several inference cases show that the various Bayes estimators shift according to the characteristics of the underlying value distribution. While bimodality and overall uncertainty leads to separation, risk-averse and risk-friendly decisions converge and decrease in expected loss given more narrow unimodal distributions. The degree of decision convergence is considered a measure for the state of knowledge and decision uncertainty at the moment of decision making. This decision uncertainty does not change aligned with model uncertainty but depends on alterations of critical parameters and respective interdependencies, relating to seal reliability in particular. Additionally, actors are affected differently by one set of information, as defined by their risk weighting. For good decision making, it appears to be most important to recognize for which parameters reduction of uncertainty leads to changes in decisions.
+Bayesian decision theory is applicable to a wide spectrum of problems. Hydrocarbon exploration and production is a high-risk, high-reward sector in which good decision making is indispensable. Actors in this field are faced by numerous uncertainties that have to be considered. Structural geological modeling is of central importance for the assessment of uncertain hydrocarbon accumulations in potential reservoirs. By regarding such modeling as a Bayesian inference problem, additional geological information can be incorporated as likelihood functions linked to prior parameters in a probabilistic framework. Markov chain Monte Carlo sampling is used to approximate posterior models of reduced uncertainty. Here, synthetic geological models are constructed to represent potential hydrocarbon system. Algorithms for automatic trap recognition are developed to enable the reservoir valuation of prior and posterior models. These serve as a base for true value estimation by respective optimization of a case-specific loss function. This function is customized to reflect the decision making of differently risk-affine actors in this context. Results from conducting this for several inference cases show that the various Bayes estimators shift according to the characteristics of the underlying value distribution. While bimodality and overall uncertainty leads to separation, risk-averse and risk-friendly decisions converge and decrease in expected loss given more narrow unimodal distributions. The degree of decision convergence is considered a measure for the state of knowledge and decisive uncertainty at the moment of decision making. This uncertainty does not change aligned with model uncertainty but depends on alterations of critical parameters and respective interdependencies, relating to seal reliability in particular. Additionally, actors are affected differently by one set of information, as defined by their risk weighting. For good decision making, it appears to be most important to recognize for which parameters reduction of uncertainty leads to changes in decisions.
 
 
 
@@ -97,8 +57,9 @@ Bayesian decision theory is applicable to a wide spectrum of problems. Hydrocarb
 %
 % Acknowledgements
     \nonumchap{Acknowledgements}%
-    First of all I want to thank all the people who have participated in this project ..
-    Remember, often more people have (in some way) contributed to your final thesis than you would initially think of....
+    First and foremost, I wish to express my greatest thanks to my supervisor Miguel de la Varga, for continually supporting and motivating me to pursue a better understanding of computational geosciences and probabilistic methods.
+    
+    I also want to thank all of my friends and fellow researchers
     \vspace*{15mm}
 
     \noindent 
@@ -160,38 +121,38 @@ Bayesian decision theory is applicable to a wide spectrum of problems. Hydrocarb
     \chapter{Appendix}
     \section{Code availability}
     	GemPy and PyMC are both fully open source and to be used in a Python environment. At the time of writing this, GemPy is still under development (Version 0.997). It can be obtained from \url{https://github.com/cgre-aachen/gempy}. PyMC can be downloaded from \url{https://github.com/pymc-devs/pymc} (PyMC2) and \url{https://github.com/pymc-devs/pymc3} (PyMC3).\\
-    	The models, algorithms and functions developed and presented in this work can be found on \url{https://github.com/nre-aachen/Theses/tree/master/Risk analysis}.
-
+    	The models, algorithms and functions developed and presented in this work are accessible as IPython Notebooks on github: \url{https://github.com/nre-aachen/Theses/tree/master/Risk analysis}.
+\newpage
     \section{Additional tables and figures}
     
     \begin{figure}[h]
     	\centering
-    	\includegraphics[width=0.62\textwidth]{Figures/Appendix/update_goodseal1}
+    	\includegraphics[width=0.50\textwidth]{Figures/Appendix/update_goodseal1}
     	\caption{Prior (A1) and posterior distributions (B1) of the layer boundary positions in depth and respective representations (A2, B2) for 1D inference case II.}\label{fig:update_goodseal1}
     \end{figure}
 
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=0.62\textwidth]{Figures/Appendix/update_smallres1}
+		\includegraphics[width=0.50\textwidth]{Figures/Appendix/update_smallres1}
 		\caption{Prior (A1) and posterior distributions (B1) of the layer boundary positions in depth and respective representations (A2, B2) for 1D inference case III.}\label{fig:update_smallres1}
 	\end{figure}
 
     \begin{figure}[h]
     	\centering
     	\includegraphics[width=0.62\textwidth]{Figures/Appendix/CSV_input1}
-    	\caption{3D model construction input data 1: point-positional values for layer interfaces and the fault surface.}\label{fig:CSV_input1}
+    	\caption{3D model construction input data (1): point-positional values for layer interfaces and the fault surface.}\label{fig:CSV_input1}
     \end{figure}
 
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width=0.62\textwidth]{Figures/Appendix/CSV_input2}
-		\caption{3D model construction input data 2: point-positional values for layer interfaces and the fault surface.}\label{fig:CSV_input2}
+		\caption{3D model construction input data (2): point-positional values for layer interfaces and the fault surface.}\label{fig:CSV_input2}
 	\end{figure}
 
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width=1\textwidth]{Figures/Appendix/CSV_input3}
-		\caption{3D model construction input data 3: dip -related values for layer interfaces and the fault surface.}\label{fig:CSV_input3}
+		\caption{3D model construction input data (3): dip-related values for layer interfaces and the fault surface.}\label{fig:CSV_input3}
 	\end{figure}
 
     \begin{figure}[p!]

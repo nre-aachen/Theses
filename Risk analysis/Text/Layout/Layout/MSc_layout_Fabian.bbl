@@ -75,7 +75,7 @@ Chil{\`e}s, J.-P., Aug, C., Guillen, A., and Lees, T. (2004).
 Collignon, M., Fernandez, N., and Kaus, B. (2015).
 \newblock Influence of surface processes and initial topography on lateral fold
   growth and fold linkage mode.
-\newblock pages n/a--n/a.
+\newblock {\em Tectonics}, 34(8):1622--1645.
 
 \bibitem[Dandekar, 2013]{dandekar2013petroleum}
 Dandekar, A.~Y. (2013).
@@ -399,14 +399,8 @@ Wellmann, J.~F., De~la Varga, M., Murdie, R.~E., Gessner, K., and Jessell, M.
   {\em Characterization of Ore-Forming Systems from Geological, Geochemical and
   Geophysical Studies}. Geological Society, London, Special Publications, 453.
 
-\bibitem[Wellmann et~al., 2010a]{Wellmann2010b}
-Wellmann, J.~F., Horowitz, F.~G., Schill, E., and Regenauer-Lieb, K. (2010a).
-\newblock {Towards incorporating uncertainty of structural data in 3D
-  geological inversion}.
-\newblock {\em Tectonophysics}, 490(3-4):141--151.
-
-\bibitem[Wellmann et~al., 2010b]{wellmann2010towards}
-Wellmann, J.~F., Horowitz, F.~G., Schill, E., and Regenauer-Lieb, K. (2010b).
+\bibitem[Wellmann et~al., 2010]{wellmann2010towards}
+Wellmann, J.~F., Horowitz, F.~G., Schill, E., and Regenauer-Lieb, K. (2010).
 \newblock Towards incorporating uncertainty of structural data in 3d geological
   inversion.
 \newblock {\em Tectonophysics}, 490(3):141--151.
