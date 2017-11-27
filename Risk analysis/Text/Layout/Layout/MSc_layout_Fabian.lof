@@ -32,10 +32,9 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4-1}{\ignorespaces ROV distribution of the prior model subdivided by modes into scenarios which could pose decision options (marked by greens lines). Red lines indicated a discretization of decision options according fixed scales of resource allocations for a project. For both cases, zero equals the option to "take no action", i.e. to allocate no resources.\relax }}{60}{figure.caption.48}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A-1}{\ignorespaces ....\relax }}{71}{figure.caption.53}
-\contentsline {figure}{\numberline {A-2}{\ignorespaces ....\relax }}{72}{figure.caption.54}
-\contentsline {figure}{\numberline {A-3}{\ignorespaces ....\relax }}{73}{figure.caption.55}
-\contentsline {figure}{\numberline {A-4}{\ignorespaces ....\relax }}{74}{figure.caption.56}
-\contentsline {figure}{\numberline {A-5}{\ignorespaces ....\relax }}{74}{figure.caption.57}
-\contentsline {figure}{\numberline {A-6}{\ignorespaces ....\relax }}{75}{figure.caption.58}
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A-1}{\ignorespaces Prior (A1) and posterior distributions (B1) of the layer boundary positions in depth and respective representations (A2, B2) for 1D inference case II.\relax }}{72}{figure.caption.53}
+\contentsline {figure}{\numberline {A-2}{\ignorespaces Prior (A1) and posterior distributions (B1) of the layer boundary positions in depth and respective representations (A2, B2) for 1D inference case III.\relax }}{72}{figure.caption.54}
+\contentsline {figure}{\numberline {A-3}{\ignorespaces 3D model construction input data 1: point-positional values for layer interfaces and the fault surface.\relax }}{73}{figure.caption.55}
+\contentsline {figure}{\numberline {A-4}{\ignorespaces 3D model construction input data 2: point-positional values for layer interfaces and the fault surface.\relax }}{74}{figure.caption.56}
+\contentsline {figure}{\numberline {A-5}{\ignorespaces 3D model construction input data 3: dip -related values for layer interfaces and the fault surface.\relax }}{74}{figure.caption.57}
+\contentsline {figure}{\numberline {A-6}{\ignorespaces Summary of results from evaluating posterior model II (3D). Shannon entropies in prior (a) and posterior (b) are compared. So are the mechanisms of maximum trap volume control (c). Prior and posterior ROV probability distributions are shown in (d). Respective loss function and Bayes actions are plotted in (e).\relax }}{75}{figure.caption.58}

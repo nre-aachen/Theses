@@ -1,6 +1,5 @@
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Abstract}{v}{chapter*.1}
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Acknowledgements}{vii}{chapter*.2}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Nomenclature}{xvii}{chapter*.5}
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Acronyms}{xvii}{chapter*.6}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Methods}{3}{chapter.2}
@@ -53,7 +52,6 @@
 \contentsline {subsubsection}{Representativity and limitations of this methodology}{62}{section*.50}
 \contentsline {subsubsection}{Possibilities for future research and extensions}{62}{section*.51}
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{65}{section*.51}
-\contentsline {chapter}{\numberline {A}The back of the thesis}{71}{appendix.A}
-\contentsline {section}{\numberline {A-1}An appendix section}{71}{section.A.1}
-\contentsline {chapter}{\numberline {B}Yet another appendix}{77}{appendix.B}
-\contentsline {section}{\numberline {B-1}Another test section}{77}{section.B.1}
+\contentsline {chapter}{\numberline {A}Appendix}{71}{appendix.A}
+\contentsline {section}{\numberline {A-1}Code availability}{71}{section.A.1}
+\contentsline {section}{\numberline {A-2}Additional tables and figures}{71}{section.A.2}

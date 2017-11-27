@@ -1067,10 +1067,11 @@
     %\end{center} 
  \begin{center}
 % \huge{\textsc{IDEA League}}\\
+ \LARGE{\textsc{RWTH Aachen University}} \\
  \vspace{1em}
  \LARGE{\textsc{Master of Science in Georesources Management}} \\
  \vspace{0.5em}
- \LARGE{\textsc{Research Thesis}} \\
+ \LARGE{\textsc{Master Thesis}} \\
  \end{center}%
  \newcommand{\HRule}{\rule{\linewidth}{1mm}}
  \setlength{\parindent}{0mm}
@@ -1079,10 +1080,34 @@
  \HRule
  \begin{flushright}
  \Huge{\textbf{\textsf{\msctitle}}}\\ \Large{\textbf{\textsf{\mscsubtitle}}} \\[5mm]
- \Large{\textbf{\textsf{ \mscname}}}
+ %\Large{\textbf{\textsf{ \mscname}}}
  \end{flushright}
  \HRule
- \\ \mscdate \\
+  \\ \mscdate \\[1.5cm]
+ 
+\begin{center}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{flushleft} \large
+\textbf{\textsf{Author}}\\
+\mscname % Author name - remove the \href bracket to remove the link
+\end{flushleft}
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\begin{flushright} \large
+
+\textbf{\textsf{Examiners:}}\\
+\mscreaderone \\ %[]0.5cm]% Supervisor name - remove the \href bracket to remove the link
+\mscreadertwo \\ [1cm]
+\textbf{\textsf{Supervisor:}} \\
+\mscreaderthree \\
+
+
+\end{flushright}
+\end{minipage}\\[3cm]
+\end{center}%
+
+%\vfill{}
+
  \vspace*{\stretch{2}}
  \hspace{1cm}
 \end{titlepage}
@@ -1095,7 +1120,10 @@
 \begin{center}
 \Huge{\textbf{\textsf{\msctitle}}}\\ \Large{\textbf{\textsf{\mscsubtitle}}} \\[1cm]
 \Large{\textsc{Master of Science Thesis}}\\[2cm]
-\Large{for the degree of Master of Science in Georesources Management at \par 
+\Large{submitted to the\par 
+Institute of Computational Geoscience and Reservoir Engineering}\\[1cm]
+\Large{for the degree of \par 
+Master of Science in Georesources Management at \par 
 RWTH Aachen University \par % pick here the university where you carried out your MSc research
 %ETH Z\"{u}rich \par
 %RWTH Aachen University\par
@@ -1108,7 +1136,7 @@ by}\\[3cm]
  %
  \begin{center}
  \begin{tabular}{lcr}
- Faculty of Georesources and Material Engineering & $\cdot$ & RWTH Aachen University \\ % Choose here your university and corresponding department.
+Faculty of Georesources and Material Engineering & $\cdot$ & RWTH Aachen University \\ % Choose here your university and corresponding department.
   \end{tabular}
  \end{center}
 
@@ -1126,47 +1154,60 @@ by}\\[3cm]
   %\label{fig:TUDlogo}
 %\end{figure}
 %Copyright $\copyright$ 2013 by IDEA League Joint Master's in Applied Geophysics:
+%\par
+%RWTH Aachen University % pick here the university where %you carried out your MSc research
+%\par
+%All rights reserved.\\
+%No part of the material protected by this copyright notice may be reproduced or utilized in any form or by any means, electronic or mechanical, including photocopying or by any information storage and retrieval system, without permission from this publisher.
 \par
-RWTH Aachen University % pick here the university where %you carried out your MSc research
-\par
-All rights reserved.\\
-No part of the material protected by this copyright notice may be reproduced or utilized in any form or by any means, electronic or mechanical, including photocopying or by any information storage and retrieval system, without permission from this publisher.
-\par
-Printed in Germany % pick here the country of the university where you carried out your MSc research
-\cleardoublepage
+Printed in Aachen, Germany % pick here the country of the university where you carried out your MSc research
+%\cleardoublepage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Readers Page
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\thispagestyle{empty}
-\vspace{10em}
-\begin{center}
+%\thispagestyle{empty}
+%\vspace{10em}
+\ %begin{center}
      %\large IDEA LEAGUE \\
      %MASTER'S IN GEORESOURCES MANAGEMENT \\
-     \vspace{5em}
+     %\vspace{5em}
     	 %Delft University of Technology, The Netherlands\\
     	 %ETH Z\"{u}rich, Switzerland  \\
-    	 RWTH Aachen, Germany
-\end{center}
+    	 %RWTH Aachen, Germany
+%\end{center}
 
-\vspace{1cm}
+%\vspace{1cm}
 
-\vspace{4cm}
+%\vspace{4cm}
 %\vspace{4cm}
 %\vspace{4cm}
 %\vspace{6cm}
 
-\mbox{} \hfill Dated: $\textit{ \today }$
-\vspace{3cm}
+%\mbox{} \hfill Dated: $\textit{ \today }$
+%\vspace{3cm}
 
-\noindent
-Supervisor(s):    \hfill \underline{ \hspace{7cm} }\\
-\mbox{}        \hfill  \mscreaderone \\
-\\
-\mbox{}        \hfill \underline{ \hspace{7cm} }\\
-\mbox{}        \hfill  \mscreadertwo\\
+%\noindent
+%Examiners:    \hfill \underline{ \hspace{7cm} }\\
+%\mbox{}        \hfill  \mscreaderone \\
+%\\[1cm]
+%\mbox{}        \hfill \underline{ \hspace{7cm} }\\
+%\mbox{}        \hfill  \mscreadertwo\\
+%\vspace{3cm}
+%\noindent
+%Supervisor:    \hfill  \mscreaderthree\\
+%
+%\begin{tabular}{l{0.3\textwidth} l{0.3\textwidth} l{0.3\textwidth}}
+%~ & Eex & Urai\\
+%\end{tabular}
+
+
+
+
+
+
 %\hfill \underline{ \hspace{7cm} }\\
 %\mbox{}        \hfill  \mscreaderthree\\
-\\
+%\\
 %\\
 %Committee Members:       \hfill \underline{ \hspace{7cm} }\\
 %\mbox{}        \hfill  \mscreaderone\\
@@ -1240,12 +1281,12 @@ Supervisor(s):    \hfill \underline{ \hspace{7cm} }\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Print nomenclature list
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\printnomencl}{
-\addcontentsline{toc}{chapter}{\numberline{}\nomname}
-\markboth{\nomname}{\nomname}
-\printglossary[0.8in]
-\cleardoublepage
-}
+%\newcommand{\printnomencl}{
+%\addcontentsline{toc}{chapter}{\numberline{}\nomname}
+%\markboth{\nomname}{\nomname}
+%\printglossary[0.8in]
+%\cleardoublepage
+%}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Print bib list
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
