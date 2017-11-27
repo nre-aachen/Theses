@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {2-2}Application in structural geological modeling}{7}{section.2.2}
 \contentsline {subsection}{\numberline {2-2-1}Markov chain Monte Carlo sampling (MCMC)}{9}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2-2-2}Structural geological forward modeling}{11}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2-2-3}Numerical computational implementation via Python, GemPy and PyMC}{12}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2-2-3}Numerical computational implementation}{12}{subsection.2.2.3}
 \contentsline {section}{\numberline {2-3}Model evaluation}{13}{section.2.3}
 \contentsline {subsection}{\numberline {2-3-1}Visualizing uncertainty}{13}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2-3-2}Economic significance of structural geological models as hydrocarbon systems}{15}{subsection.2.3.2}
@@ -25,34 +25,34 @@
 \contentsline {section}{\numberline {2-6}3D geological reservoir model}{28}{section.2.6}
 \contentsline {subsection}{\numberline {2-6-1}Design of the 3D geological reservoir model}{28}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2-6-2}Construction of the uncertain 3D geological reservoir model}{29}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2-6-3}Determination of the trap volume}{29}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2-6-3}Determination of the trap volume}{30}{subsection.2.6.3}
 \contentsline {subsection}{\numberline {2-6-4}Finding the decisive spill or leak point of a trap}{32}{subsection.2.6.4}
 \contentsline {subsection}{\numberline {2-6-5}Checking for juxtapositions and possible fault sealing}{35}{subsection.2.6.5}
-\contentsline {subsection}{\numberline {2-6-6}Calculating the maximum trap volume}{35}{subsection.2.6.6}
+\contentsline {subsection}{\numberline {2-6-6}Calculating the maximum trap volume}{36}{subsection.2.6.6}
 \contentsline {subsection}{\numberline {2-6-7}Implementation of reservoir-related likelihoods in the 3D model}{36}{subsection.2.6.7}
 \contentsline {subsection}{\numberline {2-6-8}Bayesian analysis and evaluation for the 3D geological model}{37}{subsection.2.6.8}
 \contentsline {chapter}{\numberline {3}Results}{39}{chapter.3}
 \contentsline {section}{\numberline {3-1}1D geological reservoir model results}{39}{section.3.1}
 \contentsline {subsection}{\numberline {3-1-1}Scoring}{39}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3-1-2}Bayesian inference using thickness likelihoods}{40}{subsection.3.1.2}
-\contentsline {subsubsection}{Inference case I: Moderately reinforcing or ambivalent information}{42}{section*.27}
-\contentsline {subsubsection}{Inference case II: Likely reliable seal}{43}{section*.29}
-\contentsline {subsubsection}{Inference case III: Safe seal but likely subpar reservoir thickness}{43}{section*.31}
-\contentsline {section}{\numberline {3-2}3D geological model results}{45}{section.3.2}
-\contentsline {subsection}{\numberline {3-2-1}Prior model}{46}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3-2-2}Posterior model I: Seal and reservoir likely thick}{48}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3-2-3}Posterior model II: Likely thin reservoir formation}{50}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3-2-4}Posterior model III: Likely very thin seal}{50}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3-2-5}Posterior model IV: SSF likelihood reinforcing trap reliability}{52}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3-2-6}Posterior model V: Controversial information about the Shale Smear Factor}{54}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3-1-2}Bayesian inference using thickness likelihood functions}{40}{subsection.3.1.2}
+\contentsline {subsubsection}{1D - Inference case I: Moderately reinforcing information}{42}{section*.28}
+\contentsline {subsubsection}{1D - Inference case II: Likely reliable seal}{43}{section*.30}
+\contentsline {subsubsection}{1D - Inference case III: Safe seal but likely subpar reservoir thickness}{45}{section*.32}
+\contentsline {section}{\numberline {3-2}3D geological model results}{46}{section.3.2}
+\contentsline {subsection}{\numberline {3-2-1}3D - Prior model}{46}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3-2-2}3D - Posterior model I: Seal and reservoir likely thick}{48}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3-2-3}3D - Posterior model II: Likely thin reservoir formation}{50}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3-2-4}3D - Posterior model III: Likely thin seal}{51}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3-2-5}3D - Posterior model IV: SSF likelihood reinforcing trap reliability}{53}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3-2-6}3D - Posterior model V: Controversial information about the Shale Smear Factor}{56}{subsection.3.2.6}
 \contentsline {chapter}{\numberline {4}Discussion}{57}{chapter.4}
-\contentsline {subsubsection}{State of knowledge, decision uncertainty and consequent decision making via loss function optimization}{57}{section*.44}
-\contentsline {subsubsection}{Impact of additional information on decision making}{58}{section*.45}
-\contentsline {subsubsection}{Value distribution modes as possible model scenarios and potential decision options}{60}{section*.46}
-\contentsline {subsubsection}{Comparison to common practices and other research in the hydrocarbon sector}{61}{section*.48}
-\contentsline {subsubsection}{Representativity and limitations of this methodology}{61}{section*.49}
-\contentsline {subsubsection}{Possibilities for future research and extensions}{62}{section*.50}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{65}{section*.50}
+\contentsline {subsubsection}{State of knowledge, decision uncertainty and consequent decision making via loss function optimization}{57}{section*.45}
+\contentsline {subsubsection}{Impact of additional information on decision making}{58}{section*.46}
+\contentsline {subsubsection}{Value distribution modes as possible model scenarios and potential decision options}{60}{section*.47}
+\contentsline {subsubsection}{Comparison to common practices and research in the hydrocarbon sector}{61}{section*.49}
+\contentsline {subsubsection}{Representativity and limitations of this methodology}{62}{section*.50}
+\contentsline {subsubsection}{Possibilities for future research and extensions}{62}{section*.51}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{65}{section*.51}
 \contentsline {chapter}{\numberline {A}The back of the thesis}{71}{appendix.A}
 \contentsline {section}{\numberline {A-1}An appendix section}{71}{section.A.1}
 \contentsline {chapter}{\numberline {B}Yet another appendix}{77}{appendix.B}

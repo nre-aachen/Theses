@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[Ahmed and Meehan, 2011]{ahmed2011advanced}
+Ahmed, T.~H. and Meehan, D.~N. (2011).
+\newblock {\em Advanced reservoir management and engineering}.
+\newblock Gulf Professional Publishing.
+
 \bibitem[Ashby, 2006]{ashby2006bayesian}
 Ashby, D. (2006).
 \newblock Bayesian statistics in medicine: a 25 year review.
@@ -26,6 +31,11 @@ Behnel, S., Bradshaw, R., Citro, C., Dalcin, L., Seljebotn, D.~S., and K, S.
   (2010).
 \newblock Cython: The best of both worlds.
 \newblock {\em Computing in Science & Engineering}, 13(2).
+
+\bibitem[Ben-Gal, 2007]{ben2007bayesian}
+Ben-Gal, I. (2007).
+\newblock Bayesian networks.
+\newblock {\em Encyclopedia of statistics in quality and reliability}.
 
 \bibitem[Berger, 2013]{berger2013stat}
 Berger, J.~O. (2013).
@@ -66,6 +76,11 @@ Collignon, M., Fernandez, N., and Kaus, B. (2015).
 \newblock Influence of surface processes and initial topography on lateral fold
   growth and fold linkage mode.
 \newblock pages n/a--n/a.
+
+\bibitem[Dandekar, 2013]{dandekar2013petroleum}
+Dandekar, A.~Y. (2013).
+\newblock {\em Petroleum reservoir rock and fluid properties}.
+\newblock CRC press.
 
 \bibitem[Davidson-Pilon, 2015]{davidson2015}
 Davidson-Pilon, C. (2015).
@@ -251,6 +266,12 @@ Metropolis, N., Rosenbluth, A.~W., Rosenbluth, M.~N., Teller, A.~H., and
 \newblock Equation of state calculations by fast computing machines.
 \newblock {\em The journal of chemical physics}, 21(6):1087--1092.
 
+\bibitem[Morton-Thompson et~al., 1993]{morton1993development}
+Morton-Thompson, D., Woods, A.~M., et~al. (1993).
+\newblock {\em Development Geology Reference Manual: AAPG Methods in
+  Exploration Series, No. 10}.
+\newblock Number~10. AAPG.
+
 \bibitem[Mosegaard et~al., 2002]{mosegaard2002probabilistic}
 Mosegaard, K., Tarantola, A., et~al. (2002).
 \newblock Probabilistic approach to inverse problems.
@@ -273,6 +294,11 @@ Mudford, B. et~al. (2000).
 Murtha, J.~A. et~al. (1997).
 \newblock Monte carlo simulation: its status and future.
 \newblock {\em Journal of Petroleum Technology}, 49(04):361--373.
+
+\bibitem[North, 1985]{north1985petroleum}
+North, F. (1985).
+\newblock {\em Petroleum Geology}.
+\newblock Springer Netherlands.
 
 \bibitem[Patil et~al., 2010]{patil2010pymc}
 Patil, A., Huard, D., and Fonnesbeck, C.~J. (2010).
@@ -299,6 +325,11 @@ Schmatz, J., Vrolijk, P., and Urai, J. (2010).
 \newblock Clay smear in normal fault zones--the effect of multilayers and clay
   cementation in water-saturated model experiments.
 \newblock {\em Journal of Structural Geology}, 32(11):1834--1849.
+
+\bibitem[Selley and Sonnenberg, 2014]{selley2014elements}
+Selley, R.~C. and Sonnenberg, S.~A. (2014).
+\newblock {\em Elements of petroleum geology}.
+\newblock Academic Press.
 
 \bibitem[Shannon, 1948]{shannon1948mathematical}
 Shannon, C.~E. (1948).
