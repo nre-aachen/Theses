@@ -18,8 +18,8 @@
 \BOOKMARK [2][-]{subsection.2.3.3}{Original oil-in-place and recoverable volumes as value measures}{section.2.3}% 18
 \BOOKMARK [1][-]{section.2.4}{Designing a case-specific loss function}{chapter.2}% 19
 \BOOKMARK [2][-]{subsection.2.4.1}{Including different risk-affinities in the loss function}{section.2.4}% 20
-\BOOKMARK [1][-]{section.2.5}{1D geological reservoir modeling}{chapter.2}% 21
-\BOOKMARK [2][-]{subsection.2.5.1}{Construction of the 1D geological model}{section.2.5}% 22
+\BOOKMARK [1][-]{section.2.5}{1D geological reservoir model}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.5.1}{Construction of the uncertain 1D geological model}{section.2.5}% 22
 \BOOKMARK [2][-]{subsection.2.5.2}{Abstract valuation of the 1D geological model}{section.2.5}% 23
 \BOOKMARK [1][-]{section.2.6}{3D geological reservoir model}{chapter.2}% 24
 \BOOKMARK [2][-]{subsection.2.6.1}{Design of the 3D geological reservoir model}{section.2.6}% 25
@@ -34,10 +34,10 @@
 \BOOKMARK [1][-]{section.3.1}{1D geological reservoir model results}{chapter.3}% 34
 \BOOKMARK [2][-]{subsection.3.1.1}{Scoring}{section.3.1}% 35
 \BOOKMARK [2][-]{subsection.3.1.2}{Bayesian inference using thickness likelihood functions}{section.3.1}% 36
-\BOOKMARK [3][-]{section*.28}{1D - Inference case I: Moderately reinforcing information}{subsection.3.1.2}% 37
-\BOOKMARK [3][-]{section*.30}{1D - Inference case II: Likely reliable seal}{subsection.3.1.2}% 38
-\BOOKMARK [3][-]{section*.32}{1D - Inference case III: Safe seal but likely subpar reservoir thickness}{subsection.3.1.2}% 39
-\BOOKMARK [1][-]{section.3.2}{3D geological model results}{chapter.3}% 40
+\BOOKMARK [3][-]{section*.29}{1D - Inference case I: Moderately reinforcing information}{subsection.3.1.2}% 37
+\BOOKMARK [3][-]{section*.31}{1D - Inference case II: Likely reliable seal}{subsection.3.1.2}% 38
+\BOOKMARK [3][-]{section*.33}{1D - Inference case III: Safe seal but likely subpar reservoir thickness}{subsection.3.1.2}% 39
+\BOOKMARK [1][-]{section.3.2}{3D geological reservoir model results}{chapter.3}% 40
 \BOOKMARK [2][-]{subsection.3.2.1}{3D - Prior model}{section.3.2}% 41
 \BOOKMARK [2][-]{subsection.3.2.2}{3D - Posterior model I: Seal and reservoir likely thick}{section.3.2}% 42
 \BOOKMARK [2][-]{subsection.3.2.3}{3D - Posterior model II: Likely thin reservoir formation}{section.3.2}% 43
@@ -45,13 +45,13 @@
 \BOOKMARK [2][-]{subsection.3.2.5}{3D - Posterior model IV: SSF likelihood reinforcing trap reliability}{section.3.2}% 45
 \BOOKMARK [2][-]{subsection.3.2.6}{3D - Posterior model V: Controversial information about the Shale Smear Factor}{section.3.2}% 46
 \BOOKMARK [0][-]{chapter.4}{Discussion}{}% 47
-\BOOKMARK [1][-]{section*.45}{State of knowledge, decision uncertainty and consequent decision making via loss function optimization}{chapter.4}% 48
-\BOOKMARK [2][-]{section*.46}{Impact of additional information on decision making}{section*.45}% 49
-\BOOKMARK [3][-]{section*.47}{Value distribution modes as possible model scenarios and potential decision options}{section*.46}% 50
-\BOOKMARK [3][-]{section*.49}{Comparison to common practices and research in the hydrocarbon sector}{section*.46}% 51
-\BOOKMARK [3][-]{section*.50}{Representativity and limitations of this methodology}{section*.46}% 52
-\BOOKMARK [3][-]{section*.51}{Possibilities for future research and extensions}{section*.46}% 53
-\BOOKMARK [0][-]{section*.51}{Bibliography}{}% 54
+\BOOKMARK [1][-]{section*.46}{State of knowledge, decision uncertainty and consequent decision making via loss function optimization}{chapter.4}% 48
+\BOOKMARK [2][-]{section*.47}{Impact of additional information on decision making}{section*.46}% 49
+\BOOKMARK [3][-]{section*.48}{Value distribution modes as possible model scenarios and potential decision options}{section*.47}% 50
+\BOOKMARK [3][-]{section*.50}{Comparison to common practices and research in the hydrocarbon sector}{section*.47}% 51
+\BOOKMARK [3][-]{section*.51}{Representativity and limitations of this methodology}{section*.47}% 52
+\BOOKMARK [3][-]{section*.52}{Possibilities for future research and extensions}{section*.47}% 53
+\BOOKMARK [0][-]{section*.52}{Bibliography}{}% 54
 \BOOKMARK [0][-]{appendix.A}{Appendix}{}% 55
 \BOOKMARK [1][-]{section.A.1}{Code availability}{appendix.A}% 56
 \BOOKMARK [1][-]{section.A.2}{Additional tables and figures}{appendix.A}% 57

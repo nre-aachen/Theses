@@ -1,17 +1,19 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  28 NOV 2017 00:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.7.19)  28 NOV 2017 17:57
 entering extended mode
-**./MSc_layout_Fabian.tex
-(MSc_layout_Fabian.tex
-LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-(MScThesis.cls
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**MSc_layout_Fabian.tex
+(./MSc_layout_Fabian.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 5 language(s) loaded.
+(./MScThesis.cls
 
 LaTeX Warning: You have requested document class `MScThesis',
                but the document class provides `mscThesis'.
 
 Document Class: mscThesis 2013/11/20 v1.0f Standard IDEA League Applied Geophys
 ics MSc thesis class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk11.clo"
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
 File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,10 +24,10 @@ File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \c@paragraph=\count84
 \c@subparagraph=\count85
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ntheorem\ntheorem.sty"
+(/home/bl9/texmf/tex/latex/ntheorem/ntheorem.sty
 Style `ntheorem', Version 1.33 <2011/08/15>
 Package: ntheorem 2011/08/15 1.33
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \theorem@style=\toks14
@@ -67,34 +69,34 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \belowcaptionskip=\skip50
 \bibindent=\dimen106
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
-Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/05/22 v2.16c rotated objects in LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks32
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count90
@@ -108,46 +110,44 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \rot@float@box=\box26
 \rot@mess@toks=\toks33
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\syntonly.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/syntonly.sty
 Package: syntonly 1999/09/17 v2.1e Standard LaTeX2e package
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\a4wide\a4wide.sty"
+(/home/bl9/texmf/tex/latex/a4wide/a4wide.sty
 Package: a4wide 1994/08/30
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ntgclass\a4.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/ntgclass/a4.sty
 Package: a4 2004/04/15 v1.2g A4 based page layout
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip53
-\f@nch@O@elh=\skip54
-\f@nch@O@erh=\skip55
-\f@nch@O@olh=\skip56
-\f@nch@O@orh=\skip57
-\f@nch@O@elf=\skip58
-\f@nch@O@erf=\skip59
-\f@nch@O@olf=\skip60
-\f@nch@O@orf=\skip61
-) (changebar.sty
+(/home/bl9/texmf/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip53
+\f@ncyO@elh=\skip54
+\f@ncyO@erh=\skip55
+\f@ncyO@olh=\skip56
+\f@ncyO@orh=\skip57
+\f@ncyO@elf=\skip58
+\f@ncyO@erf=\skip59
+\f@ncyO@olf=\skip60
+\f@ncyO@orf=\skip61
+) (./changebar.sty
 Package: changebar 2000/09/26 v3.3j Indicate changes with marginal bars
 \cb@nextpoint=\count92
 \cb@topleft=\count93
@@ -169,11 +169,12 @@ Package: changebar 2000/09/26 v3.3j Indicate changes with marginal bars
 \cb@read=\read1
 \openout3 = `MSc_layout_Fabian.cb'.
 
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\theorem.sty")
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/theorem.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen114
@@ -187,35 +188,35 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \c@ContinuedFloat=\count100
 Package caption Info: rotating package is loaded.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\psfrag\psfrag.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/psfrag/psfrag.sty
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
 \pfg@pcount=\count101
 \pfg@scount=\count102
 \pfg@temp=\write4
-) (nomencl.sty
+) (./nomencl.sty
 Package: nomencl 2000/12/03 v3.1a Nomenclature package (BS)
 \nomlabelwidth=\dimen121
 \nom@tempdim=\dimen122
 \nomitemsep=\skip65
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen123
 \epsfysize=\dimen124
-) (eso-pic.sty
+) (./eso-pic.sty
 Package: eso-pic 2002/11/16 v1.1b eso-pic (RN)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-)) (fncychap.sty
+)) (./fncychap.sty
 Package: fncychap 1997/04/06 v1.11 LaTeX package (Revised chapters)
 \RW=\skip66
 \mylen=\skip67
@@ -225,7 +226,7 @@ Package: fncychap 1997/04/06 v1.11 LaTeX package (Revised chapters)
 \pyy=\skip71
 \pxx=\skip72
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\sidecap\sidecap.sty"
+(/home/bl9/texmf/tex/latex/sidecap/sidecap.sty
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
 \SC@BOXWD=\dimen125
 \SC@CAPWD=\dimen126
@@ -234,41 +235,41 @@ Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
 \c@SC@C=\count103
 \SC@BOX=\box27
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/11/05 v2.16a AMS math features
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/06/28 v2.15d AMS math features
 \@mathmargin=\skip73
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks34
 \ex@=\dimen129
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen130
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count104
-LaTeX Info: Redefining \frac on input line 213.
+LaTeX Info: Redefining \frac on input line 199.
 \uproot@=\count105
 \leftroot@=\count106
-LaTeX Info: Redefining \overline on input line 375.
+LaTeX Info: Redefining \overline on input line 297.
 \classnum@=\count107
 \DOTSCASE@=\count108
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box28
 \strutbox@=\box29
 \big@size=\dimen131
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \macc@depth=\count109
 \c@MaxMatrixCols=\count110
 \dotsspace@=\muskip10
@@ -289,30 +290,30 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \multlinegap=\skip74
 \multlinetaggap=\skip75
 \mathdisplay@stack=\toks38
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\units\nicefrac.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip76
 \L@UnitsRaiseTextstyle=\skip77
 \L@UnitsRaiseScriptstyle=\skip78
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box30
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count116
 \lst@gtempboxa=\box31
 \lst@token=\toks39
@@ -326,22 +327,22 @@ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \lst@lineno=\count121
 \lst@maxwidth=\dimen141
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count122
 \lst@skipnumbers=\count123
 \lst@framebox=\box32
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen142
 \extrarowheight=\dimen143
 \NC@list=\toks40
@@ -351,17 +352,17 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \everycr=\toks41
 \minrowclearance=\skip81
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\acronym\acronym.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty
 Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\bigfoot\suffix.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write5
 \integerpart=\count124
 \decimalpart=\count125
@@ -372,14 +373,14 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
 \c@example=\count126
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -389,7 +390,7 @@ Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -397,7 +398,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -419,54 +420,54 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen144
 \Hy@linkcounter=\count127
 \Hy@pagecounter=\count128
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count129
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Hyper figures OFF on input line 4486.
+Package hyperref Info: Link nesting OFF on input line 4491.
+Package hyperref Info: Hyper index ON on input line 4494.
+Package hyperref Info: Plain pages OFF on input line 4501.
+Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
+Package hyperref Info: Bookmarks ON on input line 4735.
 \c@Hy@tempcnt=\count130
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5088.
 \XeTeXLinkMargin=\dimen145
 \Fld@menulength=\count131
 \Field@Width=\dimen146
 \Fld@charsize=\dimen147
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
+Package hyperref Info: Hyper figures OFF on input line 6342.
+Package hyperref Info: Link nesting OFF on input line 6347.
+Package hyperref Info: Hyper index ON on input line 6350.
+Package hyperref Info: backreferencing OFF on input line 6357.
+Package hyperref Info: Link coloring OFF on input line 6362.
+Package hyperref Info: Link coloring with OCG OFF on input line 6367.
+Package hyperref Info: PDF/A mode OFF on input line 6372.
+LaTeX Info: Redefining \ref on input line 6412.
+LaTeX Info: Redefining \pageref on input line 6416.
 \Hy@abspage=\count132
 \c@Item=\count133
 \c@Hfootnote=\count134
@@ -474,12 +475,12 @@ LaTeX Info: Redefining \pageref on input line 6432.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
 \Fld@listcount=\count135
 \c@bookmark@seq@number=\count136
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -488,19 +489,19 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 1335.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip83
 \bibsep=\skip84
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count137
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count138
 \c@subtable=\count139
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen148
 \WF@size=\dimen149
 \c@WF@wrappedlines=\count140
@@ -508,8 +509,8 @@ Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \WF@everypar=\toks43
 Package: wrapfig 2003/01/31  v 3.6
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen150
 \lightrulewidth=\dimen151
 \cmidrulewidth=\dimen152
@@ -528,10 +529,10 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count144
 \@thisrulewidth=\dimen162
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
-Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count145
 \calc@Bcount=\count146
@@ -547,8 +548,8 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \AM@pagewidth=\dimen165
 \AM@pageheight=\dimen166
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
-File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box34
 \AM@global@opts=\toks44
@@ -565,8 +566,8 @@ Writing glossary file MSc_layout_Fabian.glo
 \openout7 = `MSc_layout_Fabian.idx'.
 
 Writing index file MSc_layout_Fabian.idx
-(MSc_layout_Fabian.aux (chapter1.aux) (chapter2_methods.aux)
-(chapter3_results.aux) (chapter4_discussion.aux))
+(./MSc_layout_Fabian.aux (./chapter1.aux) (./chapter2_methods.aux)
+(./chapter3_results.aux) (./chapter4_discussion.aux))
 \openout1 = `MSc_layout_Fabian.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -584,7 +585,7 @@ LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count149
 \scratchdimen=\dimen167
@@ -597,10 +598,10 @@ LaTeX Font Info:    ... okay on input line 34.
 \MPnumerator=\count153
 \makeMPintoPDFobject=\count154
 \everyMPtoPDFconversion=\toks47
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -609,7 +610,11 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -618,10 +623,10 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
-("C:\Program Files\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everysel.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 
 ABD: EverySelectfont initializing macros
@@ -646,10 +651,10 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \AtBeginShipoutBox=\box37
 Package hyperref Info: Link coloring ON on input line 34.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count156
@@ -658,23 +663,899 @@ LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
 LaTeX Info: Redefining \nameref on input line 34.
 
-(MSc_layout_Fabian.out) (MSc_layout_Fabian.out
-! I can't write on file `MSc_layout_Fabian.pdf'.
-Please type another file name for output
-! Emergency stop.
-\Hy@OutlineName ...utline goto name{#2}count#3{#4}
-                                                  
-l.1 \BOOKMARK [0][-]{chapter*.1}{Abstract}{}
-                                            % 1
-*** (job aborted, file error in nonstop mode)
+(./MSc_layout_Fabian.out) (./MSc_layout_Fabian.out)
+\@outlinefile=\write8
+\openout8 = `MSc_layout_Fabian.out'.
 
- 
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 42.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 42.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+Non-PDF special ignored!
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[2]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./eidesstattliche_erklaerung.pdf): PDF 
+inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<eidesstattliche_erklaerung.pdf, id=246, 597.55246pt x 845.07718pt>
+File: eidesstattliche_erklaerung.pdf Graphic file (type pdf)
+
+<use eidesstattliche_erklaerung.pdf>
+Package pdftex.def Info: eidesstattliche_erklaerung.pdf used on input line 42.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./eidesstattliche_erklaerung.pdf): PDF 
+inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+File: eidesstattliche_erklaerung.pdf Graphic file (type pdf)
+<use eidesstattliche_erklaerung.pdf>
+Package pdftex.def Info: eidesstattliche_erklaerung.pdf used on input line 42.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./eidesstattliche_erklaerung.pdf): PDF 
+inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./eidesstattliche_erklaerung.pdf): PDF 
+inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<eidesstattliche_erklaerung.pdf, id=249, page=1, 597.55246pt x 845.07718pt>
+File: eidesstattliche_erklaerung.pdf Graphic file (type pdf)
+
+<use eidesstattliche_erklaerung.pdf, page 1>
+Package pdftex.def Info: eidesstattliche_erklaerung.pdf, page1 used on input li
+ne 42.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: eidesstattliche_erklaerung.pdf Graphic file (type pdf)
+
+<use eidesstattliche_erklaerung.pdf, page 1>
+Package pdftex.def Info: eidesstattliche_erklaerung.pdf, page1 used on input li
+ne 42.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: eidesstattliche_erklaerung.pdf Graphic file (type pdf)
+
+<use eidesstattliche_erklaerung.pdf, page 1>
+Package pdftex.def Info: eidesstattliche_erklaerung.pdf, page1 used on input li
+ne 42.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: eidesstattliche_erklaerung.pdf Graphic file (type pdf)
+
+<use eidesstattliche_erklaerung.pdf, page 1>
+Package pdftex.def Info: eidesstattliche_erklaerung.pdf, page1 used on input li
+ne 42.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: eidesstattliche_erklaerung.pdf Graphic file (type pdf)
+
+<use eidesstattliche_erklaerung.pdf, page 1>
+Package pdftex.def Info: eidesstattliche_erklaerung.pdf, page1 used on input li
+ne 42.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+ [3
+
+ <./eidesstattliche_erklaerung.pdf>] [4
+
+] [5
+
+] [6
+
+] [7
+
+] [8
+
+] (./MSc_layout_Fabian.toc [9])
+\tf@toc=\write9
+\openout9 = `MSc_layout_Fabian.toc'.
+
+ [10]
+(./MSc_layout_Fabian.lof
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 20.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+[14])
+\tf@lof=\write10
+\openout10 = `MSc_layout_Fabian.lof'.
+
+ [15] [16
+
+] (./MSc_layout_Fabian.lot)
+\tf@lot=\write11
+\openout11 = `MSc_layout_Fabian.lot'.
+
+ [17
+
+] [18
+
+] [19
+
+
+] [20
+
+]
+\openout2 = `chapter1.aux'.
+
+ (./chapter1.tex
+Chapter 1.
+) [1
+
+
+
+
+] [2]
+\openout2 = `chapter2_methods.aux'.
+
+ (./chapter2_methods.tex
+Chapter 2.
+[3
+
+
+
+] [4] <Figures/abs_sqr_det.png, id=871, 399.4925pt x 385.44pt>
+File: Figures/abs_sqr_det.png Graphic file (type png)
+
+<use Figures/abs_sqr_det.png>
+Package pdftex.def Info: Figures/abs_sqr_det.png used on input line 43.
+(pdftex.def)             Requested size: 221.32687pt x 213.53944pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] <Figures/loss_functions2.png, id=905, 1180.6509pt x 509.2626pt>
+File: Figures/loss_functions2.png Graphic file (type png)
+
+<use Figures/loss_functions2.png>
+Package pdftex.def Info: Figures/loss_functions2.png used on input line 58.
+(pdftex.def)             Requested size: 442.65375pt x 190.93414pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <./Figures/abs_sqr_det.png>] [7 <./Figures/loss_functions2.png>]
+<Figures/joint_prob.PNG, id=964, 1108.14pt x 536.75531pt>
+File: Figures/joint_prob.PNG Graphic file (type png)
+
+<use Figures/joint_prob.PNG>
+Package pdftex.def Info: Figures/joint_prob.PNG used on input line 98.
+(pdftex.def)             Requested size: 354.12434pt x 171.52768pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8] [9 <./Figures/joint_prob.PNG>] [10]
+<Figures/calcagno_pot_field.png, id=1095, 1138.2525pt x 570.13pt>
+File: Figures/calcagno_pot_field.png Graphic file (type png)
+
+<use Figures/calcagno_pot_field.png>
+Package pdftex.def Info: Figures/calcagno_pot_field.png used on input line 146.
+
+(pdftex.def)             Requested size: 442.65375pt x 221.71474pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11] [12 <./Figures/calcagno_pot_field.png>]
+<Figures/information_entropy.png, id=1181, 955.57pt x 875.27pt>
+File: Figures/information_entropy.png Graphic file (type png)
+
+<use Figures/information_entropy.png>
+Package pdftex.def Info: Figures/information_entropy.png used on input line 173
+.
+(pdftex.def)             Requested size: 442.65375pt x 405.4471pt.
+ [13] [14] [15 <./Figures/information_entropy.png>] [16] <Figures/trap_closure1
+.png, id=1304, 523.9575pt x 500.87125pt>
+File: Figures/trap_closure1.png Graphic file (type png)
+
+<use Figures/trap_closure1.png>
+Package pdftex.def Info: Figures/trap_closure1.png used on input line 203.
+(pdftex.def)             Requested size: 221.32687pt x 211.57202pt.
+
+<Figures/fault_trap_mechA1.png, id=1312, 1279.78125pt x 671.50874pt>
+File: Figures/fault_trap_mechA1.png Graphic file (type png)
+
+<use Figures/fault_trap_mechA1.png>
+Package pdftex.def Info: Figures/fault_trap_mechA1.png used on input line 212.
+(pdftex.def)             Requested size: 354.12434pt x 185.80794pt.
+
+<Figures/fault_trap_mechB1.png, id=1313, 301.125pt x 673.51625pt>
+File: Figures/fault_trap_mechB1.png Graphic file (type png)
+
+<use Figures/fault_trap_mechB1.png>
+Package pdftex.def Info: Figures/fault_trap_mechB1.png used on input line 217.
+(pdftex.def)             Requested size: 79.67442pt x 178.20348pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17 <./Figures/trap_closure1.png>]
+<Figures/SSF.PNG, id=1351, 578.16pt x 632.3625pt>
+File: Figures/SSF.PNG Graphic file (type png)
+ <use Figures/SSF.PNG>
+Package pdftex.def Info: Figures/SSF.PNG used on input line 228.
+(pdftex.def)             Requested size: 309.85626pt x 338.90402pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18 <./Figures/fault_trap_mechA1.png> <./Figures/fault_trap_mechB1.png>]
+[19 <./Figures/SSF.PNG>] [20]
+<Figures/LF_4steps_normal2.png, id=1451, 1131.0255pt x 893.4981pt>
+File: Figures/LF_4steps_normal2.png Graphic file (type png)
+
+<use Figures/LF_4steps_normal2.png>
+Package pdftex.def Info: Figures/LF_4steps_normal2.png used on input line 265.
+(pdftex.def)             Requested size: 442.65375pt x 349.68988pt.
+ [21]
+<Figures/LF4_det_values.png, id=1458, 1195.46625pt x 512.91624pt>
+File: Figures/LF4_det_values.png Graphic file (type png)
+
+<use Figures/LF4_det_values.png>
+Package pdftex.def Info: Figures/LF4_det_values.png used on input line 297.
+(pdftex.def)             Requested size: 442.65375pt x 189.92474pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22] [23 <./Figures/LF_4steps_normal2.png>] [24 <./Figures/LF4_det_values.png>]
+<Figures/LFR_normal2.png, id=1500, 1199.48125pt x 515.9275pt>
+File: Figures/LFR_normal2.png Graphic file (type png)
+
+<use Figures/LFR_normal2.png>
+Package pdftex.def Info: Figures/LFR_normal2.png used on input line 331.
+(pdftex.def)             Requested size: 442.65375pt x 190.39423pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/1D_model.png, id=1509, 921.4425pt x 399.4925pt>
+File: Figures/1D_model.png Graphic file (type png)
+
+<use Figures/1D_model.png>
+Package pdftex.def Info: Figures/1D_model.png used on input line 341.
+(pdftex.def)             Requested size: 442.65375pt x 191.9127pt.
+ [25]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[26 <./Figures/LFR_normal2.png>]
+<Figures/3_parameters.png, id=1528, 1188.44pt x 344.28625pt>
+File: Figures/3_parameters.png Graphic file (type png)
+
+<use Figures/3_parameters.png>
+Package pdftex.def Info: Figures/3_parameters.png used on input line 358.
+(pdftex.def)             Requested size: 442.65375pt x 128.23495pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[27 <./Figures/1D_model.png>] [28 <./Figures/3_parameters.png>]
+<Figures/Uncertainties_Likelihoods.png, id=1553, 846.0408pt x 552.3837pt>
+File: Figures/Uncertainties_Likelihoods.png Graphic file (type png)
+
+<use Figures/Uncertainties_Likelihoods.png>
+Package pdftex.def Info: Figures/Uncertainties_Likelihoods.png used on input li
+ne 387.
+(pdftex.def)             Requested size: 442.65375pt x 289.0112pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29] <Figures/Trap_Cond_H.png, id=1561, 580.3281pt x 553.5882pt>
+File: Figures/Trap_Cond_H.png Graphic file (type png)
+
+<use Figures/Trap_Cond_H.png>
+Package pdftex.def Info: Figures/Trap_Cond_H.png used on input line 401.
+(pdftex.def)             Requested size: 442.65375pt x 422.26031pt.
+ [30 <./Figures/Uncertainties_Likelihoods.png (PNG copy)>] [31 <./Figures/Trap_
+Cond_H.png (PNG copy)>] [32]
+<Figures/Saddle_Point_between_maxima.png, id=1601, 748.7975pt x 511.9125pt>
+File: Figures/Saddle_Point_between_maxima.png Graphic file (type png)
+
+<use Figures/Saddle_Point_between_maxima.png>
+Package pdftex.def Info: Figures/Saddle_Point_between_maxima.png used on input 
+line 427.
+(pdftex.def)             Requested size: 442.65375pt x 302.6194pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/Saddle_point_flow.png, id=1606, 917.4275pt x 675.52374pt>
+File: Figures/Saddle_point_flow.png Graphic file (type png)
+
+<use Figures/Saddle_point_flow.png>
+Package pdftex.def Info: Figures/Saddle_point_flow.png used on input line 448.
+(pdftex.def)             Requested size: 442.65375pt x 325.93817pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34 <./Figures/Saddle_Point_between_maxima.png>] [35 <./Figures/Saddle_point_f
+low.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 470--473
+
+ []
+
+[36] <Figures/model_network.png, id=1649, 1353.055pt x 1012.78375pt>
+File: Figures/model_network.png Graphic file (type png)
+
+<use Figures/model_network.png>
+Package pdftex.def Info: Figures/model_network.png used on input line 487.
+(pdftex.def)             Requested size: 442.65375pt x 331.3298pt.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 488.
+
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [37] [38 <./Figures/model_network.png>]
+\openout2 = `chapter3_results.aux'.
+
+ (./chapter3_results.tex
+Chapter 3.
+<Figures/score_results1.png, id=1664, 1055.945pt x 399.4925pt>
+File: Figures/score_results1.png Graphic file (type png)
+
+<use Figures/score_results1.png>
+Package pdftex.def Info: Figures/score_results1.png used on input line 8.
+(pdftex.def)             Requested size: 442.65375pt x 167.46262pt.
+
+<Figures/LFR.png, id=1672, 939.51pt x 399.4925pt>
+File: Figures/LFR.png Graphic file (type png)
+ <use Figures/LFR.png>
+Package pdftex.def Info: Figures/LFR.png used on input line 22.
+(pdftex.def)             Requested size: 442.65375pt x 188.21867pt.
+
+[39
+
+
+
+ <./Figures/score_results1.png>]
+<Figures/update_moderate1.png, id=1682, 921.6834pt x 836.4048pt>
+File: Figures/update_moderate1.png Graphic file (type png)
+
+<use Figures/update_moderate1.png>
+Package pdftex.def Info: Figures/update_moderate1.png used on input line 33.
+(pdftex.def)             Requested size: 442.65375pt x 401.69946pt.
+
+Overfull \hbox (9.55438pt too wide) in paragraph at lines 40--66
+ [][] 
+ []
+
+[40 <./Figures/LFR.png>] [41 <./Figures/update_moderate1.png (PNG copy)>]
+<Figures/update_moderate2.png, id=1695, 990.8217pt x 399.6531pt>
+File: Figures/update_moderate2.png Graphic file (type png)
+
+<use Figures/update_moderate2.png>
+Package pdftex.def Info: Figures/update_moderate2.png used on input line 74.
+(pdftex.def)             Requested size: 442.65375pt x 178.5433pt.
+
+<Figures/update_moderate3.png, id=1696, 995.72pt x 399.4925pt>
+File: Figures/update_moderate3.png Graphic file (type png)
+
+<use Figures/update_moderate3.png>
+Package pdftex.def Info: Figures/update_moderate3.png used on input line 81.
+(pdftex.def)             Requested size: 442.65375pt x 177.59987pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--108
+
+ []
+
+[42] <Figures/update_goodseal2.png, id=1706, 990.8217pt x 399.6531pt>
+File: Figures/update_goodseal2.png Graphic file (type png)
+
+<use Figures/update_goodseal2.png>
+Package pdftex.def Info: Figures/update_goodseal2.png used on input line 113.
+(pdftex.def)             Requested size: 442.65375pt x 178.5433pt.
+
+<Figures/update_goodseal3.png, id=1707, 995.8806pt x 399.6531pt>
+File: Figures/update_goodseal3.png Graphic file (type png)
+
+<use Figures/update_goodseal3.png>
+Package pdftex.def Info: Figures/update_goodseal3.png used on input line 120.
+(pdftex.def)             Requested size: 442.65375pt x 177.63467pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--145
+
+ []
+
+[43 <./Figures/update_moderate2.png (PNG copy)> <./Figures/update_moderate3.png
+>] <Figures/update_smallres2.png, id=1717, 990.8217pt x 399.6531pt>
+File: Figures/update_smallres2.png Graphic file (type png)
+
+<use Figures/update_smallres2.png>
+Package pdftex.def Info: Figures/update_smallres2.png used on input line 150.
+(pdftex.def)             Requested size: 442.65375pt x 178.5433pt.
+
+<Figures/update_smallres3.png, id=1718, 995.8806pt x 399.6531pt>
+File: Figures/update_smallres3.png Graphic file (type png)
+
+<use Figures/update_smallres3.png>
+Package pdftex.def Info: Figures/update_smallres3.png used on input line 157.
+(pdftex.def)             Requested size: 442.65375pt x 177.63467pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44 <./Figures/update_goodseal2.png (PNG copy)> <./Figures/update_goodseal3.pn
+g (PNG copy)>] [45 <./Figures/update_smallres2.png (PNG copy)> <./Figures/updat
+e_smallres3.png (PNG copy)>] <Figures/M_prior.png, id=1734, 596.9502pt x 498.66
+3pt>
+File: Figures/M_prior.png Graphic file (type png)
+
+<use Figures/M_prior.png>
+Package pdftex.def Info: Figures/M_prior.png used on input line 262.
+(pdftex.def)             Requested size: 442.65375pt x 369.77335pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[46]
+Underfull \vbox (badness 1226) has occurred while \output is active []
+
+ [47]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/ML1.png, id=1754, 597.432pt x 764.1348pt>
+File: Figures/ML1.png Graphic file (type png)
+ <use Figures/ML1.png>
+Package pdftex.def Info: Figures/ML1.png used on input line 297.
+(pdftex.def)             Requested size: 442.65375pt x 566.18546pt.
+
+[48 <./Figures/M_prior.png (PNG copy)>] [49 <./Figures/ML1.png (PNG copy)>]
+[50] <Figures/ML2.png, id=1777, 597.1911pt x 764.1348pt>
+File: Figures/ML2.png Graphic file (type png)
+ <use Figures/ML2.png>
+Package pdftex.def Info: Figures/ML2.png used on input line 328.
+(pdftex.def)             Requested size: 442.65375pt x 566.39532pt.
+
+[51] [52 <./Figures/ML2.png (PNG copy)>]
+<Figures/Appendix/ML4.png, id=1792, 597.432pt x 764.1348pt>
+File: Figures/Appendix/ML4.png Graphic file (type png)
+
+<use Figures/Appendix/ML4.png>
+Package pdftex.def Info: Figures/Appendix/ML4.png used on input line 354.
+(pdftex.def)             Requested size: 442.65375pt x 566.18546pt.
+
+<Figures/ML5.png, id=1795, 596.7093pt x 764.1348pt>
+File: Figures/ML5.png Graphic file (type png)
+ <use Figures/ML5.png>
+Package pdftex.def Info: Figures/ML5.png used on input line 389.
+(pdftex.def)             Requested size: 442.65375pt x 566.87338pt.
+
+Underfull \vbox (badness 1033) has occurred while \output is active []
+
+ [53]
+[54 <./Figures/Appendix/ML4.png (PNG copy)>]) [55] [56 <./Figures/ML5.png (PNG 
+copy)>]
+\openout2 = `chapter4_discussion.aux'.
+
+ (./chapter4_discussion.tex
+Chapter 4.
+
+Package hyperref Warning: Difference (3) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 5.
+
+[57
+
+
+
+]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 10.
+
+[58] [59] <Figures/scenarios_options.png, id=1840, 597.6729pt x 225.9642pt>
+File: Figures/scenarios_options.png Graphic file (type png)
+
+<use Figures/scenarios_options.png>
+Package pdftex.def Info: Figures/scenarios_options.png used on input line 22.
+(pdftex.def)             Requested size: 442.65375pt x 167.35915pt.
+ [60 <./Figures/scenarios_options.png (PNG copy)>] [61]) [62] [63] [64
+
+
+] (./MSc_layout_Fabian.bbl
+! Misplaced alignment tab character &.
+l.33 \newblock {\em Computing in Science &
+                                           Engineering}, 13(2).
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[65
+
+] [66] [67] [68]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+) [69] [70
+
+]
+Appendix A.
+[71
+
+]
+<Figures/Appendix/update_goodseal1.png, id=1930, 921.4425pt x 836.12375pt>
+File: Figures/Appendix/update_goodseal1.png Graphic file (type png)
+
+<use Figures/Appendix/update_goodseal1.png>
+Package pdftex.def Info: Figures/Appendix/update_goodseal1.png used on input li
+ne 131.
+(pdftex.def)             Requested size: 221.32687pt x 200.82689pt.
+
+<Figures/Appendix/update_smallres1.png, id=1931, 921.4425pt x 836.12375pt>
+File: Figures/Appendix/update_smallres1.png Graphic file (type png)
+
+<use Figures/Appendix/update_smallres1.png>
+Package pdftex.def Info: Figures/Appendix/update_smallres1.png used on input li
+ne 137.
+(pdftex.def)             Requested size: 221.32687pt x 200.82689pt.
+
+<Figures/Appendix/CSV_input1.PNG, id=1932, 380.92313pt x 642.14906pt>
+File: Figures/Appendix/CSV_input1.PNG Graphic file (type png)
+
+<use Figures/Appendix/CSV_input1.PNG>
+Package pdftex.def Info: Figures/Appendix/CSV_input1.PNG used on input line 143
+.
+(pdftex.def)             Requested size: 274.44316pt x 462.66052pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/Appendix/CSV_input2.PNG, id=1933, 378.66469pt x 551.05875pt>
+File: Figures/Appendix/CSV_input2.PNG Graphic file (type png)
+
+<use Figures/Appendix/CSV_input2.PNG>
+Package pdftex.def Info: Figures/Appendix/CSV_input2.PNG used on input line 149
+.
+(pdftex.def)             Requested size: 274.44316pt x 399.39383pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/Appendix/CSV_input3.PNG, id=1934, 657.2053pt x 121.20282pt>
+File: Figures/Appendix/CSV_input3.PNG Graphic file (type png)
+
+<use Figures/Appendix/CSV_input3.PNG>
+Package pdftex.def Info: Figures/Appendix/CSV_input3.PNG used on input line 155
+.
+(pdftex.def)             Requested size: 442.65375pt x 81.63637pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/Appendix/ML3.png, id=1935, 597.432pt x 764.1348pt>
+File: Figures/Appendix/ML3.png Graphic file (type png)
+
+<use Figures/Appendix/ML3.png>
+Package pdftex.def Info: Figures/Appendix/ML3.png used on input line 161.
+(pdftex.def)             Requested size: 442.65375pt x 566.18546pt.
+Package epstopdf Info: Source file: <Figures/Appendix/ML1/Geweke_ML1.eps>
+(epstopdf)                    date: 2017-11-28 11:55:05
+(epstopdf)                    size: 57711 bytes
+(epstopdf)             Output file: <Figures/Appendix/ML1/Geweke_ML1-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-11-28 12:01:13
+(epstopdf)                    size: 33046 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Appendix/ML1/Gewek
+e_ML1-eps-converted-to.pdf Figures/Appendix/ML1/Geweke_ML1.eps>
+(epstopdf)             \includegraphics on input line 168.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Appendix/ML1/Geweke_ML1-eps-converted-to.pdf, id=1936, 1156.32pt x 578
+.16pt>
+File: Figures/Appendix/ML1/Geweke_ML1-eps-converted-to.pdf Graphic file (type p
+df)
+ <use Figures/Appendix/ML1/Geweke_ML1-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Appendix/ML1/Geweke_ML1-eps-converted-to.pdf u
+sed on input line 168.
+(pdftex.def)             Requested size: 442.65375pt x 221.32632pt.
+Package epstopdf Info: Source file: <Figures/Appendix/ML1/Traces_ML1.eps>
+(epstopdf)                    date: 2017-11-28 11:55:08
+(epstopdf)                    size: 133656 bytes
+(epstopdf)             Output file: <Figures/Appendix/ML1/Traces_ML1-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-11-28 12:01:13
+(epstopdf)                    size: 45842 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Appendix/ML1/Trace
+s_ML1-eps-converted-to.pdf Figures/Appendix/ML1/Traces_ML1.eps>
+(epstopdf)             \includegraphics on input line 175.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Appendix/ML1/Traces_ML1-eps-converted-to.pdf, id=1937, 1156.32pt x 578
+.16pt>
+File: Figures/Appendix/ML1/Traces_ML1-eps-converted-to.pdf Graphic file (type p
+df)
+ <use Figures/Appendix/ML1/Traces_ML1-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Appendix/ML1/Traces_ML1-eps-converted-to.pdf u
+sed on input line 175.
+(pdftex.def)             Requested size: 442.65375pt x 221.32632pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <Figures/Appendix/ML3/Geweke_ML3.eps>
+(epstopdf)                    date: 2017-11-28 11:57:14
+(epstopdf)                    size: 57621 bytes
+(epstopdf)             Output file: <Figures/Appendix/ML3/Geweke_ML3-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-11-28 12:04:48
+(epstopdf)                    size: 30679 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Appendix/ML3/Gewek
+e_ML3-eps-converted-to.pdf Figures/Appendix/ML3/Geweke_ML3.eps>
+(epstopdf)             \includegraphics on input line 186.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Appendix/ML3/Geweke_ML3-eps-converted-to.pdf, id=1938, 1156.32pt x 578
+.16pt>
+File: Figures/Appendix/ML3/Geweke_ML3-eps-converted-to.pdf Graphic file (type p
+df)
+ <use Figures/Appendix/ML3/Geweke_ML3-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Appendix/ML3/Geweke_ML3-eps-converted-to.pdf u
+sed on input line 186.
+(pdftex.def)             Requested size: 442.65375pt x 221.32632pt.
+Package epstopdf Info: Source file: <Figures/Appendix/ML3/Traces_ML3.eps>
+(epstopdf)                    date: 2017-11-28 11:57:17
+(epstopdf)                    size: 113348 bytes
+(epstopdf)             Output file: <Figures/Appendix/ML3/Traces_ML3-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-11-28 12:04:48
+(epstopdf)                    size: 39141 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Appendix/ML3/Trace
+s_ML3-eps-converted-to.pdf Figures/Appendix/ML3/Traces_ML3.eps>
+(epstopdf)             \includegraphics on input line 193.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Appendix/ML3/Traces_ML3-eps-converted-to.pdf, id=1939, 1156.32pt x 578
+.16pt>
+File: Figures/Appendix/ML3/Traces_ML3-eps-converted-to.pdf Graphic file (type p
+df)
+ <use Figures/Appendix/ML3/Traces_ML3-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Appendix/ML3/Traces_ML3-eps-converted-to.pdf u
+sed on input line 193.
+(pdftex.def)             Requested size: 442.65375pt x 221.32632pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <Figures/Appendix/ML2/Geweke_ML2.eps>
+(epstopdf)                    date: 2017-11-28 11:55:43
+(epstopdf)                    size: 61376 bytes
+(epstopdf)             Output file: <Figures/Appendix/ML2/Geweke_ML2-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-11-28 12:04:47
+(epstopdf)                    size: 32888 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Appendix/ML2/Gewek
+e_ML2-eps-converted-to.pdf Figures/Appendix/ML2/Geweke_ML2.eps>
+(epstopdf)             \includegraphics on input line 204.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Appendix/ML2/Geweke_ML2-eps-converted-to.pdf, id=1940, 1156.32pt x 578
+.16pt>
+File: Figures/Appendix/ML2/Geweke_ML2-eps-converted-to.pdf Graphic file (type p
+df)
+ <use Figures/Appendix/ML2/Geweke_ML2-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Appendix/ML2/Geweke_ML2-eps-converted-to.pdf u
+sed on input line 204.
+(pdftex.def)             Requested size: 442.65375pt x 221.32632pt.
+Package epstopdf Info: Source file: <Figures/Appendix/ML2/Traces_ML2.eps>
+(epstopdf)                    date: 2017-11-28 11:55:47
+(epstopdf)                    size: 202542 bytes
+(epstopdf)             Output file: <Figures/Appendix/ML2/Traces_ML2-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-11-28 12:04:47
+(epstopdf)                    size: 60972 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Appendix/ML2/Trace
+s_ML2-eps-converted-to.pdf Figures/Appendix/ML2/Traces_ML2.eps>
+(epstopdf)             \includegraphics on input line 211.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Appendix/ML2/Traces_ML2-eps-converted-to.pdf, id=1941, 1156.32pt x 578
+.16pt>
+File: Figures/Appendix/ML2/Traces_ML2-eps-converted-to.pdf Graphic file (type p
+df)
+ <use Figures/Appendix/ML2/Traces_ML2-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Appendix/ML2/Traces_ML2-eps-converted-to.pdf u
+sed on input line 211.
+(pdftex.def)             Requested size: 442.65375pt x 221.32632pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <Figures/Appendix/ML4/Geweke_ML4.eps>
+(epstopdf)                    date: 2017-11-28 11:56:25
+(epstopdf)                    size: 57707 bytes
+(epstopdf)             Output file: <Figures/Appendix/ML4/Geweke_ML4-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-11-28 12:04:48
+(epstopdf)                    size: 33025 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Appendix/ML4/Gewek
+e_ML4-eps-converted-to.pdf Figures/Appendix/ML4/Geweke_ML4.eps>
+(epstopdf)             \includegraphics on input line 222.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Appendix/ML4/Geweke_ML4-eps-converted-to.pdf, id=1942, 1156.32pt x 578
+.16pt>
+File: Figures/Appendix/ML4/Geweke_ML4-eps-converted-to.pdf Graphic file (type p
+df)
+ <use Figures/Appendix/ML4/Geweke_ML4-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Appendix/ML4/Geweke_ML4-eps-converted-to.pdf u
+sed on input line 222.
+(pdftex.def)             Requested size: 442.65375pt x 221.32632pt.
+Package epstopdf Info: Source file: <Figures/Appendix/ML4/Traces_ML4.eps>
+(epstopdf)                    date: 2017-11-28 11:56:28
+(epstopdf)                    size: 137566 bytes
+(epstopdf)             Output file: <Figures/Appendix/ML4/Traces_ML4-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-11-28 12:04:49
+(epstopdf)                    size: 45752 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Appendix/ML4/Trace
+s_ML4-eps-converted-to.pdf Figures/Appendix/ML4/Traces_ML4.eps>
+(epstopdf)             \includegraphics on input line 229.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Appendix/ML4/Traces_ML4-eps-converted-to.pdf, id=1943, 1156.32pt x 578
+.16pt>
+File: Figures/Appendix/ML4/Traces_ML4-eps-converted-to.pdf Graphic file (type p
+df)
+ <use Figures/Appendix/ML4/Traces_ML4-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Appendix/ML4/Traces_ML4-eps-converted-to.pdf u
+sed on input line 229.
+(pdftex.def)             Requested size: 442.65375pt x 221.32632pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <Figures/Appendix/ML5/Geweke_ML5.eps>
+(epstopdf)                    date: 2017-11-28 11:58:01
+(epstopdf)                    size: 57714 bytes
+(epstopdf)             Output file: <Figures/Appendix/ML5/Geweke_ML5-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-11-28 12:04:49
+(epstopdf)                    size: 33141 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Appendix/ML5/Gewek
+e_ML5-eps-converted-to.pdf Figures/Appendix/ML5/Geweke_ML5.eps>
+(epstopdf)             \includegraphics on input line 240.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Appendix/ML5/Geweke_ML5-eps-converted-to.pdf, id=1944, 1156.32pt x 578
+.16pt>
+File: Figures/Appendix/ML5/Geweke_ML5-eps-converted-to.pdf Graphic file (type p
+df)
+ <use Figures/Appendix/ML5/Geweke_ML5-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Appendix/ML5/Geweke_ML5-eps-converted-to.pdf u
+sed on input line 240.
+(pdftex.def)             Requested size: 442.65375pt x 221.32632pt.
+Package epstopdf Info: Source file: <Figures/Appendix/ML5/Traces_ML5.eps>
+(epstopdf)                    date: 2017-11-28 11:58:04
+(epstopdf)                    size: 149833 bytes
+(epstopdf)             Output file: <Figures/Appendix/ML5/Traces_ML5-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-11-28 12:04:50
+(epstopdf)                    size: 47570 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Appendix/ML5/Trace
+s_ML5-eps-converted-to.pdf Figures/Appendix/ML5/Traces_ML5.eps>
+(epstopdf)             \includegraphics on input line 247.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Appendix/ML5/Traces_ML5-eps-converted-to.pdf, id=1945, 1156.32pt x 578
+.16pt>
+File: Figures/Appendix/ML5/Traces_ML5-eps-converted-to.pdf Graphic file (type p
+df)
+ <use Figures/Appendix/ML5/Traces_ML5-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Appendix/ML5/Traces_ML5-eps-converted-to.pdf u
+sed on input line 247.
+(pdftex.def)             Requested size: 442.65375pt x 221.32632pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+No file MSc_layout_Fabian.ind.
+[72 <./Figures/Appendix/update_goodseal1.png> <./Figures/Appendix/update_smallr
+es1.png>] [73 <./Figures/Appendix/CSV_input1.PNG>] [74 <./Figures/Appendix/CSV_
+input2.PNG> <./Figures/Appendix/CSV_input3.PNG>] [75 <./Figures/Appendix/ML3.pn
+g (PNG copy)>] [76 <./Figures/Appendix/ML1/Geweke_ML1-eps-converted-to.pdf> <./
+Figures/Appendix/ML1/Traces_ML1-eps-converted-to.pdf>] [77 <./Figures/Appendix/
+ML3/Geweke_ML3-eps-converted-to.pdf> <./Figures/Appendix/ML3/Traces_ML3-eps-con
+verted-to.pdf>] [78 <./Figures/Appendix/ML2/Geweke_ML2-eps-converted-to.pdf> <.
+/Figures/Appendix/ML2/Traces_ML2-eps-converted-to.pdf>] [79 <./Figures/Appendix
+/ML4/Geweke_ML4-eps-converted-to.pdf> <./Figures/Appendix/ML4/Traces_ML4-eps-co
+nverted-to.pdf>] [80 <./Figures/Appendix/ML5/Geweke_ML5-eps-converted-to.pdf> <
+./Figures/Appendix/ML5/Traces_ML5-eps-converted-to.pdf>]
+\tf@thm=\write12
+\openout12 = `MSc_layout_Fabian.thm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
+
+(./MSc_layout_Fabian.aux (./chapter1.aux) (./chapter2_methods.aux)
+(./chapter3_results.aux) (./chapter4_discussion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
+Package rerunfilecheck Info: File `MSc_layout_Fabian.out' has not changed.
+(rerunfilecheck)             Checksum: B899AA2669AFF1C7A3C26010B0ACD018;5071.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
+ ) 
 Here is how much of TeX's memory you used:
- 11240 strings out of 493323
- 165463 string characters out of 3139062
- 290520 words of memory out of 3000000
- 14584 multiletter control sequences out of 15000+200000
- 4656 words of font info for 18 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 43i,1n,45p,1171b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 12338 strings out of 494902
+ 188352 string characters out of 6179891
+ 334858 words of memory out of 5000000
+ 14933 multiletter control sequences out of 15000+600000
+ 19200 words of font info for 72 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 43i,16n,45p,2247b,590s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msbm10.pfb>
+Output written on MSc_layout_Fabian.pdf (100 pages, 7693574 bytes).
+PDF statistics:
+ 2533 PDF objects out of 2984 (max. 8388607)
+ 1954 compressed objects within 20 object streams
+ 359 named destinations out of 1000 (max. 500000)
+ 727 words of extra memory for PDF output out of 10000 (max. 10000000)
+

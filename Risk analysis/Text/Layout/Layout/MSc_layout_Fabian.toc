@@ -1,6 +1,6 @@
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Abstract}{v}{chapter*.1}
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Acknowledgements}{vii}{chapter*.2}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Acronyms}{xvii}{chapter*.6}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Acronyms}{xix}{chapter*.6}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Methods}{3}{chapter.2}
 \contentsline {section}{\numberline {2-1}Bayesian analysis and decision theory}{3}{section.2.1}
@@ -13,13 +13,13 @@
 \contentsline {subsection}{\numberline {2-2-2}Structural geological forward modeling}{11}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2-2-3}Numerical computational implementation}{12}{subsection.2.2.3}
 \contentsline {section}{\numberline {2-3}Model evaluation}{13}{section.2.3}
-\contentsline {subsection}{\numberline {2-3-1}Visualizing uncertainty}{13}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2-3-2}Economic significance of structural geological models as hydrocarbon systems}{15}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2-3-1}Visualizing uncertainty}{14}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2-3-2}Economic significance of structural geological models as hydrocarbon systems}{14}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2-3-3}Original oil-in-place and recoverable volumes as value measures}{19}{subsection.2.3.3}
 \contentsline {section}{\numberline {2-4}Designing a case-specific loss function}{21}{section.2.4}
-\contentsline {subsection}{\numberline {2-4-1}Including different risk-affinities in the loss function}{24}{subsection.2.4.1}
-\contentsline {section}{\numberline {2-5}1D geological reservoir modeling}{26}{section.2.5}
-\contentsline {subsection}{\numberline {2-5-1}Construction of the 1D geological model}{26}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2-4-1}Including different risk-affinities in the loss function}{25}{subsection.2.4.1}
+\contentsline {section}{\numberline {2-5}1D geological reservoir model}{25}{section.2.5}
+\contentsline {subsection}{\numberline {2-5-1}Construction of the uncertain 1D geological model}{26}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2-5-2}Abstract valuation of the 1D geological model}{27}{subsection.2.5.2}
 \contentsline {section}{\numberline {2-6}3D geological reservoir model}{28}{section.2.6}
 \contentsline {subsection}{\numberline {2-6-1}Design of the 3D geological reservoir model}{28}{subsection.2.6.1}
@@ -34,24 +34,24 @@
 \contentsline {section}{\numberline {3-1}1D geological reservoir model results}{39}{section.3.1}
 \contentsline {subsection}{\numberline {3-1-1}Scoring}{39}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3-1-2}Bayesian inference using thickness likelihood functions}{40}{subsection.3.1.2}
-\contentsline {subsubsection}{1D - Inference case I: Moderately reinforcing information}{42}{section*.28}
-\contentsline {subsubsection}{1D - Inference case II: Likely reliable seal}{43}{section*.30}
-\contentsline {subsubsection}{1D - Inference case III: Safe seal but likely subpar reservoir thickness}{45}{section*.32}
-\contentsline {section}{\numberline {3-2}3D geological model results}{46}{section.3.2}
+\contentsline {subsubsection}{1D - Inference case I: Moderately reinforcing information}{42}{section*.29}
+\contentsline {subsubsection}{1D - Inference case II: Likely reliable seal}{43}{section*.31}
+\contentsline {subsubsection}{1D - Inference case III: Safe seal but likely subpar reservoir thickness}{45}{section*.33}
+\contentsline {section}{\numberline {3-2}3D geological reservoir model results}{46}{section.3.2}
 \contentsline {subsection}{\numberline {3-2-1}3D - Prior model}{46}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3-2-2}3D - Posterior model I: Seal and reservoir likely thick}{48}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3-2-3}3D - Posterior model II: Likely thin reservoir formation}{50}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3-2-4}3D - Posterior model III: Likely thin seal}{51}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3-2-5}3D - Posterior model IV: SSF likelihood reinforcing trap reliability}{53}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3-2-6}3D - Posterior model V: Controversial information about the Shale Smear Factor}{56}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3-2-6}3D - Posterior model V: Controversial information about the Shale Smear Factor}{55}{subsection.3.2.6}
 \contentsline {chapter}{\numberline {4}Discussion}{57}{chapter.4}
-\contentsline {subsubsection}{State of knowledge, decision uncertainty and consequent decision making via loss function optimization}{57}{section*.45}
-\contentsline {subsubsection}{Impact of additional information on decision making}{58}{section*.46}
-\contentsline {subsubsection}{Value distribution modes as possible model scenarios and potential decision options}{60}{section*.47}
-\contentsline {subsubsection}{Comparison to common practices and research in the hydrocarbon sector}{61}{section*.49}
-\contentsline {subsubsection}{Representativity and limitations of this methodology}{62}{section*.50}
-\contentsline {subsubsection}{Possibilities for future research and extensions}{62}{section*.51}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{65}{section*.51}
+\contentsline {subsubsection}{State of knowledge, decision uncertainty and consequent decision making via loss function optimization}{57}{section*.46}
+\contentsline {subsubsection}{Impact of additional information on decision making}{58}{section*.47}
+\contentsline {subsubsection}{Value distribution modes as possible model scenarios and potential decision options}{60}{section*.48}
+\contentsline {subsubsection}{Comparison to common practices and research in the hydrocarbon sector}{61}{section*.50}
+\contentsline {subsubsection}{Representativity and limitations of this methodology}{62}{section*.51}
+\contentsline {subsubsection}{Possibilities for future research and extensions}{62}{section*.52}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{65}{section*.52}
 \contentsline {chapter}{\numberline {A}Appendix}{71}{appendix.A}
 \contentsline {section}{\numberline {A-1}Code availability}{71}{section.A.1}
 \contentsline {section}{\numberline {A-2}Additional tables and figures}{72}{section.A.2}

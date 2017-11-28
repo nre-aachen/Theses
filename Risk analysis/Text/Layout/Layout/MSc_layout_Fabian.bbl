@@ -141,6 +141,13 @@ Geman, S. and Geman, D. (1984).
 \newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
   on}, (6):721--741.
 
+\bibitem[Geweke et~al., 1991]{geweke1991evaluating}
+Geweke, J. et~al. (1991).
+\newblock {\em Evaluating the accuracy of sampling-based approaches to the
+  calculation of posterior moments}, volume 196.
+\newblock Federal Reserve Bank of Minneapolis, Research Department Minneapolis,
+  MN, USA.
+
 \bibitem[Gilks, 2005]{gilks2005markov}
 Gilks, W.~R. (2005).
 \newblock {\em Markov chain monte carlo}.

@@ -60,7 +60,7 @@ Bayesian decision theory is applicable to a wide spectrum of problems. Hydrocarb
     First and foremost, I wish to express my greatest thanks to Miguel de la Varga, whose outstanding support I have received since he was my tutor in Numerical Reservoir Engineering. He encouraged me to challenge myself and to pursue a path into a research field that, not long ago, was very much unfamiliar to me. I am grateful for the continuous motivation, constant positive feedback and especially the immense patience he showed as my supervisor and mentor.\\
     Furthermore, I want to voice my deep gratitude to Professor Florian Wellmann, for welcoming me as a part of his research group and thus showing me, how exciting and inspiring it can be, to participate in a free and innovative academic environment. With his interest, openness and positive attitude, he encouraged me to contribute to his group's work and to develop my own scientific ideas.\\
     I also wish to thank Professor Janos Urai, for years of fascinating lectures on structural geology, hydrocarbon exploration and production, and related risk analysis. His courses provided me with many insights and served as a sources of inspiration and information that I was able to include in this project.\\
-    In general, I am grateful to my friends and fellow researchers from the CGRE group, especially for creating such a pleasant working atmosphere. Special thanks go to the modeling team. To Alexander Schaaf, for helping me when Miguel could not be found and reminding me to take a break now and then. To Marco van Veen, for endless inciting and exhilarating discussions, but also for the many shared adventures during our geoscientific studies.\\
+    In general, I am grateful to my friends and fellow researchers from the CGRE group, especially for creating such a pleasant working atmosphere. Special thanks go to the modeling team. To Alexander Schaaf, for helping me with GemPy when Miguel could not be found and reminding me to take a break now and then. To Marco van Veen, for endless inciting and exhilarating discussions, but also for the many shared adventures during our geoscientific studies.\\
     And of course, I owe my deepest gratitude to my family, for a lifetime of unconditional support. To my parents, for raising me to be curious. For enabling me to attain such excellent education and for providing me with the freedom to follow my individual interests and aspirations.
     \vspace*{15mm}
 
@@ -128,13 +128,13 @@ Bayesian decision theory is applicable to a wide spectrum of problems. Hydrocarb
     
     \begin{figure}[h]
     	\centering
-    	\includegraphics[width=0.50\textwidth]{Figures/Appendix/update_goodseal1}
+    	\includegraphics[width=0.5\textwidth]{Figures/Appendix/update_goodseal1}
     	\caption{Prior (A1) and posterior distributions (B1) of the layer boundary positions in depth and respective representations (A2, B2) for 1D inference case II.}\label{fig:update_goodseal1}
     \end{figure}
 
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=0.50\textwidth]{Figures/Appendix/update_smallres1}
+		\includegraphics[width=0.5\textwidth]{Figures/Appendix/update_smallres1}
 		\caption{Prior (A1) and posterior distributions (B1) of the layer boundary positions in depth and respective representations (A2, B2) for 1D inference case III.}\label{fig:update_smallres1}
 	\end{figure}
 
@@ -162,6 +162,95 @@ Bayesian decision theory is applicable to a wide spectrum of problems. Hydrocarb
     	\caption{Summary of results from evaluating posterior model II (3D). Shannon entropies in prior (a) and posterior (b) are compared. So are the mechanisms of maximum trap volume control (c). Prior and posterior ROV probability distributions are shown in (d). Respective loss function and Bayes actions are plotted in (e).}\label{fig:ML3}
     \end{figure}
 
+	\begin{figure}[h]
+		\begin{subfigure}{1\textwidth}
+			\centering
+			\includegraphics[width=1\linewidth]{Figures/Appendix/ML1/Geweke_ML1.eps}
+			\caption{Geweke plots for uncertain priors.}
+			%\label{fig:sfig1}
+		\end{subfigure}%
+		\\
+		\begin{subfigure}{1\textwidth}
+			\centering
+			\includegraphics[width=1\linewidth]{Figures/Appendix/ML1/Traces_ML1.eps}
+			\caption{Traces for uncertain priors.}
+			%\label{fig:sfig2}
+		\end{subfigure}
+		\caption{3D posterior model I: Geweke convergence analysis (a) and plotted traces (b) for uncertain priors. In (a), the standard deviation between the mean value of one trace interval and the following is represented by the Z-score. Scores in the range between -2 and 2 indicate convergence of the MCMC sampling process.}
+		\label{fig:gew_ML1}
+	\end{figure}
+
+	\begin{figure}[h]
+		\begin{subfigure}{1\textwidth}
+			\centering
+			\includegraphics[width=1\linewidth]{Figures/Appendix/ML3/Geweke_ML3.eps}
+			\caption{Geweke plots for uncertain priors.}
+			%\label{fig:sfig1}
+		\end{subfigure}%
+		\\
+		\begin{subfigure}{1\textwidth}
+			\centering
+			\includegraphics[width=1\linewidth]{Figures/Appendix/ML3/Traces_ML3.eps}
+			\caption{Traces for uncertain priors.}
+			%\label{fig:sfig2}
+		\end{subfigure}
+		\caption{3D posterior model II: Geweke convergence analysis (a) and plotted traces (b) for uncertain priors. In (a), the standard deviation between the mean value of one trace interval and the following is represented by the Z-score. Scores in the range between -2 and 2 indicate convergence of the MCMC sampling process.}
+		\label{fig:gew_ML2}
+	\end{figure}
+	
+	\begin{figure}[h]
+		\begin{subfigure}{1\textwidth}
+			\centering
+			\includegraphics[width=1\linewidth]{Figures/Appendix/ML2/Geweke_ML2.eps}
+			\caption{Geweke plots for uncertain priors.}
+			%\label{fig:sfig1}
+		\end{subfigure}%
+		\\
+		\begin{subfigure}{1\textwidth}
+			\centering
+			\includegraphics[width=1\linewidth]{Figures/Appendix/ML2/Traces_ML2.eps}
+			\caption{Traces for uncertain priors.}
+			%\label{fig:sfig2}
+		\end{subfigure}
+		\caption{3D posterior model III: Geweke convergence analysis (a) and plotted traces (b) for uncertain priors. In (a), the standard deviation between the mean value of one trace interval and the following is represented by the Z-score. Scores in the range between -2 and 2 indicate convergence of the MCMC sampling process.}
+		\label{fig:gew_ML3}
+	\end{figure}
+	
+	\begin{figure}[h]
+		\begin{subfigure}{1\textwidth}
+			\centering
+			\includegraphics[width=1\linewidth]{Figures/Appendix/ML4/Geweke_ML4.eps}
+			\caption{Geweke plots for uncertain priors.}
+			%\label{fig:sfig1}
+		\end{subfigure}%
+		\\
+		\begin{subfigure}{1\textwidth}
+			\centering
+			\includegraphics[width=1\linewidth]{Figures/Appendix/ML4/Traces_ML4.eps}
+			\caption{Traces for uncertain priors.}
+			%\label{fig:sfig2}
+		\end{subfigure}
+		\caption{3D posterior model IV: Geweke convergence analysis (a) and plotted traces (b) for uncertain priors. In (a), the standard deviation between the mean value of one trace interval and the following is represented by the Z-score. Scores in the range between -2 and 2 indicate convergence of the MCMC sampling process.}
+		\label{fig:gew_ML4}
+	\end{figure}
+	
+	\begin{figure}[h]
+		\begin{subfigure}{1\textwidth}
+			\centering
+			\includegraphics[width=1\linewidth]{Figures/Appendix/ML5/Geweke_ML5.eps}
+			\caption{Geweke plots for uncertain priors.}
+			%\label{fig:sfig1}
+		\end{subfigure}%
+		\\
+		\begin{subfigure}{1\textwidth}
+			\centering
+			\includegraphics[width=1\linewidth]{Figures/Appendix/ML5/Traces_ML5.eps}
+			\caption{Traces for uncertain priors.}
+			%\label{fig:sfig2}
+		\end{subfigure}
+		\caption{3D posterior model V: Geweke convergence analysis (a) and plotted traces (b) for uncertain priors. In (a), the standard deviation between the mean value of one trace interval and the following is represented by the Z-score. Scores in the range between -2 and 2 indicate convergence of the MCMC sampling process.}
+		\label{fig:gew_ML5}
+	\end{figure}
     %\section{Another test section}
 
     %Ok, all is well.
