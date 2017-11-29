@@ -1107,7 +1107,7 @@
 \end{center}%
 \centering
 \large{submitted to the\par 
-	Institute of Computational Geoscience and Reservoir Engineering}\\
+Institute of Computational Geoscience and Reservoir Engineering}\\
 %\vfill{}
 \begin{center}
  \begin{tabular}{lcr}

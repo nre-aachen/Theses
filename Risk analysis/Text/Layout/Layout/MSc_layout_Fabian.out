@@ -17,14 +17,14 @@
 \BOOKMARK [2][-]{subsection.2.3.2}{Economic significance of structural geological models as hydrocarbon systems}{section.2.3}% 17
 \BOOKMARK [2][-]{subsection.2.3.3}{Original oil-in-place and recoverable volumes as value measures}{section.2.3}% 18
 \BOOKMARK [1][-]{section.2.4}{Designing a case-specific loss function}{chapter.2}% 19
-\BOOKMARK [2][-]{subsection.2.4.1}{Including different risk-affinities in the loss function}{section.2.4}% 20
+\BOOKMARK [2][-]{subsection.2.4.1}{Including different risk affinities in the loss function}{section.2.4}% 20
 \BOOKMARK [1][-]{section.2.5}{1D geological reservoir model}{chapter.2}% 21
 \BOOKMARK [2][-]{subsection.2.5.1}{Construction of the uncertain 1D geological model}{section.2.5}% 22
 \BOOKMARK [2][-]{subsection.2.5.2}{Abstract valuation of the 1D geological model}{section.2.5}% 23
 \BOOKMARK [1][-]{section.2.6}{3D geological reservoir model}{chapter.2}% 24
 \BOOKMARK [2][-]{subsection.2.6.1}{Design of the 3D geological reservoir model}{section.2.6}% 25
 \BOOKMARK [2][-]{subsection.2.6.2}{Construction of the uncertain 3D geological reservoir model}{section.2.6}% 26
-\BOOKMARK [2][-]{subsection.2.6.3}{Determination of the trap volume}{section.2.6}% 27
+\BOOKMARK [2][-]{subsection.2.6.3}{Determination of the maximum trap volume}{section.2.6}% 27
 \BOOKMARK [2][-]{subsection.2.6.4}{Finding the decisive spill or leak point of a trap}{section.2.6}% 28
 \BOOKMARK [2][-]{subsection.2.6.5}{Checking for juxtapositions and possible fault sealing}{section.2.6}% 29
 \BOOKMARK [2][-]{subsection.2.6.6}{Calculating the maximum trap volume}{section.2.6}% 30
