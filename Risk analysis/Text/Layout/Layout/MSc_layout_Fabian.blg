@@ -17,45 +17,45 @@ Warning--empty journal in jaynes1986bayesian
 Warning--there's a number but no series in morton1993development
 Warning--empty journal in sorkhabi2005place
 Warning--empty journal in wald1950statistical
-You've used 79 entries,
+You've used 80 entries,
             1935 wiz_defined-function locations,
-            911 strings with 16126 characters,
-and the built_in function-call counts, 28833 in all, are:
-= -- 2843
-> -- 1040
+            914 strings with 16292 characters,
+and the built_in function-call counts, 29174 in all, are:
+= -- 2873
+> -- 1058
 < -- 65
-+ -- 348
-- -- 333
-* -- 2334
-:= -- 5068
-add.period$ -- 242
-call.type$ -- 79
-change.case$ -- 530
-chr.to.int$ -- 78
-cite$ -- 85
-duplicate$ -- 1154
-empty$ -- 2105
-format.name$ -- 450
-if$ -- 5638
++ -- 354
+- -- 339
+* -- 2361
+:= -- 5131
+add.period$ -- 245
+call.type$ -- 80
+change.case$ -- 537
+chr.to.int$ -- 79
+cite$ -- 86
+duplicate$ -- 1168
+empty$ -- 2128
+format.name$ -- 457
+if$ -- 5703
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 93
-newline$ -- 395
-num.names$ -- 239
-pop$ -- 503
+missing$ -- 95
+newline$ -- 400
+num.names$ -- 242
+pop$ -- 514
 preamble$ -- 1
-purify$ -- 551
+purify$ -- 559
 quote$ -- 0
-skip$ -- 874
+skip$ -- 883
 stack$ -- 0
-substring$ -- 1967
-swap$ -- 121
+substring$ -- 1979
+swap$ -- 122
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 434
+type$ -- 438
 warning$ -- 6
-while$ -- 241
+while$ -- 243
 width$ -- 0
-write$ -- 1003
+write$ -- 1015
 (There was 1 error message)

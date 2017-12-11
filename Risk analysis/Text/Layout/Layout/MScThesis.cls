@@ -1088,7 +1088,7 @@
 \begin{center}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{flushleft} \large
-\textbf{\textsf{Author}}\\
+\textbf{\textsf{Author:}}\\
 \mscname % Author name - remove the \href bracket to remove the link
 \end{flushleft}
 \end{minipage}%
