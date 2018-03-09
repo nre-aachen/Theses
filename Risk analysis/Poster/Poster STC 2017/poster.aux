@@ -18,14 +18,16 @@
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \catcode `"\active 
 \bibstyle{apalike}
-\citation{braathen_longyearbyen_2012}
-\citation{braathen_longyearbyen_2012}
-\citation{braathen_longyearbyen_2012}
-\citation{mondol_experimental_2007}
-\citation{mondol_experimental_2007}
+\citation{wellmann2012uncertainties}
+\citation{koller2009probabilistic}
+\citation{koller2009probabilistic}
 \bibdata{./references}
-\bibcite{braathen_longyearbyen_2012}{{1}{2012}{{Braathen et~al.}}{{}}}
-\bibcite{mondol_experimental_2007}{{2}{2007}{{Mondol et~al.}}{{}}}
+\bibcite{gmd-2018-61}{{1}{2018}{{de~la Varga et~al.}}{{}}}
+\bibcite{koller2009probabilistic}{{2}{2009}{{Koller and Friedman}}{{}}}
+\bibcite{salvatier2016pymc3}{{3}{2016}{{Salvatier et~al.}}{{}}}
+\bibcite{wellmann2012uncertainties}{{4}{2012}{{Wellmann and Regenauer-Lieb}}{{}}}
+\citation{gmd-2018-61}
+\citation{salvatier2016pymc3}
 \@writefile{toc}{\beamer@endinputifotherversion {3.36pt}}
 \@writefile{nav}{\beamer@endinputifotherversion {3.36pt}}
 \select@language{english}
@@ -33,20 +35,16 @@
 \@writefile{lof}{\select@language{english}}
 \@writefile{lot}{\select@language{english}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:group}{{1}{1}{Students of 2016 at the edge of the world's northernmost swimming pool in the abandoned Russian mining town of Pyramiden (Photo: V. Zuchuat).\relax }{Doc-Start}{}}
-\@writefile{snm}{\beamer@slide {fig:group}{1}}
-\newlabel{fig:arrival_adolfbukta}{{2}{1}{Going ashore in Adolfbukta: Survival suits, rifles, redundant communications and an emergency backpack are essential HSE equipment during fieldwork on the Arctic archipelago of Svalbard (Photo: M.\,Gutierrez).\relax }{Doc-Start}{}}
-\@writefile{snm}{\beamer@slide {fig:arrival_adolfbukta}{1}}
-\newlabel{fig:fieldwork_adolfbukta}{{3}{1}{Exposed sandstones of the Carboniferous Ebbadalen Formation north of Adolfbukta. Seven distinctive coarsening-up sequences of thick beds alternating with silty layers are expected to provide high horizontal permeability (Photo: M.\,Gutierrez).\relax }{Doc-Start}{}}
-\@writefile{snm}{\beamer@slide {fig:fieldwork_adolfbukta}{1}}
-\newlabel{fig:fieldwork_skansbukta}{{4}{1}{Permian limestone beds of the Gipshuken and Kapp Starostin Formations are found at Skansbukta. Bioturbation structures filled with evaporitic material could provide secondary porosity. The picture shows cross-bedding in upper layers (Photo: M.\,Gutierrez).\relax }{Doc-Start}{}}
-\@writefile{snm}{\beamer@slide {fig:fieldwork_skansbukta}{1}}
-\newlabel{fig:cross_section}{{5}{1}{Cross section of the targeted storage formation (Upper Triassic–Middle Jurassic sandstones of the Kapp Toscana Group), the overlying seal (Jurassic mudstones of the Agardfjellet Formation) and the prominent thrust décollement which is providing an additional seal. The indicated well Dh4 in the west is part of the Longyearbyen \ce {CO2} Lab, the logging took place in the east where the layers are outcropping. Modified from \cite {braathen_longyearbyen_2012}.\relax }{Doc-Start}{}}
-\@writefile{snm}{\beamer@slide {fig:cross_section}{1}}
-\newlabel{fig:compaction}{{6}{1}{Comparison of porosity–depth trend studies and experimental results for shales and argillaceous sediments. While for E\&P projects the seal integrity is proven by the abundance of hydrocarbons, for \ce {CO2} storage it remains uncertain. Controlling factors are clay mineral and pore fluid composition, grain sizes, pore pressure and the influence of mechanical \textbf {(MC)} and chemical compaction \textbf {(CC)}. Because core sampling of seal layers is expensive, experimental studies and global databases might be auxiliary. Still, extrapolation of experimental results has limited validity for natural anisotropy and the influence of chemical compaction \citep {mondol_experimental_2007}. \relax }{Doc-Start}{}}
-\@writefile{snm}{\beamer@slide {fig:compaction}{1}}
-\newlabel{fig:leakage}{{7}{1}{Different leakage scenarios for a \ce {CO2} storage project which are subject to uncertainty. To prevent a spill out of the storage formation \textbf {(1)}, the storage capacity must be estimated. A break of \ce {CO2} through the formation's roof \textbf {(2)} depends on seal properties and knowledge of fracture pressures (see figure \ref {fig:compaction}). Evaluation of leakage along \textbf {(3)} or through \textbf {(4)} a fault requires the analysis of juxtaposition and smearing. Sub-seismic faults represent an additional risk. Still, the highest risk of leakage exists in close proximity to wells (Figure based on lecture notes, lecture by K. Indrevær \& A. Braathen, 15.6.2017). \relax }{Doc-Start}{}}
-\@writefile{snm}{\beamer@slide {fig:leakage}{1}}
+\newlabel{fig:unc_lik}{{1}{1}{The structural geological model illustrated as a 2D cross section (A) and a 3D voxel representation (B). The inclusion of $z$-positional uncertainties affecting layer depths and fault offset are depicted in (C) and (D). Thicknesses of the three middle layers are defined by the distances of boundary points (E) and are thus directly dependent on (C).\relax }{Doc-Start}{}}
+\@writefile{snm}{\beamer@slide {fig:unc_lik}{1}}
+\newlabel{fig:trap_cond}{{2}{1}{To be recognized as part of a trap, a reservoir voxel (1) has to be positioned in the footwall (2). Trap closure is defined by the seal shape and the normal fault (3). The maximum trap fill is defined by either the anticlinal spill point (3;a) or a point of leakage across the fault, depending on juxtapositions with layers underlying (3;b) or overlying the seal (3;c). The latter is only relevant if the critical Shale Smear Factor (SSF$_c$) is exceeded, as determined over D and T in (4).\relax }{Doc-Start}{}}
+\@writefile{snm}{\beamer@slide {fig:trap_cond}{1}}
+\newlabel{fig:model_network}{{3}{1}{Illustration of the probabilistic model as a hierarchical Bayesian network after \citet {koller2009probabilistic}. Stochastic nodes are represented by ellipses (blue for priors, yellow for likelihoods). Deterministic functions are depicted as triangles in red. Arrows indicate direct connections from parent to child nodes.\relax }{Doc-Start}{}}
+\@writefile{snm}{\beamer@slide {fig:model_network}{1}}
+\newlabel{fig:ML4}{{4}{1}{Evaluation of a model conditioned on thickness and SSF likelihoods which assure a reliable trap closure and reinforce the probability of a high ROV. Shannon entropy was significantly reduced in the posterior model (b). Cross-fault leakage to overlying layers was eliminated as a trap control mechanism (c) and coincides with the disappearance of the probability of failure in the posterior ROV distribution (d). The respective loss functions are plotted in (e), showing high decision convergence.\relax }{Doc-Start}{}}
+\@writefile{snm}{\beamer@slide {fig:ML4}{1}}
+\newlabel{fig:ML5}{{5}{1}{Evaluation of a model conditioned on a SSF likelihood which narrows around the critical SSF$_c$ and thus amplifies the duality in the posterior ROV distribution (d). Shannon entropies are only slightly diminished (a,b). general cross-fault leakage remains a significant trap control mechanism (c). The resulting loss function realizations show a high divergence of differently risk-affine decisions.\relax }{Doc-Start}{}}
+\@writefile{snm}{\beamer@slide {fig:ML5}{1}}
 \@writefile{nav}{\headcommand {\sectionentry {1}{References}{1}{References}{0}}}
 \@writefile{nav}{\headcommand {\beamer@sectionpages {1}{0}}}
 \@writefile{nav}{\headcommand {\beamer@subsectionpages {1}{0}}}
