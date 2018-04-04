@@ -1,0 +1,24 @@
+\begin{thebibliography}{}
+
+\bibitem[de~la Varga et~al., 2018]{gmd-2018-61}
+de~la Varga, M., Schaaf, A., and Wellmann, F. (2018).
+\newblock Gempy 1.0: open-source stochastic geological modeling and inversion.
+\newblock {\em Geoscientific Model Development Discussions}, 2018:1--50.
+
+\bibitem[Koller and Friedman, 2009]{koller2009probabilistic}
+Koller, D. and Friedman, N. (2009).
+\newblock {\em Probabilistic graphical models: principles and techniques}.
+\newblock MIT press.
+
+\bibitem[Salvatier et~al., 2016]{salvatier2016pymc3}
+Salvatier, J., Wiecki, T.~V., and Fonnesbeck, C. (2016).
+\newblock Probabilistic programming in python using pymc3.
+\newblock {\em PeerJ Computer Science}, 55(2).
+
+\bibitem[Wellmann and Regenauer-Lieb, 2012]{wellmann2012uncertainties}
+Wellmann, J.~F. and Regenauer-Lieb, K. (2012).
+\newblock Uncertainties have a meaning: Information entropy as a quality
+  measure for 3-d geological models.
+\newblock {\em Tectonophysics}, 526:207--216.
+
+\end{thebibliography}
