@@ -5,11 +5,6 @@ de~la Varga, M., Schaaf, A., and Wellmann, F. (2018).
 \newblock Gempy 1.0: open-source stochastic geological modeling and inversion.
 \newblock {\em Geoscientific Model Development Discussions}, 2018:1--50.
 
-\bibitem[Koller and Friedman, 2009]{koller2009probabilistic}
-Koller, D. and Friedman, N. (2009).
-\newblock {\em Probabilistic graphical models: principles and techniques}.
-\newblock MIT press.
-
 \bibitem[Salvatier et~al., 2016]{salvatier2016pymc3}
 Salvatier, J., Wiecki, T.~V., and Fonnesbeck, C. (2016).
 \newblock Probabilistic programming in python using pymc3.

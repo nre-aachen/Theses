@@ -65,12 +65,12 @@ Structural geological modeling is of central importance for the assessment of un
 								\vspace{0.5em}
 								\begin{figure}
 									\begin{minipage}{0.95\textwidth}
-										\centering\includegraphics[width=1\textwidth]{figures/Uncertainties_Likelihoods}
+										\centering\includegraphics[width=1\textwidth]{figures/Uncertainties_Likelihoods.pdf}
 										\caption{The structural geological model illustrated as a 2D cross section (A) and a 3D voxel representation (B). The inclusion of $z$-positional uncertainties affecting layer depths and fault offset are depicted in (C) and (D). Thicknesses of the three middle layers are defined by the distances of interface points (E).}
 										\label{fig:unc_lik}
 									\end{minipage}
 								\end{figure}
-\textbf{Integration in a probabilistic modeling framework for Bayesian analysis (see Figure \ref{fig:model_network}):}
+\textbf{Integration in a probabilistic modeling framework for Bayesian analysis:}
 	\begin{itemize}
 	%\item Utilizing PyMC (see \citet{salvatier2016pymc3})
 	\item Setting up a full probability model taking into account all parameter probability distributions
@@ -136,7 +136,7 @@ Structural geological modeling is of central importance for the assessment of un
 								%\vspace{0.5em}
 								\begin{minipage}{0.398\textwidth}
 								\begin{figure}
-									\centering\includegraphics[width=0.9\textwidth]{figures/Trap_Cond_H}
+									\centering\includegraphics[width=0.9\textwidth]{figures/Trap_Cond_H.pdf}
 									\caption{To be recognized as part of a trap, a reservoir voxel (1) has
 									to be positioned in the	footwall (2). The maximum trap fill is defined by either the anticlinal spill point (3;a) or a point of leakage across the fault, depending on juxtapositions with layers
 									underlying (3;b) or overlying the seal (3;c). The latter is only relevant if the
@@ -164,14 +164,14 @@ Structural geological modeling is of central importance for the assessment of un
 		\begin{minipage}{0.98\textwidth}
 			%\hfill
 			\begin{minipage}[t]{0.49\textwidth}
-				\centering\includegraphics[width=0.99\textwidth]{figures/ML4}
+				\centering\includegraphics[width=0.99\textwidth]{figures/ML4.pdf}
 				\caption{Evaluation of a model conditioned on thickness and SSF likelihoods which reinforce the probability of a high ROV and a reliable trap closure.}
 				%\caption{Evaluation of a model conditioned on thickness and SSF likelihoods which assure a reliable trap closure and reinforce the probability of a high ROV. Shannon entropy was significantly reduced in the posterior model (b). Cross-fault leakage to overlying layers was eliminated as a trap control mechanism (c) and coincides with the disappearance of the probability of failure in the posterior ROV distribution (d). The respective loss functions are plotted in (e), showing high decision convergence.}
 				\label{fig:ML4}
 			\end{minipage}
 			%\hspace{length=0.1\textwidth}
 			\begin{minipage}[t]{0.49\textwidth}
-				\centering\includegraphics[width=0.99\textwidth]{figures/ML5}
+				\centering\includegraphics[width=0.99\textwidth]{figures/ML5.pdf}
 				\caption{Evaluation of a model conditioned on a SSF likelihood which narrows around the critical SSF$_c$ and thus amplifies the duality in the posterior ROV distribution (d).}
 				\label{fig:ML5}
 			\end{minipage}	
