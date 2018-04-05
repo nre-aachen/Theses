@@ -1,5 +1,8 @@
 \documentclass{beamer}
-\usepackage[orientation=landscape,size=a0,scale=1.4,debug]{beamerposter}
+%\usepackage{geometry}
+%\geometry{paperwidth=1920mm,paperheight=1000mm}
+\usepackage[orientation=landscape,size=a0,scale=1.3,debug]{beamerposter}
+%width=192,height=108,scale=1.4
 \mode<presentation>{\usetheme{RWTH2}}
 \usepackage{chemformula}
 \usepackage[utf8]{inputenc}
@@ -55,7 +58,7 @@ Structural geological modeling is of central importance for the assessment of un
 \begin{myblock}{2.1 - Methods}
 \textbf{Construction of a 3D structural geological model:}
 	\begin{itemize}
-	\item Model creation using GemPy (see \citet{gmd-2018-61})
+	%\item Model creation using GemPy (see \citet{gmd-2018-61})
 	\item Synthetic model of a simple anticline-fault trap in a potential hydrocarbon system (see Figure \ref{fig:unc_lik})
 	\item Inclusion of uncertainties by assigning probability distributions to the positions of layer interfaces in depth
 	\end{itemize}							
@@ -69,11 +72,17 @@ Structural geological modeling is of central importance for the assessment of un
 								\end{figure}
 \textbf{Integration in a probabilistic modeling framework for Bayesian analysis (see Figure \ref{fig:model_network}):}
 	\begin{itemize}
-	\item Utilizing PyMC (see \citet{salvatier2016pymc3})
+	%\item Utilizing PyMC (see \citet{salvatier2016pymc3})
 	\item Setting up a full probability model taking into account all parameter probability distributions
 	\item Bayesian inference: Conditioning of parameters on additionally observed data via likelihood functions
 	\item Approximation of posterior distributions through the use of MCMC sampling
 	\end{itemize}
+\textbf{Evaluation of modeling results:}
+										\begin{itemize}
+										\item Shannon entropy for uncertainty visualization (after \citet{wellmann2012uncertainties})
+										\item Implementation of customized algorithms for structural analysis, trap recognition (see Figure \ref{fig:trap_cond}) and calculation of recoverable oil volumes (ROV)
+										\item Decision making based on the optimization of a case-specific loss function that considers differently risk-affine actors
+										\end{itemize}
 						
 \end{myblock}\vfill
 					
@@ -109,16 +118,23 @@ Structural geological modeling is of central importance for the assessment of un
 	%For the valuation of prior and posterior models, we also develop algorithms for automatic trap
 	%	recognition and volume calculation.	
 							
-								\begin{minipage}[h]{0.329\textwidth}
-									\textbf{Evaluation of modeling results:}
-										\begin{itemize}
-										\item Shannon entropy for uncertainty visualization (after \citet{wellmann2012uncertainties})
-										\item Implementation of customized algorithms for structural analysis, trap recognition (see Figure \ref{fig:trap_cond}) and calculation of recoverable oil volumes (ROV)
-										\item Decision making based on the optimization of a case-specific loss function that considers differently risk-affine actors
-										\end{itemize}
+								\begin{minipage}[h]{0.598\textwidth} %0.656
+								\textbf{Design of the custom loss function:}
+								%We regard decision making as allocation of resources based on estimation. 
+								We base value estimation on the 
+								\begin{equation}\label{eq:LFR_final}
+																L(\theta,\hat{\theta}) =
+																\begin{cases}
+																|\theta - \hat{\theta}|*r^{-0.5}, & \text{for } 0<\hat{\theta}<\theta  \\
+																|\theta-\hat{\theta}|*a*r, & \text{for } 0<\theta<\hat{\theta} \\
+																|\theta-\hat{\theta}|*b*r, & \text{for } \theta\leq0<\hat{\theta} \\
+																|\theta-\hat{\theta}|*c*r^{-0.5}, & \text{for } \hat{\theta}\leq0<\theta 
+																\end{cases},
+																\text{ with } a,b,c,r \in \mathbb{Q}.
+																\end{equation}
 								\end{minipage}
 								%\vspace{0.5em}
-								\begin{minipage}{0.327\textwidth}
+								\begin{minipage}{0.398\textwidth}
 								\begin{figure}
 									\centering\includegraphics[width=0.9\textwidth]{figures/Trap_Cond_H}
 									\caption{To be recognized as part of a trap, a reservoir voxel (1) has
@@ -128,53 +144,40 @@ Structural geological modeling is of central importance for the assessment of un
 									\label{fig:trap_cond}
 									%Trap closure is defined by the seal shape and the normal fault (3).
 								\end{figure}
-								\end{minipage}
-								\begin{minipage}{0.327\textwidth}
-								\begin{figure}
-									\centering
-									\includegraphics[width=1\textwidth]{figures/model_network}
-									\caption{Illustration of the probabilistic model as a hierarchical Bayesian network after \citet{koller2009probabilistic}. Stochastic nodes are represented by ellipses (blue for
-									priors, yellow for likelihoods). Deterministic functions are depicted as triangles in
-									red. Arrows indicate direct connections from parent to child nodes.}
-									\label{fig:model_network}
-								\end{figure}
+								%\begin{figure}
+								%	\centering
+								%	\includegraphics[width=1\textwidth]{figures/model_network}
+								%	\caption{Illustration of the probabilistic model as a hierarchical Bayesian network after \citet{koller2009probabilistic}. Stochastic nodes are represented by ellipses (blue for
+								%	priors, yellow for likelihoods). Deterministic functions are depicted as triangles in
+								%	red. Arrows indicate direct connections from parent to child nodes.}
+								%	\label{fig:model_network}
+								%\end{figure}
 								\end{minipage}
 								%\begin{minipage}{0.327\textwidth}
-								%\begin{equation}\label{eq:LFR_final}
-								%L(\theta,\hat{\theta}) =
-								%\begin{cases}
-								%|\theta - \hat{\theta}|*r^{-0.5}, & \text{for } 0<\hat{\theta}<\theta  \\
-								%|\theta-\hat{\theta}|*a*r, & \text{for } 0<\theta<\hat{\theta} \\
-								%|\theta-\hat{\theta}|*b*r, & \text{for } \theta\leq0<\hat{\theta} \\
-								%|\theta-\hat{\theta}|*c*r^{-0.5}, & \text{for } \hat{\theta}\leq0<\theta 
-								%\end{cases},
-								%\text{ with } a,b,c,r \in \mathbb{Q}.
-								%\end{equation}
+								
 								%\end{minipage}
 \end{myblock}
 								
-\begin{myblock}{3 - Results}				
+\begin{myblock}{3.1 - Results}				
 	\vspace{0.2em}
 	\begin{figure}
 		\begin{minipage}{0.98\textwidth}
 			%\hfill
 			\begin{minipage}[t]{0.49\textwidth}
-				\centering\includegraphics[width=0.9\textwidth]{figures/ML4}
+				\centering\includegraphics[width=0.99\textwidth]{figures/ML4}
 				\caption{Evaluation of a model conditioned on thickness and SSF likelihoods which reinforce the probability of a high ROV and a reliable trap closure.}
 				%\caption{Evaluation of a model conditioned on thickness and SSF likelihoods which assure a reliable trap closure and reinforce the probability of a high ROV. Shannon entropy was significantly reduced in the posterior model (b). Cross-fault leakage to overlying layers was eliminated as a trap control mechanism (c) and coincides with the disappearance of the probability of failure in the posterior ROV distribution (d). The respective loss functions are plotted in (e), showing high decision convergence.}
 				\label{fig:ML4}
 			\end{minipage}
 			%\hspace{length=0.1\textwidth}
 			\begin{minipage}[t]{0.49\textwidth}
-				\centering\includegraphics[width=0.9\textwidth]{figures/ML5}
+				\centering\includegraphics[width=0.99\textwidth]{figures/ML5}
 				\caption{Evaluation of a model conditioned on a SSF likelihood which narrows around the critical SSF$_c$ and thus amplifies the duality in the posterior ROV distribution (d).}
 				\label{fig:ML5}
 			\end{minipage}	
 			%\hfill
 		\end{minipage}
 	\end{figure}
-	
-Posterior ROV probability distributions are realized depending on the nature of likelihoods implemented in the Bayesian inference step. Applying the custom loss function shows that the various Bayes estimators shift according to the characteristics of this underlying	value distribution. While bimodality and overall uncertainty lead to separation, risk-averse and risk-friendly decisions converge and decrease in expected loss given narrower unimodal distributions. A decisive factor in our model is seal reliability, as it defines the probability of complete trap failure. Two examples are summarized in Figures \ref{fig:ML4} and \ref{fig:ML5}.
 
 %	\vspace{0.5em}
 %	\begin{figure}
@@ -220,8 +223,24 @@ Posterior ROV probability distributions are realized depending on the nature of 
 		\begin{beamercolorbox}[center]{postercolumn}
 			\begin{minipage}{.98\textwidth}  % tweaks the width, makes a new \textwidth
 				\parbox[t][\columnheight]{\textwidth}{ % must be some better way to set the the height, width and textwidth simultaneously	
-				
+
+\begin{myblock}{3.2 - Results (continued)}
+Posterior ROV probability distributions are realized depending on the nature of likelihoods implemented in the Bayesian inference step. Applying the custom loss function shows that the various Bayes estimators shift according to the characteristics of this underlying	value distribution. While bimodality and overall uncertainty lead to separation, risk-averse and risk-friendly decisions converge and decrease in expected loss given narrower unimodal distributions. A decisive factor in our model is seal reliability, as it defines the probability of complete trap failure. Two examples are summarized in Figures \ref{fig:ML4} and \ref{fig:ML5}.
+\end{myblock}
+		
 \begin{myblock}{4 - Conclusions}
+%\vspace{0.5em}
+%								\begin{figure}
+%									\begin{minipage}{0.8\textwidth}
+%									\centering
+%									\includegraphics[width=1\textwidth]{figures/model_network}
+%									\caption{Illustration of the probabilistic model as a hierarchical Bayesian network after \citet{koller2009probabilistic}. Stochastic nodes are represented by ellipses (blue for
+%									priors, yellow for likelihoods). Deterministic functions are depicted as triangles in
+%									red. Arrows indicate direct connections from parent to child nodes.}
+%									\label{fig:model_network}
+%									\end{minipage}
+%								\end{figure}
+
 \begin{itemize}
 \item The degree of decision convergence can be considered a measure for the state of knowledge and its inherent uncertainty at the moment of decision making.
 \item This decisive uncertainty does not change in alignment with model uncertainty but depends on alterations of critical parameters and respective interdependencies.
@@ -265,8 +284,9 @@ are based on uncertain geological models, for example in hydrogeological or geot
 	\bibliography{./references}
 \end{myblock}
 
-\begin{myblock}{6 - Background Information}
-This research poster is based on a master thesis submitted by Fabian Antonio Stamm to the Institute of Computational Geoscience and Reservoir Engineering (CGRE) at the RWTH Aachen University in 2017.
+\begin{myblock}{6 - Further Information}
+This research poster is based on a master thesis submitted by Fabian Antonio Stamm to the Institute of Computational Geoscience and Reservoir Engineering (CGRE) at the RWTH Aachen University in 2017. \\
+3D geological models were created using GemPy \citep{gmd-2018-61} and integrated into a probabilistic framework using PyMC \citep{salvatier2016pymc3}.
 		
 		%\begin{minipage}[t]{0.72\textwidth}	
 		%	\begin{itemize}
