@@ -49,13 +49,15 @@ Reducing Uncertainties Affects Reservoir Value Estimations}
 				
 				
 \begin{myblock}{1 - Introduction}
-Structural geological modeling is of central importance for the assessment of uncertain hydrocarbon accumulations in potential reservoirs. Hydrocarbon exploration and production is a high-risk, high-reward sector in which good decision making is indispensable. Actors in this field are faced with numerous uncertainties that have to be considered. We examine respective decision making from a Bayesian perspective. 
+Structural geological modeling is of central importance for the assessment of uncertain hydrocarbon accumulations in potential reservoirs. Hydrocarbon exploration and production is a high-risk, high-reward sector in which good decision making is indispensable.
+Utilizing a Bayesian approach, we examine the influence of model uncertainties and respective uncertainty changes on decision making of actors in this field.
+%Actors in this field are faced with numerous uncertainties that have to be considered. We examine respective decision making from a Bayesian perspective. 
 %...building on recent developments that have transferred this probabilistic approach to address uncertainties in the field of structural geological modeling.
 %We examine respective decision making from a Bayesian perspective by considering two main approaches: (1) we treat geological modeling as a Bayesian inference problem, so that additional geological information can be incorporated as likelihood functions linked to prior parameters in a probabilistic framework; (2) we base the decision-making step on value estimation by optimizing a case-specific loss function.
 
 \end{myblock}					
 					
-\begin{myblock}{2.1 - Methods}
+\begin{myblock}{2 - Methods}
 \textbf{Construction of a 3D structural geological model:}
 	\begin{itemize}
 	%\item Model creation using GemPy (see \citet{gmd-2018-61})
@@ -66,7 +68,7 @@ Structural geological modeling is of central importance for the assessment of un
 								\begin{figure}
 									\begin{minipage}{0.95\textwidth}
 										\centering\includegraphics[width=1\textwidth]{figures/Uncertainties_Likelihoods.pdf}
-										\caption{The structural geological model illustrated as a 2D cross section (A) and a 3D voxel representation (B). The inclusion of $z$-positional uncertainties affecting layer depths and fault offset are depicted in (C) and (D). Thicknesses of the three middle layers are defined by the distances of interface points (E).}
+										\caption{The structural geological model illustrated as a 2D cross section (A) and a 3D voxel representation (B). The inclusion of $z$-positional uncertainties affecting layer depths and fault offset are depicted in (C) and (D). Thicknesses of the three middle layers are defined by the distances of interface points (E) and are thus directly dependent on (C).}
 										\label{fig:unc_lik}
 									\end{minipage}
 								\end{figure}
@@ -81,8 +83,10 @@ Structural geological modeling is of central importance for the assessment of un
 										\begin{itemize}
 										\item Shannon entropy for uncertainty visualization (after \citet{wellmann2012uncertainties})
 										\item Implementation of customized algorithms for structural analysis, trap recognition (see Figure \ref{fig:trap_cond}) and calculation of recoverable oil volumes (ROV)
-										\item Decision making based on the optimization of a case-specific loss function that considers differently risk-affine actors
+										\item Decision making based on the optimization of a case-specific loss function that is employed to estimate the ROV as the crucial reservoir value %that considers differently risk-affine actors
 										\end{itemize}
+										
+	\vspace{0.1em}
 						
 \end{myblock}\vfill
 					
@@ -97,7 +101,8 @@ Structural geological modeling is of central importance for the assessment of un
 		\begin{minipage}{.98\textwidth} % tweaks the width, makes a new \textwidth
 				\parbox[t][\columnheight]{\textwidth}{ % must be some better way to set the the height, width and textwidth simultaneously					
 					
-\begin{myblock}{2.2 - Methods (continued)}
+\begin{myblock}{2 - Methods (continued)}
+\vspace{0.5em}
 %\textbf{Evaluation of modeling results:}
 %	\begin{itemize}
 %	\item Shannon entropy for uncertainty visualization (after \citet{wellmann2012uncertainties}.
@@ -118,11 +123,12 @@ Structural geological modeling is of central importance for the assessment of un
 	%For the valuation of prior and posterior models, we also develop algorithms for automatic trap
 	%	recognition and volume calculation.	
 							
-								\begin{minipage}[h]{0.598\textwidth} %0.656
-								\textbf{Design of the custom loss function:}
-								%We regard decision making as allocation of resources based on estimation. 
-								We base value estimation on the 
-								\begin{equation}\label{eq:LFR_final}
+								\begin{minipage}[h]{0.6\textwidth} %0.656
+								\textbf{Custom loss function design:}
+								
+								We regard decision making as the process of estimating the posterior ROV by optimizing a customized loss function that considers the preferences of differently risk-affine actors. A decision that minimizes expected loss, according to such a function, is referred to as Bayes action \citep{davidson2015}. We extend the standard absolute-error loss function with a risk factor \textit{r} and several other weighting factors to express the expected loss relative to the nature and magnitude of deviation of the estimate $\hat{\theta}$ from the true value $\theta$:								
+								
+								\begin{equation*} %\label{eq:LFR_final}
 																L(\theta,\hat{\theta}) =
 																\begin{cases}
 																|\theta - \hat{\theta}|*r^{-0.5}, & \text{for } 0<\hat{\theta}<\theta  \\
@@ -131,16 +137,19 @@ Structural geological modeling is of central importance for the assessment of un
 																|\theta-\hat{\theta}|*c*r^{-0.5}, & \text{for } \hat{\theta}\leq0<\theta 
 																\end{cases},
 																\text{ with } a,b,c,r \in \mathbb{Q}.
-																\end{equation}
-								\end{minipage}
+								\end{equation*}
+								
+								We define that normal overestimation is 25\% (\textit{a} = 1.25), fatal overestimation 100\% (\textit{b} = 2) and fatal underestimation 50\% (\textit{c} = 1.5) worse than normal underestimation. A risk factor \textit{r} = 1 represents risk neutrality, while \textit{r} $<$ 1 expresses risk-friendly, and \textit{r} $>$ 1 risk-averse behavior.
+								
+								\end{minipage}\hspace{0.005\textwidth}
 								%\vspace{0.5em}
-								\begin{minipage}{0.398\textwidth}
+								\begin{minipage}{0.39\textwidth}
 								\begin{figure}
-									\centering\includegraphics[width=0.9\textwidth]{figures/Trap_Cond_H.pdf}
+									\centering\includegraphics[width=1\textwidth]{figures/Trap_Cond_H.pdf}
 									\caption{To be recognized as part of a trap, a reservoir voxel (1) has
 									to be positioned in the	footwall (2). The maximum trap fill is defined by either the anticlinal spill point (3;a) or a point of leakage across the fault, depending on juxtapositions with layers
 									underlying (3;b) or overlying the seal (3;c). The latter is only relevant if the
-									critical Shale Smear Factor (SSF$_c$) is exceeded, as determined over D and T in (4).}
+									critical Shale Smear Factor (SSF$_c$) is exceeded, as determined over D and T in (4). Voxels connect to the model border are discarded.}
 									\label{fig:trap_cond}
 									%Trap closure is defined by the seal shape and the normal fault (3).
 								\end{figure}
@@ -158,21 +167,23 @@ Structural geological modeling is of central importance for the assessment of un
 								%\end{minipage}
 \end{myblock}
 								
-\begin{myblock}{3.1 - Results}				
-	\vspace{0.2em}
+\begin{myblock}{3 - Results}				
+	\vspace{0.1em}
 	\begin{figure}
-		\begin{minipage}{0.98\textwidth}
+		\begin{minipage}{0.99\textwidth}
 			%\hfill
 			\begin{minipage}[t]{0.49\textwidth}
-				\centering\includegraphics[width=0.99\textwidth]{figures/ML4.pdf}
-				\caption{Evaluation of a model conditioned on thickness and SSF likelihoods which reinforce the probability of a high ROV and a reliable trap closure.}
+				\centering\includegraphics[width=1\textwidth]{figures/ML4.pdf}
+				\caption{Evaluation of a model conditioned on thickness and SSF likelihoods which assure a reliable trap closure and reinforce the probability of a high ROV. Shannon entropy is significantly reduced in the posterior model (b). Cross-fault leakage to overlying layers is eliminated as a trap control mechanism (c) and coincides with the disappearance of the probability of failure in the posterior ROV distribution (d). The respective loss functions are plotted in (e), showing high decision convergence.}
+				%\caption{Evaluation of a model conditioned on thickness and SSF likelihoods which reinforce the probability of a high ROV and a reliable trap closure.}
 				%\caption{Evaluation of a model conditioned on thickness and SSF likelihoods which assure a reliable trap closure and reinforce the probability of a high ROV. Shannon entropy was significantly reduced in the posterior model (b). Cross-fault leakage to overlying layers was eliminated as a trap control mechanism (c) and coincides with the disappearance of the probability of failure in the posterior ROV distribution (d). The respective loss functions are plotted in (e), showing high decision convergence.}
 				\label{fig:ML4}
-			\end{minipage}
+			\end{minipage}\hfill
 			%\hspace{length=0.1\textwidth}
 			\begin{minipage}[t]{0.49\textwidth}
-				\centering\includegraphics[width=0.99\textwidth]{figures/ML5.pdf}
-				\caption{Evaluation of a model conditioned on a SSF likelihood which narrows around the critical SSF$_c$ and thus amplifies the duality in the posterior ROV distribution (d).}
+				\centering\includegraphics[width=1\textwidth]{figures/ML5.pdf}
+				\caption{Evaluation of a model conditioned on a SSF likelihood which narrows around the critical SSF$_c$ and thus amplifies the duality in the posterior ROV distribution (d). Shannon entropy is only slightly diminished (a,b). general cross-fault leakage remains a significant trap control mechanism (c). The resulting loss function realizations show a high divergence of differently risk-affine decisions.}
+				%\caption{Evaluation of a model conditioned on a SSF likelihood which narrows around the critical SSF$_c$ and thus amplifies the duality in the posterior ROV distribution (d).}
 				\label{fig:ML5}
 			\end{minipage}	
 			%\hfill
@@ -212,9 +223,10 @@ Structural geological modeling is of central importance for the assessment of un
 	%		\label{fig:cross_section}
 	%	\end{minipage}
 	%\end{figure}
-%	\vspace{0.4em}
+	%\vspace{0.2em}
+	%\vfill
 
-\end{myblock}\vfill					
+\end{myblock}				
 
 		}\end{minipage}\end{beamercolorbox}
 	\end{column}
@@ -224,8 +236,8 @@ Structural geological modeling is of central importance for the assessment of un
 			\begin{minipage}{.98\textwidth}  % tweaks the width, makes a new \textwidth
 				\parbox[t][\columnheight]{\textwidth}{ % must be some better way to set the the height, width and textwidth simultaneously	
 
-\begin{myblock}{3.2 - Results (continued)}
-Posterior ROV probability distributions are realized depending on the nature of likelihoods implemented in the Bayesian inference step. Applying the custom loss function shows that the various Bayes estimators shift according to the characteristics of this underlying	value distribution. While bimodality and overall uncertainty lead to separation, risk-averse and risk-friendly decisions converge and decrease in expected loss given narrower unimodal distributions. A decisive factor in our model is seal reliability, as it defines the probability of complete trap failure. Two examples are summarized in Figures \ref{fig:ML4} and \ref{fig:ML5}.
+\begin{myblock}{3 - Results (continued)}
+Posterior ROV probability distributions are realized depending on the nature of likelihoods implemented in the Bayesian inference step. Applying the custom loss function shows that the various Bayes actions shift according to the characteristics of this underlying	value distribution. While bimodality and overall uncertainty lead to separation, risk-averse and risk-friendly decisions converge and decrease in expected loss given narrower unimodal distributions. A decisive factor in our model is seal reliability, as it defines the probability of complete trap failure. Two examples are summarized in Figures \ref{fig:ML4} and \ref{fig:ML5}.
 \end{myblock}
 		
 \begin{myblock}{4 - Conclusions}
@@ -284,14 +296,17 @@ are based on uncertain geological models, for example in hydrogeological or geot
 	\bibliography{./references}
 \end{myblock}
 
-\begin{myblock}{6 - Further Information}
-This research poster is based on a master thesis submitted by Fabian Antonio Stamm to the Institute of Computational Geoscience and Reservoir Engineering (CGRE) at the RWTH Aachen University in 2017 (see \citet{stamm2017}). \\
-3D geological models were created using GemPy \citep{gmd-2018-61} and integrated into a probabilistic framework using PyMC \citep{salvatier2016pymc3}.
+\begin{myblock}{6 - Further information}
+\small
+Geological models were created in a Python environment using GemPy \citep{gmd-2018-61} and integrated into a probabilistic framework via PyMC \citep{salvatier2016pymc3}. 
+
+This research poster is based on a master thesis submitted to the Institute of Computational Geoscience and Reservoir Engineering (CGRE) at the RWTH Aachen University in 2017 (see \citet{stamm2017}).
 		
 		%\begin{minipage}[t]{0.72\textwidth}	
+		%\textbf{Contact:}
 		%	\begin{itemize}
 		%	\item E-mail: fabian.stamm@rwth-aachen.de
-		%	\item Phone: + 49 174 5231499
+			%\item Phone: + 49 174 5231499
 		%	\end{itemize}
 
 			
@@ -302,7 +317,8 @@ This research poster is based on a master thesis submitted by Fabian Antonio Sta
 		%	\vspace{0.5em}
 		%\end{minipage}
 		
-%			\vspace{0.5em}
+			%\vspace{0.4em}
+			%\vfill
 
 
 

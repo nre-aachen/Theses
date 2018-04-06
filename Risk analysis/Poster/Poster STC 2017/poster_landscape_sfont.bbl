@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[Davidson-Pilon, 2015]{davidson2015}
+Davidson-Pilon, C. (2015).
+\newblock Bayesian methods for hackers: Probabilistic programming and bayesian
+  inference.
+
 \bibitem[de~la Varga et~al., 2018]{gmd-2018-61}
 de~la Varga, M., Schaaf, A., and Wellmann, F. (2018).
 \newblock Gempy 1.0: open-source stochastic geological modeling and inversion.
