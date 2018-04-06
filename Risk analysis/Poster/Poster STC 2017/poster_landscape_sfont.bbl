@@ -10,6 +10,12 @@ Salvatier, J., Wiecki, T.~V., and Fonnesbeck, C. (2016).
 \newblock Probabilistic programming in python using pymc3.
 \newblock {\em PeerJ Computer Science}, 55(2).
 
+\bibitem[Stamm, 2017]{stamm2017}
+Stamm, F.~A. (2017).
+\newblock Bayesian decision theory in structural geological modeling - how
+  reducing uncertainties affects reservoir value estimations.
+\newblock Master's thesis, RWTH Aachen University, Aachen, Germany.
+
 \bibitem[Wellmann and Regenauer-Lieb, 2012]{wellmann2012uncertainties}
 Wellmann, J.~F. and Regenauer-Lieb, K. (2012).
 \newblock Uncertainties have a meaning: Information entropy as a quality
