@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.7.19)  30 NOV 2017 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.12.6)  24 APR 2018 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **MSc_layout_Fabian.tex
 (./MSc_layout_Fabian.tex
 LaTeX2e <2016/03/31> patch level 3
-Babel <3.9r> and hyphenation patterns for 5 language(s) loaded.
+Babel <3.9r> and hyphenation patterns for 10 language(s) loaded.
 (./MScThesis.cls
 
 LaTeX Warning: You have requested document class `MScThesis',
@@ -1505,13 +1505,17 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
 Package rerunfilecheck Info: File `MSc_layout_Fabian.out' has not changed.
 (rerunfilecheck)             Checksum: 11EF92A92C1A963FF9B6E840CDD79503;5079.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
  ) 
 Here is how much of TeX's memory you used:
- 12345 strings out of 494902
- 188488 string characters out of 6179891
- 334708 words of memory out of 5000000
- 14939 multiletter control sequences out of 15000+600000
+ 12345 strings out of 494852
+ 188488 string characters out of 6177657
+ 334983 words of memory out of 5000000
+ 14955 multiletter control sequences out of 15000+600000
  20100 words of font info for 75 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  43i,16n,45p,2240b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1534,7 +1538,7 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/symbols/msbm10.pfb>
-Output written on MSc_layout_Fabian.pdf (100 pages, 7757949 bytes).
+Output written on MSc_layout_Fabian.pdf (100 pages, 7757622 bytes).
 PDF statistics:
  2546 PDF objects out of 2984 (max. 8388607)
  1959 compressed objects within 20 object streams
