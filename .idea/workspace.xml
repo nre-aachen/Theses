@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a17150d2-2141-448b-b817-97ad8ba3b130" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Risk analysis/Notebooks/3D uncertainty Version 4 (final).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Risk analysis/Notebooks/3D uncertainty Version 4 (final).ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Risk analysis/Poster/Poster STC 2017/poster_landscape_sfont.log" beforeDir="false" afterPath="$PROJECT_DIR$/Risk analysis/Poster/Poster STC 2017/poster_landscape_sfont.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Risk analysis/Poster/Poster STC 2017/poster_landscape_sfont.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Risk analysis/Poster/Poster STC 2017/poster_landscape_sfont.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Risk analysis/Poster/Poster STC 2017/poster_landscape_sfont.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Risk analysis/Poster/Poster STC 2017/poster_landscape_sfont.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Risk analysis/Poster/Poster STC 2017/poster_landscape_sfont.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Risk analysis/Poster/Poster STC 2017/poster_landscape_sfont.tex" afterDir="false" />
     </list>
     <ignored path="Theses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,20 +34,7 @@
     <favorites_list name="Theses" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
-      <file leaf-file-name="topology.py" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/gempy/gempy/topology.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3855">
-              <caret line="257" selection-start-line="257" selection-end-line="257" />
-              <folding>
-                <element signature="e#701#716#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="225" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,10 +49,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1472" />
+    <option name="x" value="1508" />
     <option name="y" value="18" />
     <option name="width" value="1315" />
-    <option name="height" value="1062" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -83,7 +65,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/gempy/gempy/topology.py" />
+    <property name="last_opened_file_path" value="$USER_HOME$/gempy" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
@@ -239,30 +221,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1415" y="-3" width="1031" height="1923" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" x="0" y="0" width="279" height="586" id="Documentation" order="5" side_tool="true" weight="0.2940584" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" visible="true" weight="0.04937602" />
+      <window_info anchor="bottom" id="Python Console" order="7" visible="true" weight="0.05" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.09264854" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09264854" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32930514" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32930514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +290,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3855">
           <caret line="257" selection-start-line="257" selection-end-line="257" />
+          <folding>
+            <element signature="e#701#716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/gempy/gempy/topology.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#701#716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/gempy/gempy/topology.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <element signature="e#701#716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/gempy/gempy/topology.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <element signature="e#701#716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/gempy/gempy/topology.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding>
             <element signature="e#701#716#0" expanded="true" />
           </folding>
