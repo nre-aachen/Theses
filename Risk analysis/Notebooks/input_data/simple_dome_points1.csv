@@ -1,0 +1,10 @@
+X,Y,Z,formation,group_id
+250,500,500,Shale,A
+500,250,500,Shale,G
+500,750,500,Shale,C
+750,500,500,Shale,E
+300,300,500,Shale,H
+300,700,500,Shale,B
+700,300,500,Shale,F
+700,700,500,Shale,D
+500,500,700,Shale,nan
